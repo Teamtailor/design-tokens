@@ -1,12 +1,1 @@
-# This is a basic workflow to help you get started with Actions
 
-name: Bump version
-on:
-  push:
-    branches: [ main ]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Semantic Version
-        uses: ncipollo/semantic-version-action@9fd46cb2499bd4ae1a03b4e95d7f8adf63b1b375
