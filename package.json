@@ -6,8 +6,8 @@
   "author": "Dev <dev@teamtailor.com>",
   "license": "MIT",
   "scripts": {
-    "build-transform": "npx token-transformer tokens.json tokens/spectrum.json spectrum",
-    "build": "style-dictionary build"
+    "build-transform": "npx token-transformer tokens.json tokens/spectrum.json Spectrum,spectrum",
+    "build": "style-dictionary build -c style-dictionary.config.js"
   },
   "devDependencies": {
     "style-dictionary": "^3.7.0"
