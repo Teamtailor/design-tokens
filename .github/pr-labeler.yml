@@ -1,0 +1,3 @@
+feature: ['feature/*', 'feat/*']
+fix: ['fix/*','figma-changes']
+chore: 'chore/*'
