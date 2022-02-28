@@ -1,0 +1,15 @@
+{
+  "name": "DesignTokens",
+  "version": "0.0.1",
+  "description": "Teamtailor Design tokens",
+  "main": "index.js",
+  "author": "Dev <dev@teamtailor.com>",
+  "license": "MIT",
+  "scripts": {
+    "build-transform": "npx token-transformer tokens.json tokens/spectrum.json spectrum",
+    "build": "style-dictionary build"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.0"
+  }
+}
