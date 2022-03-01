@@ -1,8 +1,5 @@
-module.exports = {'yoda': '#001122',
-'base': {
-black: '#000000',
-white: '#ffffff',
-},
+module.exports = {'black': '#000000',
+'white': '#ffffff',
 'zinc': {
 50: '#f8f8f9',
 100: '#f4f4f5',

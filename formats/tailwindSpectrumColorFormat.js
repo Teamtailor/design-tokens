@@ -1,4 +1,6 @@
-const tailwindColorFormatRGB = function ({ dictionary, options }) {
+/** @format */
+
+const tailwindSpectrumColorFormat = function ({ dictionary, options }) {
   let colorsArray = dictionary.allTokens.filter(
     ({ type, attributes: { category } }) => {
       return type === 'color' && category === 'spectrum';
@@ -42,4 +44,4 @@ const tailwindColorFormatRGB = function ({ dictionary, options }) {
   return colors;
 };
 
-module.exports = tailwindColorFormatRGB;
+module.exports = tailwindSpectrumColorFormat;
