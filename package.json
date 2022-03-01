@@ -16,8 +16,5 @@
     "node": "16.14.0",
     "yarn": "1.22.17"
   },
-  "repository": "Teamtailor/design-tokens",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "repository": "github:Teamtailor/design-tokens"
 }
