@@ -1,3 +1,0 @@
-major: ['feature/*', 'feat/*']
-minor: ['fix/*', 'figma-changes']
-patch: 'chore/*'
