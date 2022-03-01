@@ -17,7 +17,7 @@ jobs:
           major-label: major
           minor-label: minor
           patch-label: patch
-          require-release-notes: true
+          require-release-notes: false
           release-notes-prefix: ''
           release-notes-suffix: ''
           with-v: false
