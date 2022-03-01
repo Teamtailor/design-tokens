@@ -1,13 +1,17 @@
 {
   "name": "@teamtailor/design-tokens",
-  "version": "0.1.16",
+  "version": "0.1.12",
   "description": "Teamtailor Design tokens",
   "main": "index.js",
   "author": "Dev <dev@teamtailor.com>",
   "license": "MIT",
   "scripts": {
-    "build-transform": "npx token-transformer tokens.json tokens/spectrum.json Spectrum,spectrum",
-    "build": "style-dictionary build -c style-dictionary.config.js"
+    "build-transform-light": "npx token-transformer tokens.json tokens/light.json Light,light, spectrum",
+    "build-transform-dark": "npx token-transformer tokens.json tokens/dark.json Dark,dark, spectrum",
+    "build-transform-spectrum": "npx token-transformer tokens.json tokens/spectrum.json Spectrum,spectrum",
+    "build-transform": "npm run build-transform-spectrum && build-transform-light && npm run build-transform-dark",
+    "build-styledictionary": "style-dictionary build -c style-dictionary.config.js",
+    "build": "npm run build-transform && npm run build-styledictionary"
   },
   "devDependencies": {
     "style-dictionary": "^3.7.0"
