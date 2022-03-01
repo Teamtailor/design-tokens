@@ -1,5 +1,5 @@
 {
-  "name": "tt-design-tokens",
+  "name": "@teamtailor/tt-design-tokens",
   "version": "0.0.4",
   "description": "Teamtailor Design tokens",
   "main": "index.js",
@@ -15,5 +15,9 @@
   "volta": {
     "node": "16.14.0",
     "yarn": "1.22.17"
+  },
+  "repository": "Teamtailor/tt-design-tokens",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
