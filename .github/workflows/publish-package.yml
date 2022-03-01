@@ -8,11 +8,15 @@ jobs:
       packages: write 
     steps:
       - uses: actions/checkout@v2
-      # Setup .npmrc file to publish to GitHub Packages
+      - uses: phips28/gh-action-bump-version@master
+        name: Bump and Tag Version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
+      - run: yarn
       - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
