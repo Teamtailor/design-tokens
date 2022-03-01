@@ -1,7 +1,16 @@
 name: Release Info
 on:
   pull_request:
-    types: [labeled, unlabeled, opened, edited, reopened, synchronize, ready_for_review]
+    types:
+      [
+        labeled,
+        unlabeled,
+        opened,
+        edited,
+        reopened,
+        synchronize,
+        ready_for_review,
+      ]
 jobs:
   check-pr:
     name: Validate Release Label and Notes
@@ -13,10 +22,10 @@ jobs:
         with:
           mode: validate
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          major-label: major release
-          minor-label: minor release
-          patch-label: patch release
-          require-release-notes: true
+          major-label: major
+          minor-label: minor
+          patch-label: patch
+          require-release-notes: false
           release-notes-prefix: ''
           release-notes-suffix: ''
           with-v: false
