@@ -1,6 +1,6 @@
 {
-  "name": "@teamtailor/tt-design-tokens",
-  "version": "0.1.0",
+  "name": "@teamtailor/design-tokens",
+  "version": "0.0.6",
   "description": "Teamtailor Design tokens",
   "main": "index.js",
   "author": "Dev <dev@teamtailor.com>",
@@ -16,11 +16,8 @@
     "node": "16.14.0",
     "yarn": "1.22.17"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Teamtailor/tt-design-tokens.git"
-  },
+  "repository": "Teamtailor/design-tokens",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Teamtailor"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
