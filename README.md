@@ -16,7 +16,8 @@ To use this inside your Tailwind config you should import the relevant config in
 
 ```javascript
 // tailwind.config.js
-const tokenColors = require('@teamtailor/design-tokens/output/color.tokens.tailwind.js');
+const tokenColors = require('@teamtailor/design-tokens/output/color.spectrum.tailwind.js');
+const themeColors = require('@teamtailor/design-tokens/output/color.theme.tailwind.js');
 
 
 module.exports = {
@@ -25,6 +26,15 @@ module.exports = {
     colors: {
       ...tokenColors,
     },
+    backgroundColors: {
+      ...themeColors.background,
+    },
+    textColors: {
+      ...themeColors.text,
+    },
+    borderColors: {
+      ...themeColors.border,
+    }
   },
 };
 ```
