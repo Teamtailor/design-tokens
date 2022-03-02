@@ -1,6 +1,7 @@
 /** @format */
 const StyleDictionaryPackage = require('style-dictionary');
 const tailwindSpectrumColorFormat = require('./formats/tailwindSpectrumColorFormat');
+const tailwindThemeColorFormat = require('./formats/tailwindThemeColorFormat');
 
 StyleDictionaryPackage.registerFormat({
   name: 'css/variables',
@@ -25,7 +26,7 @@ const spectrumConfig = {
       transforms: ['attribute/cti', 'name/cti/kebab'],
       files: [
         {
-          destination: 'spectrum.tailwind.js',
+          destination: 'colors.spectrum.tailwind.js',
           format: 'tailwindSpectrumColorFormat',
           options: {
             outputReferences: false,
@@ -38,6 +39,10 @@ const spectrumConfig = {
 
 const themeConfig = (theme) => {
   return {
+    format: {
+      // Transforming colors to a tailwind.config.js color Object
+      tailwindThemeColorFormat,
+    },
     source: ['tokens/spectrum.json', `tokens/${theme}.json`],
     platforms: {
       theme: {
@@ -54,6 +59,23 @@ const themeConfig = (theme) => {
           },
         ],
       },
+      tailwind: {
+        buildPath: 'output/',
+        transformGroup: 'js',
+        transforms: ['attribute/cti', 'name/cti/kebab'],
+        files: [
+          {
+            filter: function (token) {
+              return token.filePath === `tokens/${theme}.json`;
+            },
+            destination: `colors.${theme}.tailwind.js`,
+            format: 'tailwindThemeColorFormat',
+            options: {
+              outputReferences: false,
+            },
+          },
+        ],
+      },
     },
   };
 };
@@ -66,9 +88,11 @@ dictionaryTailwind.buildPlatform('tailwind');
 console.log(`\nProcessing: Light`);
 const dictionaryLight = StyleDictionaryPackage.extend(themeConfig('light'));
 dictionaryLight.buildPlatform('theme');
+dictionaryLight.buildPlatform('tailwind');
 
 console.log(`\nProcessing: Dark`);
 const dictionaryDark = StyleDictionaryPackage.extend(themeConfig('dark'));
 dictionaryDark.buildPlatform('theme');
+dictionaryDark.buildPlatform('tailwind');
 
 console.log('\nEnd processing');
