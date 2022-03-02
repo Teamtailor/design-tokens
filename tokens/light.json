@@ -330,7 +330,7 @@
     "text": {
       "neutral": {
         "default": {
-          "value": "#979bb3",
+          "value": "#344291",
           "type": "color",
           "description": "$color.zinc.750"
         },
