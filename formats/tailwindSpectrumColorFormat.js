@@ -1,13 +1,10 @@
 /** @format */
 
-const tailwindSpectrumColorFormat = function ({ dictionary, options }) {
-  let colorsArray = dictionary.allTokens.filter(
-    ({ type, attributes: { category } }) => {
-      return type === 'color' && category === 'spectrum';
-    }
-  );
-
-  const uniqueTypes = colorsArray
+const tailwindSpectrumColorFormat = function ({
+  dictionary: { allTokens },
+  options,
+}) {
+  const uniqueTypes = allTokens
     .map((item) => item.attributes.type)
     .filter((value, index, self) => self.indexOf(value) === index);
 
@@ -17,7 +14,7 @@ const tailwindSpectrumColorFormat = function ({ dictionary, options }) {
   uniqueTypes.map((uniqueType) => {
     colors += `'${uniqueType}': {\n`;
 
-    colorsArray
+    allTokens
       .filter(({ attributes: { type } }) => type === uniqueType)
       .map((token) => {
         let {

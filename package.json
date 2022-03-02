@@ -6,11 +6,11 @@
   "author": "Dev <dev@teamtailor.com>",
   "license": "MIT",
   "scripts": {
-    "build-transform-light": "npx token-transformer tokens.json tokens/light.json Light,light, spectrum",
-    "build-transform-dark": "npx token-transformer tokens.json tokens/dark.json Dark,dark, spectrum",
-    "build-transform-spectrum": "npx token-transformer tokens.json tokens/spectrum.json Spectrum,spectrum",
+    "build-transform-light": "npx token-transformer tokens.json tokens/light.json Light,color spectrum",
+    "build-transform-dark": "npx token-transformer tokens.json tokens/dark.json Dark,color spectrum",
+    "build-transform-spectrum": "npx token-transformer tokens.json tokens/spectrum.json Spectrum,color",
     "build-transform": "yarn build-transform-spectrum && yarn build-transform-light && yarn build-transform-dark",
-    "build-styledictionary": "style-dictionary build -c style-dictionary.config.js",
+    "build-styledictionary": "node style-dictionary.build.js",
     "build": "yarn build-transform && yarn build-styledictionary"
   },
   "devDependencies": {
