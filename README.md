@@ -45,4 +45,4 @@ These are the possible config files that you can use inside your tailwind.config
 
 | Config | File path                       |
 | ------ | ------------------------------- |
-| colors | output/color.tokens.tailwind.js |
+| colors | output/colors.spectrum.tailwind.js |
