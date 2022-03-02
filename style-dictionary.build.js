@@ -12,7 +12,7 @@ StyleDictionaryPackage.registerFormat({
   },
 });
 
-const spectrumConfig = {
+const twSpectrumConfig = {
   format: {
     // Transforming colors to a tailwind.config.js color Object
     tailwindSpectrumColorFormat,
@@ -37,12 +37,35 @@ const spectrumConfig = {
   },
 };
 
+const twThemeConfig = {
+  format: {
+    // Transforming colors to a tailwind.config.js color Object
+    tailwindThemeColorFormat,
+  },
+  source: ['tokens/spectrum.json', `tokens/light.json`],
+  platforms: {
+    tailwind: {
+      buildPath: 'output/',
+      transformGroup: 'js',
+      transforms: ['attribute/cti', 'name/cti/kebab'],
+      files: [
+        {
+          filter: function (token) {
+            return token.filePath === `tokens/light.json`;
+          },
+          destination: `colors.theme.tailwind.js`,
+          format: 'tailwindThemeColorFormat',
+          options: {
+            outputReferences: false,
+          },
+        },
+      ],
+    },
+  },
+};
+
 const themeConfig = (theme) => {
   return {
-    format: {
-      // Transforming colors to a tailwind.config.js color Object
-      tailwindThemeColorFormat,
-    },
     source: ['tokens/spectrum.json', `tokens/${theme}.json`],
     platforms: {
       theme: {
@@ -59,40 +82,26 @@ const themeConfig = (theme) => {
           },
         ],
       },
-      tailwind: {
-        buildPath: 'output/',
-        transformGroup: 'js',
-        transforms: ['attribute/cti', 'name/cti/kebab'],
-        files: [
-          {
-            filter: function (token) {
-              return token.filePath === `tokens/${theme}.json`;
-            },
-            destination: `colors.${theme}.tailwind.js`,
-            format: 'tailwindThemeColorFormat',
-            options: {
-              outputReferences: false,
-            },
-          },
-        ],
-      },
     },
   };
 };
 
 console.log('\n==============================================');
 console.log(`\nProcessing: Spectrum`);
-const dictionaryTailwind = StyleDictionaryPackage.extend(spectrumConfig);
-dictionaryTailwind.buildPlatform('tailwind');
+const dictionaryTailwindColors =
+  StyleDictionaryPackage.extend(twSpectrumConfig);
+dictionaryTailwindColors.buildPlatform('tailwind');
+
+console.log(`\nProcessing: Theme`);
+const dictionaryTailwindTheme = StyleDictionaryPackage.extend(twThemeConfig);
+dictionaryTailwindTheme.buildPlatform('tailwind');
 
 console.log(`\nProcessing: Light`);
 const dictionaryLight = StyleDictionaryPackage.extend(themeConfig('light'));
 dictionaryLight.buildPlatform('theme');
-dictionaryLight.buildPlatform('tailwind');
 
 console.log(`\nProcessing: Dark`);
 const dictionaryDark = StyleDictionaryPackage.extend(themeConfig('dark'));
 dictionaryDark.buildPlatform('theme');
-dictionaryDark.buildPlatform('tailwind');
 
 console.log('\nEnd processing');
