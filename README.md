@@ -16,9 +16,8 @@ To use this inside your Tailwind config you should import the relevant config in
 
 ```javascript
 // tailwind.config.js
-const tokenColors = require('@teamtailor/design-tokens/output/color.spectrum.tailwind.js');
-const themeColors = require('@teamtailor/design-tokens/output/color.theme.tailwind.js');
-
+const tokenColors = require('@teamtailor/design-tokens/output/colors.spectrum.tailwind.js');
+const themeColors = require('@teamtailor/design-tokens/output/colors.theme.tailwind.js');
 
 module.exports = {
   // ...
@@ -26,23 +25,40 @@ module.exports = {
     colors: {
       ...tokenColors,
     },
-    backgroundColors: {
-      ...themeColors.background,
+    extend: {
+      backgroundColor: {
+        ...themeColors.background,
+      },
+      textColor: {
+        ...themeColors.text,
+        icon: {
+          ...themeColors.icon,
+        },
+      },
+      borderColor: {
+        ...themeColors.border,
+      },
     },
-    textColors: {
-      ...themeColors.text,
-    },
-    borderColors: {
-      ...themeColors.border,
-    }
   },
 };
+```
+
+### Themes
+
+Make sure to import the specific theme css files to be able to use functional color names.
+
+Css files are located here and are apply by using `.dark-theme` or `.light-theme`, on a wrapper.
+
+```css
+@teamtailor /design-tokens/output/light-theme.css');
+@teamtailor/design-tokens/output/dark-theme.css');
 ```
 
 ## Configs
 
 These are the possible config files that you can use inside your tailwind.config.js
 
-| Config | File path                       |
-| ------ | ------------------------------- |
-| colors | output/colors.spectrum.tailwind.js |
+| Config          | File path                          |
+| --------------- | ---------------------------------- |
+| spectrum colors | output/colors.spectrum.tailwind.js |
+| theme colors    | output/colors.theme.tailwind.js    |
