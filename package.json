@@ -1,6 +1,6 @@
 {
   "name": "@teamtailor/design-tokens",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "description": "Teamtailor Design tokens",
   "main": "index.js",
   "author": "Dev <dev@teamtailor.com>",
