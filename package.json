@@ -14,6 +14,7 @@
     "build": "yarn build-transform && yarn build-styledictionary"
   },
   "devDependencies": {
+    "lodash": "^4.17.21",
     "style-dictionary": "^3.7.0"
   },
   "volta": {

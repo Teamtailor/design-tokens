@@ -1,7 +1,6 @@
 /** @format */
 const StyleDictionaryPackage = require('style-dictionary');
-const tailwindSpectrumColorFormat = require('./formats/tailwindSpectrumColorFormat');
-const tailwindThemeColorFormat = require('./formats/tailwindThemeColorFormat');
+const tailwindThemeColorFormat = require('./formats/tailwindColorFormat');
 
 StyleDictionaryPackage.registerFormat({
   name: 'css/variables',
@@ -15,7 +14,7 @@ StyleDictionaryPackage.registerFormat({
 const twSpectrumConfig = {
   format: {
     // Transforming colors to a tailwind.config.js color Object
-    tailwindSpectrumColorFormat,
+    tailwindThemeColorFormat,
   },
 
   source: ['tokens/spectrum.json'],
@@ -26,10 +25,13 @@ const twSpectrumConfig = {
       transforms: ['attribute/cti', 'name/cti/kebab'],
       files: [
         {
+          filter: function (token) {
+            return token.filePath === `tokens/spectrum.json`;
+          },
           destination: 'colors.spectrum.tailwind.js',
-          format: 'tailwindSpectrumColorFormat',
+          format: 'tailwindThemeColorFormat',
           options: {
-            outputReferences: false,
+            cssVariable: false,
           },
         },
       ],
@@ -47,7 +49,7 @@ const twThemeConfig = {
     tailwind: {
       buildPath: 'output/',
       transformGroup: 'js',
-      transforms: ['attribute/cti', 'name/cti/kebab'],
+      transforms: ['attribute/cti', 'name/cti/kebab', 'color/css'],
       files: [
         {
           filter: function (token) {
@@ -56,7 +58,7 @@ const twThemeConfig = {
           destination: `colors.theme.tailwind.js`,
           format: 'tailwindThemeColorFormat',
           options: {
-            outputReferences: false,
+            cssVariable: true,
           },
         },
       ],
