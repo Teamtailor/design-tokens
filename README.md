@@ -47,11 +47,11 @@ module.exports = {
 
 Make sure to import the specific theme css files to be able to use functional color names.
 
-Css files are located here and are apply by using `.dark-theme` or `.light-theme`, on a wrapper.
+Css files are located here and are apply by using `.theme-light` or `.theme-dark`, on a wrapper.
 
 ```
-@teamtailor/design-tokens/output/light-theme.css';
-@teamtailor/design-tokens/output/dark-theme.css';
+@teamtailor/design-tokens/output/theme-light.css';
+@teamtailor/design-tokens/output/theme-dark.css';
 ```
 
 ## Configs

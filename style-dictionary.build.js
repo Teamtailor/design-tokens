@@ -106,9 +106,9 @@ const themeConfig = (theme) => {
             filter: function (token) {
               return token.filePath === `tokens/${theme}.json`;
             },
-            destination: `${theme}-theme.css`,
+            destination: `theme-${theme}.css`,
             format: 'css/variables',
-            selector: `.${theme}-theme`,
+            selector: `.theme-${theme}`,
           },
         ],
       },

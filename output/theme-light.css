@@ -1,14 +1,14 @@
-.dark-theme {
-  --color-background-canvas: rgb(52, 53, 58);
-  --color-background-neutral-default: rgb(63, 63, 70);
-  --color-background-neutral-hover: rgb(87, 89, 95);
-  --color-background-neutral-weak: rgb(87, 89, 95);
-  --color-background-neutral-medium: rgb(113, 113, 122);
+.theme-light {
+  --color-background-canvas: rgb(255, 255, 255);
+  --color-background-neutral-default: rgb(255, 255, 255);
+  --color-background-neutral-hover: rgb(248, 248, 249);
+  --color-background-neutral-weak: rgb(248, 248, 249);
+  --color-background-neutral-medium: rgb(238, 238, 240);
   --color-background-neutral-strong: rgb(28, 28, 30);
-  --color-background-success-default: rgb(12, 49, 14);
-  --color-background-danger-default: rgb(79, 18, 18);
-  --color-background-warning-default: rgb(73, 32, 9);
-  --color-background-info-default: rgb(9, 53, 78);
+  --color-background-success-default: rgb(241, 252, 241);
+  --color-background-danger-default: rgb(254, 242, 242);
+  --color-background-warning-default: rgb(255, 251, 235);
+  --color-background-info-default: rgb(240, 249, 255);
   --color-background-action-strong: rgb(244, 63, 133);
   --color-background-action-strong-hover: rgb(215, 37, 109);
   --color-background-action-strong-active: rgb(181, 22, 91);
@@ -44,8 +44,8 @@
   --color-background-decorative-purple-weak: rgb(250, 245, 255);
   --color-background-decorative-fuchsia-strong: rgb(217, 70, 239);
   --color-background-decorative-fuchsia-weak: rgb(253, 244, 255);
-  --color-border-neutral-default: rgb(87, 89, 95);
-  --color-border-neutral-medium: rgb(113, 113, 122);
+  --color-border-neutral-default: rgb(238, 238, 240);
+  --color-border-neutral-medium: rgb(228, 228, 231);
   --color-border-success-default: rgba(52,53,58, 0.05);
   --color-border-danger-default: rgba(52,53,58, 0.05);
   --color-border-warning-default: rgba(52,53,58, 0.05);
@@ -53,9 +53,9 @@
   --color-border-action-medium: rgb(228, 228, 231);
   --color-border-action-medium-active: rgba(0,0,0, 0.05);
   --color-border-action-strong: linear-gradient(180deg, rgba(0,0,0, 0.02) 2%, rgba(0,0,0, 0.10) 100%);
-  --color-text-neutral-default: rgb(244, 244, 245);
-  --color-text-neutral-weak: rgb(113, 113, 122);
-  --color-text-neutral-medium: rgb(178, 179, 185);
+  --color-text-neutral-default: rgb(52, 53, 58);
+  --color-text-neutral-weak: rgb(178, 179, 185);
+  --color-text-neutral-medium: rgb(113, 113, 122);
   --color-text-success-default: rgb(52, 53, 58);
   --color-text-danger-default: rgb(52, 53, 58);
   --color-text-warning-default: rgb(52, 53, 58);
