@@ -1,29 +1,29 @@
 /**
  * Do not edit directly
- * Generated on Thu, 03 Mar 2022 13:23:56 GMT
+ * Generated on Fri, 04 Mar 2022 09:22:01 GMT
  */
 
 module.exports = {
   "background": {
     "canvas": "var(--color-background-canvas)",
     "neutral": {
-      "default": "var(--color-background-neutral-default)",
-      "default-hover": "var(--color-background-neutral-default-hover)",
+      "DEFAULT": "var(--color-background-neutral-default)",
+      "hover": "var(--color-background-neutral-hover)",
       "weak": "var(--color-background-neutral-weak)",
       "medium": "var(--color-background-neutral-medium)",
       "strong": "var(--color-background-neutral-strong)"
     },
     "success": {
-      "default": "var(--color-background-success-default)"
+      "DEFAULT": "var(--color-background-success-default)"
     },
     "danger": {
-      "default": "var(--color-background-danger-default)"
+      "DEFAULT": "var(--color-background-danger-default)"
     },
     "warning": {
-      "default": "var(--color-background-warning-default)"
+      "DEFAULT": "var(--color-background-warning-default)"
     },
     "info": {
-      "default": "var(--color-background-info-default)"
+      "DEFAULT": "var(--color-background-info-default)"
     },
     "action": {
       "strong": "var(--color-background-action-strong)",
@@ -93,20 +93,20 @@ module.exports = {
   },
   "border": {
     "neutral": {
-      "default": "var(--color-border-neutral-default)",
+      "DEFAULT": "var(--color-border-neutral-default)",
       "medium": "var(--color-border-neutral-medium)"
     },
     "success": {
-      "default": "var(--color-border-success-default)"
+      "DEFAULT": "var(--color-border-success-default)"
     },
     "danger": {
-      "default": "var(--color-border-danger-default)"
+      "DEFAULT": "var(--color-border-danger-default)"
     },
     "warning": {
-      "default": "var(--color-border-warning-default)"
+      "DEFAULT": "var(--color-border-warning-default)"
     },
     "info": {
-      "default": "var(--color-border-info-default)"
+      "DEFAULT": "var(--color-border-info-default)"
     },
     "action": {
       "medium": "var(--color-border-action-medium)",
@@ -116,92 +116,92 @@ module.exports = {
   },
   "text": {
     "neutral": {
-      "default": "var(--color-text-neutral-default)",
+      "DEFAULT": "var(--color-text-neutral-default)",
       "weak": "var(--color-text-neutral-weak)",
       "medium": "var(--color-text-neutral-medium)"
     },
     "success": {
-      "default": "var(--color-text-success-default)"
+      "DEFAULT": "var(--color-text-success-default)"
     },
     "danger": {
-      "default": "var(--color-text-danger-default)"
+      "DEFAULT": "var(--color-text-danger-default)"
     },
     "warning": {
-      "default": "var(--color-text-warning-default)"
+      "DEFAULT": "var(--color-text-warning-default)"
     },
     "info": {
-      "default": "var(--color-text-info-default)"
+      "DEFAULT": "var(--color-text-info-default)"
     },
     "decorative": {
       "amber": {
-        "default": "var(--color-text-decorative-amber-default)",
+        "DEFAULT": "var(--color-text-decorative-amber-default)",
         "weak": "var(--color-text-decorative-amber-weak)",
         "strong": "var(--color-text-decorative-amber-strong)"
       },
       "orange": {
-        "default": "var(--color-text-decorative-orange-default)",
+        "DEFAULT": "var(--color-text-decorative-orange-default)",
         "weak": "var(--color-text-decorative-orange-weak)",
         "strong": "var(--color-text-decorative-orange-strong)"
       },
       "fuchsia": {
-        "default": "var(--color-text-decorative-fuchsia-default)",
+        "DEFAULT": "var(--color-text-decorative-fuchsia-default)",
         "weak": "var(--color-text-decorative-fuchsia-weak)",
         "strong": "var(--color-text-decorative-fuchsia-strong)"
       },
       "purple": {
-        "default": "var(--color-text-decorative-purple-default)",
+        "DEFAULT": "var(--color-text-decorative-purple-default)",
         "weak": "var(--color-text-decorative-purple-weak)",
         "strong": "var(--color-text-decorative-purple-strong)"
       },
       "violet": {
-        "default": "var(--color-text-decorative-violet-default)",
+        "DEFAULT": "var(--color-text-decorative-violet-default)",
         "weak": "var(--color-text-decorative-violet-weak)",
         "strong": "var(--color-text-decorative-violet-strong)"
       },
       "indigo": {
-        "default": "var(--color-text-decorative-indigo-default)",
+        "DEFAULT": "var(--color-text-decorative-indigo-default)",
         "weak": "var(--color-text-decorative-indigo-weak)",
         "strong": "var(--color-text-decorative-indigo-strong)"
       },
       "blue": {
-        "default": "var(--color-text-decorative-blue-default)",
+        "DEFAULT": "var(--color-text-decorative-blue-default)",
         "weak": "var(--color-text-decorative-blue-weak)",
         "strong": "var(--color-text-decorative-blue-strong)"
       },
       "light-blue": {
-        "default": "var(--color-text-decorative-light-blue-default)",
+        "DEFAULT": "var(--color-text-decorative-light-blue-default)",
         "weak": "var(--color-text-decorative-light-blue-weak)",
         "strong": "var(--color-text-decorative-light-blue-strong)"
       },
       "cyan": {
-        "default": "var(--color-text-decorative-cyan-default)",
+        "DEFAULT": "var(--color-text-decorative-cyan-default)",
         "weak": "var(--color-text-decorative-cyan-weak)",
         "strong": "var(--color-text-decorative-cyan-strong)"
       },
       "teal": {
-        "default": "var(--color-text-decorative-teal-default)",
+        "DEFAULT": "var(--color-text-decorative-teal-default)",
         "weak": "var(--color-text-decorative-teal-weak)",
         "strong": "var(--color-text-decorative-teal-strong)"
       },
       "emerald": {
-        "default": "var(--color-text-decorative-emerald-default)",
+        "DEFAULT": "var(--color-text-decorative-emerald-default)",
         "weak": "var(--color-text-decorative-emerald-weak)",
         "strong": "var(--color-text-decorative-emerald-strong)"
       },
       "green": {
-        "default": "var(--color-text-decorative-green-default)",
+        "DEFAULT": "var(--color-text-decorative-green-default)",
         "weak": "var(--color-text-decorative-green-weak)",
         "strong": "var(--color-text-decorative-green-strong)"
       },
       "lime": {
-        "default": "var(--color-text-decorative-lime-default)",
+        "DEFAULT": "var(--color-text-decorative-lime-default)",
         "weak": "var(--color-text-decorative-lime-weak)",
         "strong": "var(--color-text-decorative-lime-strong)"
       }
     },
     "action": {
       "strong": "var(--color-text-action-strong)",
-      "default": "var(--color-text-action-default)",
+      "DEFAULT": "var(--color-text-action-default)",
       "default-active": "var(--color-text-action-default-active)",
       "weak": "var(--color-text-action-weak)",
       "medium": "var(--color-text-action-medium)"
@@ -209,20 +209,20 @@ module.exports = {
   },
   "icon": {
     "neutral": {
-      "default": "var(--color-icon-neutral-default)",
+      "DEFAULT": "var(--color-icon-neutral-default)",
       "weak": "var(--color-icon-neutral-weak)"
     },
     "success": {
-      "default": "var(--color-icon-success-default)"
+      "DEFAULT": "var(--color-icon-success-default)"
     },
     "danger": {
-      "default": "var(--color-icon-danger-default)"
+      "DEFAULT": "var(--color-icon-danger-default)"
     },
     "warning": {
-      "default": "var(--color-icon-warning-default)"
+      "DEFAULT": "var(--color-icon-warning-default)"
     },
     "info": {
-      "default": "var(--color-icon-info-default)"
+      "DEFAULT": "var(--color-icon-info-default)"
     },
     "decorative": {
       "amber": {

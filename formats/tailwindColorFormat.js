@@ -9,13 +9,14 @@ const tailwindColorFormat = function ({
   file,
 }) {
   const toCssVariable = (path) => {
-    return `var(--${path.join('-')})`;
+    return `var(--${path.join('-').toLowerCase()})`;
   };
 
   const colors = {};
 
   allTokens.forEach((token) => {
     const { path, value } = token;
+
     _.setWith(
       colors,
       path.slice(1).join('.'),
