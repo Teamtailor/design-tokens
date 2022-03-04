@@ -16,10 +16,13 @@ const tailwindColorFormat = function ({
 
   allTokens.forEach((token) => {
     const { path, value } = token;
+
+    const cleanPath = path.filter((val) => val !== 'DEFAULT');
+
     _.setWith(
       colors,
       path.slice(1).join('.'),
-      cssVariable ? toCssVariable(path) : value,
+      cssVariable ? toCssVariable(cleanPath) : value,
       Object
     );
   });
