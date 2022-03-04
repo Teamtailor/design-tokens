@@ -11,6 +11,29 @@ StyleDictionaryPackage.registerFormat({
   },
 });
 
+// Cleans rgb from inside rgba().This is to fix an issue with rgba and variables coming from Figma
+// Examples
+// rgba(rgb(244, 63, 133), 0.5) -> rgba(244, 63, 133, 0.5)
+// linear-gradient(180deg, rgba(rgb(0, 0, 0), 0.02) 2%, rgba(rgb(0, 0, 0), 0.10) 100%) ->
+// linear-gradient(180deg, rgba(0, 0, 0, 0.02) 2%, rgba(0, 0, 0, 0.10) 100%)
+const cleanRgbFromValue = (value) => {
+  const rgx = /rgb\((\d{1,3}), (\d{1,3}), (\d{1,3})\)/;
+  const cleanValue = value.replace(rgx, '$1,$2,$3');
+  if (cleanValue.match(rgx)) {
+    return cleanRgbFromValue(cleanValue);
+  } else {
+    return cleanValue;
+  }
+};
+
+StyleDictionaryPackage.registerTransform({
+  type: `value`,
+  transitive: true,
+  name: `css/duplicate-rgb`,
+  matcher: ({ value }) => value.includes('rgba(rgb('),
+  transformer: ({ value }) => cleanRgbFromValue(value),
+});
+
 const twSpectrumConfig = {
   format: {
     // Transforming colors to a tailwind.config.js color Object
@@ -71,7 +94,12 @@ const themeConfig = (theme) => {
     source: ['tokens/spectrum.json', `tokens/${theme}.json`],
     platforms: {
       theme: {
-        transforms: ['attribute/cti', 'name/cti/kebab', 'color/rgb'],
+        transforms: [
+          'attribute/cti',
+          'name/cti/kebab',
+          'color/rgb',
+          'css/duplicate-rgb',
+        ],
         buildPath: `output/`,
         files: [
           {

@@ -12,7 +12,7 @@
   --color-background-action-strong: rgb(244, 63, 133);
   --color-background-action-strong-hover: rgb(215, 37, 109);
   --color-background-action-strong-active: rgb(181, 22, 91);
-  --color-background-action-strong-disabled: rgba(rgb(244, 63, 133), 0.5);
+  --color-background-action-strong-disabled: rgba(244,63,133, 0.5);
   --color-background-action-medium: rgb(255, 255, 255);
   --color-background-action-medium-hover: rgb(248, 248, 249);
   --color-background-action-medium-active: rgb(255, 240, 245);
@@ -46,13 +46,13 @@
   --color-background-decorative-fuchsia-weak: rgb(253, 244, 255);
   --color-border-neutral-default: rgb(238, 238, 240);
   --color-border-neutral-medium: rgb(228, 228, 231);
-  --color-border-success-default: rgba(rgb(52, 53, 58), 0.05);
-  --color-border-danger-default: rgba(rgb(52, 53, 58), 0.05);
-  --color-border-warning-default: rgba(rgb(52, 53, 58), 0.05);
-  --color-border-info-default: rgba(rgb(52, 53, 58), 0.05);
+  --color-border-success-default: rgba(52,53,58, 0.05);
+  --color-border-danger-default: rgba(52,53,58, 0.05);
+  --color-border-warning-default: rgba(52,53,58, 0.05);
+  --color-border-info-default: rgba(52,53,58, 0.05);
   --color-border-action-medium: rgb(228, 228, 231);
-  --color-border-action-medium-active: rgba(rgb(0, 0, 0), 0.05);
-  --color-border-action-strong: linear-gradient(180deg, rgba(rgb(0, 0, 0), 0.02) 2%, rgba(rgb(0, 0, 0), 0.10) 100%);
+  --color-border-action-medium-active: rgba(0,0,0, 0.05);
+  --color-border-action-strong: linear-gradient(180deg, rgba(0,0,0, 0.02) 2%, rgba(0,0,0, 0.10) 100%);
   --color-text-neutral-default: rgb(52, 53, 58);
   --color-text-neutral-weak: rgb(178, 179, 185);
   --color-text-neutral-medium: rgb(113, 113, 122);
