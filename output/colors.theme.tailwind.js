@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 04 Mar 2022 09:58:09 GMT
+ * Generated on Mon, 14 Mar 2022 14:18:10 GMT
  */
 
 module.exports = {
@@ -88,6 +88,18 @@ module.exports = {
       "fuchsia": {
         "strong": "var(--color-background-decorative-fuchsia-strong)",
         "weak": "var(--color-background-decorative-fuchsia-weak)"
+      },
+      "yellow": {
+        "strong": "var(--color-background-decorative-yellow-strong)",
+        "weak": "var(--color-background-decorative-yellow-weak)"
+      },
+      "zinc": {
+        "strong": "var(--color-background-decorative-zinc-strong)",
+        "weak": "var(--color-background-decorative-zinc-weak)"
+      },
+      "rose": {
+        "strong": "var(--color-background-decorative-rose-strong)",
+        "weak": "var(--color-background-decorative-rose-weak)"
       }
     }
   },
@@ -197,6 +209,21 @@ module.exports = {
         "DEFAULT": "var(--color-text-decorative-lime-default)",
         "weak": "var(--color-text-decorative-lime-weak)",
         "strong": "var(--color-text-decorative-lime-strong)"
+      },
+      "yellow": {
+        "DEFAULT": "var(--color-text-decorative-yellow-default)",
+        "weak": "var(--color-text-decorative-yellow-weak)",
+        "strong": "var(--color-text-decorative-yellow-strong)"
+      },
+      "zinc": {
+        "DEFAULT": "var(--color-text-decorative-zinc-default)",
+        "weak": "var(--color-text-decorative-zinc-weak)",
+        "strong": "var(--color-text-decorative-zinc-strong)"
+      },
+      "rose": {
+        "DEFAULT": "var(--color-text-decorative-rose-default)",
+        "weak": "var(--color-text-decorative-rose-weak)",
+        "strong": "var(--color-text-decorative-rose-strong)"
       }
     },
     "action": {
@@ -226,56 +253,84 @@ module.exports = {
     },
     "decorative": {
       "amber": {
+        "DEFAULT": "var(--color-icon-decorative-amber-default)",
         "weak": "var(--color-icon-decorative-amber-weak)",
         "strong": "var(--color-icon-decorative-amber-strong)"
       },
       "fuchsia": {
+        "DEFAULT": "var(--color-icon-decorative-fuchsia-default)",
         "weak": "var(--color-icon-decorative-fuchsia-weak)",
         "strong": "var(--color-icon-decorative-fuchsia-strong)"
       },
       "purple": {
+        "DEFAULT": "var(--color-icon-decorative-purple-default)",
         "weak": "var(--color-icon-decorative-purple-weak)",
         "strong": "var(--color-icon-decorative-purple-strong)"
       },
       "violet": {
+        "DEFAULT": "var(--color-icon-decorative-violet-default)",
         "weak": "var(--color-icon-decorative-violet-weak)",
         "strong": "var(--color-icon-decorative-violet-strong)"
       },
       "indigo": {
+        "DEFAULT": "var(--color-icon-decorative-indigo-default)",
         "weak": "var(--color-icon-decorative-indigo-weak)",
         "strong": "var(--color-icon-decorative-indigo-strong)"
       },
       "blue": {
+        "DEFAULT": "var(--color-icon-decorative-blue-default)",
         "weak": "var(--color-icon-decorative-blue-weak)",
         "strong": "var(--color-icon-decorative-blue-strong)"
       },
       "light-blue": {
+        "DEFAULT": "var(--color-icon-decorative-light-blue-default)",
         "weak": "var(--color-icon-decorative-light-blue-weak)",
         "strong": "var(--color-icon-decorative-light-blue-strong)"
       },
       "cyan": {
+        "DEFAULT": "var(--color-icon-decorative-cyan-default)",
         "weak": "var(--color-icon-decorative-cyan-weak)",
         "strong": "var(--color-icon-decorative-cyan-strong)"
       },
       "teal": {
+        "DEFAULT": "var(--color-icon-decorative-teal-default)",
         "weak": "var(--color-icon-decorative-teal-weak)",
         "strong": "var(--color-icon-decorative-teal-strong)"
       },
       "emerald": {
+        "DEFAULT": "var(--color-icon-decorative-emerald-default)",
         "weak": "var(--color-icon-decorative-emerald-weak)",
         "strong": "var(--color-icon-decorative-emerald-strong)"
       },
       "green": {
+        "DEFAULT": "var(--color-icon-decorative-green-default)",
         "weak": "var(--color-icon-decorative-green-weak)",
         "strong": "var(--color-icon-decorative-green-strong)"
       },
       "lime": {
+        "DEFAULT": "var(--color-icon-decorative-lime-default)",
         "weak": "var(--color-icon-decorative-lime-weak)",
         "strong": "var(--color-icon-decorative-lime-strong)"
       },
       "orange": {
+        "DEFAULT": "var(--color-icon-decorative-orange-default)",
         "weak": "var(--color-icon-decorative-orange-weak)",
         "strong": "var(--color-icon-decorative-orange-strong)"
+      },
+      "yellow": {
+        "DEFAULT": "var(--color-icon-decorative-yellow-default)",
+        "weak": "var(--color-icon-decorative-yellow-weak)",
+        "strong": "var(--color-icon-decorative-yellow-strong)"
+      },
+      "zinc": {
+        "DEFAULT": "var(--color-icon-decorative-zinc-default)",
+        "weak": "var(--color-icon-decorative-zinc-weak)",
+        "strong": "var(--color-icon-decorative-zinc-strong)"
+      },
+      "rose": {
+        "DEFAULT": "var(--color-icon-decorative-rose-default)",
+        "weak": "var(--color-icon-decorative-rose-weak)",
+        "strong": "var(--color-icon-decorative-rose-strong)"
       }
     }
   }
