@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 14 Mar 2022 14:15:26 GMT
+ * Generated on Mon, 14 Mar 2022 14:18:10 GMT
  */
 
 module.exports = {
@@ -316,22 +316,22 @@ module.exports = {
         "DEFAULT": "var(--color-icon-decorative-orange-default)",
         "weak": "var(--color-icon-decorative-orange-weak)",
         "strong": "var(--color-icon-decorative-orange-strong)"
+      },
+      "yellow": {
+        "DEFAULT": "var(--color-icon-decorative-yellow-default)",
+        "weak": "var(--color-icon-decorative-yellow-weak)",
+        "strong": "var(--color-icon-decorative-yellow-strong)"
+      },
+      "zinc": {
+        "DEFAULT": "var(--color-icon-decorative-zinc-default)",
+        "weak": "var(--color-icon-decorative-zinc-weak)",
+        "strong": "var(--color-icon-decorative-zinc-strong)"
+      },
+      "rose": {
+        "DEFAULT": "var(--color-icon-decorative-rose-default)",
+        "weak": "var(--color-icon-decorative-rose-weak)",
+        "strong": "var(--color-icon-decorative-rose-strong)"
       }
-    },
-    "yellow": {
-      "DEFAULT": "var(--color-icon-yellow-default)",
-      "weak": "var(--color-icon-yellow-weak)",
-      "strong": "var(--color-icon-yellow-strong)"
-    },
-    "zinc": {
-      "DEFAULT": "var(--color-icon-zinc-default)",
-      "weak": "var(--color-icon-zinc-weak)",
-      "strong": "var(--color-icon-zinc-strong)"
-    },
-    "rose": {
-      "DEFAULT": "var(--color-icon-rose-default)",
-      "weak": "var(--color-icon-rose-weak)",
-      "strong": "var(--color-icon-rose-strong)"
     }
   }
 };
