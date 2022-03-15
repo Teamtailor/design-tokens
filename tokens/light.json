@@ -33,9 +33,9 @@
           "failedToResolve": true
         },
         "strong": {
-          "value": "{color.zinc.900}",
+          "value": "{color.zinc.800}",
           "type": "color",
-          "description": "$color.zinc.900",
+          "description": "$color.zinc.800",
           "failedToResolve": true
         }
       },
