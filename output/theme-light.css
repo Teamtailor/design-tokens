@@ -48,6 +48,8 @@
   --color-background-decorative-yellow-weak: rgb(254, 252, 232);
   --color-background-decorative-zinc-strong: rgb(113, 113, 122);
   --color-background-decorative-zinc-weak: rgb(248, 248, 249);
+  --color-background-decorative-cerise-strong: rgb(236, 72, 153);
+  --color-background-decorative-cerise-weak: rgb(253, 242, 248);
   --color-background-decorative-rose-strong: rgb(244, 63, 94);
   --color-background-decorative-rose-weak: rgb(255, 241, 242);
   --color-border-neutral-default: rgb(238, 238, 240);
@@ -105,6 +107,9 @@
   --color-text-decorative-lime-default: rgb(132, 204, 22);
   --color-text-decorative-lime-weak: rgb(54, 83, 20);
   --color-text-decorative-lime-strong: rgb(255, 255, 255);
+  --color-text-decorative-cerise-default: rgb(236, 72, 153);
+  --color-text-decorative-cerise-weak: rgb(131, 24, 67);
+  --color-text-decorative-cerise-strong: rgb(255, 255, 255);
   --color-text-decorative-yellow-default: rgb(234, 179, 8);
   --color-text-decorative-yellow-weak: rgb(113, 63, 18);
   --color-text-decorative-yellow-strong: rgb(255, 255, 255);
@@ -164,6 +169,9 @@
   --color-icon-decorative-orange-default: rgb(249, 115, 22);
   --color-icon-decorative-orange-weak: rgb(124, 45, 18);
   --color-icon-decorative-orange-strong: rgb(255, 255, 255);
+  --color-icon-decorative-cerise-default: rgb(236, 72, 153);
+  --color-icon-decorative-cerise-weak: rgb(131, 24, 67);
+  --color-icon-decorative-cerise-strong: rgb(255, 255, 255);
   --color-icon-decorative-yellow-default: rgb(234, 179, 8);
   --color-icon-decorative-yellow-weak: rgb(113, 63, 18);
   --color-icon-decorative-yellow-strong: rgb(255, 255, 255);

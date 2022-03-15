@@ -338,6 +338,20 @@
             "failedToResolve": true
           }
         },
+        "cerise": {
+          "strong": {
+            "value": "{color.cerise.500}",
+            "type": "color",
+            "description": "$color.cerise.500",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.cerise.50}",
+            "type": "color",
+            "description": "$color.cerise.50",
+            "failedToResolve": true
+          }
+        },
         "rose": {
           "strong": {
             "value": "{color.rose.500}",
@@ -727,6 +741,26 @@
             "value": "{color.lime.900}",
             "type": "color",
             "description": "$color.lime.900",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "$color.white",
+            "failedToResolve": true
+          }
+        },
+        "cerise": {
+          "DEFAULT": {
+            "value": "{color.cerise.500}",
+            "type": "color",
+            "description": "$color.cerise.500",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.cerise.900}",
+            "type": "color",
+            "description": "$color.cerise.900",
             "failedToResolve": true
           },
           "strong": {
@@ -1129,6 +1163,26 @@
             "value": "{color.orange.900}",
             "type": "color",
             "description": "$color.orange.900",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "$color.white",
+            "failedToResolve": true
+          }
+        },
+        "cerise": {
+          "DEFAULT": {
+            "value": "{color.cerise.500}",
+            "type": "color",
+            "description": "$color.cerise.500",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.cerise.900}",
+            "type": "color",
+            "description": "$color.cerise.900",
             "failedToResolve": true
           },
           "strong": {
