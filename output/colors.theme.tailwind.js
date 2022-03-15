@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 14 Mar 2022 14:18:10 GMT
+ * Generated on Tue, 15 Mar 2022 09:54:30 GMT
  */
 
 module.exports = {
@@ -96,6 +96,10 @@ module.exports = {
       "zinc": {
         "strong": "var(--color-background-decorative-zinc-strong)",
         "weak": "var(--color-background-decorative-zinc-weak)"
+      },
+      "cerise": {
+        "strong": "var(--color-background-decorative-cerise-strong)",
+        "weak": "var(--color-background-decorative-cerise-weak)"
       },
       "rose": {
         "strong": "var(--color-background-decorative-rose-strong)",
@@ -210,6 +214,11 @@ module.exports = {
         "weak": "var(--color-text-decorative-lime-weak)",
         "strong": "var(--color-text-decorative-lime-strong)"
       },
+      "cerise": {
+        "DEFAULT": "var(--color-text-decorative-cerise-default)",
+        "weak": "var(--color-text-decorative-cerise-weak)",
+        "strong": "var(--color-text-decorative-cerise-strong)"
+      },
       "yellow": {
         "DEFAULT": "var(--color-text-decorative-yellow-default)",
         "weak": "var(--color-text-decorative-yellow-weak)",
@@ -316,6 +325,11 @@ module.exports = {
         "DEFAULT": "var(--color-icon-decorative-orange-default)",
         "weak": "var(--color-icon-decorative-orange-weak)",
         "strong": "var(--color-icon-decorative-orange-strong)"
+      },
+      "cerise": {
+        "DEFAULT": "var(--color-icon-decorative-cerise-default)",
+        "weak": "var(--color-icon-decorative-cerise-weak)",
+        "strong": "var(--color-icon-decorative-cerise-strong)"
       },
       "yellow": {
         "DEFAULT": "var(--color-icon-decorative-yellow-default)",
