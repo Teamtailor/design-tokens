@@ -123,6 +123,7 @@
   --color-text-action-default: rgb(244, 63, 133);
   --color-text-action-default-active: rgb(244, 63, 133);
   --color-text-action-weak: rgb(52, 53, 58);
+  --color-text-action-weak-active: rgb(244, 63, 133);
   --color-text-action-medium: rgb(52, 53, 58);
   --color-icon-neutral-default: rgb(87, 89, 95);
   --color-icon-neutral-weak: rgb(178, 179, 185);

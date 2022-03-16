@@ -856,6 +856,12 @@
           "description": "$color.zinc.750",
           "failedToResolve": true
         },
+        "weak-active": {
+          "value": "{color.pink.500}",
+          "type": "color",
+          "description": "$color.pink.500",
+          "failedToResolve": true
+        },
         "medium": {
           "value": "{color.zinc.750}",
           "type": "color",

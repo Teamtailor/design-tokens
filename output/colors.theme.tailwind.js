@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 15 Mar 2022 09:54:30 GMT
+ * Generated on Wed, 16 Mar 2022 10:31:56 GMT
  */
 
 module.exports = {
@@ -240,6 +240,7 @@ module.exports = {
       "DEFAULT": "var(--color-text-action-default)",
       "default-active": "var(--color-text-action-default-active)",
       "weak": "var(--color-text-action-weak)",
+      "weak-active": "var(--color-text-action-weak-active)",
       "medium": "var(--color-text-action-medium)"
     }
   },
