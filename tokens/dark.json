@@ -2,9 +2,9 @@
   "color": {
     "background": {
       "canvas": {
-        "value": "{color.zinc.750}",
+        "value": "{color.zinc.800}",
         "type": "color",
-        "description": "$color.zinc.750",
+        "description": "{color.zinc.800}",
         "failedToResolve": true
       },
       "neutral": {
