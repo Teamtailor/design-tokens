@@ -37,6 +37,12 @@
           "type": "color",
           "description": "$color.zinc.800",
           "failedToResolve": true
+        },
+        "medium-hover": {
+          "value": "{color.zinc.200}",
+          "description": "{color.zinc.200}",
+          "type": "color",
+          "failedToResolve": true
         }
       },
       "success": {

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 17 Mar 2022 08:20:52 GMT
+ * Generated on Thu, 17 Mar 2022 17:37:14 GMT
  */
 
 module.exports = {
@@ -11,7 +11,8 @@ module.exports = {
       "hover": "var(--color-background-neutral-hover)",
       "weak": "var(--color-background-neutral-weak)",
       "medium": "var(--color-background-neutral-medium)",
-      "strong": "var(--color-background-neutral-strong)"
+      "strong": "var(--color-background-neutral-strong)",
+      "medium-hover": "var(--color-background-neutral-medium-hover)"
     },
     "success": {
       "DEFAULT": "var(--color-background-success-default)",
