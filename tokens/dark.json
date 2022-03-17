@@ -45,6 +45,12 @@
           "type": "color",
           "description": "$color.green.1000",
           "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.green.800}",
+          "description": "{color.green.800}",
+          "type": "color",
+          "failedToResolve": true
         }
       },
       "danger": {
@@ -52,6 +58,12 @@
           "value": "{color.red.1000}",
           "type": "color",
           "description": "$color.red.1000",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.red.800}",
+          "description": "{color.red.800}",
+          "type": "color",
           "failedToResolve": true
         }
       },
@@ -61,6 +73,12 @@
           "type": "color",
           "description": "$color.amber.1000",
           "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.amber.800}",
+          "description": "{color.amber.800}",
+          "type": "color",
+          "failedToResolve": true
         }
       },
       "info": {
@@ -68,6 +86,12 @@
           "value": "{color.light-blue.1000}",
           "type": "color",
           "description": "$color.light-blue.1000",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.light-blue.800}",
+          "description": "{color.light-blue.800}",
+          "type": "color",
           "failedToResolve": true
         }
       },
@@ -459,33 +483,33 @@
       },
       "success": {
         "DEFAULT": {
-          "value": "{color.zinc.750}",
+          "value": "{color.zinc.50}",
           "type": "color",
-          "description": "$color.zinc.750",
+          "description": "{color.zinc.50}",
           "failedToResolve": true
         }
       },
       "danger": {
         "DEFAULT": {
-          "value": "{color.zinc.750}",
+          "value": "{color.zinc.50}",
           "type": "color",
-          "description": "$color.zinc.750",
+          "description": "{color.zinc.50}",
           "failedToResolve": true
         }
       },
       "warning": {
         "DEFAULT": {
-          "value": "{color.zinc.750}",
+          "value": "{color.zinc.50}",
           "type": "color",
-          "description": "$color.zinc.750",
+          "description": "{color.zinc.50}",
           "failedToResolve": true
         }
       },
       "info": {
         "DEFAULT": {
-          "value": "{color.zinc.750}",
+          "value": "{color.zinc.50}",
           "type": "color",
-          "description": "$color.zinc.750",
+          "description": "{color.zinc.50}",
           "failedToResolve": true
         }
       },
