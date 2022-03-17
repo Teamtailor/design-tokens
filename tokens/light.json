@@ -45,6 +45,12 @@
           "type": "color",
           "description": "$color.green.50",
           "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.green.500}",
+          "description": "{color.green.500}",
+          "type": "color",
+          "failedToResolve": true
         }
       },
       "danger": {
@@ -52,6 +58,12 @@
           "value": "{color.red.50}",
           "type": "color",
           "description": "$color.red.50",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.red.500}",
+          "description": "{color.red.500}",
+          "type": "color",
           "failedToResolve": true
         }
       },
@@ -61,6 +73,12 @@
           "type": "color",
           "description": "$color.amber.50",
           "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.amber.500}",
+          "description": "{color.amber.500}",
+          "type": "color",
+          "failedToResolve": true
         }
       },
       "info": {
@@ -68,6 +86,12 @@
           "value": "{color.light-blue.50}",
           "type": "color",
           "description": "$color.light-blue.50",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.light-blue.500}",
+          "description": "{color.light-blue.500}",
+          "type": "color",
           "failedToResolve": true
         }
       },
