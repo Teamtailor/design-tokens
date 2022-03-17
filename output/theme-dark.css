@@ -5,7 +5,6 @@
   --color-background-neutral-weak: rgb(87, 89, 95);
   --color-background-neutral-medium: rgb(113, 113, 122);
   --color-background-neutral-strong: rgb(28, 28, 30);
-  --color-background-neutral-medium-hover: rgb(161, 161, 170);
   --color-background-success-default: rgb(12, 49, 14);
   --color-background-success-strong: rgb(22, 101, 26);
   --color-background-danger-default: rgb(79, 18, 18);
@@ -130,8 +129,8 @@
   --color-text-action-weak: rgb(52, 53, 58);
   --color-text-action-medium: rgb(52, 53, 58);
   --color-text-action-weak-active: rgb(244, 63, 133);
-  --color-icon-neutral-default: rgb(87, 89, 95);
-  --color-icon-neutral-weak: rgb(178, 179, 185);
+  --color-icon-neutral-default: rgb(178, 179, 185);
+  --color-icon-neutral-weak: rgb(113, 113, 122);
   --color-icon-success-default: rgb(22, 163, 27);
   --color-icon-danger-default: rgb(220, 38, 38);
   --color-icon-warning-default: rgb(217, 119, 6);
