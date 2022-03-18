@@ -2,9 +2,9 @@
   "color": {
     "background": {
       "canvas": {
-        "value": "{color.zinc.750}",
+        "value": "{color.zinc.800}",
         "type": "color",
-        "description": "$color.zinc.750",
+        "description": "{color.zinc.800}",
         "failedToResolve": true
       },
       "neutral": {
@@ -897,15 +897,15 @@
     "icon": {
       "neutral": {
         "DEFAULT": {
-          "value": "{color.zinc.600}",
+          "value": "{color.zinc.350}",
           "type": "color",
-          "description": "$color.zinc.600",
+          "description": "{color.zinc.350}",
           "failedToResolve": true
         },
         "weak": {
-          "value": "{color.zinc.350}",
+          "value": "{color.zinc.500}",
           "type": "color",
-          "description": "$color.zinc.350",
+          "description": "{color.zinc.500}",
           "failedToResolve": true
         }
       },

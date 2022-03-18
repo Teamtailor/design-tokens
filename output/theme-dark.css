@@ -1,5 +1,5 @@
 .theme-dark {
-  --color-background-canvas: rgb(52, 53, 58);
+  --color-background-canvas: rgb(40, 40, 43);
   --color-background-neutral-default: rgb(63, 63, 70);
   --color-background-neutral-hover: rgb(87, 89, 95);
   --color-background-neutral-weak: rgb(87, 89, 95);
@@ -129,8 +129,8 @@
   --color-text-action-weak: rgb(52, 53, 58);
   --color-text-action-medium: rgb(52, 53, 58);
   --color-text-action-weak-active: rgb(244, 63, 133);
-  --color-icon-neutral-default: rgb(87, 89, 95);
-  --color-icon-neutral-weak: rgb(178, 179, 185);
+  --color-icon-neutral-default: rgb(178, 179, 185);
+  --color-icon-neutral-weak: rgb(113, 113, 122);
   --color-icon-success-default: rgb(22, 163, 27);
   --color-icon-danger-default: rgb(220, 38, 38);
   --color-icon-warning-default: rgb(217, 119, 6);
