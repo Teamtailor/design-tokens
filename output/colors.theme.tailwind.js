@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 17 Mar 2022 20:11:33 GMT
+ * Generated on Wed, 23 Mar 2022 15:27:14 GMT
  */
 
 module.exports = {
@@ -43,78 +43,96 @@ module.exports = {
     "decorative": {
       "amber": {
         "strong": "var(--color-background-decorative-amber-strong)",
-        "weak": "var(--color-background-decorative-amber-weak)"
+        "weak": "var(--color-background-decorative-amber-weak)",
+        "medium": "var(--color-background-decorative-amber-medium)"
       },
       "orange": {
         "strong": "var(--color-background-decorative-orange-strong)",
-        "weak": "var(--color-background-decorative-orange-weak)"
+        "weak": "var(--color-background-decorative-orange-weak)",
+        "medium": "var(--color-background-decorative-orange-medium)"
       },
       "lime": {
         "strong": "var(--color-background-decorative-lime-strong)",
-        "weak": "var(--color-background-decorative-lime-weak)"
+        "weak": "var(--color-background-decorative-lime-weak)",
+        "medium": "var(--color-background-decorative-lime-medium)"
       },
       "green": {
         "strong": "var(--color-background-decorative-green-strong)",
-        "weak": "var(--color-background-decorative-green-weak)"
+        "weak": "var(--color-background-decorative-green-weak)",
+        "medium": "var(--color-background-decorative-green-medium)"
       },
       "emerald": {
         "strong": "var(--color-background-decorative-emerald-strong)",
-        "weak": "var(--color-background-decorative-emerald-weak)"
+        "weak": "var(--color-background-decorative-emerald-weak)",
+        "medium": "var(--color-background-decorative-emerald-medium)"
       },
       "teal": {
         "strong": "var(--color-background-decorative-teal-strong)",
-        "weak": "var(--color-background-decorative-teal-weak)"
+        "weak": "var(--color-background-decorative-teal-weak)",
+        "medium": "var(--color-background-decorative-teal-medium)"
       },
       "cyan": {
         "strong": "var(--color-background-decorative-cyan-strong)",
-        "weak": "var(--color-background-decorative-cyan-weak)"
+        "weak": "var(--color-background-decorative-cyan-weak)",
+        "medium": "var(--color-background-decorative-cyan-medium)"
       },
       "light-blue": {
         "strong": "var(--color-background-decorative-light-blue-strong)",
-        "weak": "var(--color-background-decorative-light-blue-weak)"
+        "weak": "var(--color-background-decorative-light-blue-weak)",
+        "medium": "var(--color-background-decorative-light-blue-medium)"
       },
       "blue": {
         "strong": "var(--color-background-decorative-blue-strong)",
-        "weak": "var(--color-background-decorative-blue-weak)"
+        "weak": "var(--color-background-decorative-blue-weak)",
+        "medium": "var(--color-background-decorative-blue-medium)"
       },
       "indigo": {
         "strong": "var(--color-background-decorative-indigo-strong)",
-        "weak": "var(--color-background-decorative-indigo-weak)"
+        "weak": "var(--color-background-decorative-indigo-weak)",
+        "medium": "var(--color-background-decorative-indigo-medium)"
       },
       "violet": {
         "strong": "var(--color-background-decorative-violet-strong)",
-        "weak": "var(--color-background-decorative-violet-weak)"
+        "weak": "var(--color-background-decorative-violet-weak)",
+        "medium": "var(--color-background-decorative-violet-medium)"
       },
       "purple": {
         "strong": "var(--color-background-decorative-purple-strong)",
-        "weak": "var(--color-background-decorative-purple-weak)"
+        "weak": "var(--color-background-decorative-purple-weak)",
+        "medium": "var(--color-background-decorative-purple-medium)"
       },
       "fuchsia": {
         "strong": "var(--color-background-decorative-fuchsia-strong)",
-        "weak": "var(--color-background-decorative-fuchsia-weak)"
+        "weak": "var(--color-background-decorative-fuchsia-weak)",
+        "medium": "var(--color-background-decorative-fuchsia-medium)"
       },
       "yellow": {
         "strong": "var(--color-background-decorative-yellow-strong)",
-        "weak": "var(--color-background-decorative-yellow-weak)"
+        "weak": "var(--color-background-decorative-yellow-weak)",
+        "medium": "var(--color-background-decorative-yellow-medium)"
       },
       "zinc": {
         "strong": "var(--color-background-decorative-zinc-strong)",
-        "weak": "var(--color-background-decorative-zinc-weak)"
+        "weak": "var(--color-background-decorative-zinc-weak)",
+        "medium": "var(--color-background-decorative-zinc-medium)"
       },
       "cerise": {
         "strong": "var(--color-background-decorative-cerise-strong)",
-        "weak": "var(--color-background-decorative-cerise-weak)"
+        "weak": "var(--color-background-decorative-cerise-weak)",
+        "medium": "var(--color-background-decorative-cerise-medium)"
       },
       "rose": {
         "strong": "var(--color-background-decorative-rose-strong)",
-        "weak": "var(--color-background-decorative-rose-weak)"
+        "weak": "var(--color-background-decorative-rose-weak)",
+        "medium": "var(--color-background-decorative-rose-medium)"
       }
     }
   },
   "border": {
     "neutral": {
       "DEFAULT": "var(--color-border-neutral-default)",
-      "medium": "var(--color-border-neutral-medium)"
+      "medium": "var(--color-border-neutral-medium)",
+      "strong": "var(--color-border-neutral-strong)"
     },
     "success": {
       "DEFAULT": "var(--color-border-success-default)"
