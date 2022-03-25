@@ -427,7 +427,7 @@
           },
           "medium": {
             "value": "{color.yellow.100}",
-            "description": "{color.yellow.50}",
+            "description": "{color.yellow.100}",
             "type": "color",
             "failedToResolve": true
           }
@@ -447,7 +447,7 @@
           },
           "medium": {
             "value": "{color.zinc.100}",
-            "description": "{color.zinc.50}",
+            "description": "{color.zinc.100}",
             "type": "color",
             "failedToResolve": true
           }
@@ -467,7 +467,7 @@
           },
           "medium": {
             "value": "{color.cerise.100}",
-            "description": "{color.cerise.50}",
+            "description": "{color.cerise.100}",
             "type": "color",
             "failedToResolve": true
           }
@@ -487,7 +487,7 @@
           },
           "medium": {
             "value": "{color.rose.100}",
-            "description": "{color.rose.50}",
+            "description": "{color.rose.100}",
             "type": "color",
             "failedToResolve": true
           }
