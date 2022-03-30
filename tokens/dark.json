@@ -1066,12 +1066,6 @@
         }
       },
       "action": {
-        "strong": {
-          "value": "{color.white}",
-          "type": "color",
-          "description": "$color.white",
-          "failedToResolve": true
-        },
         "DEFAULT": {
           "value": "{color.pink.500}",
           "type": "color",
@@ -1085,21 +1079,33 @@
           "failedToResolve": true
         },
         "weak": {
-          "value": "{color.zinc.750}",
+          "value": "{color.white}",
           "type": "color",
-          "description": "$color.zinc.750",
-          "failedToResolve": true
-        },
-        "medium": {
-          "value": "{color.zinc.750}",
-          "type": "color",
-          "description": "$color.zinc.750",
+          "description": "{color.white}",
           "failedToResolve": true
         },
         "weak-active": {
-          "value": "{color.pink.500}",
-          "description": "{color.pink.500}",
+          "value": "{color.zinc.50}",
+          "description": "{color.zinc.50}",
           "type": "color",
+          "failedToResolve": true
+        },
+        "medium": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "{color.white}",
+          "failedToResolve": true
+        },
+        "medium-medium": {
+          "value": "{color.zinc.50}",
+          "type": "color",
+          "description": "$color.zinc.50",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "$color.white",
           "failedToResolve": true
         }
       }

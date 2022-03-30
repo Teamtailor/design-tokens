@@ -109,9 +109,9 @@
           "failedToResolve": true
         },
         "strong-active": {
-          "value": "{color.pink.700}",
+          "value": "{color.pink.600}",
           "type": "color",
-          "description": "$color.pink.700",
+          "description": "$color.pink.600",
           "failedToResolve": true
         },
         "strong-disabled": {
@@ -1066,12 +1066,6 @@
         }
       },
       "action": {
-        "strong": {
-          "value": "{color.white}",
-          "type": "color",
-          "description": "$color.white",
-          "failedToResolve": true
-        },
         "DEFAULT": {
           "value": "{color.pink.500}",
           "type": "color",
@@ -1079,27 +1073,39 @@
           "failedToResolve": true
         },
         "default-active": {
-          "value": "{color.pink.500}",
+          "value": "{color.pink.600}",
           "type": "color",
-          "description": "$color.pink.500",
+          "description": "$color.pink.600",
           "failedToResolve": true
         },
         "weak": {
           "value": "{color.zinc.750}",
           "type": "color",
-          "description": "$color.zinc.750",
+          "description": "{color.zinc.750}",
           "failedToResolve": true
         },
         "weak-active": {
           "value": "{color.pink.500}",
           "type": "color",
-          "description": "$color.pink.500",
+          "description": "$color.pink.50",
           "failedToResolve": true
         },
         "medium": {
           "value": "{color.zinc.750}",
           "type": "color",
-          "description": "$color.zinc.750",
+          "description": "{color.zinc.750}",
+          "failedToResolve": true
+        },
+        "medium-active": {
+          "value": "{color.pink.500}",
+          "type": "color",
+          "description": "{color.pink.500}",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "$color.white",
           "failedToResolve": true
         }
       }

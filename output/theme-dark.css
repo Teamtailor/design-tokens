@@ -158,12 +158,13 @@
   --color-text-decorative-cerise-weak: rgb(131, 24, 67);
   --color-text-decorative-cerise-medium: rgb(190, 24, 93);
   --color-text-decorative-cerise-strong: rgb(255, 255, 255);
-  --color-text-action-strong: rgb(255, 255, 255);
   --color-text-action-default: rgb(244, 63, 133);
   --color-text-action-default-active: rgb(244, 63, 133);
-  --color-text-action-weak: rgb(52, 53, 58);
-  --color-text-action-medium: rgb(52, 53, 58);
-  --color-text-action-weak-active: rgb(244, 63, 133);
+  --color-text-action-weak: rgb(255, 255, 255);
+  --color-text-action-weak-active: rgb(248, 248, 249);
+  --color-text-action-medium: rgb(255, 255, 255);
+  --color-text-action-medium-medium: rgb(248, 248, 249);
+  --color-text-action-strong: rgb(255, 255, 255);
   --color-icon-neutral-default: rgb(178, 179, 185);
   --color-icon-neutral-weak: rgb(113, 113, 122);
   --color-icon-success-default: rgb(22, 163, 27);
