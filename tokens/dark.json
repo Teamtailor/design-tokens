@@ -97,9 +97,9 @@
       },
       "action": {
         "strong": {
-          "value": "{color.pink.500}",
+          "value": "{color.pink.700}",
           "type": "color",
-          "description": "$color.pink.500",
+          "description": "$color.pink.700",
           "failedToResolve": true
         },
         "strong-hover": {
@@ -109,9 +109,9 @@
           "failedToResolve": true
         },
         "strong-active": {
-          "value": "{color.pink.700}",
+          "value": "{color.pink.800}",
           "type": "color",
-          "description": "$color.pink.700",
+          "description": "$color.pink.800",
           "failedToResolve": true
         },
         "strong-disabled": {
@@ -121,33 +121,33 @@
           "failedToResolve": true
         },
         "medium": {
-          "value": "{color.white}",
+          "value": "{color.zinc.800}",
           "type": "color",
-          "description": "$color.white",
+          "description": "{color.zinc.800}",
           "failedToResolve": true
         },
         "medium-hover": {
-          "value": "{color.zinc.50}",
+          "value": "{color.zinc.750}",
           "type": "color",
-          "description": "$color.zinc.50",
+          "description": "$color.zinc.750",
           "failedToResolve": true
         },
         "medium-active": {
-          "value": "{color.pink.50}",
+          "value": "{color.zinc.700}",
           "type": "color",
-          "description": "$color.pink.50",
+          "description": "$color.zinc.700",
           "failedToResolve": true
         },
         "weak-hover": {
-          "value": "{color.zinc.50}",
+          "value": "{color.zinc.750}",
           "type": "color",
-          "description": "$color.zinc.50",
+          "description": "$color.zinc.750",
           "failedToResolve": true
         },
         "weak-active": {
-          "value": "{color.pink.50}",
+          "value": "{color.zinc.700}",
           "type": "color",
-          "description": "$color.pink.50",
+          "description": "$color.zinc.700",
           "failedToResolve": true
         }
       },

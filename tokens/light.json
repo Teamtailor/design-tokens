@@ -1087,7 +1087,7 @@
         "weak-active": {
           "value": "{color.pink.500}",
           "type": "color",
-          "description": "$color.pink.50",
+          "description": "$color.pink.500",
           "failedToResolve": true
         },
         "medium": {
