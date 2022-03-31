@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 25 Mar 2022 08:26:52 GMT
+ * Generated on Thu, 31 Mar 2022 14:34:34 GMT
  */
 
 module.exports = {
@@ -174,96 +174,114 @@ module.exports = {
       "amber": {
         "DEFAULT": "var(--color-text-decorative-amber-default)",
         "weak": "var(--color-text-decorative-amber-weak)",
+        "medium": "var(--color-text-decorative-amber-medium)",
         "strong": "var(--color-text-decorative-amber-strong)"
       },
       "orange": {
         "DEFAULT": "var(--color-text-decorative-orange-default)",
         "weak": "var(--color-text-decorative-orange-weak)",
+        "medium": "var(--color-text-decorative-orange-medium)",
         "strong": "var(--color-text-decorative-orange-strong)"
       },
       "fuchsia": {
         "DEFAULT": "var(--color-text-decorative-fuchsia-default)",
         "weak": "var(--color-text-decorative-fuchsia-weak)",
+        "medium": "var(--color-text-decorative-fuchsia-medium)",
         "strong": "var(--color-text-decorative-fuchsia-strong)"
       },
       "purple": {
         "DEFAULT": "var(--color-text-decorative-purple-default)",
         "weak": "var(--color-text-decorative-purple-weak)",
+        "medium": "var(--color-text-decorative-purple-medium)",
         "strong": "var(--color-text-decorative-purple-strong)"
       },
       "violet": {
         "DEFAULT": "var(--color-text-decorative-violet-default)",
         "weak": "var(--color-text-decorative-violet-weak)",
+        "medium": "var(--color-text-decorative-violet-medium)",
         "strong": "var(--color-text-decorative-violet-strong)"
       },
       "indigo": {
         "DEFAULT": "var(--color-text-decorative-indigo-default)",
         "weak": "var(--color-text-decorative-indigo-weak)",
+        "medium": "var(--color-text-decorative-indigo-medium)",
         "strong": "var(--color-text-decorative-indigo-strong)"
       },
       "blue": {
         "DEFAULT": "var(--color-text-decorative-blue-default)",
         "weak": "var(--color-text-decorative-blue-weak)",
+        "medium": "var(--color-text-decorative-blue-medium)",
         "strong": "var(--color-text-decorative-blue-strong)"
       },
       "light-blue": {
         "DEFAULT": "var(--color-text-decorative-light-blue-default)",
         "weak": "var(--color-text-decorative-light-blue-weak)",
+        "medium": "var(--color-text-decorative-light-blue-medium)",
         "strong": "var(--color-text-decorative-light-blue-strong)"
       },
       "cyan": {
         "DEFAULT": "var(--color-text-decorative-cyan-default)",
         "weak": "var(--color-text-decorative-cyan-weak)",
+        "medium": "var(--color-text-decorative-cyan-medium)",
         "strong": "var(--color-text-decorative-cyan-strong)"
       },
       "teal": {
         "DEFAULT": "var(--color-text-decorative-teal-default)",
         "weak": "var(--color-text-decorative-teal-weak)",
+        "medium": "var(--color-text-decorative-teal-medium)",
         "strong": "var(--color-text-decorative-teal-strong)"
       },
       "emerald": {
         "DEFAULT": "var(--color-text-decorative-emerald-default)",
         "weak": "var(--color-text-decorative-emerald-weak)",
+        "medium": "var(--color-text-decorative-emerald-medium)",
         "strong": "var(--color-text-decorative-emerald-strong)"
       },
       "green": {
         "DEFAULT": "var(--color-text-decorative-green-default)",
         "weak": "var(--color-text-decorative-green-weak)",
+        "medium": "var(--color-text-decorative-green-medium)",
         "strong": "var(--color-text-decorative-green-strong)"
       },
       "lime": {
         "DEFAULT": "var(--color-text-decorative-lime-default)",
         "weak": "var(--color-text-decorative-lime-weak)",
+        "medium": "var(--color-text-decorative-lime-medium)",
         "strong": "var(--color-text-decorative-lime-strong)"
       },
       "cerise": {
         "DEFAULT": "var(--color-text-decorative-cerise-default)",
         "weak": "var(--color-text-decorative-cerise-weak)",
+        "medium": "var(--color-text-decorative-cerise-medium)",
         "strong": "var(--color-text-decorative-cerise-strong)"
       },
       "yellow": {
         "DEFAULT": "var(--color-text-decorative-yellow-default)",
         "weak": "var(--color-text-decorative-yellow-weak)",
+        "medium": "var(--color-text-decorative-yellow-medium)",
         "strong": "var(--color-text-decorative-yellow-strong)"
       },
       "zinc": {
         "DEFAULT": "var(--color-text-decorative-zinc-default)",
         "weak": "var(--color-text-decorative-zinc-weak)",
+        "medium": "var(--color-text-decorative-zinc-medium)",
         "strong": "var(--color-text-decorative-zinc-strong)"
       },
       "rose": {
         "DEFAULT": "var(--color-text-decorative-rose-default)",
         "weak": "var(--color-text-decorative-rose-weak)",
+        "medium": "var(--color-text-decorative-rose-medium)",
         "strong": "var(--color-text-decorative-rose-strong)"
       }
     },
     "action": {
-      "strong": "var(--color-text-action-strong)",
       "DEFAULT": "var(--color-text-action-default)",
       "default-active": "var(--color-text-action-default-active)",
       "weak": "var(--color-text-action-weak)",
       "weak-active": "var(--color-text-action-weak-active)",
-      "medium": "var(--color-text-action-medium)"
+      "medium": "var(--color-text-action-medium)",
+      "medium-active": "var(--color-text-action-medium-active)",
+      "strong": "var(--color-text-action-strong)"
     }
   },
   "icon": {
