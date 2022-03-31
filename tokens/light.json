@@ -153,342 +153,444 @@
       },
       "decorative": {
         "amber": {
-          "strong": {
-            "value": "{color.amber.500}",
-            "type": "color",
-            "description": "$color.amber.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.amber.50}",
             "type": "color",
             "description": "$color.amber.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.amber.100}",
             "type": "color",
             "description": "$color.amber.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.amber.500}",
+            "type": "color",
+            "description": "$color.amber.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.amber.800}",
+            "type": "color",
+            "description": "$color.amber.800",
+            "failedToResolve": true
           }
         },
         "orange": {
-          "strong": {
-            "value": "{color.orange.500}",
-            "type": "color",
-            "description": "$color.orange.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.orange.50}",
             "type": "color",
             "description": "$color.orange.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.orange.100}",
             "type": "color",
             "description": "$color.orange.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.orange.500}",
+            "type": "color",
+            "description": "$color.orange.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.orange.800}",
+            "type": "color",
+            "description": "$color.orange.800",
+            "failedToResolve": true
           }
         },
         "lime": {
-          "strong": {
-            "value": "{color.lime.500}",
-            "type": "color",
-            "description": "$color.lime.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.lime.50}",
             "type": "color",
             "description": "$color.lime.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.lime.100}",
             "type": "color",
             "description": "$color.lime.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.lime.500}",
+            "type": "color",
+            "description": "$color.lime.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.lime.800}",
+            "type": "color",
+            "description": "$color.lime.800",
+            "failedToResolve": true
           }
         },
         "green": {
-          "strong": {
-            "value": "{color.green.500}",
-            "type": "color",
-            "description": "$color.green.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.green.50}",
             "type": "color",
             "description": "$color.green.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.green.100}",
             "type": "color",
             "description": "$color.green.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.green.500}",
+            "type": "color",
+            "description": "$color.green.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.green.800}",
+            "type": "color",
+            "description": "$color.green.800",
+            "failedToResolve": true
           }
         },
         "emerald": {
-          "strong": {
-            "value": "{color.emerald.500}",
-            "type": "color",
-            "description": "$color.emerald.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.emerald.50}",
             "type": "color",
             "description": "$color.emerald.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.emerald.100}",
             "type": "color",
             "description": "$color.emerald.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.emerald.500}",
+            "type": "color",
+            "description": "$color.emerald.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.emerald.800}",
+            "type": "color",
+            "description": "$color.emerald.800",
+            "failedToResolve": true
           }
         },
         "teal": {
-          "strong": {
-            "value": "{color.teal.500}",
-            "type": "color",
-            "description": "$color.teal.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.teal.50}",
             "type": "color",
             "description": "$color.teal.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.teal.100}",
             "type": "color",
             "description": "$color.teal.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.teal.500}",
+            "type": "color",
+            "description": "$color.teal.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.teal.800}",
+            "type": "color",
+            "description": "$color.teal.800",
+            "failedToResolve": true
           }
         },
         "cyan": {
-          "strong": {
-            "value": "{color.cyan.500}",
-            "type": "color",
-            "description": "$color.cyan.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.cyan.50}",
             "type": "color",
             "description": "$color.cyan.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.cyan.100}",
             "type": "color",
             "description": "$color.cyan.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.cyan.500}",
+            "type": "color",
+            "description": "$color.cyan.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.cyan.800}",
+            "type": "color",
+            "description": "$color.cyan.800",
+            "failedToResolve": true
           }
         },
         "light-blue": {
-          "strong": {
-            "value": "{color.light-blue.500}",
-            "type": "color",
-            "description": "$color.light-blue.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.light-blue.50}",
             "type": "color",
             "description": "$color.light-blue.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.light-blue.100}",
             "type": "color",
             "description": "$color.light-blue.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.light-blue.500}",
+            "type": "color",
+            "description": "$color.light-blue.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.light-blue.800}",
+            "type": "color",
+            "description": "$color.light-blue.800",
+            "failedToResolve": true
           }
         },
         "blue": {
-          "strong": {
-            "value": "{color.blue.500}",
-            "type": "color",
-            "description": "$color.blue.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.blue.50}",
             "type": "color",
             "description": "$color.blue.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.blue.100}",
             "type": "color",
             "description": "$color.blue.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.blue.500}",
+            "type": "color",
+            "description": "$color.blue.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.blue.800}",
+            "type": "color",
+            "description": "$color.blue.800",
+            "failedToResolve": true
           }
         },
         "indigo": {
-          "strong": {
-            "value": "{color.indigo.500}",
-            "type": "color",
-            "description": "$color.indigo.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.indigo.50}",
             "type": "color",
             "description": "$color.indigo.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.indigo.100}",
             "type": "color",
             "description": "$color.indigo.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.indigo.500}",
+            "type": "color",
+            "description": "$color.indigo.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.indigo.800}",
+            "type": "color",
+            "description": "$color.indigo.800",
+            "failedToResolve": true
           }
         },
         "violet": {
-          "strong": {
-            "value": "{color.violet.500}",
-            "type": "color",
-            "description": "$color.violet.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.violet.50}",
             "type": "color",
             "description": "$color.violet.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.violet.100}",
             "type": "color",
             "description": "$color.violet.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.violet.500}",
+            "type": "color",
+            "description": "$color.violet.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.violet.800}",
+            "type": "color",
+            "description": "$color.violet.800",
+            "failedToResolve": true
           }
         },
         "purple": {
-          "strong": {
-            "value": "{color.purple.500}",
-            "type": "color",
-            "description": "$color.purple.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.purple.50}",
             "type": "color",
             "description": "$color.purple.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.purple.100}",
             "type": "color",
             "description": "$color.purple.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.purple.500}",
+            "type": "color",
+            "description": "$color.purple.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.purple.800}",
+            "type": "color",
+            "description": "$color.purple.800",
+            "failedToResolve": true
           }
         },
         "fuchsia": {
-          "strong": {
-            "value": "{color.fuchsia.500}",
-            "type": "color",
-            "description": "$color.fuchsia.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.fuchsia.50}",
             "type": "color",
             "description": "$color.fuchsia.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.fuchsia.100}",
             "type": "color",
             "description": "$color.fuchsia.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.fuchsia.500}",
+            "type": "color",
+            "description": "$color.fuchsia.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.fuchsia.800}",
+            "type": "color",
+            "description": "$color.fuchsia.800",
+            "failedToResolve": true
           }
         },
         "yellow": {
-          "strong": {
-            "value": "{color.yellow.500}",
-            "type": "color",
-            "description": "$color.yellow.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.yellow.50}",
             "type": "color",
             "description": "$color.yellow.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.yellow.100}",
             "type": "color",
             "description": "$color.yellow.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.yellow.500}",
+            "type": "color",
+            "description": "$color.yellow.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.yellow.800}",
+            "type": "color",
+            "description": "$color.yellow.800",
+            "failedToResolve": true
           }
         },
         "zinc": {
-          "strong": {
-            "value": "{color.zinc.500}",
-            "type": "color",
-            "description": "$color.zinc.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.zinc.50}",
             "type": "color",
             "description": "$color.zinc.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.zinc.100}",
             "type": "color",
             "description": "$color.zinc.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.zinc.500}",
+            "type": "color",
+            "description": "$color.zinc.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.zinc.800}",
+            "type": "color",
+            "description": "$color.zinc.800",
+            "failedToResolve": true
           }
         },
         "cerise": {
-          "strong": {
-            "value": "{color.cerise.500}",
-            "type": "color",
-            "description": "$color.cerise.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.cerise.50}",
             "type": "color",
             "description": "$color.cerise.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.cerise.100}",
             "type": "color",
             "description": "$color.cerise.100",
             "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.cerise.500}",
+            "type": "color",
+            "description": "$color.cerise.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.cerise.800}",
+            "type": "color",
+            "description": "$color.cerise.800",
+            "failedToResolve": true
           }
         },
         "rose": {
-          "strong": {
-            "value": "{color.rose.500}",
-            "type": "color",
-            "description": "$color.rose.500",
-            "failedToResolve": true
-          },
-          "weak": {
+          "DEFAULT": {
             "value": "{color.rose.50}",
             "type": "color",
             "description": "$color.rose.50",
             "failedToResolve": true
           },
-          "medium": {
+          "weak": {
             "value": "{color.rose.100}",
             "type": "color",
             "description": "$color.rose.100",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.rose.500}",
+            "type": "color",
+            "description": "$color.rose.500",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.rose.800}",
+            "type": "color",
+            "description": "$color.rose.800",
             "failedToResolve": true
           }
         }
@@ -565,6 +667,144 @@
           "type": "color",
           "description": "linear-gradient(180deg, rgba({color.black}, 0.02) 2%, rgba({color.black}, 0.10) 100%)",
           "failedToResolve": true
+        }
+      },
+      "decorative": {
+        "amber": {
+          "medium": {
+            "value": "{color.amber.800}",
+            "type": "color",
+            "description": "$color.amber.800",
+            "failedToResolve": true
+          }
+        },
+        "orange": {
+          "medium": {
+            "value": "{color.orange.800}",
+            "type": "color",
+            "description": "$color.orange.800",
+            "failedToResolve": true
+          }
+        },
+        "lime": {
+          "medium": {
+            "value": "{color.lime.800}",
+            "type": "color",
+            "description": "$color.lime.800",
+            "failedToResolve": true
+          }
+        },
+        "green": {
+          "medium": {
+            "value": "{color.green.800}",
+            "type": "color",
+            "description": "$color.green.800",
+            "failedToResolve": true
+          }
+        },
+        "emerald": {
+          "medium": {
+            "value": "{color.emerald.800}",
+            "type": "color",
+            "description": "$color.emerald.800",
+            "failedToResolve": true
+          }
+        },
+        "teal": {
+          "medium": {
+            "value": "{color.teal.800}",
+            "type": "color",
+            "description": "$color.teal.800",
+            "failedToResolve": true
+          }
+        },
+        "cyan": {
+          "medium": {
+            "value": "{color.cyan.800}",
+            "type": "color",
+            "description": "$color.cyan.800",
+            "failedToResolve": true
+          }
+        },
+        "light-blue": {
+          "medium": {
+            "value": "{color.light-blue.800}",
+            "type": "color",
+            "description": "$color.light-blue.800",
+            "failedToResolve": true
+          }
+        },
+        "blue": {
+          "medium": {
+            "value": "{color.blue.800}",
+            "type": "color",
+            "description": "$color.blue.800",
+            "failedToResolve": true
+          }
+        },
+        "indigo": {
+          "medium": {
+            "value": "{color.indigo.800}",
+            "type": "color",
+            "description": "$color.indigo.800",
+            "failedToResolve": true
+          }
+        },
+        "violet": {
+          "medium": {
+            "value": "{color.violet.800}",
+            "type": "color",
+            "description": "$color.violet.800",
+            "failedToResolve": true
+          }
+        },
+        "purple": {
+          "medium": {
+            "value": "{color.purple.800}",
+            "type": "color",
+            "description": "$color.purple.800",
+            "failedToResolve": true
+          }
+        },
+        "fuchsia": {
+          "medium": {
+            "value": "{color.fuchsia.800}",
+            "type": "color",
+            "description": "$color.fuchsia.800",
+            "failedToResolve": true
+          }
+        },
+        "yellow": {
+          "medium": {
+            "value": "{color.yellow.800}",
+            "type": "color",
+            "description": "$color.yellow.800",
+            "failedToResolve": true
+          }
+        },
+        "zinc": {
+          "medium": {
+            "value": "{color.zinc.800}",
+            "type": "color",
+            "description": "$color.zinc.800",
+            "failedToResolve": true
+          }
+        },
+        "cerise": {
+          "medium": {
+            "value": "{color.cerise.800}",
+            "type": "color",
+            "description": "$color.cerise.800",
+            "failedToResolve": true
+          }
+        },
+        "rose": {
+          "medium": {
+            "value": "{color.rose.800}",
+            "type": "color",
+            "description": "$color.rose.800",
+            "failedToResolve": true
+          }
         }
       }
     },
@@ -1023,6 +1263,12 @@
           "type": "color",
           "description": "$color.green.600",
           "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "{color.white}",
+          "failedToResolve": true
         }
       },
       "danger": {
@@ -1030,6 +1276,12 @@
           "value": "{color.red.600}",
           "type": "color",
           "description": "$color.red.600",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "{color.white}",
           "failedToResolve": true
         }
       },
@@ -1039,6 +1291,12 @@
           "type": "color",
           "description": "$color.amber.600",
           "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "{color.white}",
+          "failedToResolve": true
         }
       },
       "info": {
@@ -1046,6 +1304,12 @@
           "value": "{color.light-blue.600}",
           "type": "color",
           "description": "$color.light-blue.600",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "{color.white}",
           "failedToResolve": true
         }
       },

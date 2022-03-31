@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 25 Mar 2022 08:26:52 GMT
+ * Generated on Thu, 31 Mar 2022 20:13:03 GMT
  */
 
 module.exports = {
@@ -42,89 +42,106 @@ module.exports = {
     },
     "decorative": {
       "amber": {
-        "strong": "var(--color-background-decorative-amber-strong)",
+        "DEFAULT": "var(--color-background-decorative-amber-default)",
         "weak": "var(--color-background-decorative-amber-weak)",
-        "medium": "var(--color-background-decorative-amber-medium)"
+        "medium": "var(--color-background-decorative-amber-medium)",
+        "strong": "var(--color-background-decorative-amber-strong)"
       },
       "orange": {
-        "strong": "var(--color-background-decorative-orange-strong)",
+        "DEFAULT": "var(--color-background-decorative-orange-default)",
         "weak": "var(--color-background-decorative-orange-weak)",
-        "medium": "var(--color-background-decorative-orange-medium)"
+        "medium": "var(--color-background-decorative-orange-medium)",
+        "strong": "var(--color-background-decorative-orange-strong)"
       },
       "lime": {
-        "strong": "var(--color-background-decorative-lime-strong)",
+        "DEFAULT": "var(--color-background-decorative-lime-default)",
         "weak": "var(--color-background-decorative-lime-weak)",
-        "medium": "var(--color-background-decorative-lime-medium)"
+        "medium": "var(--color-background-decorative-lime-medium)",
+        "strong": "var(--color-background-decorative-lime-strong)"
       },
       "green": {
-        "strong": "var(--color-background-decorative-green-strong)",
+        "DEFAULT": "var(--color-background-decorative-green-default)",
         "weak": "var(--color-background-decorative-green-weak)",
-        "medium": "var(--color-background-decorative-green-medium)"
+        "medium": "var(--color-background-decorative-green-medium)",
+        "strong": "var(--color-background-decorative-green-strong)"
       },
       "emerald": {
-        "strong": "var(--color-background-decorative-emerald-strong)",
+        "DEFAULT": "var(--color-background-decorative-emerald-default)",
         "weak": "var(--color-background-decorative-emerald-weak)",
-        "medium": "var(--color-background-decorative-emerald-medium)"
+        "medium": "var(--color-background-decorative-emerald-medium)",
+        "strong": "var(--color-background-decorative-emerald-strong)"
       },
       "teal": {
-        "strong": "var(--color-background-decorative-teal-strong)",
+        "DEFAULT": "var(--color-background-decorative-teal-default)",
         "weak": "var(--color-background-decorative-teal-weak)",
-        "medium": "var(--color-background-decorative-teal-medium)"
+        "medium": "var(--color-background-decorative-teal-medium)",
+        "strong": "var(--color-background-decorative-teal-strong)"
       },
       "cyan": {
-        "strong": "var(--color-background-decorative-cyan-strong)",
+        "DEFAULT": "var(--color-background-decorative-cyan-default)",
         "weak": "var(--color-background-decorative-cyan-weak)",
-        "medium": "var(--color-background-decorative-cyan-medium)"
+        "medium": "var(--color-background-decorative-cyan-medium)",
+        "strong": "var(--color-background-decorative-cyan-strong)"
       },
       "light-blue": {
-        "strong": "var(--color-background-decorative-light-blue-strong)",
+        "DEFAULT": "var(--color-background-decorative-light-blue-default)",
         "weak": "var(--color-background-decorative-light-blue-weak)",
-        "medium": "var(--color-background-decorative-light-blue-medium)"
+        "medium": "var(--color-background-decorative-light-blue-medium)",
+        "strong": "var(--color-background-decorative-light-blue-strong)"
       },
       "blue": {
-        "strong": "var(--color-background-decorative-blue-strong)",
+        "DEFAULT": "var(--color-background-decorative-blue-default)",
         "weak": "var(--color-background-decorative-blue-weak)",
-        "medium": "var(--color-background-decorative-blue-medium)"
+        "medium": "var(--color-background-decorative-blue-medium)",
+        "strong": "var(--color-background-decorative-blue-strong)"
       },
       "indigo": {
-        "strong": "var(--color-background-decorative-indigo-strong)",
+        "DEFAULT": "var(--color-background-decorative-indigo-default)",
         "weak": "var(--color-background-decorative-indigo-weak)",
-        "medium": "var(--color-background-decorative-indigo-medium)"
+        "medium": "var(--color-background-decorative-indigo-medium)",
+        "strong": "var(--color-background-decorative-indigo-strong)"
       },
       "violet": {
-        "strong": "var(--color-background-decorative-violet-strong)",
+        "DEFAULT": "var(--color-background-decorative-violet-default)",
         "weak": "var(--color-background-decorative-violet-weak)",
-        "medium": "var(--color-background-decorative-violet-medium)"
+        "medium": "var(--color-background-decorative-violet-medium)",
+        "strong": "var(--color-background-decorative-violet-strong)"
       },
       "purple": {
-        "strong": "var(--color-background-decorative-purple-strong)",
+        "DEFAULT": "var(--color-background-decorative-purple-default)",
         "weak": "var(--color-background-decorative-purple-weak)",
-        "medium": "var(--color-background-decorative-purple-medium)"
+        "medium": "var(--color-background-decorative-purple-medium)",
+        "strong": "var(--color-background-decorative-purple-strong)"
       },
       "fuchsia": {
-        "strong": "var(--color-background-decorative-fuchsia-strong)",
+        "DEFAULT": "var(--color-background-decorative-fuchsia-default)",
         "weak": "var(--color-background-decorative-fuchsia-weak)",
-        "medium": "var(--color-background-decorative-fuchsia-medium)"
+        "medium": "var(--color-background-decorative-fuchsia-medium)",
+        "strong": "var(--color-background-decorative-fuchsia-strong)"
       },
       "yellow": {
-        "strong": "var(--color-background-decorative-yellow-strong)",
+        "DEFAULT": "var(--color-background-decorative-yellow-default)",
         "weak": "var(--color-background-decorative-yellow-weak)",
-        "medium": "var(--color-background-decorative-yellow-medium)"
+        "medium": "var(--color-background-decorative-yellow-medium)",
+        "strong": "var(--color-background-decorative-yellow-strong)"
       },
       "zinc": {
-        "strong": "var(--color-background-decorative-zinc-strong)",
+        "DEFAULT": "var(--color-background-decorative-zinc-default)",
         "weak": "var(--color-background-decorative-zinc-weak)",
-        "medium": "var(--color-background-decorative-zinc-medium)"
+        "medium": "var(--color-background-decorative-zinc-medium)",
+        "strong": "var(--color-background-decorative-zinc-strong)"
       },
       "cerise": {
-        "strong": "var(--color-background-decorative-cerise-strong)",
+        "DEFAULT": "var(--color-background-decorative-cerise-default)",
         "weak": "var(--color-background-decorative-cerise-weak)",
-        "medium": "var(--color-background-decorative-cerise-medium)"
+        "medium": "var(--color-background-decorative-cerise-medium)",
+        "strong": "var(--color-background-decorative-cerise-strong)"
       },
       "rose": {
-        "strong": "var(--color-background-decorative-rose-strong)",
+        "DEFAULT": "var(--color-background-decorative-rose-default)",
         "weak": "var(--color-background-decorative-rose-weak)",
-        "medium": "var(--color-background-decorative-rose-medium)"
+        "medium": "var(--color-background-decorative-rose-medium)",
+        "strong": "var(--color-background-decorative-rose-strong)"
       }
     }
   },
@@ -150,6 +167,59 @@ module.exports = {
       "medium": "var(--color-border-action-medium)",
       "medium-active": "var(--color-border-action-medium-active)",
       "strong": "var(--color-border-action-strong)"
+    },
+    "decorative": {
+      "amber": {
+        "medium": "var(--color-border-decorative-amber-medium)"
+      },
+      "orange": {
+        "medium": "var(--color-border-decorative-orange-medium)"
+      },
+      "lime": {
+        "medium": "var(--color-border-decorative-lime-medium)"
+      },
+      "green": {
+        "medium": "var(--color-border-decorative-green-medium)"
+      },
+      "emerald": {
+        "medium": "var(--color-border-decorative-emerald-medium)"
+      },
+      "teal": {
+        "medium": "var(--color-border-decorative-teal-medium)"
+      },
+      "cyan": {
+        "medium": "var(--color-border-decorative-cyan-medium)"
+      },
+      "light-blue": {
+        "medium": "var(--color-border-decorative-light-blue-medium)"
+      },
+      "blue": {
+        "medium": "var(--color-border-decorative-blue-medium)"
+      },
+      "indigo": {
+        "medium": "var(--color-border-decorative-indigo-medium)"
+      },
+      "violet": {
+        "medium": "var(--color-border-decorative-violet-medium)"
+      },
+      "purple": {
+        "medium": "var(--color-border-decorative-purple-medium)"
+      },
+      "fuchsia": {
+        "medium": "var(--color-border-decorative-fuchsia-medium)"
+      },
+      "yellow": {
+        "medium": "var(--color-border-decorative-yellow-medium)"
+      },
+      "zinc": {
+        "medium": "var(--color-border-decorative-zinc-medium)"
+      },
+      "cerise": {
+        "medium": "var(--color-border-decorative-cerise-medium)"
+      },
+      "rose": {
+        "medium": "var(--color-border-decorative-rose-medium)"
+      }
     }
   },
   "text": {
@@ -272,16 +342,20 @@ module.exports = {
       "weak": "var(--color-icon-neutral-weak)"
     },
     "success": {
-      "DEFAULT": "var(--color-icon-success-default)"
+      "DEFAULT": "var(--color-icon-success-default)",
+      "strong": "var(--color-icon-success-strong)"
     },
     "danger": {
-      "DEFAULT": "var(--color-icon-danger-default)"
+      "DEFAULT": "var(--color-icon-danger-default)",
+      "strong": "var(--color-icon-danger-strong)"
     },
     "warning": {
-      "DEFAULT": "var(--color-icon-warning-default)"
+      "DEFAULT": "var(--color-icon-warning-default)",
+      "strong": "var(--color-icon-warning-strong)"
     },
     "info": {
-      "DEFAULT": "var(--color-icon-info-default)"
+      "DEFAULT": "var(--color-icon-info-default)",
+      "strong": "var(--color-icon-info-strong)"
     },
     "decorative": {
       "amber": {
