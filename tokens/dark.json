@@ -1096,7 +1096,7 @@
           "description": "{color.white}",
           "failedToResolve": true
         },
-        "medium-medium": {
+        "medium-active": {
           "value": "{color.zinc.50}",
           "type": "color",
           "description": "$color.zinc.50",
