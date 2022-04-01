@@ -876,12 +876,6 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
-            "failedToResolve": true
-          },
-          "medium": {
             "value": "{color.amber.700}",
             "type": "color",
             "description": "$color.amber.700",
@@ -905,12 +899,6 @@
             "value": "{color.orange.800}",
             "type": "color",
             "description": "$color.orange.800",
-            "failedToResolve": true
-          },
-          "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
             "failedToResolve": true
           },
           "medium": {
@@ -940,12 +928,6 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
-            "failedToResolve": true
-          },
-          "medium": {
             "value": "{color.fuchsia.700}",
             "type": "color",
             "description": "$color.fuchsia.700",
@@ -969,12 +951,6 @@
             "value": "{color.purple.800}",
             "type": "color",
             "description": "$color.purple.800",
-            "failedToResolve": true
-          },
-          "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
             "failedToResolve": true
           },
           "medium": {
@@ -1004,12 +980,6 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
-            "failedToResolve": true
-          },
-          "medium": {
             "value": "{color.violet.700}",
             "type": "color",
             "description": "$color.violet.700",
@@ -1033,12 +1003,6 @@
             "value": "{color.indigo.800}",
             "type": "color",
             "description": "$color.indigo.800",
-            "failedToResolve": true
-          },
-          "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
             "failedToResolve": true
           },
           "medium": {
@@ -1068,12 +1032,6 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
-            "failedToResolve": true
-          },
-          "medium": {
             "value": "{color.blue.700}",
             "type": "color",
             "description": "$color.blue.700",
@@ -1097,12 +1055,6 @@
             "value": "{color.light-blue.800}",
             "type": "color",
             "description": "$color.light-blue.800",
-            "failedToResolve": true
-          },
-          "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
             "failedToResolve": true
           },
           "medium": {
@@ -1132,12 +1084,6 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
-            "failedToResolve": true
-          },
-          "medium": {
             "value": "{color.cyan.700}",
             "type": "color",
             "description": "$color.cyan.700",
@@ -1161,12 +1107,6 @@
             "value": "{color.teal.800}",
             "type": "color",
             "description": "$color.teal.800",
-            "failedToResolve": true
-          },
-          "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
             "failedToResolve": true
           },
           "medium": {
@@ -1196,12 +1136,6 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
-            "failedToResolve": true
-          },
-          "medium": {
             "value": "{color.emerald.700}",
             "type": "color",
             "description": "$color.emerald.700",
@@ -1225,12 +1159,6 @@
             "value": "{color.green.800}",
             "type": "color",
             "description": "$color.green.800",
-            "failedToResolve": true
-          },
-          "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
             "failedToResolve": true
           },
           "medium": {
@@ -1260,12 +1188,6 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
-            "failedToResolve": true
-          },
-          "medium": {
             "value": "{color.lime.700}",
             "type": "color",
             "description": "$color.lime.700",
@@ -1289,12 +1211,6 @@
             "value": "{color.cerise.800}",
             "type": "color",
             "description": "$color.cerise.800",
-            "failedToResolve": true
-          },
-          "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
             "failedToResolve": true
           },
           "medium": {
@@ -1324,12 +1240,6 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
-            "failedToResolve": true
-          },
-          "medium": {
             "value": "{color.yellow.700}",
             "type": "color",
             "description": "$color.yellow.700",
@@ -1356,12 +1266,6 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
-            "failedToResolve": true
-          },
-          "medium": {
             "value": "{color.zinc.700}",
             "type": "color",
             "description": "$color.zinc.700",
@@ -1385,12 +1289,6 @@
             "value": "{color.rose.800}",
             "type": "color",
             "description": "$color.rose.800",
-            "failedToResolve": true
-          },
-          "medium": {
-            "value": "{color.white}",
-            "type": "color",
-            "description": "$color.white",
             "failedToResolve": true
           },
           "medium": {
