@@ -15,7 +15,7 @@
   --color-background-info-strong: rgb(14, 165, 233);
   --color-background-action-strong: rgb(244, 63, 133);
   --color-background-action-strong-hover: rgb(215, 37, 109);
-  --color-background-action-strong-active: rgb(181, 22, 91);
+  --color-background-action-strong-active: rgb(215, 37, 109);
   --color-background-action-strong-disabled: rgba(244,63,133, 0.5);
   --color-background-action-medium: rgb(255, 255, 255);
   --color-background-action-medium-hover: rgb(248, 248, 249);
@@ -192,12 +192,13 @@
   --color-text-decorative-rose-weak: rgb(159, 18, 57);
   --color-text-decorative-rose-medium: rgb(255, 255, 255);
   --color-text-decorative-rose-strong: rgb(255, 255, 255);
-  --color-text-action-strong: rgb(255, 255, 255);
   --color-text-action-default: rgb(244, 63, 133);
-  --color-text-action-default-active: rgb(244, 63, 133);
+  --color-text-action-default-active: rgb(215, 37, 109);
   --color-text-action-weak: rgb(52, 53, 58);
   --color-text-action-weak-active: rgb(244, 63, 133);
   --color-text-action-medium: rgb(52, 53, 58);
+  --color-text-action-medium-active: rgb(244, 63, 133);
+  --color-text-action-strong: rgb(255, 255, 255);
   --color-icon-neutral-default: rgb(87, 89, 95);
   --color-icon-neutral-weak: rgb(178, 179, 185);
   --color-icon-success-default: rgb(22, 163, 27);

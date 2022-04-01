@@ -345,12 +345,13 @@ module.exports = {
       }
     },
     "action": {
-      "strong": "var(--color-text-action-strong)",
       "DEFAULT": "var(--color-text-action-default)",
       "default-active": "var(--color-text-action-default-active)",
       "weak": "var(--color-text-action-weak)",
       "weak-active": "var(--color-text-action-weak-active)",
-      "medium": "var(--color-text-action-medium)"
+      "medium": "var(--color-text-action-medium)",
+      "medium-active": "var(--color-text-action-medium-active)",
+      "strong": "var(--color-text-action-strong)"
     }
   },
   "icon": {
