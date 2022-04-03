@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 01 Apr 2022 13:32:02 GMT
+ * Generated on Sun, 03 Apr 2022 06:38:18 GMT
  */
 
 module.exports = {
@@ -228,6 +228,15 @@ module.exports = {
       "weak": "var(--color-text-neutral-weak)",
       "medium": "var(--color-text-neutral-medium)"
     },
+    "action": {
+      "DEFAULT": "var(--color-text-action-default)",
+      "default-active": "var(--color-text-action-default-active)",
+      "weak": "var(--color-text-action-weak)",
+      "weak-active": "var(--color-text-action-weak-active)",
+      "medium": "var(--color-text-action-medium)",
+      "medium-active": "var(--color-text-action-medium-active)",
+      "strong": "var(--color-text-action-strong)"
+    },
     "success": {
       "DEFAULT": "var(--color-text-success-default)"
     },
@@ -343,15 +352,6 @@ module.exports = {
         "medium": "var(--color-text-decorative-rose-medium)",
         "strong": "var(--color-text-decorative-rose-strong)"
       }
-    },
-    "action": {
-      "DEFAULT": "var(--color-text-action-default)",
-      "default-active": "var(--color-text-action-default-active)",
-      "weak": "var(--color-text-action-weak)",
-      "weak-active": "var(--color-text-action-weak-active)",
-      "medium": "var(--color-text-action-medium)",
-      "medium-active": "var(--color-text-action-medium-active)",
-      "strong": "var(--color-text-action-strong)"
     }
   },
   "icon": {
