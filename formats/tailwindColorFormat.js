@@ -28,7 +28,7 @@ const tailwindColorFormat = function ({
   return (
     fileHeader({ file }) +
     'module.exports' +
-    ' = ' +
+    ' = /** @type {const} */ ' +
     JSON.stringify(colors, null, 2) +
     ';'
   );

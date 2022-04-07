@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Tue, 05 Apr 2022 05:08:38 GMT
+ * Generated on Thu, 07 Apr 2022 18:43:37 GMT
  */
 
-module.exports = {
+module.exports = /** @type {const} */ {
   "background": {
     "canvas": "var(--color-background-canvas)",
     "neutral": {
