@@ -43,7 +43,7 @@ const twSpectrumConfig = {
   source: ['tokens/spectrum.json'],
   platforms: {
     tailwind: {
-      buildPath: 'output/',
+      buildPath: 'src/output/',
       transformGroup: 'js',
       transforms: ['attribute/cti', 'name/cti/kebab'],
       files: [
@@ -70,7 +70,7 @@ const twThemeConfig = {
   source: ['tokens/spectrum.json', `tokens/light.json`],
   platforms: {
     tailwind: {
-      buildPath: 'output/',
+      buildPath: 'src/output/',
       transformGroup: 'js',
       transforms: ['attribute/cti', 'name/cti/kebab', 'color/css'],
       files: [
@@ -100,7 +100,7 @@ const themeConfig = (theme) => {
           'color/rgb',
           'css/duplicate-rgb',
         ],
-        buildPath: `output/`,
+        buildPath: `src/output/`,
         files: [
           {
             filter: function (token) {

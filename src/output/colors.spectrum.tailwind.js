@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Tue, 05 Apr 2022 05:08:37 GMT
+ * Generated on Thu, 07 Apr 2022 18:43:37 GMT
  */
 
-module.exports = {
+module.exports = /** @type {const} */ {
   "black": "#000000",
   "white": "#ffffff",
   "zinc": {

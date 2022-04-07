@@ -16,8 +16,7 @@ To use this inside your Tailwind config you should import the relevant config in
 
 ```javascript
 // tailwind.config.js
-const tokenColors = require('@teamtailor/design-tokens/output/colors.spectrum.tailwind.js');
-const themeColors = require('@teamtailor/design-tokens/output/colors.theme.tailwind.js');
+const {tokenColors, themeColors} = require('@teamtailor/design-tokens');
 
 module.exports = {
   // ...
@@ -50,15 +49,6 @@ Make sure to import the specific theme css files to be able to use functional co
 Css files are located here and are apply by using `.theme-light` or `.theme-dark`, on a wrapper.
 
 ```
-@teamtailor/design-tokens/output/theme-light.css';
-@teamtailor/design-tokens/output/theme-dark.css';
+@teamtailor/design-tokens/src/output/theme-light.css';
+@teamtailor/design-tokens/src/output/theme-dark.css';
 ```
-
-## Configs
-
-These are the possible config files that you can use inside your tailwind.config.js
-
-| Config          | File path                          |
-| --------------- | ---------------------------------- |
-| spectrum colors | output/colors.spectrum.tailwind.js |
-| theme colors    | output/colors.theme.tailwind.js    |
