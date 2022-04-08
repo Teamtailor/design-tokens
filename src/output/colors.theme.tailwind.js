@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 07 Apr 2022 18:43:37 GMT
+ * Generated on Fri, 08 Apr 2022 07:50:35 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -142,6 +142,12 @@ module.exports = /** @type {const} */ {
         "weak": "var(--color-background-decorative-rose-weak)",
         "medium": "var(--color-background-decorative-rose-medium)",
         "strong": "var(--color-background-decorative-rose-strong)"
+      },
+      "red": {
+        "DEFAULT": "var(--color-background-decorative-red-default)",
+        "weak": "var(--color-background-decorative-red-weak)",
+        "medium": "var(--color-background-decorative-red-medium)",
+        "strong": "var(--color-background-decorative-red-strong)"
       }
     }
   },
@@ -219,6 +225,9 @@ module.exports = /** @type {const} */ {
       },
       "rose": {
         "medium": "var(--color-border-decorative-rose-medium)"
+      },
+      "red": {
+        "medium": "var(--color-border-decorative-red-medium)"
       }
     }
   },
@@ -351,6 +360,12 @@ module.exports = /** @type {const} */ {
         "weak": "var(--color-text-decorative-rose-weak)",
         "medium": "var(--color-text-decorative-rose-medium)",
         "strong": "var(--color-text-decorative-rose-strong)"
+      },
+      "red": {
+        "DEFAULT": "var(--color-text-decorative-red-default)",
+        "weak": "var(--color-text-decorative-red-weak)",
+        "medium": "var(--color-text-decorative-red-medium)",
+        "strong": "var(--color-text-decorative-red-strong)"
       }
     }
   },
@@ -477,6 +492,12 @@ module.exports = /** @type {const} */ {
         "weak": "var(--color-icon-decorative-rose-weak)",
         "medium": "var(--color-icon-decorative-rose-medium)",
         "strong": "var(--color-icon-decorative-rose-strong)"
+      },
+      "red": {
+        "DEFAULT": "var(--color-icon-decorative-red-default)",
+        "weak": "var(--color-icon-decorative-red-weak)",
+        "medium": "var(--color-icon-decorative-red-medium)",
+        "strong": "var(--color-icon-decorative-red-strong)"
       }
     }
   }
