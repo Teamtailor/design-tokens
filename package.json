@@ -2,7 +2,7 @@
   "name": "@teamtailor/design-tokens",
   "version": "0.3.6",
   "description": "Teamtailor Design tokens",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "author": "Dev <dev@teamtailor.com>",
   "license": "MIT",
   "scripts": {
