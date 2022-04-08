@@ -593,6 +593,32 @@
             "description": "{color.rose.800}",
             "failedToResolve": true
           }
+        },
+        "red": {
+          "DEFAULT": {
+            "value": "{color.red.50}",
+            "type": "color",
+            "description": "{color.red.50}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.red.100}",
+            "type": "color",
+            "description": "{color.red.100",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.red.500}",
+            "type": "color",
+            "description": "{color.red.500}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.red.800}",
+            "type": "color",
+            "description": "{color.red.800}",
+            "failedToResolve": true
+          }
         }
       }
     },
@@ -803,6 +829,14 @@
             "value": "{color.rose.800}",
             "type": "color",
             "description": "{color.rose.800}",
+            "failedToResolve": true
+          }
+        },
+        "red": {
+          "medium": {
+            "value": "{color.red.800}",
+            "type": "color",
+            "description": "{color.red.800}",
             "failedToResolve": true
           }
         }
@@ -1347,6 +1381,32 @@
             "description": "{color.white}",
             "failedToResolve": true
           }
+        },
+        "red": {
+          "DEFAULT": {
+            "value": "{color.red.600}",
+            "type": "color",
+            "description": "{color.red.600}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.red.800}",
+            "type": "color",
+            "description": "{color.red.800}",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "{color.white}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "{color.white}",
+            "failedToResolve": true
+          }
         }
       }
     },
@@ -1849,6 +1909,32 @@
             "value": "{color.rose.800}",
             "type": "color",
             "description": "{color.rose.800}",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "{color.white}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.white}",
+            "type": "color",
+            "description": "{color.white}",
+            "failedToResolve": true
+          }
+        },
+        "red": {
+          "DEFAULT": {
+            "value": "{color.red.600}",
+            "type": "color",
+            "description": "{color.red.600}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.red.800}",
+            "type": "color",
+            "description": "{color.red.800}",
             "failedToResolve": true
           },
           "medium": {

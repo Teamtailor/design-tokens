@@ -90,6 +90,10 @@
   --color-background-decorative-rose-weak: rgb(255, 228, 230);
   --color-background-decorative-rose-medium: rgb(244, 63, 94);
   --color-background-decorative-rose-strong: rgb(159, 18, 57);
+  --color-background-decorative-red-default: rgb(254, 242, 242);
+  --color-background-decorative-red-weak: rgb(254, 226, 226);
+  --color-background-decorative-red-medium: rgb(239, 68, 68);
+  --color-background-decorative-red-strong: rgb(153, 27, 27);
   --color-border-neutral-default: rgba(255,255,255, 0.06);
   --color-border-neutral-medium: rgba(255,255,255, 0.11);
   --color-border-neutral-strong: rgba(255,255,255, 0.2);
@@ -117,6 +121,7 @@
   --color-border-decorative-zinc-medium: rgb(40, 40, 43);
   --color-border-decorative-cerise-medium: rgb(157, 23, 77);
   --color-border-decorative-rose-medium: rgb(159, 18, 57);
+  --color-border-decorative-red-medium: rgb(153, 27, 27);
   --color-text-neutral-default: rgb(244, 244, 245);
   --color-text-neutral-weak: rgb(113, 113, 122);
   --color-text-neutral-medium: rgb(178, 179, 185);
@@ -199,6 +204,10 @@
   --color-text-decorative-rose-weak: rgb(159, 18, 57);
   --color-text-decorative-rose-medium: rgb(255, 255, 255);
   --color-text-decorative-rose-strong: rgb(255, 255, 255);
+  --color-text-decorative-red-default: rgb(220, 38, 38);
+  --color-text-decorative-red-weak: rgb(153, 27, 27);
+  --color-text-decorative-red-medium: rgb(255, 255, 255);
+  --color-text-decorative-red-strong: rgb(255, 255, 255);
   --color-icon-neutral-default: rgb(178, 179, 185);
   --color-icon-neutral-weak: rgb(113, 113, 122);
   --color-icon-success-default: rgb(22, 163, 27);
@@ -277,4 +286,8 @@
   --color-icon-decorative-rose-weak: rgb(159, 18, 57);
   --color-icon-decorative-rose-medium: rgb(255, 255, 255);
   --color-icon-decorative-rose-strong: rgb(255, 255, 255);
+  --color-icon-decorative-red-default: rgb(220, 38, 38);
+  --color-icon-decorative-red-weak: rgb(153, 27, 27);
+  --color-icon-decorative-red-medium: rgb(255, 255, 255);
+  --color-icon-decorative-red-strong: rgb(255, 255, 255);
 }
