@@ -1,6 +1,7 @@
 /** @format */
 const StyleDictionaryPackage = require('style-dictionary');
 const tailwindThemeColorFormat = require('./formats/tailwindColorFormat');
+const reactThemeColorFormat = require('./formats/reactColorFormat');
 
 StyleDictionaryPackage.registerFormat({
   name: 'css/variables',
@@ -89,6 +90,32 @@ const twThemeConfig = {
   },
 };
 
+const reactThemeConfig = (theme) => ({
+  format: {
+    reactThemeColorFormat,
+  },
+  source: ['tokens/spectrum.json', `tokens/${theme}.json`],
+  platforms: {
+    react: {
+      buildPath: 'src/output/',
+      transformGroup: 'js',
+      transforms: ['name/cti/camel', 'size/object', 'color/css'],
+      files: [
+        {
+          filter: function (token) {
+            return token.filePath === `tokens/${theme}.json`;
+          },
+          destination: `colors.theme.${theme}.react.js`,
+          format: 'reactThemeColorFormat',
+          options: {
+            theme: true,
+          },
+        },
+      ],
+    },
+  },
+});
+
 const themeConfig = (theme) => {
   return {
     source: ['tokens/spectrum.json', `tokens/${theme}.json`],
@@ -125,6 +152,12 @@ dictionaryTailwindColors.buildPlatform('tailwind');
 console.log(`\nProcessing: Theme`);
 const dictionaryTailwindTheme = StyleDictionaryPackage.extend(twThemeConfig);
 dictionaryTailwindTheme.buildPlatform('tailwind');
+
+const dictionaryReactLightTheme = StyleDictionaryPackage.extend(reactThemeConfig('light'));
+dictionaryReactLightTheme.buildPlatform('react');
+
+const dictionaryReactDarkTheme = StyleDictionaryPackage.extend(reactThemeConfig('dark'));
+dictionaryReactDarkTheme.buildPlatform('react');
 
 console.log(`\nProcessing: Light`);
 const dictionaryLight = StyleDictionaryPackage.extend(themeConfig('light'));

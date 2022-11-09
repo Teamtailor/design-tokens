@@ -68,6 +68,10 @@
       "900": {
         "value": "#1c1c1e",
         "type": "color"
+      },
+      "1000": {
+        "value": "#0f0f10",
+        "type": "color"
       }
     },
     "pink": {
