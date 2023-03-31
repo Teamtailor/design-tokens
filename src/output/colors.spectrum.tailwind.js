@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 08 Apr 2022 08:15:47 GMT
+ * Generated on Fri, 31 Mar 2023 13:02:57 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -21,7 +21,8 @@ module.exports = /** @type {const} */ {
     "700": "#3f3f46",
     "750": "#34353a",
     "800": "#28282b",
-    "900": "#1c1c1e"
+    "900": "#1c1c1e",
+    "1000": "#0f0f10"
   },
   "pink": {
     "50": "#fff0f5",

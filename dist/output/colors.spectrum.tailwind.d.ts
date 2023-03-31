@@ -17,6 +17,7 @@ declare const _exports: {
         "750": string;
         "800": string;
         "900": string;
+        "1000": string;
     };
     pink: {
         "50": string;
