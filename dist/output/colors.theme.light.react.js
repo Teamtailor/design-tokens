@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Mon, 03 Apr 2023 10:16:14 GMT
+ * Generated on Mon, 03 Apr 2023 12:01:52 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -33,7 +33,7 @@ module.exports = /** @type {const} */ {
             "strong": "#f43f85",
             "strongHover": "#d7256d",
             "strongActive": "#b5165b",
-            "strongDisabled": "rgba(#f43f85, 0.5)",
+            "strongDisabled": "rgba(244,63,133, 0.5)",
             "medium": "#ffffff",
             "mediumHover": "#f8f8f9",
             "mediumActive": "#fff0f5",
@@ -153,26 +153,26 @@ module.exports = /** @type {const} */ {
     },
     "border": {
         "neutral": {
-            "default": "rgba(#000000, 0.06)",
-            "medium": "rgba(#000000, 0.11)",
-            "strong": "rgba(#000000, 0.2)"
+            "default": "rgba(0,0,0, 0.06)",
+            "medium": "rgba(0,0,0, 0.11)",
+            "strong": "rgba(0,0,0, 0.2)"
         },
         "success": {
-            "default": "rgba(#34353a, 0.05)"
+            "default": "rgba(52,53,58, 0.05)"
         },
         "danger": {
-            "default": "rgba(#34353a, 0.05)"
+            "default": "rgba(52,53,58, 0.05)"
         },
         "warning": {
-            "default": "rgba(#34353a, 0.05)"
+            "default": "rgba(52,53,58, 0.05)"
         },
         "info": {
-            "default": "rgba(#34353a, 0.05)"
+            "default": "rgba(52,53,58, 0.05)"
         },
         "action": {
             "medium": "#e4e4e7",
-            "mediumActive": "rgba(#000000, 0.05)",
-            "strong": "linear-gradient(180deg, rgba(#000000, 0.02) 2%, rgba(#000000, 0.10) 100%)"
+            "mediumActive": "rgba(0,0,0, 0.05)",
+            "strong": "linear-gradient(180deg, rgba(0,0,0, 0.02) 2%, rgba(0,0,0, 0.10) 100%)"
         },
         "decorative": {
             "amber": {
