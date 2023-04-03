@@ -90,6 +90,32 @@ const twThemeConfig = {
   },
 };
 
+const reactSpectrumConfig = {
+  format: {
+    reactThemeColorFormat,
+  },
+  source: ['tokens/spectrum.json'],
+  platforms: {
+    react: {
+      buildPath: 'src/output/',
+      transformGroup: 'js',
+      transforms: ['name/cti/camel', 'size/object', 'color/css'],
+      files: [
+        {
+          filter: function (token) {
+            return token.filePath === `tokens/spectrum.json`;
+          },
+          destination: `colors.spectrum.react.js`,
+          format: 'reactThemeColorFormat',
+          options: {
+            theme: true,
+          },
+        },
+      ],
+    },
+  },
+};
+
 const reactThemeConfig = (theme) => ({
   format: {
     reactThemeColorFormat,
@@ -158,6 +184,9 @@ dictionaryReactLightTheme.buildPlatform('react');
 
 const dictionaryReactDarkTheme = StyleDictionaryPackage.extend(reactThemeConfig('dark'));
 dictionaryReactDarkTheme.buildPlatform('react');
+
+const dictionaryReactSpectrum = StyleDictionaryPackage.extend(reactSpectrumConfig);
+dictionaryReactSpectrum.buildPlatform('react');
 
 console.log(`\nProcessing: Light`);
 const dictionaryLight = StyleDictionaryPackage.extend(themeConfig('light'));
