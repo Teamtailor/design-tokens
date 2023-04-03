@@ -128,7 +128,7 @@ module.exports = /** @type {const} */ {
     "900": "#1e3a8a",
     "1000": "#132558"
   },
-  "light-blue": {
+  "lightBlue": {
     "50": "#f0f9ff",
     "100": "#dcf2fe",
     "200": "#bce6fb",
