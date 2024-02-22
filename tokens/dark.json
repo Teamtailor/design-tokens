@@ -55,18 +55,6 @@
           "type": "color",
           "description": "{color.zinc.900}",
           "failedToResolve": true
-        },
-        "strong": {
-          "value": "{color.zinc.1000}",
-          "type": "color",
-          "description": "{color.zinc.1000}",
-          "failedToResolve": true
-        },
-        "strong-hover": {
-          "value": "{color.zinc.900}",
-          "type": "color",
-          "description": "{color.zinc.900}",
-          "failedToResolve": true
         }
       },
       "success": {
