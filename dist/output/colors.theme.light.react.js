@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Thu, 22 Feb 2024 13:19:19 GMT
+ * Generated on Thu, 22 Feb 2024 14:35:00 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -232,6 +232,11 @@ module.exports = /** @type {const} */ {
             "red": {
                 "medium": "#991b1b"
             }
+        }
+    },
+    "outline": {
+        "focus": {
+            "default": "rgba(244,63,133, 0.5)"
         }
     },
     "text": {
