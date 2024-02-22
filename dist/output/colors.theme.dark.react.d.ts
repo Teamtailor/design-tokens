@@ -5,8 +5,11 @@ export namespace background {
         export { _default as default };
         export const hover: string;
         export const weak: string;
+        export const weakHover: string;
         export const medium: string;
+        export const mediumHover: string;
         export const strong: string;
+        export const strongHover: string;
     }
     namespace success {
         const _default_1: string;
@@ -35,14 +38,17 @@ export namespace background {
     namespace action {
         const strong_5: string;
         export { strong_5 as strong };
-        export const strongHover: string;
+        const strongHover_1: string;
+        export { strongHover_1 as strongHover };
         export const strongActive: string;
         export const strongDisabled: string;
         const medium_1: string;
         export { medium_1 as medium };
-        export const mediumHover: string;
+        const mediumHover_1: string;
+        export { mediumHover_1 as mediumHover };
         export const mediumActive: string;
-        export const weakHover: string;
+        const weakHover_1: string;
+        export { weakHover_1 as weakHover };
         export const weakActive: string;
     }
     namespace decorative {

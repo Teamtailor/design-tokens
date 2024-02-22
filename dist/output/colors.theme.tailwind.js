@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Mon, 03 Apr 2023 12:01:52 GMT
+ * Generated on Thu, 22 Feb 2024 13:19:19 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -10,8 +10,11 @@ module.exports = /** @type {const} */ {
             "DEFAULT": "var(--color-background-neutral-default)",
             "hover": "var(--color-background-neutral-hover)",
             "weak": "var(--color-background-neutral-weak)",
+            "weak-hover": "var(--color-background-neutral-weak-hover)",
             "medium": "var(--color-background-neutral-medium)",
-            "strong": "var(--color-background-neutral-strong)"
+            "medium-hover": "var(--color-background-neutral-medium-hover)",
+            "strong": "var(--color-background-neutral-strong)",
+            "strong-hover": "var(--color-background-neutral-strong-hover)"
         },
         "success": {
             "DEFAULT": "var(--color-background-success-default)",

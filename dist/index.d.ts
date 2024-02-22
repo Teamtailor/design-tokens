@@ -5,8 +5,11 @@ export var themeColors: {
             DEFAULT: string;
             hover: string;
             weak: string;
+            "weak-hover": string;
             medium: string;
+            "medium-hover": string;
             strong: string;
+            "strong-hover": string;
         };
         success: {
             DEFAULT: string;
@@ -760,8 +763,11 @@ export var reactLightThemeColors: {
             default: string;
             hover: string;
             weak: string;
+            weakHover: string;
             medium: string;
+            mediumHover: string;
             strong: string;
+            strongHover: string;
         };
         success: {
             default: string;
@@ -1259,8 +1265,11 @@ export var reactDarkThemeColors: {
             default: string;
             hover: string;
             weak: string;
+            weakHover: string;
             medium: string;
+            mediumHover: string;
             strong: string;
+            strongHover: string;
         };
         success: {
             default: string;
