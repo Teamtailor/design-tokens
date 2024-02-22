@@ -26,16 +26,34 @@
           "description": "{color.zinc.50}",
           "failedToResolve": true
         },
+        "weak-hover": {
+          "value": "{color.zinc.100}",
+          "type": "color",
+          "description": "{color.zinc.100}",
+          "failedToResolve": true
+        },
         "medium": {
           "value": "{color.zinc.150}",
           "type": "color",
           "description": "{color.zinc.150}",
           "failedToResolve": true
         },
+        "medium-hover": {
+          "value": "{color.zinc.200}",
+          "type": "color",
+          "description": "{color.zinc.200}",
+          "failedToResolve": true
+        },
         "strong": {
           "value": "{color.zinc.800}",
           "type": "color",
           "description": "{color.zinc.800}",
+          "failedToResolve": true
+        },
+        "strong-hover": {
+          "value": "{color.zinc.700}",
+          "type": "color",
+          "description": "{color.zinc.700}",
           "failedToResolve": true
         }
       },

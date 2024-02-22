@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 03 Apr 2023 12:01:52 GMT
+ * Generated on Thu, 22 Feb 2024 13:15:06 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -8,10 +8,13 @@ module.exports = /** @type {const} */ {
     "canvas": "#0f0f10",
     "neutral": {
       "default": "#1c1c1e",
-      "hover": "#3f3f46",
+      "hover": "#28282b",
       "weak": "#28282b",
+      "weakHover": "#3f3f46",
       "medium": "#34353a",
-      "strong": "#3f3f46"
+      "mediumHover": "#3f3f46",
+      "strong": "#0f0f10",
+      "strongHover": "#1c1c1e"
     },
     "success": {
       "default": "#0c310e",

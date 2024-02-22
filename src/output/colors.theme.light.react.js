@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 03 Apr 2023 12:01:52 GMT
+ * Generated on Thu, 22 Feb 2024 13:15:06 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -10,8 +10,11 @@ module.exports = /** @type {const} */ {
       "default": "#ffffff",
       "hover": "#f8f8f9",
       "weak": "#f8f8f9",
+      "weakHover": "#f4f4f5",
       "medium": "#eeeef0",
-      "strong": "#28282b"
+      "mediumHover": "#e4e4e7",
+      "strong": "#28282b",
+      "strongHover": "#3f3f46"
     },
     "success": {
       "default": "#f1fcf1",

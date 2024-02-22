@@ -15,9 +15,9 @@
           "failedToResolve": true
         },
         "hover": {
-          "value": "{color.zinc.700}",
+          "value": "{color.zinc.800}",
           "type": "color",
-          "description": "{color.zinc.700}",
+          "description": "{color.zinc.800}",
           "failedToResolve": true
         },
         "weak": {
@@ -26,16 +26,34 @@
           "description": "{color.zinc.800}",
           "failedToResolve": true
         },
+        "weak-hover": {
+          "value": "{color.zinc.700}",
+          "type": "color",
+          "description": "{color.zinc.700}",
+          "failedToResolve": true
+        },
         "medium": {
           "value": "{color.zinc.750}",
           "type": "color",
           "description": "{color.zinc.750}",
           "failedToResolve": true
         },
-        "strong": {
+        "medium-hover": {
           "value": "{color.zinc.700}",
           "type": "color",
           "description": "{color.zinc.700}",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.zinc.1000}",
+          "type": "color",
+          "description": "{color.zinc.1000}",
+          "failedToResolve": true
+        },
+        "strong-hover": {
+          "value": "{color.zinc.900}",
+          "type": "color",
+          "description": "{color.zinc.900}",
           "failedToResolve": true
         }
       },
