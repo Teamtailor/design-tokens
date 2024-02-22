@@ -5,7 +5,7 @@
   --color-background-neutral-weak: rgb(40, 40, 43);
   --color-background-neutral-weak-hover: rgb(63, 63, 70);
   --color-background-neutral-medium: rgb(52, 53, 58);
-  --color-background-neutral-medium-hover: rgb(63, 63, 70);
+  --color-background-neutral-medium-hover: rgb(87, 89, 95);
   --color-background-neutral-strong: rgb(15, 15, 16);
   --color-background-neutral-strong-hover: rgb(28, 28, 30);
   --color-background-success-default: rgb(12, 49, 14);
@@ -125,6 +125,7 @@
   --color-border-decorative-cerise-medium: rgb(157, 23, 77);
   --color-border-decorative-rose-medium: rgb(159, 18, 57);
   --color-border-decorative-red-medium: rgb(153, 27, 27);
+  --color-outline-focus-default: rgba(244,63,133, 0.5);
   --color-text-neutral-default: rgb(244, 244, 245);
   --color-text-neutral-weak: rgb(113, 113, 122);
   --color-text-neutral-medium: rgb(178, 179, 185);

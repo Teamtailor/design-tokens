@@ -247,10 +247,16 @@ export namespace border {
     };
     export { decorative_1 as decorative };
 }
-export namespace text {
-    export namespace neutral_2 {
+export namespace outline {
+    namespace focus {
         const DEFAULT_9: string;
         export { DEFAULT_9 as DEFAULT };
+    }
+}
+export namespace text {
+    export namespace neutral_2 {
+        const DEFAULT_10: string;
+        export { DEFAULT_10 as DEFAULT };
         export const weak: string;
         const medium_1: string;
         export { medium_1 as medium };
@@ -267,23 +273,23 @@ export namespace text {
     };
     export { action_2 as action };
     export namespace success_2 {
-        const DEFAULT_10: string;
-        export { DEFAULT_10 as DEFAULT };
-    }
-    export { success_2 as success };
-    export namespace danger_2 {
         const DEFAULT_11: string;
         export { DEFAULT_11 as DEFAULT };
     }
-    export { danger_2 as danger };
-    export namespace warning_2 {
+    export { success_2 as success };
+    export namespace danger_2 {
         const DEFAULT_12: string;
         export { DEFAULT_12 as DEFAULT };
     }
-    export { warning_2 as warning };
-    export namespace info_2 {
+    export { danger_2 as danger };
+    export namespace warning_2 {
         const DEFAULT_13: string;
         export { DEFAULT_13 as DEFAULT };
+    }
+    export { warning_2 as warning };
+    export namespace info_2 {
+        const DEFAULT_14: string;
+        export { DEFAULT_14 as DEFAULT };
     }
     export { info_2 as info };
     const decorative_2: {
@@ -400,36 +406,36 @@ export namespace text {
 }
 export namespace icon {
     export namespace neutral_3 {
-        const DEFAULT_14: string;
-        export { DEFAULT_14 as DEFAULT };
+        const DEFAULT_15: string;
+        export { DEFAULT_15 as DEFAULT };
         const weak_1: string;
         export { weak_1 as weak };
     }
     export { neutral_3 as neutral };
     export namespace success_3 {
-        const DEFAULT_15: string;
-        export { DEFAULT_15 as DEFAULT };
+        const DEFAULT_16: string;
+        export { DEFAULT_16 as DEFAULT };
         const strong_5: string;
         export { strong_5 as strong };
     }
     export { success_3 as success };
     export namespace danger_3 {
-        const DEFAULT_16: string;
-        export { DEFAULT_16 as DEFAULT };
+        const DEFAULT_17: string;
+        export { DEFAULT_17 as DEFAULT };
         const strong_6: string;
         export { strong_6 as strong };
     }
     export { danger_3 as danger };
     export namespace warning_3 {
-        const DEFAULT_17: string;
-        export { DEFAULT_17 as DEFAULT };
+        const DEFAULT_18: string;
+        export { DEFAULT_18 as DEFAULT };
         const strong_7: string;
         export { strong_7 as strong };
     }
     export { warning_3 as warning };
     export namespace info_3 {
-        const DEFAULT_18: string;
-        export { DEFAULT_18 as DEFAULT };
+        const DEFAULT_19: string;
+        export { DEFAULT_19 as DEFAULT };
         const strong_8: string;
         export { strong_8 as strong };
     }

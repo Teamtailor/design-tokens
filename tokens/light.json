@@ -860,6 +860,16 @@
         }
       }
     },
+    "outline": {
+      "focus": {
+        "DEFAULT": {
+          "value": "rgba({color.pink.500}, 0.5)",
+          "type": "color",
+          "description": "rgba({color.pink.500}, 0.5)",
+          "failedToResolve": true
+        }
+      }
+    },
     "text": {
       "neutral": {
         "DEFAULT": {

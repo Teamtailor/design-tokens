@@ -125,6 +125,7 @@
   --color-border-decorative-cerise-medium: rgb(157, 23, 77);
   --color-border-decorative-rose-medium: rgb(159, 18, 57);
   --color-border-decorative-red-medium: rgb(153, 27, 27);
+  --color-outline-focus-default: rgba(244,63,133, 0.5);
   --color-text-neutral-default: rgb(52, 53, 58);
   --color-text-neutral-weak: rgb(178, 179, 185);
   --color-text-neutral-medium: rgb(113, 113, 122);

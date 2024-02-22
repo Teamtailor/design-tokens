@@ -39,9 +39,9 @@
           "failedToResolve": true
         },
         "medium-hover": {
-          "value": "{color.zinc.700}",
+          "value": "{color.zinc.600}",
           "type": "color",
-          "description": "{color.zinc.700}",
+          "description": "{color.zinc.600}",
           "failedToResolve": true
         },
         "strong": {
@@ -857,6 +857,16 @@
             "description": "{color.red.800}",
             "failedToResolve": true
           }
+        }
+      }
+    },
+    "outline": {
+      "focus": {
+        "DEFAULT": {
+          "value": "rgba({color.pink.500}, 0.5)",
+          "type": "color",
+          "description": "rgba({color.pink.500}, 0.5)",
+          "failedToResolve": true
         }
       }
     },

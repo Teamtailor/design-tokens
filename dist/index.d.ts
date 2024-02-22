@@ -229,6 +229,11 @@ export var themeColors: {
             };
         };
     };
+    outline: {
+        focus: {
+            DEFAULT: string;
+        };
+    };
     text: {
         neutral: {
             DEFAULT: string;
@@ -987,6 +992,11 @@ export var reactLightThemeColors: {
             };
         };
     };
+    outline: {
+        focus: {
+            default: string;
+        };
+    };
     text: {
         neutral: {
             default: string;
@@ -1487,6 +1497,11 @@ export var reactDarkThemeColors: {
             red: {
                 medium: string;
             };
+        };
+    };
+    outline: {
+        focus: {
+            default: string;
         };
     };
     text: {
