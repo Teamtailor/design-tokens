@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Thu, 22 Feb 2024 14:42:27 GMT
+ * Generated on Wed, 28 Feb 2024 09:00:00 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -9,8 +9,8 @@ module.exports = /** @type {const} */ {
         "neutral": {
             "default": "#1c1c1e",
             "hover": "#28282b",
-            "weak": "#28282b",
-            "weakHover": "#3f3f46",
+            "weak": "#1c1c1e",
+            "weakHover": "#28282b",
             "medium": "#34353a",
             "mediumHover": "#57595f",
             "strong": "#0f0f10",
@@ -45,120 +45,120 @@ module.exports = /** @type {const} */ {
         },
         "decorative": {
             "amber": {
-                "default": "#fffbeb",
-                "weak": "#fef3c7",
-                "medium": "#f59e0b",
-                "strong": "#92400e"
+                "default": "#492009",
+                "weak": "#78350f",
+                "medium": "#92400e",
+                "strong": "#d97706"
             },
             "orange": {
-                "default": "#fff7ed",
-                "weak": "#ffedd5",
-                "medium": "#f97316",
-                "strong": "#9a3412"
+                "default": "#4c1b0b",
+                "weak": "#7c2d12",
+                "medium": "#9a3412",
+                "strong": "#ea580c"
             },
             "lime": {
-                "default": "#f7fde8",
-                "weak": "#ebf9ce",
-                "medium": "#84cc16",
-                "strong": "#3f6212"
+                "default": "#23350d",
+                "weak": "#365314",
+                "medium": "#3f6212",
+                "strong": "#65a30d"
             },
             "green": {
-                "default": "#f1fcf1",
-                "weak": "#defade",
-                "medium": "#26c12b",
-                "strong": "#16651a"
+                "default": "#0c310e",
+                "weak": "#145318",
+                "medium": "#16651a",
+                "strong": "#16a31b"
             },
             "emerald": {
-                "default": "#eefcf5",
-                "weak": "#d4f7e5",
-                "medium": "#10b981",
-                "strong": "#065f46"
+                "default": "#042f24",
+                "weak": "#064e3b",
+                "medium": "#065f46",
+                "strong": "#059669"
             },
             "teal": {
-                "default": "#edfcf9",
-                "weak": "#d7f9f2",
-                "medium": "#14b8a6",
-                "strong": "#115e59"
+                "default": "#0c312f",
+                "weak": "#134e4a",
+                "medium": "#115e59",
+                "strong": "#0d9488"
             },
             "cyan": {
-                "default": "#edfdfe",
-                "weak": "#d9f9fc",
-                "medium": "#06b6d4",
-                "strong": "#155e75"
+                "default": "#0f3543",
+                "weak": "#164e63",
+                "medium": "#155e75",
+                "strong": "#0891b2"
             },
             "lightBlue": {
-                "default": "#f0f9ff",
-                "weak": "#dcf2fe",
-                "medium": "#0ea5e9",
-                "strong": "#075985"
+                "default": "#09354e",
+                "weak": "#0c4a6e",
+                "medium": "#075985",
+                "strong": "#0284c7"
             },
             "blue": {
-                "default": "#eff6ff",
-                "weak": "#dbeafe",
-                "medium": "#3b82f6",
-                "strong": "#1e40af"
+                "default": "#132558",
+                "weak": "#1e3a8a",
+                "medium": "#1e40af",
+                "strong": "#2563eb"
             },
             "indigo": {
-                "default": "#eef2ff",
-                "weak": "#e0e7ff",
-                "medium": "#6366f1",
-                "strong": "#3730a3"
+                "default": "#1f1d53",
+                "weak": "#312e81",
+                "medium": "#3730a3",
+                "strong": "#4f46e5"
             },
             "violet": {
-                "default": "#f5f3ff",
-                "weak": "#ede9fe",
-                "medium": "#8b5cf6",
-                "strong": "#5b21b6"
+                "default": "#30125e",
+                "weak": "#4c1d95",
+                "medium": "#5b21b6",
+                "strong": "#7c3aed"
             },
             "purple": {
-                "default": "#faf5ff",
-                "weak": "#f3e8ff",
-                "medium": "#a855f7",
-                "strong": "#6b21a8"
+                "default": "#371254",
+                "weak": "#581c87",
+                "medium": "#6b21a8",
+                "strong": "#9333ea"
             },
             "fuchsia": {
-                "default": "#fdf4ff",
-                "weak": "#fae8ff",
-                "medium": "#d946ef",
-                "strong": "#86198f"
+                "default": "#48114b",
+                "weak": "#701a75",
+                "medium": "#86198f",
+                "strong": "#c026d3"
             },
             "yellow": {
-                "default": "#fefce8",
-                "weak": "#fef9c3",
-                "medium": "#eab308",
-                "strong": "#854d0e"
+                "default": "#46270b",
+                "weak": "#713f12",
+                "medium": "#854d0e",
+                "strong": "#ca8a04"
             },
             "zinc": {
-                "default": "#f8f8f9",
-                "weak": "#f4f4f5",
-                "medium": "#71717a",
-                "strong": "#28282b"
+                "default": "#0f0f10",
+                "weak": "#1c1c1e",
+                "medium": "#28282b",
+                "strong": "#57595f"
             },
             "cerise": {
-                "default": "#fdf2f8",
-                "weak": "#fce7f3",
-                "medium": "#ec4899",
-                "strong": "#9d174d"
+                "default": "#490d25",
+                "weak": "#831843",
+                "medium": "#9d174d",
+                "strong": "#db2777"
             },
             "rose": {
-                "default": "#fff1f2",
-                "weak": "#ffe4e6",
-                "medium": "#f43f5e",
-                "strong": "#9f1239"
+                "default": "#43091b",
+                "weak": "#881337",
+                "medium": "#9f1239",
+                "strong": "#e11d48"
             },
             "red": {
-                "default": "#fef2f2",
-                "weak": "#fee2e2",
-                "medium": "#ef4444",
-                "strong": "#991b1b"
+                "default": "#4f1212",
+                "weak": "#7f1d1d",
+                "medium": "#991b1b",
+                "strong": "#dc2626"
             }
         }
     },
     "border": {
         "neutral": {
-            "default": "rgba(255,255,255, 0.06)",
-            "medium": "rgba(255,255,255, 0.11)",
-            "strong": "rgba(255,255,255, 0.2)"
+            "default": "rgba(255,255,255, 0.14)",
+            "medium": "rgba(255,255,255, 0.2)",
+            "strong": "rgba( #ffffff, 0.28)"
         },
         "success": {
             "default": "rgba(52,53,58, 0.05)"
@@ -268,110 +268,110 @@ module.exports = /** @type {const} */ {
         },
         "decorative": {
             "amber": {
-                "default": "#d97706",
-                "weak": "#92400e",
+                "default": "#fffbeb",
+                "weak": "#fffbeb",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "orange": {
-                "default": "#ea580c",
-                "weak": "#9a3412",
+                "default": "#fff7ed",
+                "weak": "#fff7ed",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "fuchsia": {
-                "default": "#c026d3",
-                "weak": "#86198f",
+                "default": "#fdf4ff",
+                "weak": "#fdf4ff",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "purple": {
-                "default": "#9333ea",
-                "weak": "#6b21a8",
+                "default": "#faf5ff",
+                "weak": "#faf5ff",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "violet": {
-                "default": "#7c3aed",
-                "weak": "#5b21b6",
+                "default": "#f5f3ff",
+                "weak": "#f5f3ff",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "indigo": {
-                "default": "#4f46e5",
-                "weak": "#3730a3",
+                "default": "#eef2ff",
+                "weak": "#eef2ff",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "blue": {
-                "default": "#2563eb",
-                "weak": "#1e40af",
+                "default": "#eff6ff",
+                "weak": "#eff6ff",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "lightBlue": {
-                "default": "#0284c7",
-                "weak": "#075985",
+                "default": "#f0f9ff",
+                "weak": "#f0f9ff",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "cyan": {
-                "default": "#0891b2",
-                "weak": "#155e75",
+                "default": "#edfdfe",
+                "weak": "#edfdfe",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "teal": {
-                "default": "#0d9488",
-                "weak": "#115e59",
+                "default": "#edfcf9",
+                "weak": "#edfcf9",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "emerald": {
-                "default": "#059669",
-                "weak": "#065f46",
+                "default": "#eefcf5",
+                "weak": "#eefcf5",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "green": {
-                "default": "#16a31b",
-                "weak": "#16651a",
+                "default": "#f1fcf1",
+                "weak": "#f1fcf1",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "lime": {
-                "default": "#65a30d",
-                "weak": "#3f6212",
+                "default": "#f7fde8",
+                "weak": "#f7fde8",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "cerise": {
-                "default": "#db2777",
-                "weak": "#9d174d",
+                "default": "#fdf2f8",
+                "weak": "#fdf2f8",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "yellow": {
-                "default": "#ca8a04",
-                "weak": "#854d0e",
+                "default": "#fefce8",
+                "weak": "#fefce8",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "zinc": {
-                "default": "#57595f",
-                "weak": "#28282b",
+                "default": "#f8f8f9",
+                "weak": "#f8f8f9",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "rose": {
-                "default": "#e11d48",
-                "weak": "#9f1239",
+                "default": "#fff1f2",
+                "weak": "#fff1f2",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "red": {
-                "default": "#dc2626",
-                "weak": "#991b1b",
+                "default": "#fef2f2",
+                "weak": "#fef2f2",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             }
@@ -383,127 +383,127 @@ module.exports = /** @type {const} */ {
             "weak": "#71717a"
         },
         "success": {
-            "default": "#16a31b",
+            "default": "#defade",
             "strong": "#ffffff"
         },
         "danger": {
-            "default": "#dc2626",
+            "default": "#fee2e2",
             "strong": "#ffffff"
         },
         "warning": {
-            "default": "#d97706",
+            "default": "#fef3c7",
             "strong": "#ffffff"
         },
         "info": {
-            "default": "#0284c7",
+            "default": "#dcf2fe",
             "strong": "#ffffff"
         },
         "decorative": {
             "amber": {
-                "default": "#d97706",
-                "weak": "#92400e",
+                "default": "#fde68a",
+                "weak": "#fde68a",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "orange": {
-                "default": "#ea580c",
-                "weak": "#9a3412",
+                "default": "#fed7aa",
+                "weak": "#fed7aa",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "fuchsia": {
-                "default": "#c026d3",
-                "weak": "#86198f",
+                "default": "#f5d0fe",
+                "weak": "#f5d0fe",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "purple": {
-                "default": "#9333ea",
-                "weak": "#6b21a8",
+                "default": "#e9d5ff",
+                "weak": "#e9d5ff",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "violet": {
-                "default": "#7c3aed",
-                "weak": "#5b21b6",
+                "default": "#ddd6fe",
+                "weak": "#ddd6fe",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "indigo": {
-                "default": "#4f46e5",
-                "weak": "#3730a3",
+                "default": "#c7d2fe",
+                "weak": "#c7d2fe",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "blue": {
-                "default": "#2563eb",
-                "weak": "#1e40af",
+                "default": "#bfdbfe",
+                "weak": "#bfdbfe",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "lightBlue": {
-                "default": "#0284c7",
-                "weak": "#075985",
+                "default": "#bce6fb",
+                "weak": "#bce6fb",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "cyan": {
-                "default": "#0891b2",
-                "weak": "#155e75",
+                "default": "#a9eff8",
+                "weak": "#a9eff8",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "teal": {
-                "default": "#0d9488",
-                "weak": "#115e59",
+                "default": "#a1eedf",
+                "weak": "#a1eedf",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "emerald": {
-                "default": "#059669",
-                "weak": "#065f46",
+                "default": "#abefd0",
+                "weak": "#abefd0",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "green": {
-                "default": "#16a31b",
-                "weak": "#16651a",
+                "default": "#bff3c0",
+                "weak": "#bff3c0",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "lime": {
-                "default": "#65a30d",
-                "weak": "#3f6212",
+                "default": "#d7f4a2",
+                "weak": "#d7f4a2",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "cerise": {
-                "default": "#db2777",
-                "weak": "#9d174d",
+                "default": "#fbcfe8",
+                "weak": "#fbcfe8",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "yellow": {
-                "default": "#ca8a04",
-                "weak": "#854d0e",
+                "default": "#fef08a",
+                "weak": "#fef08a",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "zinc": {
-                "default": "#57595f",
-                "weak": "#28282b",
+                "default": "#e4e4e7",
+                "weak": "#e4e4e7",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "rose": {
-                "default": "#e11d48",
-                "weak": "#9f1239",
+                "default": "#fecdd3",
+                "weak": "#fecdd3",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             },
             "red": {
-                "default": "#dc2626",
-                "weak": "#991b1b",
+                "default": "#fecaca",
+                "weak": "#fecaca",
                 "medium": "#ffffff",
                 "strong": "#ffffff"
             }

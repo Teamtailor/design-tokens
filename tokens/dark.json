@@ -21,15 +21,15 @@
           "failedToResolve": true
         },
         "weak": {
-          "value": "{color.zinc.800}",
+          "value": "{color.zinc.900}",
           "type": "color",
-          "description": "{color.zinc.800}",
+          "description": "{color.zinc.900}",
           "failedToResolve": true
         },
         "weak-hover": {
-          "value": "{color.zinc.700}",
+          "value": "{color.zinc.800}",
           "type": "color",
-          "description": "{color.zinc.700}",
+          "description": "{color.zinc.800}",
           "failedToResolve": true
         },
         "medium": {
@@ -172,469 +172,469 @@
       "decorative": {
         "amber": {
           "DEFAULT": {
-            "value": "{color.amber.50}",
+            "value": "{color.amber.1000}",
             "type": "color",
-            "description": "{color.amber.50}",
+            "description": "{color.amber.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.amber.100}",
+            "value": "{color.amber.900}",
             "type": "color",
-            "description": "{color.amber.100}",
+            "description": "{color.amber.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.amber.500}",
-            "type": "color",
-            "description": "{color.amber.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.amber.800}",
             "type": "color",
             "description": "{color.amber.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.amber.600}",
+            "type": "color",
+            "description": "{color.amber.600}",
             "failedToResolve": true
           }
         },
         "orange": {
           "DEFAULT": {
-            "value": "{color.orange.50}",
+            "value": "{color.orange.1000}",
             "type": "color",
-            "description": "{color.orange.50}",
+            "description": "{color.orange.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.orange.100}",
+            "value": "{color.orange.900}",
             "type": "color",
-            "description": "{color.orange.100}",
+            "description": "{color.orange.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.orange.500}",
-            "type": "color",
-            "description": "{color.orange.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.orange.800}",
             "type": "color",
             "description": "{color.orange.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.orange.600}",
+            "type": "color",
+            "description": "{color.orange.600}",
             "failedToResolve": true
           }
         },
         "lime": {
           "DEFAULT": {
-            "value": "{color.lime.50}",
+            "value": "{color.lime.1000}",
             "type": "color",
-            "description": "{color.lime.50}",
+            "description": "{color.lime.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.lime.100}",
+            "value": "{color.lime.900}",
             "type": "color",
-            "description": "{color.lime.100}",
+            "description": "{color.lime.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.lime.500}",
-            "type": "color",
-            "description": "{color.lime.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.lime.800}",
             "type": "color",
             "description": "{color.lime.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.lime.600}",
+            "type": "color",
+            "description": "{color.lime.600}",
             "failedToResolve": true
           }
         },
         "green": {
           "DEFAULT": {
-            "value": "{color.green.50}",
+            "value": "{color.green.1000}",
             "type": "color",
-            "description": "{color.green.50}",
+            "description": "{color.green.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.green.100}",
+            "value": "{color.green.900}",
             "type": "color",
-            "description": "{color.green.100}",
+            "description": "{color.green.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.green.500}",
-            "type": "color",
-            "description": "{color.green.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.green.800}",
             "type": "color",
             "description": "{color.green.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.green.600}",
+            "type": "color",
+            "description": "{color.green.600}",
             "failedToResolve": true
           }
         },
         "emerald": {
           "DEFAULT": {
-            "value": "{color.emerald.50}",
+            "value": "{color.emerald.1000}",
             "type": "color",
-            "description": "{color.emerald.50}",
+            "description": "{color.emerald.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.emerald.100}",
+            "value": "{color.emerald.900}",
             "type": "color",
-            "description": "{color.emerald.100}",
+            "description": "{color.emerald.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.emerald.500}",
-            "type": "color",
-            "description": "{color.emerald.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.emerald.800}",
             "type": "color",
             "description": "{color.emerald.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.emerald.600}",
+            "type": "color",
+            "description": "{color.emerald.600}",
             "failedToResolve": true
           }
         },
         "teal": {
           "DEFAULT": {
-            "value": "{color.teal.50}",
+            "value": "{color.teal.1000}",
             "type": "color",
-            "description": "{color.teal.50}",
+            "description": "{color.teal.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.teal.100}",
+            "value": "{color.teal.900}",
             "type": "color",
-            "description": "{color.teal.100}",
+            "description": "{color.teal.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.teal.500}",
-            "type": "color",
-            "description": "{color.teal.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.teal.800}",
             "type": "color",
             "description": "{color.teal.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.teal.600}",
+            "type": "color",
+            "description": "{color.teal.600}",
             "failedToResolve": true
           }
         },
         "cyan": {
           "DEFAULT": {
-            "value": "{color.cyan.50}",
+            "value": "{color.cyan.1000}",
             "type": "color",
-            "description": "{color.cyan.50}",
+            "description": "{color.cyan.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.cyan.100}",
+            "value": "{color.cyan.900}",
             "type": "color",
-            "description": "{color.cyan.100}",
+            "description": "{color.cyan.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.cyan.500}",
-            "type": "color",
-            "description": "{color.cyan.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.cyan.800}",
             "type": "color",
             "description": "{color.cyan.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.cyan.600}",
+            "type": "color",
+            "description": "{color.cyan.600}",
             "failedToResolve": true
           }
         },
         "light-blue": {
           "DEFAULT": {
-            "value": "{color.light-blue.50}",
+            "value": "{color.light-blue.1000}",
             "type": "color",
-            "description": "{color.light-blue.50}",
+            "description": "{color.light-blue.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.light-blue.100}",
+            "value": "{color.light-blue.900}",
             "type": "color",
-            "description": "{color.light-blue.100}",
+            "description": "{color.light-blue.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.light-blue.500}",
-            "type": "color",
-            "description": "{color.light-blue.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.light-blue.800}",
             "type": "color",
             "description": "{color.light-blue.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.light-blue.600}",
+            "type": "color",
+            "description": "{color.light-blue.600}",
             "failedToResolve": true
           }
         },
         "blue": {
           "DEFAULT": {
-            "value": "{color.blue.50}",
+            "value": "{color.blue.1000}",
             "type": "color",
-            "description": "{color.blue.50}",
+            "description": "{color.blue.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.blue.100}",
+            "value": "{color.blue.900}",
             "type": "color",
-            "description": "{color.blue.100}",
+            "description": "{color.blue.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.blue.500}",
-            "type": "color",
-            "description": "{color.blue.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.blue.800}",
             "type": "color",
             "description": "{color.blue.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.blue.600}",
+            "type": "color",
+            "description": "{color.blue.600}",
             "failedToResolve": true
           }
         },
         "indigo": {
           "DEFAULT": {
-            "value": "{color.indigo.50}",
+            "value": "{color.indigo.1000}",
             "type": "color",
-            "description": "{color.indigo.50}",
+            "description": "{color.indigo.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.indigo.100}",
+            "value": "{color.indigo.900}",
             "type": "color",
-            "description": "{color.indigo.100}",
+            "description": "{color.indigo.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.indigo.500}",
-            "type": "color",
-            "description": "{color.indigo.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.indigo.800}",
             "type": "color",
             "description": "{color.indigo.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.indigo.600}",
+            "type": "color",
+            "description": "{color.indigo.600}",
             "failedToResolve": true
           }
         },
         "violet": {
           "DEFAULT": {
-            "value": "{color.violet.50}",
+            "value": "{color.violet.1000}",
             "type": "color",
-            "description": "{color.violet.50}",
+            "description": "{color.violet.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.violet.100}",
+            "value": "{color.violet.900}",
             "type": "color",
-            "description": "{color.violet.100}",
+            "description": "{color.violet.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.violet.500}",
-            "type": "color",
-            "description": "{color.violet.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.violet.800}",
             "type": "color",
             "description": "{color.violet.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.violet.600}",
+            "type": "color",
+            "description": "{color.violet.600}",
             "failedToResolve": true
           }
         },
         "purple": {
           "DEFAULT": {
-            "value": "{color.purple.50}",
+            "value": "{color.purple.1000}",
             "type": "color",
-            "description": "{color.purple.50}",
+            "description": "{color.purple.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.purple.100}",
+            "value": "{color.purple.900}",
             "type": "color",
-            "description": "{color.purple.100}",
+            "description": "{color.purple.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.purple.500}",
-            "type": "color",
-            "description": "{color.purple.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.purple.800}",
             "type": "color",
             "description": "{color.purple.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.purple.600}",
+            "type": "color",
+            "description": "{color.purple.600}",
             "failedToResolve": true
           }
         },
         "fuchsia": {
           "DEFAULT": {
-            "value": "{color.fuchsia.50}",
+            "value": "{color.fuchsia.1000}",
             "type": "color",
-            "description": "{color.fuchsia.50}",
+            "description": "{color.fuchsia.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.fuchsia.100}",
+            "value": "{color.fuchsia.900}",
             "type": "color",
-            "description": "{color.fuchsia.100}",
+            "description": "{color.fuchsia.900}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.fuchsia.500}",
-            "type": "color",
-            "description": "{color.fuchsia.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.fuchsia.800}",
             "type": "color",
             "description": "{color.fuchsia.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.fuchsia.600}",
+            "type": "color",
+            "description": "{color.fuchsia.600}",
             "failedToResolve": true
           }
         },
         "yellow": {
           "DEFAULT": {
-            "value": "{color.yellow.50}",
+            "value": "{color.yellow.1000}",
             "type": "color",
-            "description": "{color.yellow.50}",
+            "description": "{color.yellow.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.yellow.100}",
+            "value": "{color.yellow.900}",
             "type": "color",
-            "description": "{color.yellow.100",
+            "description": "{color.yellow.900",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.yellow.500}",
-            "type": "color",
-            "description": "{color.yellow.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.yellow.800}",
             "type": "color",
             "description": "{color.yellow.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.yellow.600}",
+            "type": "color",
+            "description": "{color.yellow.600}",
             "failedToResolve": true
           }
         },
         "zinc": {
           "DEFAULT": {
-            "value": "{color.zinc.50}",
+            "value": "{color.zinc.1000}",
             "type": "color",
-            "description": "{color.zinc.50}",
+            "description": "{color.zinc.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.zinc.100}",
+            "value": "{color.zinc.900}",
             "type": "color",
-            "description": "{color.zinc.100",
+            "description": "{color.zinc.900",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.zinc.500}",
-            "type": "color",
-            "description": "{color.zinc.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.zinc.800}",
             "type": "color",
             "description": "{color.zinc.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.zinc.600}",
+            "type": "color",
+            "description": "{color.zinc.600}",
             "failedToResolve": true
           }
         },
         "cerise": {
           "DEFAULT": {
-            "value": "{color.cerise.50}",
+            "value": "{color.cerise.1000}",
             "type": "color",
-            "description": "{color.cerise.50}",
+            "description": "{color.cerise.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.cerise.100}",
+            "value": "{color.cerise.900}",
             "type": "color",
-            "description": "{color.cerise.100",
+            "description": "{color.cerise.900",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.cerise.500}",
-            "type": "color",
-            "description": "{color.cerise.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.cerise.800}",
             "type": "color",
             "description": "{color.cerise.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.cerise.600}",
+            "type": "color",
+            "description": "{color.cerise.600}",
             "failedToResolve": true
           }
         },
         "rose": {
           "DEFAULT": {
-            "value": "{color.rose.50}",
+            "value": "{color.rose.1000}",
             "type": "color",
-            "description": "{color.rose.50}",
+            "description": "{color.rose.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.rose.100}",
+            "value": "{color.rose.900}",
             "type": "color",
-            "description": "{color.rose.100",
+            "description": "{color.rose.900",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.rose.500}",
-            "type": "color",
-            "description": "{color.rose.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.rose.800}",
             "type": "color",
             "description": "{color.rose.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.rose.600}",
+            "type": "color",
+            "description": "{color.rose.600}",
             "failedToResolve": true
           }
         },
         "red": {
           "DEFAULT": {
-            "value": "{color.red.50}",
+            "value": "{color.red.1000}",
             "type": "color",
-            "description": "{color.red.50}",
+            "description": "{color.red.1000}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.red.100}",
+            "value": "{color.red.900}",
             "type": "color",
-            "description": "{color.red.100",
+            "description": "{color.red.900",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.red.500}",
-            "type": "color",
-            "description": "{color.red.500}",
-            "failedToResolve": true
-          },
-          "strong": {
             "value": "{color.red.800}",
             "type": "color",
             "description": "{color.red.800}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.red.600}",
+            "type": "color",
+            "description": "{color.red.600}",
             "failedToResolve": true
           }
         }
@@ -643,21 +643,21 @@
     "border": {
       "neutral": {
         "DEFAULT": {
-          "value": "rgba({color.white}, 0.06)",
+          "value": "rgba({color.white}, 0.14)",
           "type": "color",
-          "description": "rgba({color.white}, 0.06)",
+          "description": "rgba({color.white}, 0.14)",
           "failedToResolve": true
         },
         "medium": {
-          "value": "rgba({color.white}, 0.11)",
-          "type": "color",
-          "description": "rgba({color.white}, 0.11)",
-          "failedToResolve": true
-        },
-        "strong": {
           "value": "rgba({color.white}, 0.2)",
           "type": "color",
           "description": "rgba({color.white}, 0.2)",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "rgba( {color.white}, 0.28)",
+          "type": "color",
+          "description": "rgba({color.white}, 0.28)",
           "failedToResolve": true
         }
       },
@@ -970,15 +970,15 @@
       "decorative": {
         "amber": {
           "DEFAULT": {
-            "value": "{color.amber.600}",
+            "value": "{color.amber.50}",
             "type": "color",
-            "description": "{color.amber.600}",
+            "description": "{color.amber.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.amber.800}",
+            "value": "{color.amber.50}",
             "type": "color",
-            "description": "{color.amber.800}",
+            "description": "{color.amber.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -996,15 +996,15 @@
         },
         "orange": {
           "DEFAULT": {
-            "value": "{color.orange.600}",
+            "value": "{color.orange.50}",
             "type": "color",
-            "description": "{color.orange.600}",
+            "description": "{color.orange.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.orange.800}",
+            "value": "{color.orange.50}",
             "type": "color",
-            "description": "{color.orange.800}",
+            "description": "{color.orange.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1022,15 +1022,15 @@
         },
         "fuchsia": {
           "DEFAULT": {
-            "value": "{color.fuchsia.600}",
+            "value": "{color.fuchsia.50}",
             "type": "color",
-            "description": "{color.fuchsia.600}",
+            "description": "{color.fuchsia.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.fuchsia.800}",
+            "value": "{color.fuchsia.50}",
             "type": "color",
-            "description": "{color.fuchsia.800}",
+            "description": "{color.fuchsia.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1048,15 +1048,15 @@
         },
         "purple": {
           "DEFAULT": {
-            "value": "{color.purple.600}",
+            "value": "{color.purple.50}",
             "type": "color",
-            "description": "{color.purple.600}",
+            "description": "{color.purple.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.purple.800}",
+            "value": "{color.purple.50}",
             "type": "color",
-            "description": "{color.purple.800}",
+            "description": "{color.purple.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1074,15 +1074,15 @@
         },
         "violet": {
           "DEFAULT": {
-            "value": "{color.violet.600}",
+            "value": "{color.violet.50}",
             "type": "color",
-            "description": "{color.violet.600}",
+            "description": "{color.violet.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.violet.800}",
+            "value": "{color.violet.50}",
             "type": "color",
-            "description": "{color.violet.800}",
+            "description": "{color.violet.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1100,15 +1100,15 @@
         },
         "indigo": {
           "DEFAULT": {
-            "value": "{color.indigo.600}",
+            "value": "{color.indigo.50}",
             "type": "color",
-            "description": "{color.indigo.600}",
+            "description": "{color.indigo.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.indigo.800}",
+            "value": "{color.indigo.50}",
             "type": "color",
-            "description": "{color.indigo.800}",
+            "description": "{color.indigo.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1126,15 +1126,15 @@
         },
         "blue": {
           "DEFAULT": {
-            "value": "{color.blue.600}",
+            "value": "{color.blue.50}",
             "type": "color",
-            "description": "{color.blue.600}",
+            "description": "{color.blue.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.blue.800}",
+            "value": "{color.blue.50}",
             "type": "color",
-            "description": "{color.blue.800}",
+            "description": "{color.blue.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1152,15 +1152,15 @@
         },
         "light-blue": {
           "DEFAULT": {
-            "value": "{color.light-blue.600}",
+            "value": "{color.light-blue.50}",
             "type": "color",
-            "description": "{color.light-blue.600}",
+            "description": "{color.light-blue.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.light-blue.800}",
+            "value": "{color.light-blue.50}",
             "type": "color",
-            "description": "{color.light-blue.800}",
+            "description": "{color.light-blue.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1178,15 +1178,15 @@
         },
         "cyan": {
           "DEFAULT": {
-            "value": "{color.cyan.600}",
+            "value": "{color.cyan.50}",
             "type": "color",
-            "description": "{color.cyan.600}",
+            "description": "{color.cyan.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.cyan.800}",
+            "value": "{color.cyan.50}",
             "type": "color",
-            "description": "{color.cyan.800}",
+            "description": "{color.cyan.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1204,15 +1204,15 @@
         },
         "teal": {
           "DEFAULT": {
-            "value": "{color.teal.600}",
+            "value": "{color.teal.50}",
             "type": "color",
-            "description": "{color.teal.600}",
+            "description": "{color.teal.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.teal.800}",
+            "value": "{color.teal.50}",
             "type": "color",
-            "description": "{color.teal.800}",
+            "description": "{color.teal.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1230,15 +1230,15 @@
         },
         "emerald": {
           "DEFAULT": {
-            "value": "{color.emerald.600}",
+            "value": "{color.emerald.50}",
             "type": "color",
-            "description": "{color.emerald.600}",
+            "description": "{color.emerald.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.emerald.800}",
+            "value": "{color.emerald.50}",
             "type": "color",
-            "description": "{color.emerald.800}",
+            "description": "{color.emerald.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1256,15 +1256,15 @@
         },
         "green": {
           "DEFAULT": {
-            "value": "{color.green.600}",
+            "value": "{color.green.50}",
             "type": "color",
-            "description": "{color.green.600}",
+            "description": "{color.green.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.green.800}",
+            "value": "{color.green.50}",
             "type": "color",
-            "description": "{color.green.800}",
+            "description": "{color.green.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1282,15 +1282,15 @@
         },
         "lime": {
           "DEFAULT": {
-            "value": "{color.lime.600}",
+            "value": "{color.lime.50}",
             "type": "color",
-            "description": "{color.lime.600}",
+            "description": "{color.lime.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.lime.800}",
+            "value": "{color.lime.50}",
             "type": "color",
-            "description": "{color.lime.800}",
+            "description": "{color.lime.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1308,15 +1308,15 @@
         },
         "cerise": {
           "DEFAULT": {
-            "value": "{color.cerise.600}",
+            "value": "{color.cerise.50}",
             "type": "color",
-            "description": "{color.cerise.600}",
+            "description": "{color.cerise.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.cerise.800}",
+            "value": "{color.cerise.50}",
             "type": "color",
-            "description": "{color.cerise.800}",
+            "description": "{color.cerise.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1334,15 +1334,15 @@
         },
         "yellow": {
           "DEFAULT": {
-            "value": "{color.yellow.600}",
+            "value": "{color.yellow.50}",
             "type": "color",
-            "description": "{color.yellow.600}",
+            "description": "{color.yellow.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.yellow.800}",
+            "value": "{color.yellow.50}",
             "type": "color",
-            "description": "{color.yellow.800}",
+            "description": "{color.yellow.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1360,15 +1360,15 @@
         },
         "zinc": {
           "DEFAULT": {
-            "value": "{color.zinc.600}",
+            "value": "{color.zinc.50}",
             "type": "color",
-            "description": "{color.zinc.600}",
+            "description": "{color.zinc.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.zinc.800}",
+            "value": "{color.zinc.50}",
             "type": "color",
-            "description": "{color.zinc.800}",
+            "description": "{color.zinc.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1386,15 +1386,15 @@
         },
         "rose": {
           "DEFAULT": {
-            "value": "{color.rose.600}",
+            "value": "{color.rose.50}",
             "type": "color",
-            "description": "{color.rose.600}",
+            "description": "{color.rose.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.rose.800}",
+            "value": "{color.rose.50}",
             "type": "color",
-            "description": "{color.rose.800}",
+            "description": "{color.rose.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1412,15 +1412,15 @@
         },
         "red": {
           "DEFAULT": {
-            "value": "{color.red.600}",
+            "value": "{color.red.50}",
             "type": "color",
-            "description": "{color.red.600}",
+            "description": "{color.red.50}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.red.800}",
+            "value": "{color.red.50}",
             "type": "color",
-            "description": "{color.red.800}",
+            "description": "{color.red.50}",
             "failedToResolve": true
           },
           "medium": {
@@ -1455,9 +1455,9 @@
       },
       "success": {
         "DEFAULT": {
-          "value": "{color.green.600}",
+          "value": "{color.green.100}",
           "type": "color",
-          "description": "{color.green.600}",
+          "description": "{color.green.100}",
           "failedToResolve": true
         },
         "strong": {
@@ -1469,9 +1469,9 @@
       },
       "danger": {
         "DEFAULT": {
-          "value": "{color.red.600}",
+          "value": "{color.red.100}",
           "type": "color",
-          "description": "{color.red.600}",
+          "description": "{color.red.100}",
           "failedToResolve": true
         },
         "strong": {
@@ -1483,9 +1483,9 @@
       },
       "warning": {
         "DEFAULT": {
-          "value": "{color.amber.600}",
+          "value": "{color.amber.100}",
           "type": "color",
-          "description": "{color.amber.600}",
+          "description": "{color.amber.100}",
           "failedToResolve": true
         },
         "strong": {
@@ -1497,9 +1497,9 @@
       },
       "info": {
         "DEFAULT": {
-          "value": "{color.light-blue.600}",
+          "value": "{color.light-blue.100}",
           "type": "color",
-          "description": "{color.light-blue.600}",
+          "description": "{color.light-blue.100}",
           "failedToResolve": true
         },
         "strong": {
@@ -1512,15 +1512,15 @@
       "decorative": {
         "amber": {
           "DEFAULT": {
-            "value": "{color.amber.600}",
+            "value": "{color.amber.200}",
             "type": "color",
-            "description": "{color.amber.600}",
+            "description": "{color.amber.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.amber.800}",
+            "value": "{color.amber.200}",
             "type": "color",
-            "description": "{color.amber.800}",
+            "description": "{color.amber.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1538,15 +1538,15 @@
         },
         "orange": {
           "DEFAULT": {
-            "value": "{color.orange.600}",
+            "value": "{color.orange.200}",
             "type": "color",
-            "description": "{color.orange.600}",
+            "description": "{color.orange.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.orange.800}",
+            "value": "{color.orange.200}",
             "type": "color",
-            "description": "{color.orange.800}",
+            "description": "{color.orange.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1564,15 +1564,15 @@
         },
         "fuchsia": {
           "DEFAULT": {
-            "value": "{color.fuchsia.600}",
+            "value": "{color.fuchsia.200}",
             "type": "color",
-            "description": "{color.fuchsia.600}",
+            "description": "{color.fuchsia.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.fuchsia.800}",
+            "value": "{color.fuchsia.200}",
             "type": "color",
-            "description": "{color.fuchsia.800}",
+            "description": "{color.fuchsia.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1590,15 +1590,15 @@
         },
         "purple": {
           "DEFAULT": {
-            "value": "{color.purple.600}",
+            "value": "{color.purple.200}",
             "type": "color",
-            "description": "{color.purple.600}",
+            "description": "{color.purple.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.purple.800}",
+            "value": "{color.purple.200}",
             "type": "color",
-            "description": "{color.purple.800}",
+            "description": "{color.purple.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1616,15 +1616,15 @@
         },
         "violet": {
           "DEFAULT": {
-            "value": "{color.violet.600}",
+            "value": "{color.violet.200}",
             "type": "color",
-            "description": "{color.violet.600}",
+            "description": "{color.violet.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.violet.800}",
+            "value": "{color.violet.200}",
             "type": "color",
-            "description": "{color.violet.800}",
+            "description": "{color.violet.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1642,15 +1642,15 @@
         },
         "indigo": {
           "DEFAULT": {
-            "value": "{color.indigo.600}",
+            "value": "{color.indigo.200}",
             "type": "color",
-            "description": "{color.indigo.600}",
+            "description": "{color.indigo.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.indigo.800}",
+            "value": "{color.indigo.200}",
             "type": "color",
-            "description": "{color.indigo.800}",
+            "description": "{color.indigo.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1668,15 +1668,15 @@
         },
         "blue": {
           "DEFAULT": {
-            "value": "{color.blue.600}",
+            "value": "{color.blue.200}",
             "type": "color",
-            "description": "{color.blue.600}",
+            "description": "{color.blue.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.blue.800}",
+            "value": "{color.blue.200}",
             "type": "color",
-            "description": "{color.blue.800}",
+            "description": "{color.blue.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1694,15 +1694,15 @@
         },
         "light-blue": {
           "DEFAULT": {
-            "value": "{color.light-blue.600}",
+            "value": "{color.light-blue.200}",
             "type": "color",
-            "description": "{color.light-blue.600}",
+            "description": "{color.light-blue.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.light-blue.800}",
+            "value": "{color.light-blue.200}",
             "type": "color",
-            "description": "{color.light-blue.800}",
+            "description": "{color.light-blue.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1720,15 +1720,15 @@
         },
         "cyan": {
           "DEFAULT": {
-            "value": "{color.cyan.600}",
+            "value": "{color.cyan.200}",
             "type": "color",
-            "description": "{color.cyan.600}",
+            "description": "{color.cyan.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.cyan.800}",
+            "value": "{color.cyan.200}",
             "type": "color",
-            "description": "{color.cyan.800}",
+            "description": "{color.cyan.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1746,15 +1746,15 @@
         },
         "teal": {
           "DEFAULT": {
-            "value": "{color.teal.600}",
+            "value": "{color.teal.200}",
             "type": "color",
-            "description": "{color.teal.600}",
+            "description": "{color.teal.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.teal.800}",
+            "value": "{color.teal.200}",
             "type": "color",
-            "description": "{color.teal.800}",
+            "description": "{color.teal.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1772,15 +1772,15 @@
         },
         "emerald": {
           "DEFAULT": {
-            "value": "{color.emerald.600}",
+            "value": "{color.emerald.200}",
             "type": "color",
-            "description": "{color.emerald.600}",
+            "description": "{color.emerald.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.emerald.800}",
+            "value": "{color.emerald.200}",
             "type": "color",
-            "description": "{color.emerald.800}",
+            "description": "{color.emerald.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1798,15 +1798,15 @@
         },
         "green": {
           "DEFAULT": {
-            "value": "{color.green.600}",
+            "value": "{color.green.200}",
             "type": "color",
-            "description": "{color.green.600}",
+            "description": "{color.green.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.green.800}",
+            "value": "{color.green.200}",
             "type": "color",
-            "description": "{color.green.800}",
+            "description": "{color.green.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1824,15 +1824,15 @@
         },
         "lime": {
           "DEFAULT": {
-            "value": "{color.lime.600}",
+            "value": "{color.lime.200}",
             "type": "color",
-            "description": "{color.lime.600}",
+            "description": "{color.lime.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.lime.800}",
+            "value": "{color.lime.200}",
             "type": "color",
-            "description": "{color.lime.800}",
+            "description": "{color.lime.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1850,15 +1850,15 @@
         },
         "cerise": {
           "DEFAULT": {
-            "value": "{color.cerise.600}",
+            "value": "{color.cerise.200}",
             "type": "color",
-            "description": "{color.cerise.600}",
+            "description": "{color.cerise.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.cerise.800}",
+            "value": "{color.cerise.200}",
             "type": "color",
-            "description": "{color.cerise.800}",
+            "description": "{color.cerise.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1876,15 +1876,15 @@
         },
         "yellow": {
           "DEFAULT": {
-            "value": "{color.yellow.600}",
+            "value": "{color.yellow.200}",
             "type": "color",
-            "description": "{color.yellow.600}",
+            "description": "{color.yellow.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.yellow.800}",
+            "value": "{color.yellow.200}",
             "type": "color",
-            "description": "{color.yellow.800}",
+            "description": "{color.yellow.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1902,15 +1902,15 @@
         },
         "zinc": {
           "DEFAULT": {
-            "value": "{color.zinc.600}",
+            "value": "{color.zinc.200}",
             "type": "color",
-            "description": "{color.zinc.600}",
+            "description": "{color.zinc.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.zinc.800}",
+            "value": "{color.zinc.200}",
             "type": "color",
-            "description": "{color.zinc.800}",
+            "description": "{color.zinc.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1928,15 +1928,15 @@
         },
         "rose": {
           "DEFAULT": {
-            "value": "{color.rose.600}",
+            "value": "{color.rose.200}",
             "type": "color",
-            "description": "{color.rose.600}",
+            "description": "{color.rose.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.rose.800}",
+            "value": "{color.rose.200}",
             "type": "color",
-            "description": "{color.rose.800}",
+            "description": "{color.rose.200}",
             "failedToResolve": true
           },
           "medium": {
@@ -1954,15 +1954,15 @@
         },
         "red": {
           "DEFAULT": {
-            "value": "{color.red.600}",
+            "value": "{color.red.200}",
             "type": "color",
-            "description": "{color.red.600}",
+            "description": "{color.red.200}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.red.800}",
+            "value": "{color.red.200}",
             "type": "color",
-            "description": "{color.red.800}",
+            "description": "{color.red.200}",
             "failedToResolve": true
           },
           "medium": {
