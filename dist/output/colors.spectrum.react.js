@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Thu, 22 Feb 2024 14:42:27 GMT
+ * Generated on Wed, 28 Feb 2024 09:00:00 GMT
  */
 module.exports = /** @type {const} */ {
     "black": "#000000",
