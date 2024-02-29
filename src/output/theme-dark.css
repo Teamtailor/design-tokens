@@ -20,8 +20,8 @@
   --color-background-action-strong-hover: rgb(215, 37, 109);
   --color-background-action-strong-active: rgb(142, 16, 74);
   --color-background-action-strong-disabled: rgba(244,63,133, 0.5);
-  --color-background-action-medium: rgb(40, 40, 43);
-  --color-background-action-medium-hover: rgb(52, 53, 58);
+  --color-background-action-medium: rgb(28, 28, 30);
+  --color-background-action-medium-hover: rgb(40, 40, 43);
   --color-background-action-medium-active: rgb(63, 63, 70);
   --color-background-action-weak-hover: rgb(52, 53, 58);
   --color-background-action-weak-active: rgb(63, 63, 70);
@@ -81,9 +81,9 @@
   --color-background-decorative-yellow-weak: rgb(113, 63, 18);
   --color-background-decorative-yellow-medium: rgb(133, 77, 14);
   --color-background-decorative-yellow-strong: rgb(202, 138, 4);
-  --color-background-decorative-zinc-default: rgb(15, 15, 16);
-  --color-background-decorative-zinc-weak: rgb(28, 28, 30);
-  --color-background-decorative-zinc-medium: rgb(40, 40, 43);
+  --color-background-decorative-zinc-default: rgb(40, 40, 43);
+  --color-background-decorative-zinc-weak: rgb(40, 40, 43);
+  --color-background-decorative-zinc-medium: rgb(63, 63, 70);
   --color-background-decorative-zinc-strong: rgb(87, 89, 95);
   --color-background-decorative-cerise-default: rgb(73, 13, 37);
   --color-background-decorative-cerise-weak: rgb(131, 24, 67);
@@ -99,7 +99,7 @@
   --color-background-decorative-red-strong: rgb(220, 38, 38);
   --color-border-neutral-default: rgba(255,255,255, 0.14);
   --color-border-neutral-medium: rgba(255,255,255, 0.2);
-  --color-border-neutral-strong: rgba( rgb(255, 255, 255), 0.28);
+  --color-border-neutral-strong: rgba(255,255,255, 0.28);
   --color-border-success-default: rgba(52,53,58, 0.05);
   --color-border-danger-default: rgba(52,53,58, 0.05);
   --color-border-warning-default: rgba(52,53,58, 0.05);
