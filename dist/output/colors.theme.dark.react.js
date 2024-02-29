@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Wed, 28 Feb 2024 09:00:00 GMT
+ * Generated on Thu, 29 Feb 2024 08:28:44 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -37,8 +37,8 @@ module.exports = /** @type {const} */ {
             "strongHover": "#d7256d",
             "strongActive": "#8e104a",
             "strongDisabled": "rgba(244,63,133, 0.5)",
-            "medium": "#28282b",
-            "mediumHover": "#34353a",
+            "medium": "#1c1c1e",
+            "mediumHover": "#28282b",
             "mediumActive": "#3f3f46",
             "weakHover": "#34353a",
             "weakActive": "#3f3f46"
@@ -129,9 +129,9 @@ module.exports = /** @type {const} */ {
                 "strong": "#ca8a04"
             },
             "zinc": {
-                "default": "#0f0f10",
-                "weak": "#1c1c1e",
-                "medium": "#28282b",
+                "default": "#28282b",
+                "weak": "#28282b",
+                "medium": "#3f3f46",
                 "strong": "#57595f"
             },
             "cerise": {
@@ -158,7 +158,7 @@ module.exports = /** @type {const} */ {
         "neutral": {
             "default": "rgba(255,255,255, 0.14)",
             "medium": "rgba(255,255,255, 0.2)",
-            "strong": "rgba( #ffffff, 0.28)"
+            "strong": "rgba(255,255,255, 0.28)"
         },
         "success": {
             "default": "rgba(52,53,58, 0.05)"
