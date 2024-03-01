@@ -1,10 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Thu, 29 Feb 2024 08:28:44 GMT
+ * Generated on Fri, 01 Mar 2024 07:37:28 GMT
  */
 
 module.exports = /** @type {const} */ {
   "background": {
+    "mono": "var(--color-background-mono)",
     "canvas": "var(--color-background-canvas)",
     "neutral": {
       "DEFAULT": "var(--color-background-neutral-default)",
@@ -247,6 +248,7 @@ module.exports = /** @type {const} */ {
     },
     "action": {
       "DEFAULT": "var(--color-text-action-default)",
+      "hover": "var(--color-text-action-hover)",
       "default-active": "var(--color-text-action-default-active)",
       "weak": "var(--color-text-action-weak)",
       "weak-active": "var(--color-text-action-weak-active)",

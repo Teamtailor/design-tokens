@@ -1,4 +1,5 @@
 export namespace background {
+    const mono: string;
     const canvas: string;
     namespace neutral {
         const _default: string;
@@ -386,6 +387,8 @@ export namespace text {
     export namespace action_2 {
         const _default_30: string;
         export { _default_30 as default };
+        const hover_1: string;
+        export { hover_1 as hover };
         export const defaultActive: string;
         const weak_20: string;
         export { weak_20 as weak };

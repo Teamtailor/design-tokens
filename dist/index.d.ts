@@ -1,5 +1,6 @@
 export var themeColors: {
     background: {
+        mono: string;
         canvas: string;
         neutral: {
             DEFAULT: string;
@@ -242,6 +243,7 @@ export var themeColors: {
         };
         action: {
             DEFAULT: string;
+            hover: string;
             "default-active": string;
             weak: string;
             "weak-active": string;
@@ -763,6 +765,7 @@ export var tokenColors: {
 };
 export var reactLightThemeColors: {
     background: {
+        mono: string;
         canvas: string;
         neutral: {
             default: string;
@@ -1005,6 +1008,7 @@ export var reactLightThemeColors: {
         };
         action: {
             default: string;
+            hover: string;
             defaultActive: string;
             weak: string;
             weakActive: string;
@@ -1270,6 +1274,7 @@ export var reactLightThemeColors: {
 };
 export var reactDarkThemeColors: {
     background: {
+        mono: string;
         canvas: string;
         neutral: {
             default: string;
@@ -1512,6 +1517,7 @@ export var reactDarkThemeColors: {
         };
         action: {
             default: string;
+            hover: string;
             defaultActive: string;
             weak: string;
             weakActive: string;
