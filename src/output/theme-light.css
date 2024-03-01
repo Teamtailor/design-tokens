@@ -1,4 +1,5 @@
 .theme-light {
+  --color-background-mono: rgb(0, 0, 0);
   --color-background-canvas: rgb(255, 255, 255);
   --color-background-neutral-default: rgb(255, 255, 255);
   --color-background-neutral-hover: rgb(248, 248, 249);
@@ -130,6 +131,7 @@
   --color-text-neutral-weak: rgb(178, 179, 185);
   --color-text-neutral-medium: rgb(113, 113, 122);
   --color-text-action-default: rgb(244, 63, 133);
+  --color-text-action-hover: rgb(215, 37, 109);
   --color-text-action-default-active: rgb(215, 37, 109);
   --color-text-action-weak: rgb(52, 53, 58);
   --color-text-action-weak-active: rgb(244, 63, 133);

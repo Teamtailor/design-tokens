@@ -1,6 +1,12 @@
 {
   "color": {
     "background": {
+      "mono": {
+        "value": "{color.black}",
+        "type": "color",
+        "description": "{color.black}",
+        "failedToResolve": true
+      },
       "canvas": {
         "value": "{color.white}",
         "type": "color",
@@ -896,6 +902,12 @@
           "value": "{color.pink.500}",
           "type": "color",
           "description": "{color.pink.500}",
+          "failedToResolve": true
+        },
+        "hover": {
+          "value": "{color.pink.600}",
+          "type": "color",
+          "description": "{color.pink.600}",
           "failedToResolve": true
         },
         "default-active": {

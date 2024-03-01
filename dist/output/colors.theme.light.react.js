@@ -1,10 +1,11 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Thu, 29 Feb 2024 08:28:44 GMT
+ * Generated on Fri, 01 Mar 2024 07:37:28 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
+        "mono": "#000000",
         "canvas": "#ffffff",
         "neutral": {
             "default": "#ffffff",
@@ -247,6 +248,7 @@ module.exports = /** @type {const} */ {
         },
         "action": {
             "default": "#f43f85",
+            "hover": "#d7256d",
             "defaultActive": "#d7256d",
             "weak": "#34353a",
             "weakActive": "#f43f85",

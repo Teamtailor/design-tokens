@@ -1,4 +1,5 @@
 export namespace background {
+    const mono: string;
     const canvas: string;
     const neutral: {
         DEFAULT: string;
@@ -264,6 +265,7 @@ export namespace text {
     export { neutral_2 as neutral };
     const action_2: {
         DEFAULT: string;
+        hover: string;
         "default-active": string;
         weak: string;
         "weak-active": string;
