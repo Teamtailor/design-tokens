@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 01 Mar 2024 07:37:28 GMT
+ * Generated on Wed, 03 Apr 2024 14:14:17 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -43,6 +43,12 @@ module.exports = /** @type {const} */ {
       "mediumActive": "#fff0f5",
       "weakHover": "#f8f8f9",
       "weakActive": "#fff0f5"
+    },
+    "copilot": {
+      "default": "#faf5ff",
+      "weak": "#f3e8ff",
+      "medium": "#a855f7",
+      "strong": "#6b21a8"
     },
     "decorative": {
       "amber": {
@@ -178,6 +184,9 @@ module.exports = /** @type {const} */ {
       "mediumActive": "rgba(0,0,0, 0.05)",
       "strong": "linear-gradient(180deg, rgba(0,0,0, 0.02) 2%, rgba(0,0,0, 0.10) 100%)"
     },
+    "copilot": {
+      "medium": "#6b21a8"
+    },
     "decorative": {
       "amber": {
         "medium": "#92400e"
@@ -267,6 +276,12 @@ module.exports = /** @type {const} */ {
     },
     "info": {
       "default": "#34353a"
+    },
+    "copilot": {
+      "default": "#9333ea",
+      "weak": "#6b21a8",
+      "medium": "#ffffff",
+      "strong": "#ffffff"
     },
     "decorative": {
       "amber": {
@@ -398,6 +413,12 @@ module.exports = /** @type {const} */ {
     },
     "info": {
       "default": "#0284c7",
+      "strong": "#ffffff"
+    },
+    "copilot": {
+      "default": "#9333ea",
+      "weak": "#6b21a8",
+      "medium": "#ffffff",
       "strong": "#ffffff"
     },
     "decorative": {

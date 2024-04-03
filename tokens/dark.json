@@ -175,6 +175,32 @@
           "failedToResolve": true
         }
       },
+      "copilot": {
+        "DEFAULT": {
+          "value": "{color.purple.1000}",
+          "type": "color",
+          "description": "{color.purple.1000}",
+          "failedToResolve": true
+        },
+        "weak": {
+          "value": "{color.purple.900}",
+          "type": "color",
+          "description": "{color.purple.900}",
+          "failedToResolve": true
+        },
+        "medium": {
+          "value": "{color.purple.800}",
+          "type": "color",
+          "description": "{color.purple.800}",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.purple.600}",
+          "type": "color",
+          "description": "{color.purple.600}",
+          "failedToResolve": true
+        }
+      },
       "decorative": {
         "amber": {
           "DEFAULT": {
@@ -719,6 +745,14 @@
           "failedToResolve": true
         }
       },
+      "copilot": {
+        "medium": {
+          "value": "{color.purple.800}",
+          "type": "color",
+          "description": "{color.purple.800}",
+          "failedToResolve": true
+        }
+      },
       "decorative": {
         "amber": {
           "medium": {
@@ -976,6 +1010,32 @@
           "value": "{color.zinc.50}",
           "type": "color",
           "description": "{color.zinc.50}",
+          "failedToResolve": true
+        }
+      },
+      "copilot": {
+        "DEFAULT": {
+          "value": "{color.purple.50}",
+          "type": "color",
+          "description": "{color.purple.50}",
+          "failedToResolve": true
+        },
+        "weak": {
+          "value": "{color.purple.50}",
+          "type": "color",
+          "description": "{color.purple.50}",
+          "failedToResolve": true
+        },
+        "medium": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "{color.white}",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "{color.white}",
           "failedToResolve": true
         }
       },
@@ -1512,6 +1572,32 @@
           "value": "{color.light-blue.100}",
           "type": "color",
           "description": "{color.light-blue.100}",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "{color.white}",
+          "failedToResolve": true
+        }
+      },
+      "copilot": {
+        "DEFAULT": {
+          "value": "{color.purple.200}",
+          "type": "color",
+          "description": "{color.purple.200}",
+          "failedToResolve": true
+        },
+        "weak": {
+          "value": "{color.purple.200}",
+          "type": "color",
+          "description": "{color.purple.200}",
+          "failedToResolve": true
+        },
+        "medium": {
+          "value": "{color.white}",
+          "type": "color",
+          "description": "{color.white}",
           "failedToResolve": true
         },
         "strong": {

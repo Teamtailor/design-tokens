@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Fri, 01 Mar 2024 07:37:28 GMT
+ * Generated on Wed, 03 Apr 2024 14:14:17 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -43,6 +43,12 @@ module.exports = /** @type {const} */ {
             "medium-active": "var(--color-background-action-medium-active)",
             "weak-hover": "var(--color-background-action-weak-hover)",
             "weak-active": "var(--color-background-action-weak-active)"
+        },
+        "copilot": {
+            "DEFAULT": "var(--color-background-copilot-default)",
+            "weak": "var(--color-background-copilot-weak)",
+            "medium": "var(--color-background-copilot-medium)",
+            "strong": "var(--color-background-copilot-strong)"
         },
         "decorative": {
             "amber": {
@@ -178,6 +184,9 @@ module.exports = /** @type {const} */ {
             "medium-active": "var(--color-border-action-medium-active)",
             "strong": "var(--color-border-action-strong)"
         },
+        "copilot": {
+            "medium": "var(--color-border-copilot-medium)"
+        },
         "decorative": {
             "amber": {
                 "medium": "var(--color-border-decorative-amber-medium)"
@@ -267,6 +276,12 @@ module.exports = /** @type {const} */ {
         },
         "info": {
             "DEFAULT": "var(--color-text-info-default)"
+        },
+        "copilot": {
+            "DEFAULT": "var(--color-text-copilot-default)",
+            "weak": "var(--color-text-copilot-weak)",
+            "medium": "var(--color-text-copilot-medium)",
+            "strong": "var(--color-text-copilot-strong)"
         },
         "decorative": {
             "amber": {
@@ -399,6 +414,12 @@ module.exports = /** @type {const} */ {
         "info": {
             "DEFAULT": "var(--color-icon-info-default)",
             "strong": "var(--color-icon-info-strong)"
+        },
+        "copilot": {
+            "DEFAULT": "var(--color-icon-copilot-default)",
+            "weak": "var(--color-icon-copilot-weak)",
+            "medium": "var(--color-icon-copilot-medium)",
+            "strong": "var(--color-icon-copilot-strong)"
         },
         "decorative": {
             "amber": {
