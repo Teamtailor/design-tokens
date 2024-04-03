@@ -39,6 +39,12 @@ export var themeColors: {
             "weak-hover": string;
             "weak-active": string;
         };
+        copilot: {
+            DEFAULT: string;
+            weak: string;
+            medium: string;
+            strong: string;
+        };
         decorative: {
             amber: {
                 DEFAULT: string;
@@ -173,6 +179,9 @@ export var themeColors: {
             "medium-active": string;
             strong: string;
         };
+        copilot: {
+            medium: string;
+        };
         decorative: {
             amber: {
                 medium: string;
@@ -262,6 +271,12 @@ export var themeColors: {
         };
         info: {
             DEFAULT: string;
+        };
+        copilot: {
+            DEFAULT: string;
+            weak: string;
+            medium: string;
+            strong: string;
         };
         decorative: {
             amber: {
@@ -393,6 +408,12 @@ export var themeColors: {
         };
         info: {
             DEFAULT: string;
+            strong: string;
+        };
+        copilot: {
+            DEFAULT: string;
+            weak: string;
+            medium: string;
             strong: string;
         };
         decorative: {
@@ -804,6 +825,12 @@ export var reactLightThemeColors: {
             weakHover: string;
             weakActive: string;
         };
+        copilot: {
+            default: string;
+            weak: string;
+            medium: string;
+            strong: string;
+        };
         decorative: {
             amber: {
                 default: string;
@@ -938,6 +965,9 @@ export var reactLightThemeColors: {
             mediumActive: string;
             strong: string;
         };
+        copilot: {
+            medium: string;
+        };
         decorative: {
             amber: {
                 medium: string;
@@ -1027,6 +1057,12 @@ export var reactLightThemeColors: {
         };
         info: {
             default: string;
+        };
+        copilot: {
+            default: string;
+            weak: string;
+            medium: string;
+            strong: string;
         };
         decorative: {
             amber: {
@@ -1158,6 +1194,12 @@ export var reactLightThemeColors: {
         };
         info: {
             default: string;
+            strong: string;
+        };
+        copilot: {
+            default: string;
+            weak: string;
+            medium: string;
             strong: string;
         };
         decorative: {
@@ -1313,6 +1355,12 @@ export var reactDarkThemeColors: {
             weakHover: string;
             weakActive: string;
         };
+        copilot: {
+            default: string;
+            weak: string;
+            medium: string;
+            strong: string;
+        };
         decorative: {
             amber: {
                 default: string;
@@ -1447,6 +1495,9 @@ export var reactDarkThemeColors: {
             mediumActive: string;
             strong: string;
         };
+        copilot: {
+            medium: string;
+        };
         decorative: {
             amber: {
                 medium: string;
@@ -1536,6 +1587,12 @@ export var reactDarkThemeColors: {
         };
         info: {
             default: string;
+        };
+        copilot: {
+            default: string;
+            weak: string;
+            medium: string;
+            strong: string;
         };
         decorative: {
             amber: {
@@ -1667,6 +1724,12 @@ export var reactDarkThemeColors: {
         };
         info: {
             default: string;
+            strong: string;
+        };
+        copilot: {
+            default: string;
+            weak: string;
+            medium: string;
             strong: string;
         };
         decorative: {
