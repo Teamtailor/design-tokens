@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Wed, 03 Apr 2024 14:14:17 GMT
+ * Generated on Mon, 20 May 2024 15:52:44 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -54,109 +54,109 @@ module.exports = /** @type {const} */ {
             "amber": {
                 "default": "#492009",
                 "weak": "#78350f",
-                "medium": "#92400e",
+                "medium": "#d97706",
                 "strong": "#d97706"
             },
             "orange": {
                 "default": "#4c1b0b",
                 "weak": "#7c2d12",
-                "medium": "#9a3412",
+                "medium": "#ea580c",
                 "strong": "#ea580c"
             },
             "lime": {
                 "default": "#23350d",
                 "weak": "#365314",
-                "medium": "#3f6212",
+                "medium": "#65a30d",
                 "strong": "#65a30d"
             },
             "green": {
                 "default": "#0c310e",
                 "weak": "#145318",
-                "medium": "#16651a",
+                "medium": "#16a31b",
                 "strong": "#16a31b"
             },
             "emerald": {
                 "default": "#042f24",
                 "weak": "#064e3b",
-                "medium": "#065f46",
+                "medium": "#059669",
                 "strong": "#059669"
             },
             "teal": {
                 "default": "#0c312f",
                 "weak": "#134e4a",
-                "medium": "#115e59",
+                "medium": "#0d9488",
                 "strong": "#0d9488"
             },
             "cyan": {
                 "default": "#0f3543",
                 "weak": "#164e63",
-                "medium": "#155e75",
+                "medium": "#0891b2",
                 "strong": "#0891b2"
             },
             "lightBlue": {
                 "default": "#09354e",
                 "weak": "#0c4a6e",
-                "medium": "#075985",
+                "medium": "#0284c7",
                 "strong": "#0284c7"
             },
             "blue": {
                 "default": "#132558",
                 "weak": "#1e3a8a",
-                "medium": "#1e40af",
+                "medium": "#2563eb",
                 "strong": "#2563eb"
             },
             "indigo": {
                 "default": "#1f1d53",
                 "weak": "#312e81",
-                "medium": "#3730a3",
+                "medium": "#4f46e5",
                 "strong": "#4f46e5"
             },
             "violet": {
                 "default": "#30125e",
                 "weak": "#4c1d95",
-                "medium": "#5b21b6",
+                "medium": "#7c3aed",
                 "strong": "#7c3aed"
             },
             "purple": {
                 "default": "#371254",
                 "weak": "#581c87",
-                "medium": "#6b21a8",
+                "medium": "#9333ea",
                 "strong": "#9333ea"
             },
             "fuchsia": {
                 "default": "#48114b",
                 "weak": "#701a75",
-                "medium": "#86198f",
+                "medium": "#c026d3",
                 "strong": "#c026d3"
             },
             "yellow": {
                 "default": "#46270b",
                 "weak": "#713f12",
-                "medium": "#854d0e",
+                "medium": "#ca8a04",
                 "strong": "#ca8a04"
             },
             "zinc": {
                 "default": "#28282b",
                 "weak": "#28282b",
-                "medium": "#3f3f46",
+                "medium": "#57595f",
                 "strong": "#57595f"
             },
             "cerise": {
                 "default": "#490d25",
                 "weak": "#831843",
-                "medium": "#9d174d",
+                "medium": "#db2777",
                 "strong": "#db2777"
             },
             "rose": {
                 "default": "#43091b",
                 "weak": "#881337",
-                "medium": "#9f1239",
+                "medium": "#e11d48",
                 "strong": "#e11d48"
             },
             "red": {
                 "default": "#4f1212",
                 "weak": "#7f1d1d",
-                "medium": "#991b1b",
+                "medium": "#dc2626",
                 "strong": "#dc2626"
             }
         }
