@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 20 May 2024 15:52:44 GMT
+ * Generated on Tue, 21 May 2024 06:44:12 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -252,7 +252,7 @@ module.exports = /** @type {const} */ {
   "text": {
     "neutral": {
       "default": "#f4f4f5",
-      "weak": "#71717a",
+      "weak": "#909095",
       "medium": "#b2b3b9"
     },
     "action": {
