@@ -919,9 +919,9 @@
           "failedToResolve": true
         },
         "weak": {
-          "value": "{color.zinc.500}",
+          "value": "{color.zinc.450}",
           "type": "color",
-          "description": "{color.zinc.500}",
+          "description": "{color.zinc.450}",
           "failedToResolve": true
         },
         "medium": {
