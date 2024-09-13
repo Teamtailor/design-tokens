@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Tue, 21 May 2024 06:44:12 GMT
+ * Generated on Fri, 13 Sep 2024 08:15:42 GMT
  */
 module.exports = /** @type {const} */ {
     "black": "#000000",
@@ -21,8 +21,8 @@ module.exports = /** @type {const} */ {
         "700": "#3f3f46",
         "750": "#34353a",
         "800": "#28282b",
-        "900": "#1c1c1e",
-        "1000": "#0f0f10"
+        "900": "#202022",
+        "1000": "#151516"
     },
     "pink": {
         "50": "#fff0f5",
