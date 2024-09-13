@@ -1,18 +1,18 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Fri, 13 Sep 2024 08:15:42 GMT
+ * Generated on Fri, 13 Sep 2024 13:09:04 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
         "mono": "#ffffff",
-        "canvas": "#151516",
+        "canvas": "#202022",
         "neutral": {
             "default": "#202022",
             "hover": "#28282b",
-            "weak": "#202022",
-            "weakHover": "#28282b",
-            "medium": "#34353a",
+            "weak": "#28282b",
+            "weakHover": "#34353a",
+            "medium": "#3f3f46",
             "mediumHover": "#57595f",
             "strong": "#151516",
             "strongHover": "#202022"

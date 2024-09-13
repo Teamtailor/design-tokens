@@ -8,9 +8,9 @@
         "failedToResolve": true
       },
       "canvas": {
-        "value": "{color.zinc.1000}",
+        "value": "{color.zinc.900}",
         "type": "color",
-        "description": "{color.zinc.1000}",
+        "description": "{color.zinc.900}",
         "failedToResolve": true
       },
       "neutral": {
@@ -27,21 +27,21 @@
           "failedToResolve": true
         },
         "weak": {
-          "value": "{color.zinc.900}",
-          "type": "color",
-          "description": "{color.zinc.900}",
-          "failedToResolve": true
-        },
-        "weak-hover": {
           "value": "{color.zinc.800}",
           "type": "color",
           "description": "{color.zinc.800}",
           "failedToResolve": true
         },
-        "medium": {
+        "weak-hover": {
           "value": "{color.zinc.750}",
           "type": "color",
           "description": "{color.zinc.750}",
+          "failedToResolve": true
+        },
+        "medium": {
+          "value": "{color.zinc.700}",
+          "type": "color",
+          "description": "{color.zinc.700}",
           "failedToResolve": true
         },
         "medium-hover": {
