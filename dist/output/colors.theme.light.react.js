@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Mon, 16 Sep 2024 06:19:50 GMT
+ * Generated on Mon, 16 Sep 2024 07:15:31 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {

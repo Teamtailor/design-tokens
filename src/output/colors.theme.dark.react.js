@@ -1,12 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 Sep 2024 06:19:50 GMT
+ * Generated on Mon, 16 Sep 2024 07:15:31 GMT
  */
 
 module.exports = /** @type {const} */ {
   "background": {
     "mono": "#ffffff",
-    "canvas": "#202022",
+    "canvas": "#1C1C1E",
     "neutral": {
       "default": "#28282b",
       "hover": "#34353a",
@@ -14,8 +14,8 @@ module.exports = /** @type {const} */ {
       "weakHover": "#34353a",
       "medium": "#3f3f46",
       "mediumHover": "#57595f",
-      "strong": "#151516",
-      "strongHover": "#202022"
+      "strong": "#0f0f10",
+      "strongHover": "#1C1C1E"
     },
     "success": {
       "default": "#0c310e",
@@ -38,7 +38,7 @@ module.exports = /** @type {const} */ {
       "strongHover": "#d7256d",
       "strongActive": "#8e104a",
       "strongDisabled": "rgba(244,63,133, 0.5)",
-      "medium": "#202022",
+      "medium": "#1C1C1E",
       "mediumHover": "#28282b",
       "mediumActive": "#3f3f46",
       "weakHover": "#34353a",
