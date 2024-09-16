@@ -15,15 +15,15 @@
       },
       "neutral": {
         "DEFAULT": {
-          "value": "{color.zinc.900}",
-          "type": "color",
-          "description": "{color.zinc.900}",
-          "failedToResolve": true
-        },
-        "hover": {
           "value": "{color.zinc.800}",
           "type": "color",
           "description": "{color.zinc.800}",
+          "failedToResolve": true
+        },
+        "hover": {
+          "value": "{color.zinc.750}",
+          "type": "color",
+          "description": "{color.zinc.750}",
           "failedToResolve": true
         },
         "weak": {
