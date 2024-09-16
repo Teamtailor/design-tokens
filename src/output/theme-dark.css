@@ -1,6 +1,6 @@
 .theme-dark {
   --color-background-mono: rgb(255, 255, 255);
-  --color-background-canvas: rgb(32, 32, 34);
+  --color-background-canvas: rgb(28, 28, 30);
   --color-background-neutral-default: rgb(40, 40, 43);
   --color-background-neutral-hover: rgb(52, 53, 58);
   --color-background-neutral-weak: rgb(40, 40, 43);
@@ -8,7 +8,7 @@
   --color-background-neutral-medium: rgb(63, 63, 70);
   --color-background-neutral-medium-hover: rgb(87, 89, 95);
   --color-background-neutral-strong: rgb(21, 21, 22);
-  --color-background-neutral-strong-hover: rgb(32, 32, 34);
+  --color-background-neutral-strong-hover: rgb(28, 28, 30);
   --color-background-success-default: rgb(12, 49, 14);
   --color-background-success-strong: rgb(22, 101, 26);
   --color-background-danger-default: rgb(79, 18, 18);
@@ -21,7 +21,7 @@
   --color-background-action-strong-hover: rgb(215, 37, 109);
   --color-background-action-strong-active: rgb(142, 16, 74);
   --color-background-action-strong-disabled: rgba(244,63,133, 0.5);
-  --color-background-action-medium: rgb(32, 32, 34);
+  --color-background-action-medium: rgb(28, 28, 30);
   --color-background-action-medium-hover: rgb(40, 40, 43);
   --color-background-action-medium-active: rgb(63, 63, 70);
   --color-background-action-weak-hover: rgb(52, 53, 58);
