@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Mon, 16 Sep 2024 07:14:06 GMT
+ * Generated on Mon, 16 Sep 2024 07:15:31 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -14,7 +14,7 @@ module.exports = /** @type {const} */ {
             "weakHover": "#34353a",
             "medium": "#3f3f46",
             "mediumHover": "#57595f",
-            "strong": "#151516",
+            "strong": "#0f0f10",
             "strongHover": "#1C1C1E"
         },
         "success": {
