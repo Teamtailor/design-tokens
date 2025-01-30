@@ -16,7 +16,7 @@ To use this inside your Tailwind config you should import the relevant config in
 
 ```javascript
 // tailwind.config.js
-const {tokenColors, themeColors} = require('@teamtailor/design-tokens');
+const { tokenColors, themeColors } = require("@teamtailor/design-tokens")
 
 module.exports = {
   // ...
@@ -52,3 +52,12 @@ Css files are located here and are apply by using `.theme-light` or `.theme-dark
 @teamtailor/design-tokens/src/output/theme-light.css';
 @teamtailor/design-tokens/src/output/theme-dark.css';
 ```
+
+## Change colors
+
+Do those steps in order to change colors:
+
+1. Create a branch with the name `chore/figma-changes` (we will generate files depending on this branch name)
+2. Make changes in `tokens.json`
+3. Create a PR. Now will Github actions generate lots of necessary files (and bump version)
+4. Update package.json in your repo with the new version
