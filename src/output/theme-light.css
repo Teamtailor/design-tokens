@@ -139,9 +139,9 @@
   --color-text-action-hover: rgb(215, 37, 109);
   --color-text-action-default-active: rgb(215, 37, 109);
   --color-text-action-weak: rgb(52, 53, 58);
-  --color-text-action-weak-active: rgb(244, 63, 133);
+  --color-text-action-weak-active: rgb(215, 37, 109);
   --color-text-action-medium: rgb(52, 53, 58);
-  --color-text-action-medium-active: rgb(244, 63, 133);
+  --color-text-action-medium-active: rgb(215, 37, 109);
   --color-text-action-strong: rgb(255, 255, 255);
   --color-text-success-default: rgb(52, 53, 58);
   --color-text-danger-default: rgb(52, 53, 58);
