@@ -225,13 +225,13 @@
   --color-text-decorative-red-strong: rgb(255, 255, 255);
   --color-icon-neutral-default: rgb(178, 179, 185);
   --color-icon-neutral-weak: rgb(113, 113, 122);
-  --color-icon-success-default: rgb(222, 250, 222);
+  --color-icon-success-default: rgb(22, 163, 27);
   --color-icon-success-strong: rgb(255, 255, 255);
-  --color-icon-danger-default: rgb(254, 226, 226);
+  --color-icon-danger-default: rgb(220, 38, 38);
   --color-icon-danger-strong: rgb(255, 255, 255);
-  --color-icon-warning-default: rgb(254, 243, 199);
+  --color-icon-warning-default: rgb(217, 119, 6);
   --color-icon-warning-strong: rgb(255, 255, 255);
-  --color-icon-info-default: rgb(220, 242, 254);
+  --color-icon-info-default: rgb(2, 132, 199);
   --color-icon-info-strong: rgb(255, 255, 255);
   --color-icon-copilot-default: rgb(233, 213, 255);
   --color-icon-copilot-weak: rgb(233, 213, 255);

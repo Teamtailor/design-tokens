@@ -957,9 +957,9 @@
           "failedToResolve": true
         },
         "weak-active": {
-          "value": "{color.pink.500}",
+          "value": "{color.pink.600}",
           "type": "color",
-          "description": "{color.pink.500}",
+          "description": "{color.pink.600}",
           "failedToResolve": true
         },
         "medium": {
@@ -969,9 +969,9 @@
           "failedToResolve": true
         },
         "medium-active": {
-          "value": "{color.pink.500}",
+          "value": "{color.pink.600}",
           "type": "color",
-          "description": "{color.pink.500}",
+          "description": "{color.pink.600}",
           "failedToResolve": true
         },
         "strong": {

@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Mon, 16 Sep 2024 07:15:31 GMT
+ * Generated on Thu, 30 Jan 2025 07:46:19 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -260,9 +260,9 @@ module.exports = /** @type {const} */ {
             "hover": "#d7256d",
             "defaultActive": "#d7256d",
             "weak": "#34353a",
-            "weakActive": "#f43f85",
+            "weakActive": "#d7256d",
             "medium": "#34353a",
-            "mediumActive": "#f43f85",
+            "mediumActive": "#d7256d",
             "strong": "#ffffff"
         },
         "success": {

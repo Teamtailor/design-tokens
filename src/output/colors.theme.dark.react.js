@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 16 Sep 2024 07:15:31 GMT
+ * Generated on Thu, 30 Jan 2025 07:46:19 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -400,19 +400,19 @@ module.exports = /** @type {const} */ {
       "weak": "#71717a"
     },
     "success": {
-      "default": "#defade",
+      "default": "#16a31b",
       "strong": "#ffffff"
     },
     "danger": {
-      "default": "#fee2e2",
+      "default": "#dc2626",
       "strong": "#ffffff"
     },
     "warning": {
-      "default": "#fef3c7",
+      "default": "#d97706",
       "strong": "#ffffff"
     },
     "info": {
-      "default": "#dcf2fe",
+      "default": "#0284c7",
       "strong": "#ffffff"
     },
     "copilot": {

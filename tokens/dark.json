@@ -1527,9 +1527,9 @@
       },
       "success": {
         "DEFAULT": {
-          "value": "{color.green.100}",
+          "value": "{color.green.600}",
           "type": "color",
-          "description": "{color.green.100}",
+          "description": "{color.green.600}",
           "failedToResolve": true
         },
         "strong": {
@@ -1541,9 +1541,9 @@
       },
       "danger": {
         "DEFAULT": {
-          "value": "{color.red.100}",
+          "value": "{color.red.600}",
           "type": "color",
-          "description": "{color.red.100}",
+          "description": "{color.red.600}",
           "failedToResolve": true
         },
         "strong": {
@@ -1555,9 +1555,9 @@
       },
       "warning": {
         "DEFAULT": {
-          "value": "{color.amber.100}",
+          "value": "{color.amber.600}",
           "type": "color",
-          "description": "{color.amber.100}",
+          "description": "{color.amber.600}",
           "failedToResolve": true
         },
         "strong": {
@@ -1569,9 +1569,9 @@
       },
       "info": {
         "DEFAULT": {
-          "value": "{color.light-blue.100}",
+          "value": "{color.light-blue.600}",
           "type": "color",
-          "description": "{color.light-blue.100}",
+          "description": "{color.light-blue.600}",
           "failedToResolve": true
         },
         "strong": {
