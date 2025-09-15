@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 30 Jan 2025 07:55:55 GMT
+ * Generated on Mon, 15 Sep 2025 11:49:56 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -40,9 +40,9 @@ module.exports = /** @type {const} */ {
       "strongDisabled": "rgba(244,63,133, 0.5)",
       "medium": "#ffffff",
       "mediumHover": "#f8f8f9",
-      "mediumActive": "#fff0f5",
-      "weakHover": "#f8f8f9",
-      "weakActive": "#fff0f5"
+      "mediumActive": "#ffe5ee",
+      "weakHover": "#eeeef0",
+      "weakActive": "#ffe5ee"
     },
     "copilot": {
       "default": "#faf5ff",
