@@ -157,21 +157,21 @@
           "failedToResolve": true
         },
         "medium-active": {
-          "value": "{color.pink.50}",
+          "value": "{color.pink.100}",
           "type": "color",
-          "description": "{color.pink.50}",
+          "description": "{color.pink.100}",
           "failedToResolve": true
         },
         "weak-hover": {
-          "value": "{color.zinc.50}",
+          "value": "{color.zinc.150}",
           "type": "color",
-          "description": "{color.zinc.50}",
+          "description": "{color.zinc.150}",
           "failedToResolve": true
         },
         "weak-active": {
-          "value": "{color.pink.50}",
+          "value": "{color.pink.100}",
           "type": "color",
-          "description": "{color.pink.50}",
+          "description": "{color.pink.100}",
           "failedToResolve": true
         }
       },
