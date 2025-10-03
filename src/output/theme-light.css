@@ -22,9 +22,9 @@
   --color-background-action-strong-active: rgb(181, 22, 91);
   --color-background-action-strong-disabled: rgba(244,63,133, 0.5);
   --color-background-action-medium: rgb(255, 255, 255);
-  --color-background-action-medium-hover: rgb(248, 248, 249);
+  --color-background-action-medium-hover: rgba(15,15,16, 0.04);
   --color-background-action-medium-active: rgb(255, 229, 238);
-  --color-background-action-weak-hover: rgb(238, 238, 240);
+  --color-background-action-weak-hover: rgba(15,15,16, 0.04);
   --color-background-action-weak-active: rgb(255, 229, 238);
   --color-background-copilot-default: rgb(250, 245, 255);
   --color-background-copilot-weak: rgb(243, 232, 255);

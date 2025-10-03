@@ -151,9 +151,9 @@
           "failedToResolve": true
         },
         "medium-hover": {
-          "value": "{color.zinc.50}",
+          "value": "rgba({color.zinc.1000}, 0.04)",
           "type": "color",
-          "description": "{color.zinc.50}",
+          "description": "rgba({color.zinc.1000}, 0.04)",
           "failedToResolve": true
         },
         "medium-active": {
@@ -163,9 +163,9 @@
           "failedToResolve": true
         },
         "weak-hover": {
-          "value": "{color.zinc.150}",
+          "value": "rgba({color.zinc.1000}, 0.04)",
           "type": "color",
-          "description": "{color.zinc.150}",
+          "description": "rgba({color.zinc.1000}, 0.04)",
           "failedToResolve": true
         },
         "weak-active": {
