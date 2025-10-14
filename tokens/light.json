@@ -151,9 +151,9 @@
           "failedToResolve": true
         },
         "medium-hover": {
-          "value": "rgba({color.zinc.1000}, 0.04)",
+          "value": "{color.zinc.50}",
           "type": "color",
-          "description": "rgba({color.zinc.1000}, 0.04)",
+          "description": "{color.zinc.50}",
           "failedToResolve": true
         },
         "medium-active": {
