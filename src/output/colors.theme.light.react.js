@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Oct 2025 06:57:55 GMT
+ * Generated on Tue, 14 Oct 2025 09:06:23 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -39,7 +39,7 @@ module.exports = /** @type {const} */ {
       "strongActive": "#b5165b",
       "strongDisabled": "rgba(244,63,133, 0.5)",
       "medium": "#ffffff",
-      "mediumHover": "rgba(15,15,16, 0.04)",
+      "mediumHover": "#f8f8f9",
       "mediumActive": "#ffe5ee",
       "weakHover": "rgba(15,15,16, 0.04)",
       "weakActive": "#ffe5ee"
