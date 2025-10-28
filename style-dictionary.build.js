@@ -169,6 +169,27 @@ const themeConfig = (theme) => {
   };
 };
 
+const colorsSpectrumCssVarsConfig = {
+    source: ['tokens/spectrum.json'],
+    platforms: {
+      web: {
+        transforms: [
+          'attribute/cti',
+          'name/cti/kebab',
+          'color/hex',
+        ],
+        buildPath: `src/output/`,
+        files: [
+          {
+            destination: `colors-spectrum.css`,
+            format: 'css/variables',
+            selector: `:root`,
+          },
+        ],
+      },
+    },
+  };
+
 console.log('\n==============================================');
 console.log(`\nProcessing: Spectrum`);
 const dictionaryTailwindColors =
@@ -195,5 +216,8 @@ dictionaryLight.buildPlatform('theme');
 console.log(`\nProcessing: Dark`);
 const dictionaryDark = StyleDictionaryPackage.extend(themeConfig('dark'));
 dictionaryDark.buildPlatform('theme');
+
+const colorsSpectrumCss = StyleDictionaryPackage.extend(colorsSpectrumCssVarsConfig);
+colorsSpectrumCss.buildPlatform('web');
 
 console.log('\nEnd processing');
