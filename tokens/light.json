@@ -733,9 +733,9 @@
           "failedToResolve": true
         },
         "medium-active": {
-          "value": "rgba({color.black}, 0.05)",
+          "value": "{color.pink.200}",
           "type": "color",
-          "description": "rgba($color.black, 0.05)",
+          "description": "{color.pink.200}",
           "failedToResolve": true
         },
         "strong": {

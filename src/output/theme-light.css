@@ -110,7 +110,7 @@
   --color-border-warning-default: rgba(52,53,58, 0.05);
   --color-border-info-default: rgba(52,53,58, 0.05);
   --color-border-action-medium: rgb(228, 228, 231);
-  --color-border-action-medium-active: rgba(0,0,0, 0.05);
+  --color-border-action-medium-active: rgb(255, 199, 219);
   --color-border-action-strong: linear-gradient(180deg, rgba(0,0,0, 0.02) 2%, rgba(0,0,0, 0.10) 100%);
   --color-border-copilot-medium: rgb(107, 33, 168);
   --color-border-decorative-amber-medium: rgb(146, 64, 14);

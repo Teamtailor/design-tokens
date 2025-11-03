@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Oct 2025 11:00:57 GMT
+ * Generated on Mon, 03 Nov 2025 08:38:05 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -181,7 +181,7 @@ module.exports = /** @type {const} */ {
     },
     "action": {
       "medium": "#e4e4e7",
-      "mediumActive": "rgba(0,0,0, 0.05)",
+      "mediumActive": "#ffc7db",
       "strong": "linear-gradient(180deg, rgba(0,0,0, 0.02) 2%, rgba(0,0,0, 0.10) 100%)"
     },
     "copilot": {
