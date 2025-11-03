@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Tue, 28 Oct 2025 11:00:57 GMT
+ * Generated on Mon, 03 Nov 2025 08:38:05 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -181,7 +181,7 @@ module.exports = /** @type {const} */ {
         },
         "action": {
             "medium": "#57595f",
-            "mediumActive": "rgba(0,0,0, 0.05)",
+            "mediumActive": "#d7256d",
             "strong": "linear-gradient(180deg, rgba(0,0,0, 0.02) 2%, rgba(0,0,0, 0.10) 100%)"
         },
         "copilot": {
