@@ -404,7 +404,7 @@ export namespace text {
         export { _default_31 as default };
         const hover_1: string;
         export { hover_1 as hover };
-        export const defaultActive: string;
+        export const active: string;
         const weak_21: string;
         export { weak_21 as weak };
         const weakActive_1: string;

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 03 Nov 2025 08:38:05 GMT
+ * Generated on Tue, 23 Dec 2025 12:17:28 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -258,7 +258,7 @@ module.exports = /** @type {const} */ {
     "action": {
       "DEFAULT": "var(--color-text-action-default)",
       "hover": "var(--color-text-action-hover)",
-      "default-active": "var(--color-text-action-default-active)",
+      "active": "var(--color-text-action-active)",
       "weak": "var(--color-text-action-weak)",
       "weak-active": "var(--color-text-action-weak-active)",
       "medium": "var(--color-text-action-medium)",

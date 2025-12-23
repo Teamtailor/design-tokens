@@ -1,21 +1,21 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Mon, 03 Nov 2025 08:38:05 GMT
+ * Generated on Tue, 23 Dec 2025 12:17:28 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
-        "mono": "#ffffff",
-        "canvas": "#1C1C1E",
+        "mono": "#fff",
+        "canvas": "#18181b",
         "neutral": {
-            "default": "#28282b",
+            "default": "#27272a",
             "hover": "#34353a",
-            "weak": "#28282b",
+            "weak": "#27272a",
             "weakHover": "#34353a",
             "medium": "#3f3f46",
             "mediumHover": "#57595f",
             "strong": "#0f0f10",
-            "strongHover": "#1C1C1E"
+            "strongHover": "#18181b"
         },
         "success": {
             "default": "#0c310e",
@@ -23,230 +23,230 @@ module.exports = /** @type {const} */ {
         },
         "danger": {
             "default": "#4f1212",
-            "strong": "#991b1b"
+            "strong": "#9f0712"
         },
         "warning": {
             "default": "#492009",
-            "strong": "#92400e"
+            "strong": "#973c00"
         },
         "info": {
             "default": "#09354e",
-            "strong": "#075985"
+            "strong": "#00598a"
         },
         "action": {
             "strong": "#b5165b",
             "strongHover": "#d7256d",
             "strongActive": "#8e104a",
-            "strongDisabled": "rgba(244,63,133, 0.5)",
-            "medium": "#1C1C1E",
-            "mediumHover": "#28282b",
+            "strongDisabled": "rgba(244, 63, 133, 0.5)",
+            "medium": "#18181b",
+            "mediumHover": "#27272a",
             "mediumActive": "#3f3f46",
             "weakHover": "#34353a",
             "weakActive": "#3f3f46"
         },
         "copilot": {
             "default": "#371254",
-            "weak": "#581c87",
-            "medium": "#6b21a8",
-            "strong": "#9333ea"
+            "weak": "#59168b",
+            "medium": "#6e11b0",
+            "strong": "#9810fa"
         },
         "decorative": {
             "amber": {
                 "default": "#492009",
-                "weak": "#78350f",
-                "medium": "#d97706",
-                "strong": "#d97706"
+                "weak": "#7b3306",
+                "medium": "#e17100",
+                "strong": "#e17100"
             },
             "orange": {
                 "default": "#4c1b0b",
-                "weak": "#7c2d12",
-                "medium": "#ea580c",
-                "strong": "#ea580c"
+                "weak": "#7e2a0c",
+                "medium": "#f54900",
+                "strong": "#f54900"
             },
             "lime": {
                 "default": "#23350d",
-                "weak": "#365314",
-                "medium": "#65a30d",
-                "strong": "#65a30d"
+                "weak": "#35530e",
+                "medium": "#5ea500",
+                "strong": "#5ea500"
             },
             "green": {
                 "default": "#0c310e",
                 "weak": "#145318",
-                "medium": "#16a31b",
-                "strong": "#16a31b"
+                "medium": "#17a31c",
+                "strong": "#17a31c"
             },
             "emerald": {
                 "default": "#042f24",
-                "weak": "#064e3b",
-                "medium": "#059669",
-                "strong": "#059669"
+                "weak": "#004f3b",
+                "medium": "#096",
+                "strong": "#096"
             },
             "teal": {
-                "default": "#0c312f",
-                "weak": "#134e4a",
-                "medium": "#0d9488",
-                "strong": "#0d9488"
+                "default": "#0d312f",
+                "weak": "#0b4f4a",
+                "medium": "#009689",
+                "strong": "#009689"
             },
             "cyan": {
                 "default": "#0f3543",
-                "weak": "#164e63",
-                "medium": "#0891b2",
-                "strong": "#0891b2"
+                "weak": "#104e64",
+                "medium": "#0092b8",
+                "strong": "#0092b8"
             },
             "lightBlue": {
                 "default": "#09354e",
-                "weak": "#0c4a6e",
-                "medium": "#0284c7",
-                "strong": "#0284c7"
+                "weak": "#024a70",
+                "medium": "#0084d1",
+                "strong": "#0084d1"
             },
             "blue": {
                 "default": "#132558",
-                "weak": "#1e3a8a",
-                "medium": "#2563eb",
-                "strong": "#2563eb"
+                "weak": "#1c398e",
+                "medium": "#155dfc",
+                "strong": "#155dfc"
             },
             "indigo": {
                 "default": "#1f1d53",
-                "weak": "#312e81",
-                "medium": "#4f46e5",
-                "strong": "#4f46e5"
+                "weak": "#312c85",
+                "medium": "#4f39f6",
+                "strong": "#4f39f6"
             },
             "violet": {
                 "default": "#30125e",
-                "weak": "#4c1d95",
-                "medium": "#7c3aed",
-                "strong": "#7c3aed"
+                "weak": "#4d179a",
+                "medium": "#7f22fe",
+                "strong": "#7f22fe"
             },
             "purple": {
                 "default": "#371254",
-                "weak": "#581c87",
-                "medium": "#9333ea",
-                "strong": "#9333ea"
+                "weak": "#59168b",
+                "medium": "#9810fa",
+                "strong": "#9810fa"
             },
             "fuchsia": {
                 "default": "#48114b",
-                "weak": "#701a75",
-                "medium": "#c026d3",
-                "strong": "#c026d3"
+                "weak": "#721378",
+                "medium": "#c800de",
+                "strong": "#c800de"
             },
             "yellow": {
                 "default": "#46270b",
-                "weak": "#713f12",
-                "medium": "#ca8a04",
-                "strong": "#ca8a04"
+                "weak": "#733e0a",
+                "medium": "#d08700",
+                "strong": "#d08700"
             },
             "zinc": {
-                "default": "#28282b",
-                "weak": "#28282b",
+                "default": "#27272a",
+                "weak": "#27272a",
                 "medium": "#57595f",
                 "strong": "#57595f"
             },
             "cerise": {
                 "default": "#490d25",
-                "weak": "#831843",
-                "medium": "#db2777",
-                "strong": "#db2777"
+                "weak": "#861043",
+                "medium": "#e60076",
+                "strong": "#e60076"
             },
             "rose": {
                 "default": "#43091b",
-                "weak": "#881337",
-                "medium": "#e11d48",
-                "strong": "#e11d48"
+                "weak": "#8b0836",
+                "medium": "#ec003f",
+                "strong": "#ec003f"
             },
             "red": {
                 "default": "#4f1212",
-                "weak": "#7f1d1d",
-                "medium": "#dc2626",
-                "strong": "#dc2626"
+                "weak": "#82181a",
+                "medium": "#e7000b",
+                "strong": "#e7000b"
             }
         }
     },
     "border": {
         "neutral": {
-            "default": "rgba(255,255,255, 0.14)",
-            "medium": "rgba(255,255,255, 0.2)",
-            "strong": "rgba(255,255,255, 0.28)"
+            "default": "rgba(255, 255, 255, 0.14)",
+            "medium": "rgba(255, 255, 255, 0.2)",
+            "strong": "rgba(255, 255, 255, 0.28)"
         },
         "success": {
-            "default": "rgba(52,53,58, 0.05)"
+            "default": "rgba(52, 53, 58, 0.05)"
         },
         "danger": {
-            "default": "rgba(52,53,58, 0.05)"
+            "default": "rgba(52, 53, 58, 0.05)"
         },
         "warning": {
-            "default": "rgba(52,53,58, 0.05)"
+            "default": "rgba(52, 53, 58, 0.05)"
         },
         "info": {
-            "default": "rgba(52,53,58, 0.05)"
+            "default": "rgba(52, 53, 58, 0.05)"
         },
         "action": {
             "medium": "#57595f",
             "mediumActive": "#d7256d",
-            "strong": "linear-gradient(180deg, rgba(0,0,0, 0.02) 2%, rgba(0,0,0, 0.10) 100%)"
+            "strong": "linear-gradient(180deg, rgba(0, 0, 0, 0.02) 2%, rgba(0, 0, 0, 0.1) 100%)"
         },
         "copilot": {
-            "medium": "#6b21a8"
+            "medium": "#6e11b0"
         },
         "decorative": {
             "amber": {
-                "medium": "#92400e"
+                "medium": "#973c00"
             },
             "orange": {
-                "medium": "#9a3412"
+                "medium": "#9f2d00"
             },
             "lime": {
-                "medium": "#3f6212"
+                "medium": "#3c6300"
             },
             "green": {
                 "medium": "#16651a"
             },
             "emerald": {
-                "medium": "#065f46"
+                "medium": "#006045"
             },
             "teal": {
-                "medium": "#115e59"
+                "medium": "#005f5a"
             },
             "cyan": {
-                "medium": "#155e75"
+                "medium": "#005f78"
             },
             "lightBlue": {
-                "medium": "#075985"
+                "medium": "#00598a"
             },
             "blue": {
-                "medium": "#1e40af"
+                "medium": "#193cb8"
             },
             "indigo": {
-                "medium": "#3730a3"
+                "medium": "#372aac"
             },
             "violet": {
-                "medium": "#5b21b6"
+                "medium": "#5d0ec0"
             },
             "purple": {
-                "medium": "#6b21a8"
+                "medium": "#6e11b0"
             },
             "fuchsia": {
-                "medium": "#86198f"
+                "medium": "#8a0194"
             },
             "yellow": {
-                "medium": "#854d0e"
+                "medium": "#894b00"
             },
             "zinc": {
-                "medium": "#28282b"
+                "medium": "#27272a"
             },
             "cerise": {
-                "medium": "#9d174d"
+                "medium": "#a3004c"
             },
             "rose": {
-                "medium": "#9f1239"
+                "medium": "#a50036"
             },
             "red": {
-                "medium": "#991b1b"
+                "medium": "#9f0712"
             }
         }
     },
     "outline": {
         "focus": {
-            "default": "rgba(244,63,133, 0.5)"
+            "default": "rgba(244, 63, 133, 0.5)"
         }
     },
     "text": {
@@ -258,277 +258,277 @@ module.exports = /** @type {const} */ {
         "action": {
             "default": "#f43f85",
             "hover": "#d7256d",
-            "defaultActive": "#d7256d",
-            "weak": "#ffffff",
+            "active": "#d7256d",
+            "weak": "#fff",
             "weakActive": "#f43f85",
-            "medium": "#ffffff",
+            "medium": "#fff",
             "mediumActive": "#f43f85",
-            "strong": "#ffffff"
+            "strong": "#fff"
         },
         "success": {
-            "default": "#f8f8f9"
+            "default": "#fafafa"
         },
         "danger": {
-            "default": "#f8f8f9"
+            "default": "#fafafa"
         },
         "warning": {
-            "default": "#f8f8f9"
+            "default": "#fafafa"
         },
         "info": {
-            "default": "#f8f8f9"
+            "default": "#fafafa"
         },
         "copilot": {
             "default": "#faf5ff",
             "weak": "#faf5ff",
-            "medium": "#ffffff",
-            "strong": "#ffffff"
+            "medium": "#fff",
+            "strong": "#fff"
         },
         "decorative": {
             "amber": {
                 "default": "#fffbeb",
                 "weak": "#fffbeb",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "orange": {
                 "default": "#fff7ed",
                 "weak": "#fff7ed",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "fuchsia": {
                 "default": "#fdf4ff",
                 "weak": "#fdf4ff",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "purple": {
                 "default": "#faf5ff",
                 "weak": "#faf5ff",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "violet": {
                 "default": "#f5f3ff",
                 "weak": "#f5f3ff",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "indigo": {
                 "default": "#eef2ff",
                 "weak": "#eef2ff",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "blue": {
                 "default": "#eff6ff",
                 "weak": "#eff6ff",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "lightBlue": {
                 "default": "#f0f9ff",
                 "weak": "#f0f9ff",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "cyan": {
-                "default": "#edfdfe",
-                "weak": "#edfdfe",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#ecfeff",
+                "weak": "#ecfeff",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "teal": {
-                "default": "#edfcf9",
-                "weak": "#edfcf9",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#f0fdfa",
+                "weak": "#f0fdfa",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "emerald": {
-                "default": "#eefcf5",
-                "weak": "#eefcf5",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#ecfdf5",
+                "weak": "#ecfdf5",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "green": {
-                "default": "#f1fcf1",
-                "weak": "#f1fcf1",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#f0fdf4",
+                "weak": "#f0fdf4",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "lime": {
-                "default": "#f7fde8",
-                "weak": "#f7fde8",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#f7fee7",
+                "weak": "#f7fee7",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "cerise": {
                 "default": "#fdf2f8",
                 "weak": "#fdf2f8",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "yellow": {
                 "default": "#fefce8",
                 "weak": "#fefce8",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "zinc": {
-                "default": "#f8f8f9",
-                "weak": "#f8f8f9",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#fafafa",
+                "weak": "#fafafa",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "rose": {
                 "default": "#fff1f2",
                 "weak": "#fff1f2",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "red": {
                 "default": "#fef2f2",
                 "weak": "#fef2f2",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             }
         }
     },
     "icon": {
         "neutral": {
             "default": "#b2b3b9",
-            "weak": "#71717a"
+            "weak": "#71717b"
         },
         "success": {
-            "default": "#16a31b",
-            "strong": "#ffffff"
+            "default": "#17a31c",
+            "strong": "#fff"
         },
         "danger": {
-            "default": "#dc2626",
-            "strong": "#ffffff"
+            "default": "#e7000b",
+            "strong": "#fff"
         },
         "warning": {
-            "default": "#d97706",
-            "strong": "#ffffff"
+            "default": "#e17100",
+            "strong": "#fff"
         },
         "info": {
-            "default": "#0284c7",
-            "strong": "#ffffff"
+            "default": "#0084d1",
+            "strong": "#fff"
         },
         "copilot": {
-            "default": "#e9d5ff",
-            "weak": "#e9d5ff",
-            "medium": "#ffffff",
-            "strong": "#ffffff"
+            "default": "#e9d4ff",
+            "weak": "#e9d4ff",
+            "medium": "#fff",
+            "strong": "#fff"
         },
         "decorative": {
             "amber": {
-                "default": "#fde68a",
-                "weak": "#fde68a",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#fee685",
+                "weak": "#fee685",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "orange": {
-                "default": "#fed7aa",
-                "weak": "#fed7aa",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#ffd6a7",
+                "weak": "#ffd6a7",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "fuchsia": {
-                "default": "#f5d0fe",
-                "weak": "#f5d0fe",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#f6cfff",
+                "weak": "#f6cfff",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "purple": {
-                "default": "#e9d5ff",
-                "weak": "#e9d5ff",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#e9d4ff",
+                "weak": "#e9d4ff",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "violet": {
-                "default": "#ddd6fe",
-                "weak": "#ddd6fe",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#ddd6ff",
+                "weak": "#ddd6ff",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "indigo": {
-                "default": "#c7d2fe",
-                "weak": "#c7d2fe",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#c6d2ff",
+                "weak": "#c6d2ff",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "blue": {
-                "default": "#bfdbfe",
-                "weak": "#bfdbfe",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#bedbff",
+                "weak": "#bedbff",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "lightBlue": {
-                "default": "#bce6fb",
-                "weak": "#bce6fb",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#b8e6fe",
+                "weak": "#b8e6fe",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "cyan": {
-                "default": "#a9eff8",
-                "weak": "#a9eff8",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#a4f3fc",
+                "weak": "#a4f3fc",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "teal": {
                 "default": "#a1eedf",
                 "weak": "#a1eedf",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "emerald": {
-                "default": "#abefd0",
-                "weak": "#abefd0",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#a4f4cf",
+                "weak": "#a4f4cf",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "green": {
                 "default": "#bff3c0",
                 "weak": "#bff3c0",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "lime": {
-                "default": "#d7f4a2",
-                "weak": "#d7f4a2",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#d8f999",
+                "weak": "#d8f999",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "cerise": {
-                "default": "#fbcfe8",
-                "weak": "#fbcfe8",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#fccee8",
+                "weak": "#fccee8",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "yellow": {
-                "default": "#fef08a",
-                "weak": "#fef08a",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#fff085",
+                "weak": "#fff085",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "zinc": {
                 "default": "#e4e4e7",
                 "weak": "#e4e4e7",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "rose": {
-                "default": "#fecdd3",
-                "weak": "#fecdd3",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#ffccd3",
+                "weak": "#ffccd3",
+                "medium": "#fff",
+                "strong": "#fff"
             },
             "red": {
-                "default": "#fecaca",
-                "weak": "#fecaca",
-                "medium": "#ffffff",
-                "strong": "#ffffff"
+                "default": "#ffc9c9",
+                "weak": "#ffc9c9",
+                "medium": "#fff",
+                "strong": "#fff"
             }
         }
     }

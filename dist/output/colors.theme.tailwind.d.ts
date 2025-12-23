@@ -281,7 +281,7 @@ export namespace text {
     const action_2: {
         DEFAULT: string;
         hover: string;
-        "default-active": string;
+        active: string;
         weak: string;
         "weak-active": string;
         medium: string;
