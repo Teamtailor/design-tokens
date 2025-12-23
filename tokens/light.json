@@ -139,9 +139,9 @@
           "failedToResolve": true
         },
         "strong-disabled": {
-          "value": "rgba({color.pink.500}, 0.5)",
+          "value": "oklch(from {color.pink.500} l c h / 0.5)",
           "type": "color",
-          "description": "rgba($color.pink.500, 0.5)",
+          "description": "oklch(from {color.pink.500} l c h / 0.5)",
           "failedToResolve": true
         },
         "medium": {
@@ -163,9 +163,9 @@
           "failedToResolve": true
         },
         "weak-hover": {
-          "value": "rgba({color.zinc.1000}, 0.04)",
+          "value": "oklch(from {color.zinc.1000} l c h / 0.04)",
           "type": "color",
-          "description": "rgba({color.zinc.1000}, 0.04)",
+          "description": "oklch(from {color.zinc.1000} l c h / 0.04)",
           "failedToResolve": true
         },
         "weak-active": {
@@ -675,53 +675,53 @@
     "border": {
       "neutral": {
         "DEFAULT": {
-          "value": "rgba({color.black}, 0.06)",
+          "value": "oklch(from {color.black} l c h / 0.06)",
           "type": "color",
-          "description": "rgba({color.black}, 0.06)",
+          "description": "oklch(from {color.black} l c h / 0.06)",
           "failedToResolve": true
         },
         "medium": {
-          "value": "rgba({color.black}, 0.11)",
+          "value": "oklch(from {color.black} l c h / 0.11)",
           "type": "color",
-          "description": "rgba({color.black}, 0.11)",
+          "description": "oklch(from {color.black} l c h / 0.11)",
           "failedToResolve": true
         },
         "strong": {
-          "value": "rgba({color.black}, 0.2)",
+          "value": "oklch(from {color.black} l c h / 0.2)",
           "type": "color",
-          "description": "rgba({color.black}, 0.2)",
+          "description": "oklch(from {color.black} l c h / 0.2)",
           "failedToResolve": true
         }
       },
       "success": {
         "DEFAULT": {
-          "value": "rgba({color.zinc.750}, 0.05)",
+          "value": "oklch(from {color.zinc.750} l c h / 0.05)",
           "type": "color",
-          "description": "rgba($color.zinc.750, 0.05)",
+          "description": "oklch(from {color.zinc.750} l c h / 0.05)",
           "failedToResolve": true
         }
       },
       "danger": {
         "DEFAULT": {
-          "value": "rgba({color.zinc.750}, 0.05)",
+          "value": "oklch(from {color.zinc.750} l c h / 0.05)",
           "type": "color",
-          "description": "rgba($color.zinc.750, 0.05)",
+          "description": "oklch(from {color.zinc.750} l c h / 0.05)",
           "failedToResolve": true
         }
       },
       "warning": {
         "DEFAULT": {
-          "value": "rgba({color.zinc.750}, 0.05)",
+          "value": "oklch(from {color.zinc.750} l c h / 0.05)",
           "type": "color",
-          "description": "rgba($color.zinc.750, 0.05)",
+          "description": "oklch(from {color.zinc.750} l c h / 0.05)",
           "failedToResolve": true
         }
       },
       "info": {
         "DEFAULT": {
-          "value": "rgba({color.zinc.750}, 0.05)",
+          "value": "oklch(from {color.zinc.750} l c h / 0.05)",
           "type": "color",
-          "description": "rgba($color.zinc.750, 0.05)",
+          "description": "oklch(from {color.zinc.750} l c h / 0.05)",
           "failedToResolve": true
         }
       },
@@ -739,9 +739,9 @@
           "failedToResolve": true
         },
         "strong": {
-          "value": "linear-gradient(180deg, rgba({color.black}, 0.02) 2%, rgba({color.black}, 0.10) 100%)",
+          "value": "linear-gradient(180deg, oklch(from {color.black} l c h / 0.02) 2%, oklch(from {color.black} l c h / 0.10) 100%)",
           "type": "color",
-          "description": "linear-gradient(180deg, rgba({color.black}, 0.02) 2%, rgba({color.black}, 0.10) 100%)",
+          "description": "linear-gradient(180deg, oklch(from {color.black} l c h / 0.02) 2%, oklch(from {color.black} l c h / 0.10) 100%)",
           "failedToResolve": true
         }
       },
@@ -903,9 +903,9 @@
     "outline": {
       "focus": {
         "DEFAULT": {
-          "value": "rgba({color.pink.500}, 0.5)",
+          "value": "oklch(from {color.pink.500} l c h / 0.5)",
           "type": "color",
-          "description": "rgba({color.pink.500}, 0.5)",
+          "description": "oklch(from {color.pink.500} l c h / 0.5)",
           "failedToResolve": true
         }
       }
@@ -944,7 +944,7 @@
           "description": "{color.pink.600}",
           "failedToResolve": true
         },
-        "default-active": {
+        "active": {
           "value": "{color.pink.600}",
           "type": "color",
           "description": "{color.pink.600}",

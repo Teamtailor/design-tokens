@@ -150,8 +150,6 @@ const themeConfig = (theme) => {
         transforms: [
           'attribute/cti',
           'name/cti/kebab',
-          'color/rgb',
-          'css/duplicate-rgb',
         ],
         buildPath: `src/output/`,
         files: [
@@ -176,7 +174,6 @@ const colorsSpectrumCssVarsConfig = {
         transforms: [
           'attribute/cti',
           'name/cti/kebab',
-          'color/hex',
         ],
         buildPath: `src/output/`,
         files: [

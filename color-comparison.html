@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Comparison: Hex vs OKLCH</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      background: #0f0f10;
+      color: #e4e4e7;
+      padding: 2rem;
+      line-height: 1.5;
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+    
+    .subtitle {
+      color: #71717a;
+      margin-bottom: 2rem;
+      font-size: 0.875rem;
+    }
+    
+    .legend {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      background: #1c1c1e;
+      border-radius: 8px;
+      font-size: 0.75rem;
+    }
+    
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .legend-box {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      border: 1px solid #3f3f46;
+    }
+    
+    .palette {
+      margin-bottom: 2rem;
+    }
+    
+    .palette-name {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #a1a1aa;
+      text-transform: capitalize;
+    }
+    
+    .palette-name.custom {
+      color: #f43f85;
+    }
+    
+    .palette-name.custom::after {
+      content: ' (Custom - differs from Tailwind)';
+      font-size: 0.7rem;
+      color: #f43f85;
+      font-weight: 400;
+    }
+    
+    .shades {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    
+    .shade {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    
+    .shade-label {
+      font-size: 0.65rem;
+      color: #71717a;
+    }
+    
+    .color-pair {
+      display: flex;
+      gap: 2px;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid #3f3f46;
+    }
+    
+    .color-box {
+      width: 40px;
+      height: 50px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 4px;
+      font-size: 0.5rem;
+      color: transparent;
+      transition: color 0.2s;
+    }
+    
+    .color-box:hover {
+      color: inherit;
+    }
+    
+    .color-box.hex {
+      border-right: 1px dashed rgba(255,255,255,0.2);
+    }
+    
+    .color-box.light-text {
+      color: rgba(0,0,0,0.6);
+    }
+    
+    .color-box.dark-text {
+      color: rgba(255,255,255,0.8);
+    }
+    
+    .diff-indicator {
+      font-size: 0.6rem;
+      color: #f43f85;
+      text-align: center;
+      margin-top: 2px;
+    }
+    
+    .section-divider {
+      border-top: 1px solid #3f3f46;
+      margin: 2rem 0;
+      padding-top: 1rem;
+    }
+    
+    .section-title {
+      font-size: 0.875rem;
+      color: #71717a;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Color Comparison: Hex → OKLCH</h1>
+  <p class="subtitle">Left = Original Hex | Right = New OKLCH</p>
+  
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-box" style="background: linear-gradient(90deg, #f43f85 50%, oklch(65.4% 0.221 2.378) 50%)"></div>
+      <span>Hex (left) vs OKLCH (right)</span>
+    </div>
+    <div class="legend-item">
+      <span style="color: #f43f85;">● Custom palette</span>
+    </div>
+  </div>
+
+  <div id="palettes"></div>
+
+  <script>
+    const colors = {
+      zinc: {
+        custom: true,
+        shades: {
+          '50': { hex: '#f8f8f9', oklch: 'oklch(98.5% 0 0)' },
+          '100': { hex: '#f4f4f5', oklch: 'oklch(96.7% 0.001 286.375)' },
+          '150': { hex: '#eeeef0', oklch: 'oklch(95.0% 0.003 286.349)' },
+          '200': { hex: '#e4e4e7', oklch: 'oklch(92% 0.004 286.32)' },
+          '250': { hex: '#dddee1', oklch: 'oklch(90.1% 0.004 271.366)' },
+          '300': { hex: '#d4d4d8', oklch: 'oklch(87.1% 0.006 286.286)' },
+          '350': { hex: '#b2b3b9', oklch: 'oklch(76.8% 0.009 278.595)' },
+          '400': { hex: '#a1a1aa', oklch: 'oklch(70.5% 0.015 286.067)' },
+          '450': { hex: '#909095', oklch: 'oklch(65.5% 0.007 286.196)' },
+          '500': { hex: '#71717a', oklch: 'oklch(55.2% 0.016 285.938)' },
+          '600': { hex: '#57595f', oklch: 'oklch(46.4% 0.010 271.198)' },
+          '700': { hex: '#3f3f46', oklch: 'oklch(37% 0.013 285.805)' },
+          '750': { hex: '#34353a', oklch: 'oklch(33.0% 0.009 276.875)' },
+          '800': { hex: '#28282b', oklch: 'oklch(27.4% 0.006 286.033)' },
+          '900': { hex: '#1C1C1E', oklch: 'oklch(21% 0.006 285.885)' },
+          '1000': { hex: '#0f0f10', oklch: 'oklch(16.9% 0.002 286.177)' }
+        }
+      },
+      pink: {
+        custom: true,
+        shades: {
+          '50': { hex: '#fff0f5', oklch: 'oklch(97.1% 0.014 343.198)' },
+          '100': { hex: '#ffe5ee', oklch: 'oklch(94.5% 0.031 354.723)' },
+          '200': { hex: '#ffc7db', oklch: 'oklch(88.5% 0.068 355.265)' },
+          '300': { hex: '#ffa4c4', oklch: 'oklch(81.8% 0.114 357.260)' },
+          '400': { hex: '#fd73a5', oklch: 'oklch(73.3% 0.175 359.570)' },
+          '500': { hex: '#f43f85', oklch: 'oklch(65.4% 0.221 2.378)' },
+          '600': { hex: '#d7256d', oklch: 'oklch(58.1% 0.214 3.500)' },
+          '700': { hex: '#b5165b', oklch: 'oklch(50.7% 0.193 2.713)' },
+          '800': { hex: '#8e104a', oklch: 'oklch(42.6% 0.162 0.587)' },
+          '900': { hex: '#660e39', oklch: 'oklch(34.2% 0.125 357.168)' },
+          '1000': { hex: '#3a0821', oklch: 'oklch(23.9% 0.082 354.750)' }
+        }
+      },
+      rose: {
+        custom: false,
+        shades: {
+          '50': { hex: '#fff1f2', oklch: 'oklch(96.9% 0.015 12.422)' },
+          '100': { hex: '#ffe4e6', oklch: 'oklch(94.1% 0.03 12.58)' },
+          '200': { hex: '#fecdd3', oklch: 'oklch(89.2% 0.058 10.001)' },
+          '300': { hex: '#fda4af', oklch: 'oklch(81% 0.117 11.638)' },
+          '400': { hex: '#fb7185', oklch: 'oklch(71.2% 0.194 13.428)' },
+          '500': { hex: '#f43f5e', oklch: 'oklch(64.5% 0.246 16.439)' },
+          '600': { hex: '#e11d48', oklch: 'oklch(58.6% 0.253 17.585)' },
+          '700': { hex: '#be123c', oklch: 'oklch(51.4% 0.222 16.935)' },
+          '800': { hex: '#9f1239', oklch: 'oklch(45.5% 0.188 13.697)' },
+          '900': { hex: '#881337', oklch: 'oklch(41% 0.159 10.272)' },
+          '1000': { hex: '#43091b', oklch: 'oklch(25.6% 0.087 7.900)' }
+        }
+      },
+      cerise: {
+        custom: false,
+        shades: {
+          '50': { hex: '#fdf2f8', oklch: 'oklch(97.1% 0.014 343.198)' },
+          '100': { hex: '#fce7f3', oklch: 'oklch(94.8% 0.028 342.258)' },
+          '200': { hex: '#fbcfe8', oklch: 'oklch(89.9% 0.061 343.231)' },
+          '300': { hex: '#f9a8d4', oklch: 'oklch(82.3% 0.12 346.018)' },
+          '400': { hex: '#f472b6', oklch: 'oklch(71.8% 0.202 349.761)' },
+          '500': { hex: '#ec4899', oklch: 'oklch(65.6% 0.241 354.308)' },
+          '600': { hex: '#db2777', oklch: 'oklch(59.2% 0.249 0.584)' },
+          '700': { hex: '#be185d', oklch: 'oklch(52.5% 0.223 3.958)' },
+          '800': { hex: '#9d174d', oklch: 'oklch(45.9% 0.187 3.815)' },
+          '900': { hex: '#831843', oklch: 'oklch(40.8% 0.153 2.432)' },
+          '1000': { hex: '#490d25', oklch: 'oklch(27.6% 0.092 1.165)' }
+        }
+      },
+      fuchsia: {
+        custom: false,
+        shades: {
+          '50': { hex: '#fdf4ff', oklch: 'oklch(97.7% 0.017 320.058)' },
+          '100': { hex: '#fae8ff', oklch: 'oklch(95.2% 0.037 318.852)' },
+          '200': { hex: '#f5d0fe', oklch: 'oklch(90.3% 0.076 319.62)' },
+          '300': { hex: '#f0abfc', oklch: 'oklch(83.3% 0.145 321.434)' },
+          '400': { hex: '#e879f9', oklch: 'oklch(74% 0.238 322.16)' },
+          '500': { hex: '#d946ef', oklch: 'oklch(66.7% 0.295 322.15)' },
+          '600': { hex: '#c026d3', oklch: 'oklch(59.1% 0.293 322.896)' },
+          '700': { hex: '#a21caf', oklch: 'oklch(51.8% 0.253 323.949)' },
+          '800': { hex: '#86198f', oklch: 'oklch(45.2% 0.211 324.591)' },
+          '900': { hex: '#701a75', oklch: 'oklch(40.1% 0.17 325.612)' },
+          '1000': { hex: '#48114b', oklch: 'oklch(29.9% 0.113 325.726)' }
+        }
+      },
+      purple: {
+        custom: false,
+        shades: {
+          '50': { hex: '#faf5ff', oklch: 'oklch(97.7% 0.014 308.299)' },
+          '100': { hex: '#f3e8ff', oklch: 'oklch(94.6% 0.033 307.174)' },
+          '200': { hex: '#e9d5ff', oklch: 'oklch(90.2% 0.063 306.703)' },
+          '300': { hex: '#d8b4fe', oklch: 'oklch(82.7% 0.119 306.383)' },
+          '400': { hex: '#c084fc', oklch: 'oklch(71.4% 0.203 305.504)' },
+          '500': { hex: '#a855f7', oklch: 'oklch(62.7% 0.265 303.9)' },
+          '600': { hex: '#9333ea', oklch: 'oklch(55.8% 0.288 302.321)' },
+          '700': { hex: '#7e22ce', oklch: 'oklch(49.6% 0.265 301.924)' },
+          '800': { hex: '#6b21a8', oklch: 'oklch(43.8% 0.218 303.724)' },
+          '900': { hex: '#581c87', oklch: 'oklch(38.1% 0.176 304.987)' },
+          '1000': { hex: '#371254', oklch: 'oklch(28.0% 0.114 305.782)' }
+        }
+      },
+      violet: {
+        custom: false,
+        shades: {
+          '50': { hex: '#f5f3ff', oklch: 'oklch(96.9% 0.016 293.756)' },
+          '100': { hex: '#ede9fe', oklch: 'oklch(94.3% 0.029 294.588)' },
+          '200': { hex: '#ddd6fe', oklch: 'oklch(89.4% 0.057 293.283)' },
+          '300': { hex: '#c4b5fd', oklch: 'oklch(81.1% 0.111 293.571)' },
+          '400': { hex: '#a78bfa', oklch: 'oklch(70.2% 0.183 293.541)' },
+          '500': { hex: '#8b5cf6', oklch: 'oklch(60.6% 0.25 292.717)' },
+          '600': { hex: '#7c3aed', oklch: 'oklch(54.1% 0.281 293.009)' },
+          '700': { hex: '#6d28d9', oklch: 'oklch(49.1% 0.27 292.581)' },
+          '800': { hex: '#5b21b6', oklch: 'oklch(43.2% 0.232 292.759)' },
+          '900': { hex: '#4c1d95', oklch: 'oklch(38% 0.189 293.745)' },
+          '1000': { hex: '#30125e', oklch: 'oklch(28.0% 0.125 294.967)' }
+        }
+      },
+      indigo: {
+        custom: false,
+        shades: {
+          '50': { hex: '#eef2ff', oklch: 'oklch(96.2% 0.018 272.314)' },
+          '100': { hex: '#e0e7ff', oklch: 'oklch(93% 0.034 272.788)' },
+          '200': { hex: '#c7d2fe', oklch: 'oklch(87% 0.065 274.039)' },
+          '300': { hex: '#a5b4fc', oklch: 'oklch(78.5% 0.115 274.713)' },
+          '400': { hex: '#818cf8', oklch: 'oklch(67.3% 0.182 276.935)' },
+          '500': { hex: '#6366f1', oklch: 'oklch(58.5% 0.233 277.117)' },
+          '600': { hex: '#4f46e5', oklch: 'oklch(51.1% 0.262 276.966)' },
+          '700': { hex: '#4338ca', oklch: 'oklch(45.7% 0.24 277.023)' },
+          '800': { hex: '#3730a3', oklch: 'oklch(39.8% 0.195 277.366)' },
+          '900': { hex: '#312e81', oklch: 'oklch(35.9% 0.144 278.697)' },
+          '1000': { hex: '#1f1d53', oklch: 'oklch(27.0% 0.095 279.515)' }
+        }
+      },
+      blue: {
+        custom: false,
+        shades: {
+          '50': { hex: '#eff6ff', oklch: 'oklch(97% 0.014 254.604)' },
+          '100': { hex: '#dbeafe', oklch: 'oklch(93.2% 0.032 255.585)' },
+          '200': { hex: '#bfdbfe', oklch: 'oklch(88.2% 0.059 254.128)' },
+          '300': { hex: '#93c5fd', oklch: 'oklch(80.9% 0.105 251.813)' },
+          '400': { hex: '#60a5fa', oklch: 'oklch(70.7% 0.165 254.624)' },
+          '500': { hex: '#3b82f6', oklch: 'oklch(62.3% 0.214 259.815)' },
+          '600': { hex: '#2563eb', oklch: 'oklch(54.6% 0.245 262.881)' },
+          '700': { hex: '#1d4ed8', oklch: 'oklch(48.8% 0.243 264.376)' },
+          '800': { hex: '#1e40af', oklch: 'oklch(42.4% 0.199 265.638)' },
+          '900': { hex: '#1e3a8a', oklch: 'oklch(37.9% 0.146 265.522)' },
+          '1000': { hex: '#132558', oklch: 'oklch(28.3% 0.095 265.853)' }
+        }
+      },
+      'light-blue': {
+        custom: false,
+        shades: {
+          '50': { hex: '#f0f9ff', oklch: 'oklch(97.7% 0.013 236.62)' },
+          '100': { hex: '#dcf2fe', oklch: 'oklch(95.1% 0.026 236.824)' },
+          '200': { hex: '#bce6fb', oklch: 'oklch(90.1% 0.058 230.902)' },
+          '300': { hex: '#81d2f8', oklch: 'oklch(82.8% 0.111 230.318)' },
+          '400': { hex: '#3ebbf2', oklch: 'oklch(74.6% 0.16 232.661)' },
+          '500': { hex: '#0ea5e9', oklch: 'oklch(68.5% 0.169 237.323)' },
+          '600': { hex: '#0284c7', oklch: 'oklch(58.8% 0.158 241.966)' },
+          '700': { hex: '#0369a1', oklch: 'oklch(50% 0.134 242.749)' },
+          '800': { hex: '#075985', oklch: 'oklch(44.3% 0.11 240.79)' },
+          '900': { hex: '#0c4a6e', oklch: 'oklch(39.1% 0.09 240.876)' },
+          '1000': { hex: '#09354e', oklch: 'oklch(31.4% 0.064 239.328)' }
+        }
+      },
+      cyan: {
+        custom: false,
+        shades: {
+          '50': { hex: '#edfdfe', oklch: 'oklch(98.4% 0.019 200.873)' },
+          '100': { hex: '#d9f9fc', oklch: 'oklch(96.0% 0.033 203.507)' },
+          '200': { hex: '#a9eff8', oklch: 'oklch(91.7% 0.078 205.041)' },
+          '300': { hex: '#6fe2f1', oklch: 'oklch(86.5% 0.127 207.078)' },
+          '400': { hex: '#2ecbe2', oklch: 'oklch(77.5% 0.126 210.122)' },
+          '500': { hex: '#06b6d4', oklch: 'oklch(71.5% 0.143 215.221)' },
+          '600': { hex: '#0891b2', oklch: 'oklch(60.9% 0.126 221.723)' },
+          '700': { hex: '#0e7490', oklch: 'oklch(52% 0.105 223.128)' },
+          '800': { hex: '#155e75', oklch: 'oklch(45% 0.085 224.283)' },
+          '900': { hex: '#164e63', oklch: 'oklch(39.8% 0.07 227.392)' },
+          '1000': { hex: '#0f3543', oklch: 'oklch(30.9% 0.049 226.249)' }
+        }
+      },
+      teal: {
+        custom: false,
+        shades: {
+          '50': { hex: '#edfcf9', oklch: 'oklch(98.4% 0.014 180.72)' },
+          '100': { hex: '#d7f9f2', oklch: 'oklch(95.6% 0.036 181.707)' },
+          '200': { hex: '#a1eedf', oklch: 'oklch(89.5% 0.079 180.857)' },
+          '300': { hex: '#67e1ce', oklch: 'oklch(83.5% 0.113 181.775)' },
+          '400': { hex: '#2dd4bf', oklch: 'oklch(77.7% 0.152 181.912)' },
+          '500': { hex: '#14b8a6', oklch: 'oklch(70.4% 0.14 182.503)' },
+          '600': { hex: '#0d9488', oklch: 'oklch(60% 0.118 184.704)' },
+          '700': { hex: '#0f766e', oklch: 'oklch(51.1% 0.096 186.391)' },
+          '800': { hex: '#115e59', oklch: 'oklch(43.7% 0.078 188.216)' },
+          '900': { hex: '#134e4a', oklch: 'oklch(38.6% 0.063 188.416)' },
+          '1000': { hex: '#0c312f', oklch: 'oklch(28.7% 0.041 190.042)' }
+        }
+      },
+      emerald: {
+        custom: false,
+        shades: {
+          '50': { hex: '#eefcf5', oklch: 'oklch(97.9% 0.021 166.113)' },
+          '100': { hex: '#d4f7e5', oklch: 'oklch(95% 0.052 163.051)' },
+          '200': { hex: '#abefd0', oklch: 'oklch(90.5% 0.093 164.15)' },
+          '300': { hex: '#73e2b6', oklch: 'oklch(84.5% 0.143 164.978)' },
+          '400': { hex: '#34d399', oklch: 'oklch(76.5% 0.177 163.223)' },
+          '500': { hex: '#10b981', oklch: 'oklch(69.6% 0.17 162.48)' },
+          '600': { hex: '#059669', oklch: 'oklch(59.6% 0.145 163.225)' },
+          '700': { hex: '#047857', oklch: 'oklch(50.8% 0.118 165.612)' },
+          '800': { hex: '#065f46', oklch: 'oklch(43.2% 0.095 166.913)' },
+          '900': { hex: '#064e3b', oklch: 'oklch(37.8% 0.077 168.94)' },
+          '1000': { hex: '#042f24', oklch: 'oklch(27.3% 0.050 171.234)' }
+        }
+      },
+      green: {
+        custom: true,
+        shades: {
+          '50': { hex: '#f1fcf1', oklch: 'oklch(98.2% 0.018 155.826)' },
+          '100': { hex: '#defade', oklch: 'oklch(95.7% 0.047 145.194)' },
+          '200': { hex: '#bff3c0', oklch: 'oklch(91.5% 0.087 145.308)' },
+          '300': { hex: '#8de890', oklch: 'oklch(85.2% 0.149 144.846)' },
+          '400': { hex: '#55d359', oklch: 'oklch(77.0% 0.198 143.865)' },
+          '500': { hex: '#26c12b', oklch: 'oklch(70.7% 0.222 143.068)' },
+          '600': { hex: '#16a31b', oklch: 'oklch(62.3% 0.201 142.939)' },
+          '700': { hex: '#158019', oklch: 'oklch(52.3% 0.165 143.108)' },
+          '800': { hex: '#16651a', oklch: 'oklch(44.4% 0.132 143.560)' },
+          '900': { hex: '#145318', oklch: 'oklch(38.9% 0.110 143.950)' },
+          '1000': { hex: '#0c310e', oklch: 'oklch(27.7% 0.073 144.128)' }
+        }
+      },
+      lime: {
+        custom: false,
+        shades: {
+          '50': { hex: '#f7fde8', oklch: 'oklch(98.6% 0.031 120.757)' },
+          '100': { hex: '#ebf9ce', oklch: 'oklch(96.7% 0.067 122.328)' },
+          '200': { hex: '#d7f4a2', oklch: 'oklch(93.8% 0.127 124.321)' },
+          '300': { hex: '#bcea6c', oklch: 'oklch(87.9% 0.162 126.223)' },
+          '400': { hex: '#a2e338', oklch: 'oklch(84.1% 0.238 128.85)' },
+          '500': { hex: '#84cc16', oklch: 'oklch(76.8% 0.233 130.85)' },
+          '600': { hex: '#65a30d', oklch: 'oklch(64.8% 0.2 131.684)' },
+          '700': { hex: '#4d7c0f', oklch: 'oklch(53.2% 0.157 131.589)' },
+          '800': { hex: '#3f6212', oklch: 'oklch(45.3% 0.124 130.933)' },
+          '900': { hex: '#365314', oklch: 'oklch(40.5% 0.101 131.063)' },
+          '1000': { hex: '#23350d', oklch: 'oklch(30.3% 0.067 130.208)' }
+        }
+      },
+      yellow: {
+        custom: false,
+        shades: {
+          '50': { hex: '#fefce8', oklch: 'oklch(98.7% 0.026 102.212)' },
+          '100': { hex: '#fef9c3', oklch: 'oklch(97.3% 0.071 103.193)' },
+          '200': { hex: '#fef08a', oklch: 'oklch(94.5% 0.129 101.54)' },
+          '300': { hex: '#fde047', oklch: 'oklch(90.5% 0.182 98.111)' },
+          '400': { hex: '#facc15', oklch: 'oklch(85.2% 0.199 91.936)' },
+          '500': { hex: '#eab308', oklch: 'oklch(79.5% 0.184 86.047)' },
+          '600': { hex: '#ca8a04', oklch: 'oklch(68.1% 0.162 75.834)' },
+          '700': { hex: '#a16207', oklch: 'oklch(55.4% 0.135 66.442)' },
+          '800': { hex: '#854d0e', oklch: 'oklch(47.6% 0.114 61.907)' },
+          '900': { hex: '#713f12', oklch: 'oklch(42.1% 0.095 57.708)' },
+          '1000': { hex: '#46270b', oklch: 'oklch(30.7% 0.061 58.986)' }
+        }
+      },
+      amber: {
+        custom: false,
+        shades: {
+          '50': { hex: '#fffbeb', oklch: 'oklch(98.7% 0.022 95.277)' },
+          '100': { hex: '#fef3c7', oklch: 'oklch(96.2% 0.059 95.617)' },
+          '200': { hex: '#fde68a', oklch: 'oklch(92.4% 0.12 95.746)' },
+          '300': { hex: '#fcd34d', oklch: 'oklch(87.9% 0.169 91.605)' },
+          '400': { hex: '#fbbf24', oklch: 'oklch(82.8% 0.189 84.429)' },
+          '500': { hex: '#f59e0b', oklch: 'oklch(76.9% 0.188 70.08)' },
+          '600': { hex: '#d97706', oklch: 'oklch(66.6% 0.179 58.318)' },
+          '700': { hex: '#b45309', oklch: 'oklch(55.5% 0.163 48.998)' },
+          '800': { hex: '#92400e', oklch: 'oklch(47.3% 0.137 46.201)' },
+          '900': { hex: '#78350f', oklch: 'oklch(41.4% 0.112 45.904)' },
+          '1000': { hex: '#492009', oklch: 'oklch(29.8% 0.071 46.776)' }
+        }
+      },
+      orange: {
+        custom: false,
+        shades: {
+          '50': { hex: '#fff7ed', oklch: 'oklch(98% 0.016 73.684)' },
+          '100': { hex: '#ffedd5', oklch: 'oklch(95.4% 0.038 75.164)' },
+          '200': { hex: '#fed7aa', oklch: 'oklch(90.1% 0.076 70.697)' },
+          '300': { hex: '#fdba74', oklch: 'oklch(83.7% 0.128 66.29)' },
+          '400': { hex: '#fb923c', oklch: 'oklch(75% 0.183 55.934)' },
+          '500': { hex: '#f97316', oklch: 'oklch(70.5% 0.213 47.604)' },
+          '600': { hex: '#ea580c', oklch: 'oklch(64.6% 0.222 41.116)' },
+          '700': { hex: '#c2410c', oklch: 'oklch(55.3% 0.195 38.402)' },
+          '800': { hex: '#9a3412', oklch: 'oklch(47% 0.157 37.304)' },
+          '900': { hex: '#7c2d12', oklch: 'oklch(40.8% 0.123 38.172)' },
+          '1000': { hex: '#4c1b0b', oklch: 'oklch(29.5% 0.079 38.072)' }
+        }
+      },
+      red: {
+        custom: false,
+        shades: {
+          '50': { hex: '#fef2f2', oklch: 'oklch(97.1% 0.013 17.38)' },
+          '100': { hex: '#fee2e2', oklch: 'oklch(93.6% 0.032 17.717)' },
+          '200': { hex: '#fecaca', oklch: 'oklch(88.5% 0.062 18.334)' },
+          '300': { hex: '#fca5a5', oklch: 'oklch(80.8% 0.114 19.571)' },
+          '400': { hex: '#f87171', oklch: 'oklch(70.4% 0.191 22.216)' },
+          '500': { hex: '#ef4444', oklch: 'oklch(63.7% 0.237 25.331)' },
+          '600': { hex: '#dc2626', oklch: 'oklch(57.7% 0.245 27.325)' },
+          '700': { hex: '#b91c1c', oklch: 'oklch(50.5% 0.213 27.518)' },
+          '800': { hex: '#991b1b', oklch: 'oklch(44.4% 0.177 26.899)' },
+          '900': { hex: '#7f1d1d', oklch: 'oklch(39.6% 0.141 25.723)' },
+          '1000': { hex: '#4f1212', oklch: 'oklch(28.9% 0.091 24.918)' }
+        }
+      }
+    };
+
+    function isLightColor(shade) {
+      return parseInt(shade) <= 400;
+    }
+
+    function render() {
+      const container = document.getElementById('palettes');
+      
+      // Group custom and standard palettes
+      const customPalettes = Object.entries(colors).filter(([_, data]) => data.custom);
+      const standardPalettes = Object.entries(colors).filter(([_, data]) => !data.custom);
+      
+      let html = '<div class="section-title">⚠️ Custom Palettes (differ from Tailwind)</div>';
+      
+      customPalettes.forEach(([name, data]) => {
+        html += renderPalette(name, data);
+      });
+      
+      html += '<div class="section-divider"></div>';
+      html += '<div class="section-title">✓ Standard Palettes (match Tailwind)</div>';
+      
+      standardPalettes.forEach(([name, data]) => {
+        html += renderPalette(name, data);
+      });
+      
+      container.innerHTML = html;
+    }
+    
+    function renderPalette(name, data) {
+      let html = `
+        <div class="palette">
+          <div class="palette-name ${data.custom ? 'custom' : ''}">${name}</div>
+          <div class="shades">
+      `;
+      
+      Object.entries(data.shades).forEach(([shade, values]) => {
+        const textClass = isLightColor(shade) ? 'light-text' : 'dark-text';
+        html += `
+          <div class="shade">
+            <div class="shade-label">${shade}</div>
+            <div class="color-pair">
+              <div class="color-box hex ${textClass}" style="background: ${values.hex};" title="HEX: ${values.hex}">HEX</div>
+              <div class="color-box oklch ${textClass}" style="background: ${values.oklch};" title="OKLCH: ${values.oklch}">OKLCH</div>
+            </div>
+          </div>
+        `;
+      });
+      
+      html += '</div></div>';
+      return html;
+    }
+    
+    render();
+  </script>
+</body>
+</html>
+

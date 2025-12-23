@@ -253,7 +253,7 @@ export var themeColors: {
         action: {
             DEFAULT: string;
             hover: string;
-            "default-active": string;
+            active: string;
             weak: string;
             "weak-active": string;
             medium: string;
@@ -1039,7 +1039,7 @@ export var reactLightThemeColors: {
         action: {
             default: string;
             hover: string;
-            defaultActive: string;
+            active: string;
             weak: string;
             weakActive: string;
             medium: string;
@@ -1569,7 +1569,7 @@ export var reactDarkThemeColors: {
         action: {
             default: string;
             hover: string;
-            defaultActive: string;
+            active: string;
             weak: string;
             weakActive: string;
             medium: string;
