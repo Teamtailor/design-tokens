@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Tue, 23 Dec 2025 12:17:28 GMT
+ * Generated on Mon, 05 Jan 2026 13:32:54 GMT
  */
 module.exports = /** @type {const} */ {
     "black": "#000",
@@ -21,7 +21,7 @@ module.exports = /** @type {const} */ {
         "700": "oklch(37% 0.013 285.805)",
         "750": "oklch(33.0% 0.009 276.875)",
         "800": "oklch(27.4% 0.006 286.033)",
-        "900": "oklch(21% 0.006 285.885)",
+        "900": "oklch(22.7% 0.004 286.09)",
         "1000": "oklch(16.9% 0.002 286.177)"
     },
     "pink": {
