@@ -17,9 +17,9 @@
   --color-background-warning-strong: oklch(47.3% 0.137 46.201);
   --color-background-info-default: oklch(31.4% 0.064 239.328);
   --color-background-info-strong: oklch(44.3% 0.11 240.79);
-  --color-background-action-strong: oklch(50.7% 0.193 2.713);
-  --color-background-action-strong-hover: oklch(58.1% 0.214 3.500);
-  --color-background-action-strong-active: oklch(42.6% 0.162 0.587);
+  --color-background-action-strong: oklch(52.3% 0.202 2.378);
+  --color-background-action-strong-hover: oklch(59.2% 0.228 2.378);
+  --color-background-action-strong-active: oklch(45.9% 0.17 2.378);
   --color-background-action-strong-disabled: oklch(from oklch(65.4% 0.221 2.378) l c h / 0.5);
   --color-background-action-medium: oklch(22.7% 0.004 286.09);
   --color-background-action-medium-hover: oklch(27.4% 0.006 286.033);
@@ -110,7 +110,7 @@
   --color-border-warning-default: oklch(from oklch(33.0% 0.009 276.875) l c h / 0.05);
   --color-border-info-default: oklch(from oklch(33.0% 0.009 276.875) l c h / 0.05);
   --color-border-action-medium: oklch(46.4% 0.010 271.198);
-  --color-border-action-medium-active: oklch(58.1% 0.214 3.500);
+  --color-border-action-medium-active: oklch(59.2% 0.228 2.378);
   --color-border-action-strong: linear-gradient(180deg, oklch(from #000 l c h / 0.02) 2%, oklch(from #000 l c h / 0.10) 100%);
   --color-border-copilot-medium: oklch(43.8% 0.218 303.724);
   --color-border-decorative-amber-medium: oklch(47.3% 0.137 46.201);
@@ -136,8 +136,8 @@
   --color-text-neutral-weak: oklch(65.5% 0.007 286.196);
   --color-text-neutral-medium: oklch(76.8% 0.009 278.595);
   --color-text-action-default: oklch(65.4% 0.221 2.378);
-  --color-text-action-hover: oklch(58.1% 0.214 3.500);
-  --color-text-action-active: oklch(58.1% 0.214 3.500);
+  --color-text-action-hover: oklch(59.2% 0.228 2.378);
+  --color-text-action-active: oklch(59.2% 0.228 2.378);
   --color-text-action-weak: oklch(from #fff l c h / 0.93);
   --color-text-action-weak-active: oklch(65.4% 0.221 2.378);
   --color-text-action-medium: oklch(from #fff l c h / 0.93);

@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Mon, 05 Jan 2026 13:32:54 GMT
+ * Generated on Wed, 07 Jan 2026 10:41:02 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -34,9 +34,9 @@ module.exports = /** @type {const} */ {
             "strong": "#00598a"
         },
         "action": {
-            "strong": "#b5165b",
-            "strongHover": "#d7256d",
-            "strongActive": "#8e104a",
+            "strong": "#be1360",
+            "strongHover": "#e01a72",
+            "strongActive": "#9d1750",
             "strongDisabled": "rgba(244, 63, 133, 0.5)",
             "medium": "#1c1c1e",
             "mediumHover": "#27272a",
@@ -181,7 +181,7 @@ module.exports = /** @type {const} */ {
         },
         "action": {
             "medium": "#57595f",
-            "mediumActive": "#d7256d",
+            "mediumActive": "#e01a72",
             "strong": "linear-gradient(180deg, rgba(0, 0, 0, 0.02) 2%, rgba(0, 0, 0, 0.1) 100%)"
         },
         "copilot": {
@@ -257,8 +257,8 @@ module.exports = /** @type {const} */ {
         },
         "action": {
             "default": "#f43f85",
-            "hover": "#d7256d",
-            "active": "#d7256d",
+            "hover": "#e01a72",
+            "active": "#e01a72",
             "weak": "rgba(255, 255, 255, 0.93)",
             "weakActive": "#f43f85",
             "medium": "rgba(255, 255, 255, 0.93)",
