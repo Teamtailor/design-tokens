@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 05 Jan 2026 13:32:54 GMT
+ * Generated on Wed, 07 Jan 2026 10:41:02 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -35,14 +35,14 @@ module.exports = /** @type {const} */ {
     },
     "action": {
       "strong": "#f43f85",
-      "strongHover": "#d7256d",
-      "strongActive": "#b5165b",
+      "strongHover": "#e01a72",
+      "strongActive": "#be1360",
       "strongDisabled": "rgba(244, 63, 133, 0.5)",
       "medium": "#fff",
       "mediumHover": "#fafafa",
-      "mediumActive": "#ffe5ee",
+      "mediumActive": "#fde6ec",
       "weakHover": "rgba(15, 15, 16, 0.04)",
-      "weakActive": "#ffe5ee"
+      "weakActive": "#fde6ec"
     },
     "copilot": {
       "default": "#faf5ff",
@@ -181,7 +181,7 @@ module.exports = /** @type {const} */ {
     },
     "action": {
       "medium": "#e4e4e7",
-      "mediumActive": "#ffc7db",
+      "mediumActive": "#fdcfda",
       "strong": "linear-gradient(180deg, rgba(0, 0, 0, 0.02) 2%, rgba(0, 0, 0, 0.1) 100%)"
     },
     "copilot": {
@@ -257,12 +257,12 @@ module.exports = /** @type {const} */ {
     },
     "action": {
       "default": "#f43f85",
-      "hover": "#d7256d",
-      "active": "#d7256d",
+      "hover": "#e01a72",
+      "active": "#e01a72",
       "weak": "#34353a",
-      "weakActive": "#d7256d",
+      "weakActive": "#e01a72",
       "medium": "#34353a",
-      "mediumActive": "#d7256d",
+      "mediumActive": "#e01a72",
       "strong": "#fff"
     },
     "success": {
