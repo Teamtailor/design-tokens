@@ -1,21 +1,23 @@
 /**
  * Do not edit directly
- * Generated on Wed, 07 Jan 2026 10:41:02 GMT
+ * Generated on Fri, 18 Sep 2026 19:07:22 GMT
  */
 
 module.exports = /** @type {const} */ {
   "background": {
     "mono": "#fff",
-    "canvas": "#1c1c1e",
+    "canvas": "#251919",
     "neutral": {
-      "default": "#27272a",
-      "hover": "#34353a",
-      "weak": "#27272a",
-      "weakHover": "#34353a",
-      "medium": "#3f3f46",
-      "mediumHover": "#57595f",
-      "strong": "#0f0f10",
-      "strongHover": "#1c1c1e"
+      "default": "#342424",
+      "hover": "rgba(255, 255, 255, 0.03)",
+      "weak": "#342424",
+      "weakHover": "#432f2f",
+      "medium": "#4d3a38",
+      "mediumHover": "#675450",
+      "strong": "#0e0808",
+      "strongHover": "#251919",
+      "track": "#675450",
+      "translucent": "rgba(52, 53, 58, 0.25)"
     },
     "success": {
       "default": "#0c310e",
@@ -34,15 +36,16 @@ module.exports = /** @type {const} */ {
       "strong": "#00598a"
     },
     "action": {
-      "strong": "#be1360",
-      "strongHover": "#e01a72",
-      "strongActive": "#9d1750",
-      "strongDisabled": "rgba(244, 63, 133, 0.5)",
-      "medium": "#1c1c1e",
-      "mediumHover": "#27272a",
-      "mediumActive": "#3f3f46",
-      "weakHover": "#34353a",
-      "weakActive": "#3f3f46"
+      "strong": "#f1408f",
+      "strongHover": "#d62079",
+      "strongActive": "#b80064",
+      "strongDisabled": "rgba(241, 64, 143, 0.5)",
+      "medium": "#251919",
+      "mediumHover": "#342424",
+      "mediumActive": "#4d3a38",
+      "weakHover": "#432f2f",
+      "weakActive": "#432f2f",
+      "mediumActiveHover": "#675450"
     },
     "copilot": {
       "default": "#371254",
@@ -158,30 +161,56 @@ module.exports = /** @type {const} */ {
         "weak": "#4f1212",
         "medium": "#e7000b",
         "strong": "#e7000b"
+      },
+      "stone": {
+        "default": "#342424",
+        "medium": "#675450",
+        "strong": "#675450",
+        "weak": "rgba(250, 248, 246, 0.1)"
+      },
+      "pink": {
+        "default": "#41001f",
+        "weak": "#41001f",
+        "medium": "#fb9be4",
+        "strong": "#d62079"
+      },
+      "citron": {
+        "default": "#1e2200",
+        "weak": "#1e2200",
+        "medium": "#788301",
+        "strong": "#788301"
       }
+    },
+    "scrim": "rgba(14, 8, 8, 0.8)",
+    "skeleton": "#675450",
+    "selection": "rgba(247, 244, 240, 0.1)",
+    "overlay": {
+      "control": "rgba(52, 36, 36, 0.9)",
+      "controlHover": "rgba(67, 47, 47, 0.9)"
     }
   },
   "border": {
     "neutral": {
-      "default": "rgba(255, 255, 255, 0.14)",
-      "medium": "rgba(255, 255, 255, 0.2)",
-      "strong": "rgba(255, 255, 255, 0.28)"
+      "default": "#432f2f",
+      "medium": "#4d3a38",
+      "strong": "#675450",
+      "translucent": "rgba(250, 248, 246, 0.18)"
     },
     "success": {
-      "default": "rgba(52, 53, 58, 0.05)"
+      "default": "#214d22"
     },
     "danger": {
-      "default": "rgba(52, 53, 58, 0.05)"
+      "default": "#722926"
     },
     "warning": {
-      "default": "rgba(52, 53, 58, 0.05)"
+      "default": "#6b361b"
     },
     "info": {
-      "default": "rgba(52, 53, 58, 0.05)"
+      "default": "#1d506f"
     },
     "action": {
-      "medium": "#57595f",
-      "mediumActive": "#e01a72",
+      "medium": "#675450",
+      "mediumActive": "#675450",
       "strong": "linear-gradient(180deg, rgba(0, 0, 0, 0.02) 2%, rgba(0, 0, 0, 0.1) 100%)"
     },
     "copilot": {
@@ -241,28 +270,38 @@ module.exports = /** @type {const} */ {
       },
       "red": {
         "medium": "#9f0712"
+      },
+      "stone": {
+        "medium": "#342424"
+      },
+      "pink": {
+        "medium": "#91004e"
+      },
+      "citron": {
+        "medium": "#4d5401"
       }
     }
   },
   "outline": {
     "focus": {
-      "default": "rgba(244, 63, 133, 0.5)"
+      "default": "rgba(241, 64, 143, 0.5)",
+      "neutral": "rgba(127, 110, 103, 0.5)"
     }
   },
   "text": {
     "neutral": {
       "default": "rgba(255, 255, 255, 0.93)",
-      "weak": "#909095",
-      "medium": "#b2b3b9"
+      "weak": "#9c8d84",
+      "medium": "#bcb2a7"
     },
     "action": {
-      "default": "#f43f85",
-      "hover": "#e01a72",
-      "active": "#e01a72",
+      "default": "#fb9be4",
+      "hover": "#ef78c4",
+      "active": "#ef78c4",
       "weak": "rgba(255, 255, 255, 0.93)",
-      "weakActive": "#f43f85",
+      "weakActive": "rgba(255, 255, 255, 0.93)",
       "medium": "rgba(255, 255, 255, 0.93)",
-      "mediumActive": "#f43f85",
+      "mediumActive": "rgba(255, 255, 255, 0.93)",
       "strong": "rgba(255, 255, 255, 0.93)"
     },
     "success": {
@@ -391,13 +430,34 @@ module.exports = /** @type {const} */ {
         "weak": "#ffc9c9",
         "medium": "#fff",
         "strong": "#fff"
+      },
+      "stone": {
+        "default": "#faf8f6",
+        "weak": "#e9e4dc",
+        "medium": "#fff",
+        "strong": "#fff"
+      },
+      "pink": {
+        "default": "#ffc3ef",
+        "weak": "#ffc3ef",
+        "medium": "#432f2f",
+        "strong": "#fff"
+      },
+      "citron": {
+        "default": "#f7fac0",
+        "weak": "#d5e652",
+        "medium": "#fff",
+        "strong": "#fff"
       }
+    },
+    "navigation": {
+      "inactive": "#bcb2a7"
     }
   },
   "icon": {
     "neutral": {
-      "default": "#b2b3b9",
-      "weak": "#71717b"
+      "default": "rgba(255, 255, 255, 0.93)",
+      "weak": "#7f6e67"
     },
     "success": {
       "default": "#17a31c",
@@ -527,6 +587,24 @@ module.exports = /** @type {const} */ {
       "red": {
         "default": "#ffc9c9",
         "weak": "#ffc9c9",
+        "medium": "#fff",
+        "strong": "#fff"
+      },
+      "stone": {
+        "default": "#faf8f6",
+        "weak": "#e9e4dc",
+        "medium": "#fff",
+        "strong": "#fff"
+      },
+      "pink": {
+        "default": "#ffc3ef",
+        "weak": "#ffc3ef",
+        "medium": "#fff",
+        "strong": "#fff"
+      },
+      "citron": {
+        "default": "#d5e652",
+        "weak": "#d5e652",
         "medium": "#fff",
         "strong": "#fff"
       }

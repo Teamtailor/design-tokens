@@ -11,6 +11,8 @@ export var themeColors: {
             "medium-hover": string;
             strong: string;
             "strong-hover": string;
+            track: string;
+            translucent: string;
         };
         success: {
             DEFAULT: string;
@@ -38,6 +40,7 @@ export var themeColors: {
             "medium-active": string;
             "weak-hover": string;
             "weak-active": string;
+            "medium-active-hover": string;
         };
         copilot: {
             DEFAULT: string;
@@ -154,6 +157,31 @@ export var themeColors: {
                 medium: string;
                 strong: string;
             };
+            stone: {
+                DEFAULT: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+            pink: {
+                DEFAULT: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+            citron: {
+                DEFAULT: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+        };
+        scrim: string;
+        skeleton: string;
+        selection: string;
+        overlay: {
+            control: string;
+            "control-hover": string;
         };
     };
     border: {
@@ -161,6 +189,7 @@ export var themeColors: {
             DEFAULT: string;
             medium: string;
             strong: string;
+            translucent: string;
         };
         success: {
             DEFAULT: string;
@@ -237,11 +266,21 @@ export var themeColors: {
             red: {
                 medium: string;
             };
+            stone: {
+                medium: string;
+            };
+            pink: {
+                medium: string;
+            };
+            citron: {
+                medium: string;
+            };
         };
     };
     outline: {
         focus: {
             DEFAULT: string;
+            neutral: string;
         };
     };
     text: {
@@ -387,6 +426,27 @@ export var themeColors: {
                 medium: string;
                 strong: string;
             };
+            stone: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            pink: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            citron: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+        };
+        navigation: {
+            inactive: string;
         };
     };
     icon: {
@@ -520,6 +580,24 @@ export var themeColors: {
                 strong: string;
             };
             red: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            stone: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            pink: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            citron: {
                 DEFAULT: string;
                 weak: string;
                 medium: string;
@@ -783,6 +861,40 @@ export var tokenColors: {
         "900": string;
         "1000": string;
     };
+    stone: {
+        "50": string;
+        "100": string;
+        "150": string;
+        "200": string;
+        "250": string;
+        "300": string;
+        "350": string;
+        "400": string;
+        "450": string;
+        "500": string;
+        "600": string;
+        "700": string;
+        "750": string;
+        "800": string;
+        "900": string;
+        "950": string;
+        "975": string;
+        "1000": string;
+        "1050": string;
+    };
+    citron: {
+        "50": string;
+        "100": string;
+        "200": string;
+        "300": string;
+        "400": string;
+        "500": string;
+        "600": string;
+        "700": string;
+        "800": string;
+        "900": string;
+        "1000": string;
+    };
 };
 export var reactLightThemeColors: {
     background: {
@@ -797,6 +909,8 @@ export var reactLightThemeColors: {
             mediumHover: string;
             strong: string;
             strongHover: string;
+            track: string;
+            translucent: string;
         };
         success: {
             default: string;
@@ -824,6 +938,7 @@ export var reactLightThemeColors: {
             mediumActive: string;
             weakHover: string;
             weakActive: string;
+            mediumActiveHover: string;
         };
         copilot: {
             default: string;
@@ -940,6 +1055,31 @@ export var reactLightThemeColors: {
                 medium: string;
                 strong: string;
             };
+            stone: {
+                default: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+            pink: {
+                default: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+            citron: {
+                default: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+        };
+        scrim: string;
+        skeleton: string;
+        selection: string;
+        overlay: {
+            control: string;
+            controlHover: string;
         };
     };
     border: {
@@ -947,6 +1087,7 @@ export var reactLightThemeColors: {
             default: string;
             medium: string;
             strong: string;
+            translucent: string;
         };
         success: {
             default: string;
@@ -1023,11 +1164,21 @@ export var reactLightThemeColors: {
             red: {
                 medium: string;
             };
+            stone: {
+                medium: string;
+            };
+            pink: {
+                medium: string;
+            };
+            citron: {
+                medium: string;
+            };
         };
     };
     outline: {
         focus: {
             default: string;
+            neutral: string;
         };
     };
     text: {
@@ -1173,6 +1324,27 @@ export var reactLightThemeColors: {
                 medium: string;
                 strong: string;
             };
+            stone: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            pink: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            citron: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+        };
+        navigation: {
+            inactive: string;
         };
     };
     icon: {
@@ -1306,6 +1478,24 @@ export var reactLightThemeColors: {
                 strong: string;
             };
             red: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            stone: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            pink: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            citron: {
                 default: string;
                 weak: string;
                 medium: string;
@@ -1327,6 +1517,8 @@ export var reactDarkThemeColors: {
             mediumHover: string;
             strong: string;
             strongHover: string;
+            track: string;
+            translucent: string;
         };
         success: {
             default: string;
@@ -1354,6 +1546,7 @@ export var reactDarkThemeColors: {
             mediumActive: string;
             weakHover: string;
             weakActive: string;
+            mediumActiveHover: string;
         };
         copilot: {
             default: string;
@@ -1470,6 +1663,31 @@ export var reactDarkThemeColors: {
                 medium: string;
                 strong: string;
             };
+            stone: {
+                default: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+            pink: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            citron: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+        };
+        scrim: string;
+        skeleton: string;
+        selection: string;
+        overlay: {
+            control: string;
+            controlHover: string;
         };
     };
     border: {
@@ -1477,6 +1695,7 @@ export var reactDarkThemeColors: {
             default: string;
             medium: string;
             strong: string;
+            translucent: string;
         };
         success: {
             default: string;
@@ -1553,11 +1772,21 @@ export var reactDarkThemeColors: {
             red: {
                 medium: string;
             };
+            stone: {
+                medium: string;
+            };
+            pink: {
+                medium: string;
+            };
+            citron: {
+                medium: string;
+            };
         };
     };
     outline: {
         focus: {
             default: string;
+            neutral: string;
         };
     };
     text: {
@@ -1703,6 +1932,27 @@ export var reactDarkThemeColors: {
                 medium: string;
                 strong: string;
             };
+            stone: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            pink: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            citron: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+        };
+        navigation: {
+            inactive: string;
         };
     };
     icon: {
@@ -1836,6 +2086,24 @@ export var reactDarkThemeColors: {
                 strong: string;
             };
             red: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            stone: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            pink: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            citron: {
                 default: string;
                 weak: string;
                 medium: string;
@@ -2087,6 +2355,40 @@ export var reactSpectrumColors: {
         "1000": string;
     };
     red: {
+        "50": string;
+        "100": string;
+        "200": string;
+        "300": string;
+        "400": string;
+        "500": string;
+        "600": string;
+        "700": string;
+        "800": string;
+        "900": string;
+        "1000": string;
+    };
+    stone: {
+        "50": string;
+        "100": string;
+        "150": string;
+        "200": string;
+        "250": string;
+        "300": string;
+        "350": string;
+        "400": string;
+        "450": string;
+        "500": string;
+        "600": string;
+        "700": string;
+        "750": string;
+        "800": string;
+        "900": string;
+        "950": string;
+        "975": string;
+        "1000": string;
+        "1050": string;
+    };
+    citron: {
         "50": string;
         "100": string;
         "200": string;

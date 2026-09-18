@@ -21,45 +21,57 @@
           "failedToResolve": true
         },
         "hover": {
-          "value": "{color.zinc.50}",
+          "value": "{color.stone.50}",
           "type": "color",
-          "description": "{color.zinc.50}",
+          "description": "{color.stone.50}",
           "failedToResolve": true
         },
         "weak": {
-          "value": "{color.zinc.50}",
+          "value": "{color.stone.50}",
           "type": "color",
-          "description": "{color.zinc.50}",
+          "description": "{color.stone.50}",
           "failedToResolve": true
         },
         "weak-hover": {
-          "value": "{color.zinc.100}",
+          "value": "{color.stone.100}",
           "type": "color",
-          "description": "{color.zinc.100}",
+          "description": "{color.stone.100}",
           "failedToResolve": true
         },
         "medium": {
-          "value": "{color.zinc.150}",
+          "value": "{color.stone.150}",
           "type": "color",
-          "description": "{color.zinc.150}",
+          "description": "{color.stone.150}",
           "failedToResolve": true
         },
         "medium-hover": {
-          "value": "{color.zinc.200}",
+          "value": "{color.stone.200}",
           "type": "color",
-          "description": "{color.zinc.200}",
+          "description": "{color.stone.200}",
           "failedToResolve": true
         },
         "strong": {
-          "value": "{color.zinc.800}",
+          "value": "{color.stone.800}",
           "type": "color",
-          "description": "{color.zinc.800}",
+          "description": "{color.stone.800}",
           "failedToResolve": true
         },
         "strong-hover": {
-          "value": "{color.zinc.700}",
+          "value": "{color.stone.700}",
           "type": "color",
-          "description": "{color.zinc.700}",
+          "description": "{color.stone.700}",
+          "failedToResolve": true
+        },
+        "track": {
+          "value": "{color.stone.200}",
+          "type": "color",
+          "description": "{color.stone.200}",
+          "failedToResolve": true
+        },
+        "translucent": {
+          "value": "oklch(from {color.zinc.750} l c h / 0.1)",
+          "type": "color",
+          "description": "oklch(from {color.zinc.750} l c h / 0.1)",
           "failedToResolve": true
         }
       },
@@ -151,27 +163,33 @@
           "failedToResolve": true
         },
         "medium-hover": {
-          "value": "{color.zinc.50}",
+          "value": "{color.stone.50}",
           "type": "color",
-          "description": "{color.zinc.50}",
+          "description": "{color.stone.50}",
           "failedToResolve": true
         },
         "medium-active": {
-          "value": "{color.pink.100}",
+          "value": "{color.stone.200}",
           "type": "color",
-          "description": "{color.pink.100}",
+          "description": "{color.stone.200}",
           "failedToResolve": true
         },
         "weak-hover": {
-          "value": "oklch(from {color.zinc.1000} l c h / 0.04)",
+          "value": "{color.stone.150}",
           "type": "color",
-          "description": "oklch(from {color.zinc.1000} l c h / 0.04)",
+          "description": "{color.stone.150}",
           "failedToResolve": true
         },
         "weak-active": {
-          "value": "{color.pink.100}",
+          "value": "{color.stone.150}",
           "type": "color",
-          "description": "{color.pink.100}",
+          "description": "{color.stone.150}",
+          "failedToResolve": true
+        },
+        "medium-active-hover": {
+          "value": "{color.stone.300}",
+          "type": "color",
+          "description": "{color.stone.300}",
           "failedToResolve": true
         }
       },
@@ -669,73 +687,184 @@
             "description": "{color.red.800}",
             "failedToResolve": true
           }
+        },
+        "stone": {
+          "DEFAULT": {
+            "value": "{color.stone.50}",
+            "type": "color",
+            "description": "{color.stone.50}",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.stone.500}",
+            "type": "color",
+            "description": "{color.stone.500}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.stone.900}",
+            "type": "color",
+            "description": "{color.stone.900}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "oklch(30% 0.07 75 / 0.1)",
+            "type": "color",
+            "description": "oklch(30% 0.07 75 / 0.1)"
+          }
+        },
+        "pink": {
+          "DEFAULT": {
+            "value": "{color.pink.50}",
+            "type": "color",
+            "description": "{color.pink.50}",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.pink.300}",
+            "type": "color",
+            "description": "{color.pink.300}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.pink.700}",
+            "type": "color",
+            "description": "{color.pink.700}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.pink.100}",
+            "type": "color",
+            "description": "{color.pink.100}",
+            "failedToResolve": true
+          }
+        },
+        "citron": {
+          "DEFAULT": {
+            "value": "{color.citron.50}",
+            "type": "color",
+            "description": "{color.citron.50}",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.citron.500}",
+            "type": "color",
+            "description": "{color.citron.500}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "{color.citron.800}",
+            "type": "color",
+            "description": "{color.citron.800}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.citron.100}",
+            "type": "color",
+            "description": "{color.citron.100}",
+            "failedToResolve": true
+          }
+        }
+      },
+      "scrim": {
+        "value": "oklch(from {color.zinc.800} l c h / 0.5)",
+        "type": "color",
+        "description": "oklch(from {color.zinc.800} l c h / 0.5)",
+        "failedToResolve": true
+      },
+      "skeleton": {
+        "value": "{color.stone.300}",
+        "type": "color",
+        "description": "{color.stone.300}",
+        "failedToResolve": true
+      },
+      "selection": {
+        "value": "oklch(from {color.stone.600} l c h / 0.1)",
+        "type": "color",
+        "description": "oklch(from {color.stone.600} l c h / 0.1)",
+        "failedToResolve": true
+      },
+      "overlay": {
+        "control": {
+          "value": "oklch(from {color.stone.900} l c h / 0.6)",
+          "type": "color",
+          "description": "oklch(from {color.stone.900} l c h / 0.6)",
+          "failedToResolve": true
+        },
+        "control-hover": {
+          "value": "oklch(from {color.stone.900} l c h / 0.9)",
+          "type": "color",
+          "description": "oklch(from {color.stone.900} l c h / 0.9)",
+          "failedToResolve": true
         }
       }
     },
     "border": {
       "neutral": {
         "DEFAULT": {
-          "value": "oklch(from {color.black} l c h / 0.06)",
+          "value": "{color.stone.150}",
           "type": "color",
-          "description": "oklch(from {color.black} l c h / 0.06)",
+          "description": "{color.stone.150}",
           "failedToResolve": true
         },
         "medium": {
-          "value": "oklch(from {color.black} l c h / 0.11)",
+          "value": "{color.stone.200}",
           "type": "color",
-          "description": "oklch(from {color.black} l c h / 0.11)",
+          "description": "{color.stone.200}",
           "failedToResolve": true
         },
         "strong": {
-          "value": "oklch(from {color.black} l c h / 0.2)",
+          "value": "{color.stone.300}",
           "type": "color",
-          "description": "oklch(from {color.black} l c h / 0.2)",
+          "description": "{color.stone.300}",
+          "failedToResolve": true
+        },
+        "translucent": {
+          "value": "oklch(from {color.stone.1000} l c h / 0.08)",
+          "type": "color",
+          "description": "oklch(from {color.stone.1000} l c h / 0.08)",
           "failedToResolve": true
         }
       },
       "success": {
         "DEFAULT": {
-          "value": "oklch(from {color.zinc.750} l c h / 0.05)",
+          "value": "oklch(93.3% 0.04 155.826)",
           "type": "color",
-          "description": "oklch(from {color.zinc.750} l c h / 0.05)",
-          "failedToResolve": true
+          "description": "oklch(93.3% 0.04 155.826)"
         }
       },
       "danger": {
         "DEFAULT": {
-          "value": "oklch(from {color.zinc.750} l c h / 0.05)",
+          "value": "oklch(92.2% 0.032 17.38)",
           "type": "color",
-          "description": "oklch(from {color.zinc.750} l c h / 0.05)",
-          "failedToResolve": true
+          "description": "oklch(92.2% 0.032 17.38)"
         }
       },
       "warning": {
         "DEFAULT": {
-          "value": "oklch(from {color.zinc.750} l c h / 0.05)",
+          "value": "oklch(93.8% 0.048 95.277)",
           "type": "color",
-          "description": "oklch(from {color.zinc.750} l c h / 0.05)",
-          "failedToResolve": true
+          "description": "oklch(93.8% 0.048 95.277)"
         }
       },
       "info": {
         "DEFAULT": {
-          "value": "oklch(from {color.zinc.750} l c h / 0.05)",
+          "value": "oklch(92.8% 0.03 236.62)",
           "type": "color",
-          "description": "oklch(from {color.zinc.750} l c h / 0.05)",
-          "failedToResolve": true
+          "description": "oklch(92.8% 0.03 236.62)"
         }
       },
       "action": {
         "medium": {
-          "value": "{color.zinc.200}",
+          "value": "{color.stone.200}",
           "type": "color",
-          "description": "{color.zinc.200}",
+          "description": "{color.stone.200}",
           "failedToResolve": true
         },
         "medium-active": {
-          "value": "{color.pink.200}",
+          "value": "{color.stone.300}",
           "type": "color",
-          "description": "{color.pink.200}",
+          "description": "{color.stone.300}",
           "failedToResolve": true
         },
         "strong": {
@@ -897,6 +1026,30 @@
             "description": "{color.red.800}",
             "failedToResolve": true
           }
+        },
+        "stone": {
+          "medium": {
+            "value": "{color.stone.800}",
+            "type": "color",
+            "description": "{color.stone.800}",
+            "failedToResolve": true
+          }
+        },
+        "pink": {
+          "medium": {
+            "value": "{color.pink.500}",
+            "type": "color",
+            "description": "{color.pink.500}",
+            "failedToResolve": true
+          }
+        },
+        "citron": {
+          "medium": {
+            "value": "{color.citron.500}",
+            "type": "color",
+            "description": "{color.citron.500}",
+            "failedToResolve": true
+          }
         }
       }
     },
@@ -907,27 +1060,33 @@
           "type": "color",
           "description": "oklch(from {color.pink.500} l c h / 0.5)",
           "failedToResolve": true
+        },
+        "neutral": {
+          "value": "oklch(from {color.stone.500} l c h / 0.5)",
+          "type": "color",
+          "description": "oklch(from {color.stone.500} l c h / 0.5)",
+          "failedToResolve": true
         }
       }
     },
     "text": {
       "neutral": {
         "DEFAULT": {
-          "value": "{color.zinc.750}",
+          "value": "{color.stone.750}",
           "type": "color",
-          "description": "{color.zinc.750}",
+          "description": "{color.stone.750}",
           "failedToResolve": true
         },
         "weak": {
-          "value": "{color.zinc.350}",
+          "value": "{color.stone.350}",
           "type": "color",
-          "description": "{color.zinc.350}",
+          "description": "{color.stone.350}",
           "failedToResolve": true
         },
         "medium": {
-          "value": "{color.zinc.500}",
+          "value": "{color.stone.500}",
           "type": "color",
-          "description": "{color.zinc.500}",
+          "description": "{color.stone.500}",
           "failedToResolve": true
         }
       },
@@ -951,9 +1110,9 @@
           "failedToResolve": true
         },
         "weak": {
-          "value": "{color.zinc.750}",
+          "value": "{color.stone.750}",
           "type": "color",
-          "description": "{color.zinc.750}",
+          "description": "{color.stone.750}",
           "failedToResolve": true
         },
         "weak-active": {
@@ -963,15 +1122,15 @@
           "failedToResolve": true
         },
         "medium": {
-          "value": "{color.zinc.750}",
+          "value": "{color.stone.750}",
           "type": "color",
-          "description": "{color.zinc.750}",
+          "description": "{color.stone.750}",
           "failedToResolve": true
         },
         "medium-active": {
-          "value": "{color.pink.600}",
+          "value": "{color.stone.750}",
           "type": "color",
-          "description": "{color.pink.600}",
+          "description": "{color.text.neutral.DEFAULT}",
           "failedToResolve": true
         },
         "strong": {
@@ -1507,21 +1666,102 @@
             "description": "{color.white}",
             "failedToResolve": true
           }
+        },
+        "stone": {
+          "DEFAULT": {
+            "value": "{color.stone.600}",
+            "type": "color",
+            "description": "{color.stone.600}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.stone.800}",
+            "type": "color",
+            "description": "{color.stone.800}",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "#fff",
+            "type": "color",
+            "description": "#fff"
+          },
+          "strong": {
+            "value": "#fff",
+            "type": "color",
+            "description": "#fff"
+          }
+        },
+        "pink": {
+          "DEFAULT": {
+            "value": "{color.pink.700}",
+            "type": "color",
+            "description": "{color.pink.700}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.stone.900}",
+            "type": "color",
+            "description": "{color.stone.900}",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "{color.stone.750}",
+            "type": "color",
+            "description": "{color.stone.750}",
+            "failedToResolve": true
+          },
+          "strong": {
+            "value": "#fff",
+            "type": "color",
+            "description": "#fff"
+          }
+        },
+        "citron": {
+          "DEFAULT": {
+            "value": "{color.citron.800}",
+            "type": "color",
+            "description": "{color.citron.800}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.citron.900}",
+            "type": "color",
+            "description": "{color.citron.900}",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "#fff",
+            "type": "color",
+            "description": "#fff"
+          },
+          "strong": {
+            "value": "#fff",
+            "type": "color",
+            "description": "#fff"
+          }
+        }
+      },
+      "navigation": {
+        "inactive": {
+          "value": "{color.stone.600}",
+          "type": "color",
+          "description": "{color.stone.600}",
+          "failedToResolve": true
         }
       }
     },
     "icon": {
       "neutral": {
         "DEFAULT": {
-          "value": "{color.zinc.600}",
+          "value": "{color.stone.750}",
           "type": "color",
-          "description": "{color.zinc.600}",
+          "description": "{color.text.neutral.DEFAULT}",
           "failedToResolve": true
         },
         "weak": {
-          "value": "{color.zinc.350}",
+          "value": "{color.stone.350}",
           "type": "color",
-          "description": "{color.zinc.350}",
+          "description": "{color.stone.350}",
           "failedToResolve": true
         }
       },
@@ -2074,6 +2314,78 @@
             "type": "color",
             "description": "{color.white}",
             "failedToResolve": true
+          }
+        },
+        "stone": {
+          "DEFAULT": {
+            "value": "{color.stone.600}",
+            "type": "color",
+            "description": "{color.stone.600}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.stone.800}",
+            "type": "color",
+            "description": "{color.stone.800}",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "#fff",
+            "type": "color",
+            "description": "#fff"
+          },
+          "strong": {
+            "value": "#fff",
+            "type": "color",
+            "description": "#fff"
+          }
+        },
+        "pink": {
+          "DEFAULT": {
+            "value": "{color.pink.700}",
+            "type": "color",
+            "description": "{color.pink.700}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.stone.900}",
+            "type": "color",
+            "description": "{color.stone.900}",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "#fff",
+            "type": "color",
+            "description": "#fff"
+          },
+          "strong": {
+            "value": "#fff",
+            "type": "color",
+            "description": "#fff"
+          }
+        },
+        "citron": {
+          "DEFAULT": {
+            "value": "{color.citron.800}",
+            "type": "color",
+            "description": "{color.citron.800}",
+            "failedToResolve": true
+          },
+          "weak": {
+            "value": "{color.citron.900}",
+            "type": "color",
+            "description": "{color.citron.900}",
+            "failedToResolve": true
+          },
+          "medium": {
+            "value": "#fff",
+            "type": "color",
+            "description": "#fff"
+          },
+          "strong": {
+            "value": "#fff",
+            "type": "color",
+            "description": "#fff"
           }
         }
       }

@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Wed, 07 Jan 2026 10:41:02 GMT
+ * Generated on Fri, 18 Sep 2026 19:07:22 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -15,7 +15,9 @@ module.exports = /** @type {const} */ {
             "medium": "var(--color-background-neutral-medium)",
             "medium-hover": "var(--color-background-neutral-medium-hover)",
             "strong": "var(--color-background-neutral-strong)",
-            "strong-hover": "var(--color-background-neutral-strong-hover)"
+            "strong-hover": "var(--color-background-neutral-strong-hover)",
+            "track": "var(--color-background-neutral-track)",
+            "translucent": "var(--color-background-neutral-translucent)"
         },
         "success": {
             "DEFAULT": "var(--color-background-success-default)",
@@ -42,7 +44,8 @@ module.exports = /** @type {const} */ {
             "medium-hover": "var(--color-background-action-medium-hover)",
             "medium-active": "var(--color-background-action-medium-active)",
             "weak-hover": "var(--color-background-action-weak-hover)",
-            "weak-active": "var(--color-background-action-weak-active)"
+            "weak-active": "var(--color-background-action-weak-active)",
+            "medium-active-hover": "var(--color-background-action-medium-active-hover)"
         },
         "copilot": {
             "DEFAULT": "var(--color-background-copilot-default)",
@@ -158,14 +161,40 @@ module.exports = /** @type {const} */ {
                 "weak": "var(--color-background-decorative-red-weak)",
                 "medium": "var(--color-background-decorative-red-medium)",
                 "strong": "var(--color-background-decorative-red-strong)"
+            },
+            "stone": {
+                "DEFAULT": "var(--color-background-decorative-stone-default)",
+                "medium": "var(--color-background-decorative-stone-medium)",
+                "strong": "var(--color-background-decorative-stone-strong)",
+                "weak": "var(--color-background-decorative-stone-weak)"
+            },
+            "pink": {
+                "DEFAULT": "var(--color-background-decorative-pink-default)",
+                "medium": "var(--color-background-decorative-pink-medium)",
+                "strong": "var(--color-background-decorative-pink-strong)",
+                "weak": "var(--color-background-decorative-pink-weak)"
+            },
+            "citron": {
+                "DEFAULT": "var(--color-background-decorative-citron-default)",
+                "medium": "var(--color-background-decorative-citron-medium)",
+                "strong": "var(--color-background-decorative-citron-strong)",
+                "weak": "var(--color-background-decorative-citron-weak)"
             }
+        },
+        "scrim": "var(--color-background-scrim)",
+        "skeleton": "var(--color-background-skeleton)",
+        "selection": "var(--color-background-selection)",
+        "overlay": {
+            "control": "var(--color-background-overlay-control)",
+            "control-hover": "var(--color-background-overlay-control-hover)"
         }
     },
     "border": {
         "neutral": {
             "DEFAULT": "var(--color-border-neutral-default)",
             "medium": "var(--color-border-neutral-medium)",
-            "strong": "var(--color-border-neutral-strong)"
+            "strong": "var(--color-border-neutral-strong)",
+            "translucent": "var(--color-border-neutral-translucent)"
         },
         "success": {
             "DEFAULT": "var(--color-border-success-default)"
@@ -241,12 +270,22 @@ module.exports = /** @type {const} */ {
             },
             "red": {
                 "medium": "var(--color-border-decorative-red-medium)"
+            },
+            "stone": {
+                "medium": "var(--color-border-decorative-stone-medium)"
+            },
+            "pink": {
+                "medium": "var(--color-border-decorative-pink-medium)"
+            },
+            "citron": {
+                "medium": "var(--color-border-decorative-citron-medium)"
             }
         }
     },
     "outline": {
         "focus": {
-            "DEFAULT": "var(--color-outline-focus-default)"
+            "DEFAULT": "var(--color-outline-focus-default)",
+            "neutral": "var(--color-outline-focus-neutral)"
         }
     },
     "text": {
@@ -391,7 +430,28 @@ module.exports = /** @type {const} */ {
                 "weak": "var(--color-text-decorative-red-weak)",
                 "medium": "var(--color-text-decorative-red-medium)",
                 "strong": "var(--color-text-decorative-red-strong)"
+            },
+            "stone": {
+                "DEFAULT": "var(--color-text-decorative-stone-default)",
+                "weak": "var(--color-text-decorative-stone-weak)",
+                "medium": "var(--color-text-decorative-stone-medium)",
+                "strong": "var(--color-text-decorative-stone-strong)"
+            },
+            "pink": {
+                "DEFAULT": "var(--color-text-decorative-pink-default)",
+                "weak": "var(--color-text-decorative-pink-weak)",
+                "medium": "var(--color-text-decorative-pink-medium)",
+                "strong": "var(--color-text-decorative-pink-strong)"
+            },
+            "citron": {
+                "DEFAULT": "var(--color-text-decorative-citron-default)",
+                "weak": "var(--color-text-decorative-citron-weak)",
+                "medium": "var(--color-text-decorative-citron-medium)",
+                "strong": "var(--color-text-decorative-citron-strong)"
             }
+        },
+        "navigation": {
+            "inactive": "var(--color-text-navigation-inactive)"
         }
     },
     "icon": {
@@ -529,6 +589,24 @@ module.exports = /** @type {const} */ {
                 "weak": "var(--color-icon-decorative-red-weak)",
                 "medium": "var(--color-icon-decorative-red-medium)",
                 "strong": "var(--color-icon-decorative-red-strong)"
+            },
+            "stone": {
+                "DEFAULT": "var(--color-icon-decorative-stone-default)",
+                "weak": "var(--color-icon-decorative-stone-weak)",
+                "medium": "var(--color-icon-decorative-stone-medium)",
+                "strong": "var(--color-icon-decorative-stone-strong)"
+            },
+            "pink": {
+                "DEFAULT": "var(--color-icon-decorative-pink-default)",
+                "weak": "var(--color-icon-decorative-pink-weak)",
+                "medium": "var(--color-icon-decorative-pink-medium)",
+                "strong": "var(--color-icon-decorative-pink-strong)"
+            },
+            "citron": {
+                "DEFAULT": "var(--color-icon-decorative-citron-default)",
+                "weak": "var(--color-icon-decorative-citron-weak)",
+                "medium": "var(--color-icon-decorative-citron-medium)",
+                "strong": "var(--color-icon-decorative-citron-strong)"
             }
         }
     }

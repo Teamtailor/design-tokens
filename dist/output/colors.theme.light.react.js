@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Wed, 07 Jan 2026 10:41:02 GMT
+ * Generated on Fri, 18 Sep 2026 19:07:22 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -9,13 +9,15 @@ module.exports = /** @type {const} */ {
         "canvas": "#fff",
         "neutral": {
             "default": "#fff",
-            "hover": "#fafafa",
-            "weak": "#fafafa",
-            "weakHover": "#f4f4f5",
-            "medium": "#eeeef0",
-            "mediumHover": "#e4e4e7",
-            "strong": "#27272a",
-            "strongHover": "#3f3f46"
+            "hover": "#faf8f6",
+            "weak": "#faf8f6",
+            "weakHover": "#f7f4f0",
+            "medium": "#f2eee8",
+            "mediumHover": "#e9e4dc",
+            "strong": "#342424",
+            "strongHover": "#4d3a38",
+            "track": "#e9e4dc",
+            "translucent": "rgba(52, 53, 58, 0.1)"
         },
         "success": {
             "default": "#f0fdf4",
@@ -34,15 +36,16 @@ module.exports = /** @type {const} */ {
             "strong": "#00a6f4"
         },
         "action": {
-            "strong": "#f43f85",
-            "strongHover": "#e01a72",
-            "strongActive": "#be1360",
-            "strongDisabled": "rgba(244, 63, 133, 0.5)",
+            "strong": "#f1408f",
+            "strongHover": "#d62079",
+            "strongActive": "#b80064",
+            "strongDisabled": "rgba(241, 64, 143, 0.5)",
             "medium": "#fff",
-            "mediumHover": "#fafafa",
-            "mediumActive": "#fde6ec",
-            "weakHover": "rgba(15, 15, 16, 0.04)",
-            "weakActive": "#fde6ec"
+            "mediumHover": "#faf8f6",
+            "mediumActive": "#e9e4dc",
+            "weakHover": "#f2eee8",
+            "weakActive": "#f2eee8",
+            "mediumActiveHover": "#dbd3c8"
         },
         "copilot": {
             "default": "#faf5ff",
@@ -158,30 +161,56 @@ module.exports = /** @type {const} */ {
                 "weak": "#ffe2e2",
                 "medium": "#fb2c36",
                 "strong": "#9f0712"
+            },
+            "stone": {
+                "default": "#faf8f6",
+                "medium": "#7f6e67",
+                "strong": "#251919",
+                "weak": "#4227001a"
+            },
+            "pink": {
+                "default": "#ffeffa",
+                "medium": "#fb9be4",
+                "strong": "#b80064",
+                "weak": "#ffe4f7"
+            },
+            "citron": {
+                "default": "#f7fac0",
+                "medium": "#8e9a02",
+                "strong": "#4d5401",
+                "weak": "#eff68c"
             }
+        },
+        "scrim": "rgba(39, 39, 42, 0.5)",
+        "skeleton": "#dbd3c8",
+        "selection": "rgba(103, 84, 80, 0.1)",
+        "overlay": {
+            "control": "rgba(37, 25, 25, 0.6)",
+            "controlHover": "rgba(37, 25, 25, 0.9)"
         }
     },
     "border": {
         "neutral": {
-            "default": "rgba(0, 0, 0, 0.06)",
-            "medium": "rgba(0, 0, 0, 0.11)",
-            "strong": "rgba(0, 0, 0, 0.2)"
+            "default": "#f2eee8",
+            "medium": "#e9e4dc",
+            "strong": "#dbd3c8",
+            "translucent": "rgba(21, 13, 13, 0.08)"
         },
         "success": {
-            "default": "rgba(52, 53, 58, 0.05)"
+            "default": "#d5f1de"
         },
         "danger": {
-            "default": "rgba(52, 53, 58, 0.05)"
+            "default": "#fadddd"
         },
         "warning": {
-            "default": "rgba(52, 53, 58, 0.05)"
+            "default": "#f4ebc7"
         },
         "info": {
-            "default": "rgba(52, 53, 58, 0.05)"
+            "default": "#d5ebf9"
         },
         "action": {
-            "medium": "#e4e4e7",
-            "mediumActive": "#fdcfda",
+            "medium": "#e9e4dc",
+            "mediumActive": "#dbd3c8",
             "strong": "linear-gradient(180deg, rgba(0, 0, 0, 0.02) 2%, rgba(0, 0, 0, 0.1) 100%)"
         },
         "copilot": {
@@ -241,28 +270,38 @@ module.exports = /** @type {const} */ {
             },
             "red": {
                 "medium": "#9f0712"
+            },
+            "stone": {
+                "medium": "#342424"
+            },
+            "pink": {
+                "medium": "#f1408f"
+            },
+            "citron": {
+                "medium": "#8e9a02"
             }
         }
     },
     "outline": {
         "focus": {
-            "default": "rgba(244, 63, 133, 0.5)"
+            "default": "rgba(241, 64, 143, 0.5)",
+            "neutral": "rgba(127, 110, 103, 0.5)"
         }
     },
     "text": {
         "neutral": {
-            "default": "#34353a",
-            "weak": "#b2b3b9",
-            "medium": "#71717b"
+            "default": "#432f2f",
+            "weak": "#bcb2a7",
+            "medium": "#7f6e67"
         },
         "action": {
-            "default": "#f43f85",
-            "hover": "#e01a72",
-            "active": "#e01a72",
-            "weak": "#34353a",
-            "weakActive": "#e01a72",
-            "medium": "#34353a",
-            "mediumActive": "#e01a72",
+            "default": "#f1408f",
+            "hover": "#d62079",
+            "active": "#d62079",
+            "weak": "#432f2f",
+            "weakActive": "#d62079",
+            "medium": "#432f2f",
+            "mediumActive": "#432f2f",
             "strong": "#fff"
         },
         "success": {
@@ -391,13 +430,34 @@ module.exports = /** @type {const} */ {
                 "weak": "#9f0712",
                 "medium": "#fff",
                 "strong": "#fff"
+            },
+            "stone": {
+                "default": "#675450",
+                "weak": "#342424",
+                "medium": "#fff",
+                "strong": "#fff"
+            },
+            "pink": {
+                "default": "#b80064",
+                "weak": "#251919",
+                "medium": "#432f2f",
+                "strong": "#fff"
+            },
+            "citron": {
+                "default": "#4d5401",
+                "weak": "#373d00",
+                "medium": "#fff",
+                "strong": "#fff"
             }
+        },
+        "navigation": {
+            "inactive": "#675450"
         }
     },
     "icon": {
         "neutral": {
-            "default": "#57595f",
-            "weak": "#b2b3b9"
+            "default": "#432f2f",
+            "weak": "#bcb2a7"
         },
         "success": {
             "default": "#17a31c",
@@ -527,6 +587,24 @@ module.exports = /** @type {const} */ {
             "red": {
                 "default": "#e7000b",
                 "weak": "#9f0712",
+                "medium": "#fff",
+                "strong": "#fff"
+            },
+            "stone": {
+                "default": "#675450",
+                "weak": "#342424",
+                "medium": "#fff",
+                "strong": "#fff"
+            },
+            "pink": {
+                "default": "#b80064",
+                "weak": "#251919",
+                "medium": "#fff",
+                "strong": "#fff"
+            },
+            "citron": {
+                "default": "#4d5401",
+                "weak": "#373d00",
                 "medium": "#fff",
                 "strong": "#fff"
             }

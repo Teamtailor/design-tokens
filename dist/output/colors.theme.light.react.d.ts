@@ -11,6 +11,8 @@ export namespace background {
         export const mediumHover: string;
         export const strong: string;
         export const strongHover: string;
+        export const track: string;
+        export const translucent: string;
     }
     namespace success {
         const _default_1: string;
@@ -51,6 +53,7 @@ export namespace background {
         const weakHover_1: string;
         export { weakHover_1 as weakHover };
         export const weakActive: string;
+        export const mediumActiveHover: string;
     }
     namespace copilot {
         const _default_5: string;
@@ -243,659 +246,784 @@ export namespace background {
             const strong_24: string;
             export { strong_24 as strong };
         }
+        namespace stone {
+            const _default_24: string;
+            export { _default_24 as default };
+            const medium_21: string;
+            export { medium_21 as medium };
+            const strong_25: string;
+            export { strong_25 as strong };
+            const weak_20: string;
+            export { weak_20 as weak };
+        }
+        namespace pink {
+            const _default_25: string;
+            export { _default_25 as default };
+            const medium_22: string;
+            export { medium_22 as medium };
+            const strong_26: string;
+            export { strong_26 as strong };
+            const weak_21: string;
+            export { weak_21 as weak };
+        }
+        namespace citron {
+            const _default_26: string;
+            export { _default_26 as default };
+            const medium_23: string;
+            export { medium_23 as medium };
+            const strong_27: string;
+            export { strong_27 as strong };
+            const weak_22: string;
+            export { weak_22 as weak };
+        }
+    }
+    const scrim: string;
+    const skeleton: string;
+    const selection: string;
+    namespace overlay {
+        const control: string;
+        const controlHover: string;
     }
 }
 export namespace border {
     export namespace neutral_1 {
-        const _default_24: string;
-        export { _default_24 as default };
-        const medium_21: string;
-        export { medium_21 as medium };
-        const strong_25: string;
-        export { strong_25 as strong };
+        const _default_27: string;
+        export { _default_27 as default };
+        const medium_24: string;
+        export { medium_24 as medium };
+        const strong_28: string;
+        export { strong_28 as strong };
+        const translucent_1: string;
+        export { translucent_1 as translucent };
     }
     export { neutral_1 as neutral };
     export namespace success_1 {
-        const _default_25: string;
-        export { _default_25 as default };
-    }
-    export { success_1 as success };
-    export namespace danger_1 {
-        const _default_26: string;
-        export { _default_26 as default };
-    }
-    export { danger_1 as danger };
-    export namespace warning_1 {
-        const _default_27: string;
-        export { _default_27 as default };
-    }
-    export { warning_1 as warning };
-    export namespace info_1 {
         const _default_28: string;
         export { _default_28 as default };
     }
+    export { success_1 as success };
+    export namespace danger_1 {
+        const _default_29: string;
+        export { _default_29 as default };
+    }
+    export { danger_1 as danger };
+    export namespace warning_1 {
+        const _default_30: string;
+        export { _default_30 as default };
+    }
+    export { warning_1 as warning };
+    export namespace info_1 {
+        const _default_31: string;
+        export { _default_31 as default };
+    }
     export { info_1 as info };
     export namespace action_1 {
-        const medium_22: string;
-        export { medium_22 as medium };
+        const medium_25: string;
+        export { medium_25 as medium };
         const mediumActive_1: string;
         export { mediumActive_1 as mediumActive };
-        const strong_26: string;
-        export { strong_26 as strong };
+        const strong_29: string;
+        export { strong_29 as strong };
     }
     export { action_1 as action };
     export namespace copilot_1 {
-        const medium_23: string;
-        export { medium_23 as medium };
+        const medium_26: string;
+        export { medium_26 as medium };
     }
     export { copilot_1 as copilot };
     export namespace decorative_1 {
         export namespace amber_1 {
-            const medium_24: string;
-            export { medium_24 as medium };
-        }
-        export { amber_1 as amber };
-        export namespace orange_1 {
-            const medium_25: string;
-            export { medium_25 as medium };
-        }
-        export { orange_1 as orange };
-        export namespace lime_1 {
-            const medium_26: string;
-            export { medium_26 as medium };
-        }
-        export { lime_1 as lime };
-        export namespace green_1 {
             const medium_27: string;
             export { medium_27 as medium };
         }
-        export { green_1 as green };
-        export namespace emerald_1 {
+        export { amber_1 as amber };
+        export namespace orange_1 {
             const medium_28: string;
             export { medium_28 as medium };
         }
-        export { emerald_1 as emerald };
-        export namespace teal_1 {
+        export { orange_1 as orange };
+        export namespace lime_1 {
             const medium_29: string;
             export { medium_29 as medium };
         }
-        export { teal_1 as teal };
-        export namespace cyan_1 {
+        export { lime_1 as lime };
+        export namespace green_1 {
             const medium_30: string;
             export { medium_30 as medium };
         }
-        export { cyan_1 as cyan };
-        export namespace lightBlue_1 {
+        export { green_1 as green };
+        export namespace emerald_1 {
             const medium_31: string;
             export { medium_31 as medium };
         }
-        export { lightBlue_1 as lightBlue };
-        export namespace blue_1 {
+        export { emerald_1 as emerald };
+        export namespace teal_1 {
             const medium_32: string;
             export { medium_32 as medium };
         }
-        export { blue_1 as blue };
-        export namespace indigo_1 {
+        export { teal_1 as teal };
+        export namespace cyan_1 {
             const medium_33: string;
             export { medium_33 as medium };
         }
-        export { indigo_1 as indigo };
-        export namespace violet_1 {
+        export { cyan_1 as cyan };
+        export namespace lightBlue_1 {
             const medium_34: string;
             export { medium_34 as medium };
         }
-        export { violet_1 as violet };
-        export namespace purple_1 {
+        export { lightBlue_1 as lightBlue };
+        export namespace blue_1 {
             const medium_35: string;
             export { medium_35 as medium };
         }
-        export { purple_1 as purple };
-        export namespace fuchsia_1 {
+        export { blue_1 as blue };
+        export namespace indigo_1 {
             const medium_36: string;
             export { medium_36 as medium };
         }
-        export { fuchsia_1 as fuchsia };
-        export namespace yellow_1 {
+        export { indigo_1 as indigo };
+        export namespace violet_1 {
             const medium_37: string;
             export { medium_37 as medium };
         }
-        export { yellow_1 as yellow };
-        export namespace zinc_1 {
+        export { violet_1 as violet };
+        export namespace purple_1 {
             const medium_38: string;
             export { medium_38 as medium };
         }
-        export { zinc_1 as zinc };
-        export namespace cerise_1 {
+        export { purple_1 as purple };
+        export namespace fuchsia_1 {
             const medium_39: string;
             export { medium_39 as medium };
         }
-        export { cerise_1 as cerise };
-        export namespace rose_1 {
+        export { fuchsia_1 as fuchsia };
+        export namespace yellow_1 {
             const medium_40: string;
             export { medium_40 as medium };
         }
-        export { rose_1 as rose };
-        export namespace red_1 {
+        export { yellow_1 as yellow };
+        export namespace zinc_1 {
             const medium_41: string;
             export { medium_41 as medium };
         }
+        export { zinc_1 as zinc };
+        export namespace cerise_1 {
+            const medium_42: string;
+            export { medium_42 as medium };
+        }
+        export { cerise_1 as cerise };
+        export namespace rose_1 {
+            const medium_43: string;
+            export { medium_43 as medium };
+        }
+        export { rose_1 as rose };
+        export namespace red_1 {
+            const medium_44: string;
+            export { medium_44 as medium };
+        }
         export { red_1 as red };
+        export namespace stone_1 {
+            const medium_45: string;
+            export { medium_45 as medium };
+        }
+        export { stone_1 as stone };
+        export namespace pink_1 {
+            const medium_46: string;
+            export { medium_46 as medium };
+        }
+        export { pink_1 as pink };
+        export namespace citron_1 {
+            const medium_47: string;
+            export { medium_47 as medium };
+        }
+        export { citron_1 as citron };
     }
     export { decorative_1 as decorative };
 }
 export namespace outline {
     namespace focus {
-        const _default_29: string;
-        export { _default_29 as default };
+        const _default_32: string;
+        export { _default_32 as default };
+        const neutral_2: string;
+        export { neutral_2 as neutral };
     }
 }
 export namespace text {
-    export namespace neutral_2 {
-        const _default_30: string;
-        export { _default_30 as default };
-        const weak_20: string;
-        export { weak_20 as weak };
-        const medium_42: string;
-        export { medium_42 as medium };
+    export namespace neutral_3 {
+        const _default_33: string;
+        export { _default_33 as default };
+        const weak_23: string;
+        export { weak_23 as weak };
+        const medium_48: string;
+        export { medium_48 as medium };
     }
-    export { neutral_2 as neutral };
+    export { neutral_3 as neutral };
     export namespace action_2 {
-        const _default_31: string;
-        export { _default_31 as default };
+        const _default_34: string;
+        export { _default_34 as default };
         const hover_1: string;
         export { hover_1 as hover };
         export const active: string;
-        const weak_21: string;
-        export { weak_21 as weak };
+        const weak_24: string;
+        export { weak_24 as weak };
         const weakActive_1: string;
         export { weakActive_1 as weakActive };
-        const medium_43: string;
-        export { medium_43 as medium };
+        const medium_49: string;
+        export { medium_49 as medium };
         const mediumActive_2: string;
         export { mediumActive_2 as mediumActive };
-        const strong_27: string;
-        export { strong_27 as strong };
+        const strong_30: string;
+        export { strong_30 as strong };
     }
     export { action_2 as action };
     export namespace success_2 {
-        const _default_32: string;
-        export { _default_32 as default };
-    }
-    export { success_2 as success };
-    export namespace danger_2 {
-        const _default_33: string;
-        export { _default_33 as default };
-    }
-    export { danger_2 as danger };
-    export namespace warning_2 {
-        const _default_34: string;
-        export { _default_34 as default };
-    }
-    export { warning_2 as warning };
-    export namespace info_2 {
         const _default_35: string;
         export { _default_35 as default };
     }
-    export { info_2 as info };
-    export namespace copilot_2 {
+    export { success_2 as success };
+    export namespace danger_2 {
         const _default_36: string;
         export { _default_36 as default };
-        const weak_22: string;
-        export { weak_22 as weak };
-        const medium_44: string;
-        export { medium_44 as medium };
-        const strong_28: string;
-        export { strong_28 as strong };
+    }
+    export { danger_2 as danger };
+    export namespace warning_2 {
+        const _default_37: string;
+        export { _default_37 as default };
+    }
+    export { warning_2 as warning };
+    export namespace info_2 {
+        const _default_38: string;
+        export { _default_38 as default };
+    }
+    export { info_2 as info };
+    export namespace copilot_2 {
+        const _default_39: string;
+        export { _default_39 as default };
+        const weak_25: string;
+        export { weak_25 as weak };
+        const medium_50: string;
+        export { medium_50 as medium };
+        const strong_31: string;
+        export { strong_31 as strong };
     }
     export { copilot_2 as copilot };
     export namespace decorative_2 {
         export namespace amber_2 {
-            const _default_37: string;
-            export { _default_37 as default };
-            const weak_23: string;
-            export { weak_23 as weak };
-            const medium_45: string;
-            export { medium_45 as medium };
-            const strong_29: string;
-            export { strong_29 as strong };
-        }
-        export { amber_2 as amber };
-        export namespace orange_2 {
-            const _default_38: string;
-            export { _default_38 as default };
-            const weak_24: string;
-            export { weak_24 as weak };
-            const medium_46: string;
-            export { medium_46 as medium };
-            const strong_30: string;
-            export { strong_30 as strong };
-        }
-        export { orange_2 as orange };
-        export namespace fuchsia_2 {
-            const _default_39: string;
-            export { _default_39 as default };
-            const weak_25: string;
-            export { weak_25 as weak };
-            const medium_47: string;
-            export { medium_47 as medium };
-            const strong_31: string;
-            export { strong_31 as strong };
-        }
-        export { fuchsia_2 as fuchsia };
-        export namespace purple_2 {
             const _default_40: string;
             export { _default_40 as default };
             const weak_26: string;
             export { weak_26 as weak };
-            const medium_48: string;
-            export { medium_48 as medium };
+            const medium_51: string;
+            export { medium_51 as medium };
             const strong_32: string;
             export { strong_32 as strong };
         }
-        export { purple_2 as purple };
-        export namespace violet_2 {
+        export { amber_2 as amber };
+        export namespace orange_2 {
             const _default_41: string;
             export { _default_41 as default };
             const weak_27: string;
             export { weak_27 as weak };
-            const medium_49: string;
-            export { medium_49 as medium };
+            const medium_52: string;
+            export { medium_52 as medium };
             const strong_33: string;
             export { strong_33 as strong };
         }
-        export { violet_2 as violet };
-        export namespace indigo_2 {
+        export { orange_2 as orange };
+        export namespace fuchsia_2 {
             const _default_42: string;
             export { _default_42 as default };
             const weak_28: string;
             export { weak_28 as weak };
-            const medium_50: string;
-            export { medium_50 as medium };
+            const medium_53: string;
+            export { medium_53 as medium };
             const strong_34: string;
             export { strong_34 as strong };
         }
-        export { indigo_2 as indigo };
-        export namespace blue_2 {
+        export { fuchsia_2 as fuchsia };
+        export namespace purple_2 {
             const _default_43: string;
             export { _default_43 as default };
             const weak_29: string;
             export { weak_29 as weak };
-            const medium_51: string;
-            export { medium_51 as medium };
+            const medium_54: string;
+            export { medium_54 as medium };
             const strong_35: string;
             export { strong_35 as strong };
         }
-        export { blue_2 as blue };
-        export namespace lightBlue_2 {
+        export { purple_2 as purple };
+        export namespace violet_2 {
             const _default_44: string;
             export { _default_44 as default };
             const weak_30: string;
             export { weak_30 as weak };
-            const medium_52: string;
-            export { medium_52 as medium };
+            const medium_55: string;
+            export { medium_55 as medium };
             const strong_36: string;
             export { strong_36 as strong };
         }
-        export { lightBlue_2 as lightBlue };
-        export namespace cyan_2 {
+        export { violet_2 as violet };
+        export namespace indigo_2 {
             const _default_45: string;
             export { _default_45 as default };
             const weak_31: string;
             export { weak_31 as weak };
-            const medium_53: string;
-            export { medium_53 as medium };
+            const medium_56: string;
+            export { medium_56 as medium };
             const strong_37: string;
             export { strong_37 as strong };
         }
-        export { cyan_2 as cyan };
-        export namespace teal_2 {
+        export { indigo_2 as indigo };
+        export namespace blue_2 {
             const _default_46: string;
             export { _default_46 as default };
             const weak_32: string;
             export { weak_32 as weak };
-            const medium_54: string;
-            export { medium_54 as medium };
+            const medium_57: string;
+            export { medium_57 as medium };
             const strong_38: string;
             export { strong_38 as strong };
         }
-        export { teal_2 as teal };
-        export namespace emerald_2 {
+        export { blue_2 as blue };
+        export namespace lightBlue_2 {
             const _default_47: string;
             export { _default_47 as default };
             const weak_33: string;
             export { weak_33 as weak };
-            const medium_55: string;
-            export { medium_55 as medium };
+            const medium_58: string;
+            export { medium_58 as medium };
             const strong_39: string;
             export { strong_39 as strong };
         }
-        export { emerald_2 as emerald };
-        export namespace green_2 {
+        export { lightBlue_2 as lightBlue };
+        export namespace cyan_2 {
             const _default_48: string;
             export { _default_48 as default };
             const weak_34: string;
             export { weak_34 as weak };
-            const medium_56: string;
-            export { medium_56 as medium };
+            const medium_59: string;
+            export { medium_59 as medium };
             const strong_40: string;
             export { strong_40 as strong };
         }
-        export { green_2 as green };
-        export namespace lime_2 {
+        export { cyan_2 as cyan };
+        export namespace teal_2 {
             const _default_49: string;
             export { _default_49 as default };
             const weak_35: string;
             export { weak_35 as weak };
-            const medium_57: string;
-            export { medium_57 as medium };
+            const medium_60: string;
+            export { medium_60 as medium };
             const strong_41: string;
             export { strong_41 as strong };
         }
-        export { lime_2 as lime };
-        export namespace cerise_2 {
+        export { teal_2 as teal };
+        export namespace emerald_2 {
             const _default_50: string;
             export { _default_50 as default };
             const weak_36: string;
             export { weak_36 as weak };
-            const medium_58: string;
-            export { medium_58 as medium };
+            const medium_61: string;
+            export { medium_61 as medium };
             const strong_42: string;
             export { strong_42 as strong };
         }
-        export { cerise_2 as cerise };
-        export namespace yellow_2 {
+        export { emerald_2 as emerald };
+        export namespace green_2 {
             const _default_51: string;
             export { _default_51 as default };
             const weak_37: string;
             export { weak_37 as weak };
-            const medium_59: string;
-            export { medium_59 as medium };
+            const medium_62: string;
+            export { medium_62 as medium };
             const strong_43: string;
             export { strong_43 as strong };
         }
-        export { yellow_2 as yellow };
-        export namespace zinc_2 {
+        export { green_2 as green };
+        export namespace lime_2 {
             const _default_52: string;
             export { _default_52 as default };
             const weak_38: string;
             export { weak_38 as weak };
-            const medium_60: string;
-            export { medium_60 as medium };
+            const medium_63: string;
+            export { medium_63 as medium };
             const strong_44: string;
             export { strong_44 as strong };
         }
-        export { zinc_2 as zinc };
-        export namespace rose_2 {
+        export { lime_2 as lime };
+        export namespace cerise_2 {
             const _default_53: string;
             export { _default_53 as default };
             const weak_39: string;
             export { weak_39 as weak };
-            const medium_61: string;
-            export { medium_61 as medium };
+            const medium_64: string;
+            export { medium_64 as medium };
             const strong_45: string;
             export { strong_45 as strong };
         }
-        export { rose_2 as rose };
-        export namespace red_2 {
+        export { cerise_2 as cerise };
+        export namespace yellow_2 {
             const _default_54: string;
             export { _default_54 as default };
             const weak_40: string;
             export { weak_40 as weak };
-            const medium_62: string;
-            export { medium_62 as medium };
+            const medium_65: string;
+            export { medium_65 as medium };
             const strong_46: string;
             export { strong_46 as strong };
         }
+        export { yellow_2 as yellow };
+        export namespace zinc_2 {
+            const _default_55: string;
+            export { _default_55 as default };
+            const weak_41: string;
+            export { weak_41 as weak };
+            const medium_66: string;
+            export { medium_66 as medium };
+            const strong_47: string;
+            export { strong_47 as strong };
+        }
+        export { zinc_2 as zinc };
+        export namespace rose_2 {
+            const _default_56: string;
+            export { _default_56 as default };
+            const weak_42: string;
+            export { weak_42 as weak };
+            const medium_67: string;
+            export { medium_67 as medium };
+            const strong_48: string;
+            export { strong_48 as strong };
+        }
+        export { rose_2 as rose };
+        export namespace red_2 {
+            const _default_57: string;
+            export { _default_57 as default };
+            const weak_43: string;
+            export { weak_43 as weak };
+            const medium_68: string;
+            export { medium_68 as medium };
+            const strong_49: string;
+            export { strong_49 as strong };
+        }
         export { red_2 as red };
+        export namespace stone_2 {
+            const _default_58: string;
+            export { _default_58 as default };
+            const weak_44: string;
+            export { weak_44 as weak };
+            const medium_69: string;
+            export { medium_69 as medium };
+            const strong_50: string;
+            export { strong_50 as strong };
+        }
+        export { stone_2 as stone };
+        export namespace pink_2 {
+            const _default_59: string;
+            export { _default_59 as default };
+            const weak_45: string;
+            export { weak_45 as weak };
+            const medium_70: string;
+            export { medium_70 as medium };
+            const strong_51: string;
+            export { strong_51 as strong };
+        }
+        export { pink_2 as pink };
+        export namespace citron_2 {
+            const _default_60: string;
+            export { _default_60 as default };
+            const weak_46: string;
+            export { weak_46 as weak };
+            const medium_71: string;
+            export { medium_71 as medium };
+            const strong_52: string;
+            export { strong_52 as strong };
+        }
+        export { citron_2 as citron };
     }
     export { decorative_2 as decorative };
+    export namespace navigation {
+        const inactive: string;
+    }
 }
 export namespace icon {
-    export namespace neutral_3 {
-        const _default_55: string;
-        export { _default_55 as default };
-        const weak_41: string;
-        export { weak_41 as weak };
+    export namespace neutral_4 {
+        const _default_61: string;
+        export { _default_61 as default };
+        const weak_47: string;
+        export { weak_47 as weak };
     }
-    export { neutral_3 as neutral };
+    export { neutral_4 as neutral };
     export namespace success_3 {
-        const _default_56: string;
-        export { _default_56 as default };
-        const strong_47: string;
-        export { strong_47 as strong };
+        const _default_62: string;
+        export { _default_62 as default };
+        const strong_53: string;
+        export { strong_53 as strong };
     }
     export { success_3 as success };
     export namespace danger_3 {
-        const _default_57: string;
-        export { _default_57 as default };
-        const strong_48: string;
-        export { strong_48 as strong };
+        const _default_63: string;
+        export { _default_63 as default };
+        const strong_54: string;
+        export { strong_54 as strong };
     }
     export { danger_3 as danger };
     export namespace warning_3 {
-        const _default_58: string;
-        export { _default_58 as default };
-        const strong_49: string;
-        export { strong_49 as strong };
+        const _default_64: string;
+        export { _default_64 as default };
+        const strong_55: string;
+        export { strong_55 as strong };
     }
     export { warning_3 as warning };
     export namespace info_3 {
-        const _default_59: string;
-        export { _default_59 as default };
-        const strong_50: string;
-        export { strong_50 as strong };
+        const _default_65: string;
+        export { _default_65 as default };
+        const strong_56: string;
+        export { strong_56 as strong };
     }
     export { info_3 as info };
     export namespace copilot_3 {
-        const _default_60: string;
-        export { _default_60 as default };
-        const weak_42: string;
-        export { weak_42 as weak };
-        const medium_63: string;
-        export { medium_63 as medium };
-        const strong_51: string;
-        export { strong_51 as strong };
+        const _default_66: string;
+        export { _default_66 as default };
+        const weak_48: string;
+        export { weak_48 as weak };
+        const medium_72: string;
+        export { medium_72 as medium };
+        const strong_57: string;
+        export { strong_57 as strong };
     }
     export { copilot_3 as copilot };
     export namespace decorative_3 {
         export namespace amber_3 {
-            const _default_61: string;
-            export { _default_61 as default };
-            const weak_43: string;
-            export { weak_43 as weak };
-            const medium_64: string;
-            export { medium_64 as medium };
-            const strong_52: string;
-            export { strong_52 as strong };
-        }
-        export { amber_3 as amber };
-        export namespace orange_3 {
-            const _default_62: string;
-            export { _default_62 as default };
-            const weak_44: string;
-            export { weak_44 as weak };
-            const medium_65: string;
-            export { medium_65 as medium };
-            const strong_53: string;
-            export { strong_53 as strong };
-        }
-        export { orange_3 as orange };
-        export namespace fuchsia_3 {
-            const _default_63: string;
-            export { _default_63 as default };
-            const weak_45: string;
-            export { weak_45 as weak };
-            const medium_66: string;
-            export { medium_66 as medium };
-            const strong_54: string;
-            export { strong_54 as strong };
-        }
-        export { fuchsia_3 as fuchsia };
-        export namespace purple_3 {
-            const _default_64: string;
-            export { _default_64 as default };
-            const weak_46: string;
-            export { weak_46 as weak };
-            const medium_67: string;
-            export { medium_67 as medium };
-            const strong_55: string;
-            export { strong_55 as strong };
-        }
-        export { purple_3 as purple };
-        export namespace violet_3 {
-            const _default_65: string;
-            export { _default_65 as default };
-            const weak_47: string;
-            export { weak_47 as weak };
-            const medium_68: string;
-            export { medium_68 as medium };
-            const strong_56: string;
-            export { strong_56 as strong };
-        }
-        export { violet_3 as violet };
-        export namespace indigo_3 {
-            const _default_66: string;
-            export { _default_66 as default };
-            const weak_48: string;
-            export { weak_48 as weak };
-            const medium_69: string;
-            export { medium_69 as medium };
-            const strong_57: string;
-            export { strong_57 as strong };
-        }
-        export { indigo_3 as indigo };
-        export namespace blue_3 {
             const _default_67: string;
             export { _default_67 as default };
             const weak_49: string;
             export { weak_49 as weak };
-            const medium_70: string;
-            export { medium_70 as medium };
+            const medium_73: string;
+            export { medium_73 as medium };
             const strong_58: string;
             export { strong_58 as strong };
         }
-        export { blue_3 as blue };
-        export namespace lightBlue_3 {
+        export { amber_3 as amber };
+        export namespace orange_3 {
             const _default_68: string;
             export { _default_68 as default };
             const weak_50: string;
             export { weak_50 as weak };
-            const medium_71: string;
-            export { medium_71 as medium };
+            const medium_74: string;
+            export { medium_74 as medium };
             const strong_59: string;
             export { strong_59 as strong };
         }
-        export { lightBlue_3 as lightBlue };
-        export namespace cyan_3 {
+        export { orange_3 as orange };
+        export namespace fuchsia_3 {
             const _default_69: string;
             export { _default_69 as default };
             const weak_51: string;
             export { weak_51 as weak };
-            const medium_72: string;
-            export { medium_72 as medium };
+            const medium_75: string;
+            export { medium_75 as medium };
             const strong_60: string;
             export { strong_60 as strong };
         }
-        export { cyan_3 as cyan };
-        export namespace teal_3 {
+        export { fuchsia_3 as fuchsia };
+        export namespace purple_3 {
             const _default_70: string;
             export { _default_70 as default };
             const weak_52: string;
             export { weak_52 as weak };
-            const medium_73: string;
-            export { medium_73 as medium };
+            const medium_76: string;
+            export { medium_76 as medium };
             const strong_61: string;
             export { strong_61 as strong };
         }
-        export { teal_3 as teal };
-        export namespace emerald_3 {
+        export { purple_3 as purple };
+        export namespace violet_3 {
             const _default_71: string;
             export { _default_71 as default };
             const weak_53: string;
             export { weak_53 as weak };
-            const medium_74: string;
-            export { medium_74 as medium };
+            const medium_77: string;
+            export { medium_77 as medium };
             const strong_62: string;
             export { strong_62 as strong };
         }
-        export { emerald_3 as emerald };
-        export namespace green_3 {
+        export { violet_3 as violet };
+        export namespace indigo_3 {
             const _default_72: string;
             export { _default_72 as default };
             const weak_54: string;
             export { weak_54 as weak };
-            const medium_75: string;
-            export { medium_75 as medium };
+            const medium_78: string;
+            export { medium_78 as medium };
             const strong_63: string;
             export { strong_63 as strong };
         }
-        export { green_3 as green };
-        export namespace lime_3 {
+        export { indigo_3 as indigo };
+        export namespace blue_3 {
             const _default_73: string;
             export { _default_73 as default };
             const weak_55: string;
             export { weak_55 as weak };
-            const medium_76: string;
-            export { medium_76 as medium };
+            const medium_79: string;
+            export { medium_79 as medium };
             const strong_64: string;
             export { strong_64 as strong };
         }
-        export { lime_3 as lime };
-        export namespace cerise_3 {
+        export { blue_3 as blue };
+        export namespace lightBlue_3 {
             const _default_74: string;
             export { _default_74 as default };
             const weak_56: string;
             export { weak_56 as weak };
-            const medium_77: string;
-            export { medium_77 as medium };
+            const medium_80: string;
+            export { medium_80 as medium };
             const strong_65: string;
             export { strong_65 as strong };
         }
-        export { cerise_3 as cerise };
-        export namespace yellow_3 {
+        export { lightBlue_3 as lightBlue };
+        export namespace cyan_3 {
             const _default_75: string;
             export { _default_75 as default };
             const weak_57: string;
             export { weak_57 as weak };
-            const medium_78: string;
-            export { medium_78 as medium };
+            const medium_81: string;
+            export { medium_81 as medium };
             const strong_66: string;
             export { strong_66 as strong };
         }
-        export { yellow_3 as yellow };
-        export namespace zinc_3 {
+        export { cyan_3 as cyan };
+        export namespace teal_3 {
             const _default_76: string;
             export { _default_76 as default };
             const weak_58: string;
             export { weak_58 as weak };
-            const medium_79: string;
-            export { medium_79 as medium };
+            const medium_82: string;
+            export { medium_82 as medium };
             const strong_67: string;
             export { strong_67 as strong };
         }
-        export { zinc_3 as zinc };
-        export namespace rose_3 {
+        export { teal_3 as teal };
+        export namespace emerald_3 {
             const _default_77: string;
             export { _default_77 as default };
             const weak_59: string;
             export { weak_59 as weak };
-            const medium_80: string;
-            export { medium_80 as medium };
+            const medium_83: string;
+            export { medium_83 as medium };
             const strong_68: string;
             export { strong_68 as strong };
         }
-        export { rose_3 as rose };
-        export namespace red_3 {
+        export { emerald_3 as emerald };
+        export namespace green_3 {
             const _default_78: string;
             export { _default_78 as default };
             const weak_60: string;
             export { weak_60 as weak };
-            const medium_81: string;
-            export { medium_81 as medium };
+            const medium_84: string;
+            export { medium_84 as medium };
             const strong_69: string;
             export { strong_69 as strong };
         }
+        export { green_3 as green };
+        export namespace lime_3 {
+            const _default_79: string;
+            export { _default_79 as default };
+            const weak_61: string;
+            export { weak_61 as weak };
+            const medium_85: string;
+            export { medium_85 as medium };
+            const strong_70: string;
+            export { strong_70 as strong };
+        }
+        export { lime_3 as lime };
+        export namespace cerise_3 {
+            const _default_80: string;
+            export { _default_80 as default };
+            const weak_62: string;
+            export { weak_62 as weak };
+            const medium_86: string;
+            export { medium_86 as medium };
+            const strong_71: string;
+            export { strong_71 as strong };
+        }
+        export { cerise_3 as cerise };
+        export namespace yellow_3 {
+            const _default_81: string;
+            export { _default_81 as default };
+            const weak_63: string;
+            export { weak_63 as weak };
+            const medium_87: string;
+            export { medium_87 as medium };
+            const strong_72: string;
+            export { strong_72 as strong };
+        }
+        export { yellow_3 as yellow };
+        export namespace zinc_3 {
+            const _default_82: string;
+            export { _default_82 as default };
+            const weak_64: string;
+            export { weak_64 as weak };
+            const medium_88: string;
+            export { medium_88 as medium };
+            const strong_73: string;
+            export { strong_73 as strong };
+        }
+        export { zinc_3 as zinc };
+        export namespace rose_3 {
+            const _default_83: string;
+            export { _default_83 as default };
+            const weak_65: string;
+            export { weak_65 as weak };
+            const medium_89: string;
+            export { medium_89 as medium };
+            const strong_74: string;
+            export { strong_74 as strong };
+        }
+        export { rose_3 as rose };
+        export namespace red_3 {
+            const _default_84: string;
+            export { _default_84 as default };
+            const weak_66: string;
+            export { weak_66 as weak };
+            const medium_90: string;
+            export { medium_90 as medium };
+            const strong_75: string;
+            export { strong_75 as strong };
+        }
         export { red_3 as red };
+        export namespace stone_3 {
+            const _default_85: string;
+            export { _default_85 as default };
+            const weak_67: string;
+            export { weak_67 as weak };
+            const medium_91: string;
+            export { medium_91 as medium };
+            const strong_76: string;
+            export { strong_76 as strong };
+        }
+        export { stone_3 as stone };
+        export namespace pink_3 {
+            const _default_86: string;
+            export { _default_86 as default };
+            const weak_68: string;
+            export { weak_68 as weak };
+            const medium_92: string;
+            export { medium_92 as medium };
+            const strong_77: string;
+            export { strong_77 as strong };
+        }
+        export { pink_3 as pink };
+        export namespace citron_3 {
+            const _default_87: string;
+            export { _default_87 as default };
+            const weak_69: string;
+            export { weak_69 as weak };
+            const medium_93: string;
+            export { medium_93 as medium };
+            const strong_78: string;
+            export { strong_78 as strong };
+        }
+        export { citron_3 as citron };
     }
     export { decorative_3 as decorative };
 }

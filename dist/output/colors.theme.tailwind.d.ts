@@ -10,6 +10,8 @@ export namespace background {
         "medium-hover": string;
         strong: string;
         "strong-hover": string;
+        track: string;
+        translucent: string;
     };
     namespace success {
         const DEFAULT: string;
@@ -43,6 +45,7 @@ export namespace background {
         "medium-active": string;
         "weak-hover": string;
         "weak-active": string;
+        "medium-active-hover": string;
     };
     namespace copilot {
         const DEFAULT_4: string;
@@ -161,6 +164,31 @@ export namespace background {
             medium: string;
             strong: string;
         };
+        stone: {
+            DEFAULT: string;
+            medium: string;
+            strong: string;
+            weak: string;
+        };
+        pink: {
+            DEFAULT: string;
+            medium: string;
+            strong: string;
+            weak: string;
+        };
+        citron: {
+            DEFAULT: string;
+            medium: string;
+            strong: string;
+            weak: string;
+        };
+    };
+    const scrim: string;
+    const skeleton: string;
+    const selection: string;
+    const overlay: {
+        control: string;
+        "control-hover": string;
     };
 }
 export namespace border {
@@ -171,6 +199,7 @@ export namespace border {
         export { medium_1 as medium };
         const strong_5: string;
         export { strong_5 as strong };
+        export const translucent: string;
     }
     export { neutral_1 as neutral };
     export namespace success_1 {
@@ -259,6 +288,15 @@ export namespace border {
         red: {
             medium: string;
         };
+        stone: {
+            medium: string;
+        };
+        pink: {
+            medium: string;
+        };
+        citron: {
+            medium: string;
+        };
     };
     export { decorative_1 as decorative };
 }
@@ -266,10 +304,12 @@ export namespace outline {
     namespace focus {
         const DEFAULT_10: string;
         export { DEFAULT_10 as DEFAULT };
+        const neutral_2: string;
+        export { neutral_2 as neutral };
     }
 }
 export namespace text {
-    export namespace neutral_2 {
+    export namespace neutral_3 {
         const DEFAULT_11: string;
         export { DEFAULT_11 as DEFAULT };
         const weak_1: string;
@@ -277,7 +317,7 @@ export namespace text {
         const medium_3: string;
         export { medium_3 as medium };
     }
-    export { neutral_2 as neutral };
+    export { neutral_3 as neutral };
     const action_2: {
         DEFAULT: string;
         hover: string;
@@ -429,17 +469,38 @@ export namespace text {
             medium: string;
             strong: string;
         };
+        stone: {
+            DEFAULT: string;
+            weak: string;
+            medium: string;
+            strong: string;
+        };
+        pink: {
+            DEFAULT: string;
+            weak: string;
+            medium: string;
+            strong: string;
+        };
+        citron: {
+            DEFAULT: string;
+            weak: string;
+            medium: string;
+            strong: string;
+        };
     };
     export { decorative_2 as decorative };
+    export namespace navigation {
+        const inactive: string;
+    }
 }
 export namespace icon {
-    export namespace neutral_3 {
+    export namespace neutral_4 {
         const DEFAULT_17: string;
         export { DEFAULT_17 as DEFAULT };
         const weak_3: string;
         export { weak_3 as weak };
     }
-    export { neutral_3 as neutral };
+    export { neutral_4 as neutral };
     export namespace success_3 {
         const DEFAULT_18: string;
         export { DEFAULT_18 as DEFAULT };
@@ -583,6 +644,24 @@ export namespace icon {
             strong: string;
         };
         red: {
+            DEFAULT: string;
+            weak: string;
+            medium: string;
+            strong: string;
+        };
+        stone: {
+            DEFAULT: string;
+            weak: string;
+            medium: string;
+            strong: string;
+        };
+        pink: {
+            DEFAULT: string;
+            weak: string;
+            medium: string;
+            strong: string;
+        };
+        citron: {
             DEFAULT: string;
             weak: string;
             medium: string;
