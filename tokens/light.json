@@ -1090,9 +1090,9 @@
           "failedToResolve": true
         },
         "medium": {
-          "value": "{color.stone.600}",
+          "value": "{color.stone.700}",
           "type": "color",
-          "description": "{color.stone.600}",
+          "description": "{color.stone.700}",
           "failedToResolve": true
         }
       },
