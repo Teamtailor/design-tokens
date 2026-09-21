@@ -714,9 +714,10 @@
             "failedToResolve": true
           },
           "weak": {
-            "value": "oklch(30% 0.07 75 / 0.1)",
+            "value": "{color.stone.100}",
             "type": "color",
-            "description": "oklch(30% 0.07 75 / 0.1)"
+            "description": "{color.stone.100}",
+            "failedToResolve": true
           }
         },
         "pink": {

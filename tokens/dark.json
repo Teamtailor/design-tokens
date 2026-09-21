@@ -713,9 +713,9 @@
             "failedToResolve": true
           },
           "weak": {
-            "value": "oklch(from {color.stone.25} l c h / 0.1)",
+            "value": "{color.stone.900}",
             "type": "color",
-            "description": "oklch(from {color.stone.25} l c h / 0.1)",
+            "description": "{color.stone.900}",
             "failedToResolve": true
           }
         },
