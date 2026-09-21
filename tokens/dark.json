@@ -8,22 +8,22 @@
         "failedToResolve": true
       },
       "canvas": {
-        "value": "{color.stone.900}",
+        "value": "{color.stone.975}",
         "type": "color",
-        "description": "{color.stone.900}",
+        "description": "{color.stone.975}",
         "failedToResolve": true
       },
       "canvas-weak": {
-        "value": "{color.stone.900}",
+        "value": "{color.stone.975}",
         "type": "color",
-        "description": "{color.stone.900}",
+        "description": "{color.stone.975}",
         "failedToResolve": true
       },
       "neutral": {
         "DEFAULT": {
-          "value": "{color.stone.800}",
+          "value": "{color.stone.950}",
           "type": "color",
-          "description": "{color.stone.800}",
+          "description": "{color.stone.950}",
           "failedToResolve": true
         },
         "hover": {
@@ -32,45 +32,45 @@
           "description": "oklch(from #fff l c h / 0.03)"
         },
         "weak": {
-          "value": "{color.stone.800}",
+          "value": "{color.stone.950}",
           "type": "color",
-          "description": "{color.stone.800}",
+          "description": "{color.stone.950}",
           "failedToResolve": true
         },
         "weak-hover": {
-          "value": "{color.stone.750}",
-          "type": "color",
-          "description": "{color.stone.750}",
-          "failedToResolve": true
-        },
-        "medium": {
-          "value": "{color.stone.700}",
-          "type": "color",
-          "description": "{color.stone.700}",
-          "failedToResolve": true
-        },
-        "medium-hover": {
-          "value": "{color.stone.600}",
-          "type": "color",
-          "description": "{color.stone.600}",
-          "failedToResolve": true
-        },
-        "strong": {
-          "value": "{color.stone.1050}",
-          "type": "color",
-          "description": "{color.stone.1050}",
-          "failedToResolve": true
-        },
-        "strong-hover": {
           "value": "{color.stone.900}",
           "type": "color",
           "description": "{color.stone.900}",
           "failedToResolve": true
         },
-        "track": {
-          "value": "{color.stone.600}",
+        "medium": {
+          "value": "{color.stone.850}",
           "type": "color",
-          "description": "{color.stone.600}",
+          "description": "{color.stone.850}",
+          "failedToResolve": true
+        },
+        "medium-hover": {
+          "value": "{color.stone.750}",
+          "type": "color",
+          "description": "{color.stone.750}",
+          "failedToResolve": true
+        },
+        "strong": {
+          "value": "{color.stone.1000}",
+          "type": "color",
+          "description": "{color.stone.1000}",
+          "failedToResolve": true
+        },
+        "strong-hover": {
+          "value": "{color.stone.975}",
+          "type": "color",
+          "description": "{color.stone.975}",
+          "failedToResolve": true
+        },
+        "track": {
+          "value": "{color.stone.750}",
+          "type": "color",
+          "description": "{color.stone.750}",
           "failedToResolve": true
         },
         "translucent": {
@@ -162,39 +162,39 @@
           "failedToResolve": true
         },
         "medium": {
+          "value": "{color.stone.975}",
+          "type": "color",
+          "description": "{color.stone.975}",
+          "failedToResolve": true
+        },
+        "medium-hover": {
+          "value": "{color.stone.950}",
+          "type": "color",
+          "description": "{color.stone.950}",
+          "failedToResolve": true
+        },
+        "medium-active": {
+          "value": "{color.stone.850}",
+          "type": "color",
+          "description": "{color.stone.850}",
+          "failedToResolve": true
+        },
+        "weak-hover": {
           "value": "{color.stone.900}",
           "type": "color",
           "description": "{color.stone.900}",
           "failedToResolve": true
         },
-        "medium-hover": {
-          "value": "{color.stone.800}",
-          "type": "color",
-          "description": "{color.stone.800}",
-          "failedToResolve": true
-        },
-        "medium-active": {
-          "value": "{color.stone.700}",
-          "type": "color",
-          "description": "{color.stone.700}",
-          "failedToResolve": true
-        },
-        "weak-hover": {
-          "value": "{color.stone.750}",
-          "type": "color",
-          "description": "{color.stone.750}",
-          "failedToResolve": true
-        },
         "weak-active": {
-          "value": "{color.stone.750}",
+          "value": "{color.stone.900}",
           "type": "color",
-          "description": "{color.stone.750}",
+          "description": "{color.stone.900}",
           "failedToResolve": true
         },
         "medium-active-hover": {
-          "value": "{color.stone.600}",
+          "value": "{color.stone.750}",
           "type": "color",
-          "description": "{color.stone.600}",
+          "description": "{color.stone.750}",
           "failedToResolve": true
         }
       },
@@ -695,27 +695,27 @@
         },
         "stone": {
           "DEFAULT": {
-            "value": "{color.stone.800}",
+            "value": "{color.stone.950}",
             "type": "color",
-            "description": "{color.stone.800}",
+            "description": "{color.stone.950}",
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.stone.600}",
+            "value": "{color.stone.750}",
             "type": "color",
-            "description": "{color.stone.600}",
+            "description": "{color.stone.750}",
             "failedToResolve": true
           },
           "strong": {
-            "value": "{color.stone.600}",
+            "value": "{color.stone.750}",
             "type": "color",
-            "description": "{color.stone.600}",
+            "description": "{color.stone.750}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "oklch(from {color.stone.50} l c h / 0.1)",
+            "value": "oklch(from {color.stone.25} l c h / 0.1)",
             "type": "color",
-            "description": "oklch(from {color.stone.50} l c h / 0.1)",
+            "description": "oklch(from {color.stone.25} l c h / 0.1)",
             "failedToResolve": true
           }
         },
@@ -773,34 +773,34 @@
         }
       },
       "scrim": {
-        "value": "oklch(from {color.stone.1050} l c h / 0.8)",
+        "value": "oklch(from {color.stone.1000} l c h / 0.82)",
         "type": "color",
-        "description": "oklch(from {color.stone.1050} l c h / 0.8)",
+        "description": "oklch(from {color.stone.1000} l c h / 0.82)",
         "failedToResolve": true
       },
       "skeleton": {
-        "value": "{color.stone.600}",
+        "value": "{color.stone.750}",
         "type": "color",
-        "description": "{color.stone.600}",
+        "description": "{color.stone.750}",
         "failedToResolve": true
       },
       "selection": {
-        "value": "oklch(from {color.stone.100} l c h / 0.1)",
+        "value": "oklch(from {color.stone.50} l c h / 0.1)",
         "type": "color",
-        "description": "oklch(from {color.stone.100} l c h / 0.1)",
+        "description": "oklch(from {color.stone.50} l c h / 0.1)",
         "failedToResolve": true
       },
       "overlay": {
         "control": {
-          "value": "oklch(from {color.stone.800} l c h / 0.9)",
+          "value": "oklch(from {color.stone.950} l c h / 0.9)",
           "type": "color",
-          "description": "oklch(from {color.stone.800} l c h / 0.9)",
+          "description": "oklch(from {color.stone.950} l c h / 0.9)",
           "failedToResolve": true
         },
         "control-hover": {
-          "value": "oklch(from {color.stone.750} l c h / 0.9)",
+          "value": "oklch(from {color.stone.900} l c h / 0.9)",
           "type": "color",
-          "description": "oklch(from {color.stone.750} l c h / 0.9)",
+          "description": "oklch(from {color.stone.900} l c h / 0.9)",
           "failedToResolve": true
         }
       }
@@ -808,27 +808,27 @@
     "border": {
       "neutral": {
         "DEFAULT": {
+          "value": "{color.stone.900}",
+          "type": "color",
+          "description": "{color.stone.900}",
+          "failedToResolve": true
+        },
+        "medium": {
+          "value": "{color.stone.850}",
+          "type": "color",
+          "description": "{color.stone.850}",
+          "failedToResolve": true
+        },
+        "strong": {
           "value": "{color.stone.750}",
           "type": "color",
           "description": "{color.stone.750}",
           "failedToResolve": true
         },
-        "medium": {
-          "value": "{color.stone.700}",
-          "type": "color",
-          "description": "{color.stone.700}",
-          "failedToResolve": true
-        },
-        "strong": {
-          "value": "{color.stone.600}",
-          "type": "color",
-          "description": "{color.stone.600}",
-          "failedToResolve": true
-        },
         "translucent": {
-          "value": "oklch(from {color.stone.50} l c h / 0.18)",
+          "value": "oklch(from {color.stone.25} l c h / 0.18)",
           "type": "color",
-          "description": "oklch(from {color.stone.50} l c h / 0.18)",
+          "description": "oklch(from {color.stone.25} l c h / 0.18)",
           "failedToResolve": true
         }
       },
@@ -862,15 +862,15 @@
       },
       "action": {
         "medium": {
-          "value": "{color.stone.600}",
+          "value": "{color.stone.750}",
           "type": "color",
-          "description": "{color.stone.600}",
+          "description": "{color.stone.750}",
           "failedToResolve": true
         },
         "medium-active": {
-          "value": "{color.stone.600}",
+          "value": "{color.stone.750}",
           "type": "color",
-          "description": "{color.stone.600}",
+          "description": "{color.stone.750}",
           "failedToResolve": true
         },
         "strong": {
@@ -1035,9 +1035,9 @@
         },
         "stone": {
           "medium": {
-            "value": "{color.stone.800}",
+            "value": "{color.stone.950}",
             "type": "color",
-            "description": "{color.stone.800}",
+            "description": "{color.stone.950}",
             "failedToResolve": true
           }
         },
@@ -1068,9 +1068,9 @@
           "failedToResolve": true
         },
         "neutral": {
-          "value": "oklch(from {color.stone.500} l c h / 0.5)",
+          "value": "oklch(from {color.stone.600} l c h / 0.5)",
           "type": "color",
-          "description": "oklch(from {color.stone.500} l c h / 0.5)",
+          "description": "oklch(from {color.stone.600} l c h / 0.5)",
           "failedToResolve": true
         }
       }
@@ -1084,9 +1084,9 @@
           "failedToResolve": true
         },
         "weak": {
-          "value": "{color.stone.450}",
+          "value": "{color.stone.500}",
           "type": "color",
-          "description": "{color.stone.450}",
+          "description": "{color.stone.500}",
           "failedToResolve": true
         },
         "medium": {
@@ -1675,15 +1675,15 @@
         },
         "stone": {
           "DEFAULT": {
-            "value": "{color.stone.50}",
+            "value": "{color.stone.25}",
             "type": "color",
-            "description": "{color.stone.50}",
+            "description": "{color.stone.25}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.stone.200}",
+            "value": "{color.stone.100}",
             "type": "color",
-            "description": "{color.stone.200}",
+            "description": "{color.stone.100}",
             "failedToResolve": true
           },
           "medium": {
@@ -1711,9 +1711,9 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.stone.750}",
+            "value": "{color.stone.900}",
             "type": "color",
-            "description": "{color.stone.750}",
+            "description": "{color.stone.900}",
             "failedToResolve": true
           },
           "strong": {
@@ -1765,9 +1765,9 @@
           "failedToResolve": true
         },
         "weak": {
-          "value": "{color.stone.500}",
+          "value": "{color.stone.600}",
           "type": "color",
-          "description": "{color.stone.500}",
+          "description": "{color.stone.600}",
           "failedToResolve": true
         }
       },
@@ -2324,15 +2324,15 @@
         },
         "stone": {
           "DEFAULT": {
-            "value": "{color.stone.50}",
+            "value": "{color.stone.25}",
             "type": "color",
-            "description": "{color.stone.50}",
+            "description": "{color.stone.25}",
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.stone.200}",
+            "value": "{color.stone.100}",
             "type": "color",
-            "description": "{color.stone.200}",
+            "description": "{color.stone.100}",
             "failedToResolve": true
           },
           "medium": {

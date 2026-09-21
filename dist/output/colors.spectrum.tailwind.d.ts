@@ -20,6 +20,7 @@ declare const _exports: {
         "1000": string;
     };
     pink: {
+        "25": string;
         "50": string;
         "100": string;
         "200": string;
@@ -30,6 +31,8 @@ declare const _exports: {
         "700": string;
         "800": string;
         "900": string;
+        "950": string;
+        "975": string;
         "1000": string;
     };
     rose: {
@@ -254,27 +257,28 @@ declare const _exports: {
         "1000": string;
     };
     stone: {
+        "25": string;
         "50": string;
+        "75": string;
         "100": string;
         "150": string;
         "200": string;
-        "250": string;
         "300": string;
         "350": string;
         "400": string;
-        "450": string;
         "500": string;
         "600": string;
         "700": string;
         "750": string;
         "800": string;
+        "850": string;
         "900": string;
         "950": string;
         "975": string;
         "1000": string;
-        "1050": string;
     };
     citron: {
+        "25": string;
         "50": string;
         "100": string;
         "200": string;
@@ -285,6 +289,8 @@ declare const _exports: {
         "700": string;
         "800": string;
         "900": string;
+        "950": string;
+        "975": string;
         "1000": string;
     };
 };

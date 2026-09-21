@@ -1,23 +1,23 @@
 /**
  * Do not edit directly
- * Generated on Mon, 21 Sep 2026 06:35:35 GMT
+ * Generated on Mon, 21 Sep 2026 09:13:35 GMT
  */
 
 module.exports = /** @type {const} */ {
   "background": {
     "mono": "#000",
     "canvas": "#fff",
-    "canvasWeak": "#f7f4f0",
+    "canvasWeak": "#f4f1ec",
     "neutral": {
       "default": "#fff",
-      "hover": "#faf8f6",
-      "weak": "#faf8f6",
-      "weakHover": "#f7f4f0",
-      "medium": "#f2eee8",
-      "mediumHover": "#e9e4dc",
-      "strong": "#342424",
-      "strongHover": "#4d3a38",
-      "track": "#e9e4dc",
+      "hover": "#faf8f5",
+      "weak": "#faf8f5",
+      "weakHover": "#f4f1ec",
+      "medium": "#efece6",
+      "mediumHover": "#ebe7e0",
+      "strong": "#392828",
+      "strongHover": "#533e3d",
+      "track": "#ebe7e0",
       "translucent": "rgba(52, 53, 58, 0.1)"
     },
     "success": {
@@ -37,16 +37,16 @@ module.exports = /** @type {const} */ {
       "strong": "#00a6f4"
     },
     "action": {
-      "strong": "#f1408f",
+      "strong": "#f24190",
       "strongHover": "#d62079",
       "strongActive": "#b80064",
-      "strongDisabled": "rgba(241, 64, 143, 0.5)",
+      "strongDisabled": "rgba(242, 65, 144, 0.5)",
       "medium": "#fff",
-      "mediumHover": "#faf8f6",
-      "mediumActive": "#e9e4dc",
-      "weakHover": "#f2eee8",
-      "weakActive": "#f2eee8",
-      "mediumActiveHover": "#dbd3c8"
+      "mediumHover": "#faf8f5",
+      "mediumActive": "#ebe7e0",
+      "weakHover": "#efece6",
+      "weakActive": "#efece6",
+      "mediumActiveHover": "#dbd5cc"
     },
     "copilot": {
       "default": "#faf5ff",
@@ -164,38 +164,38 @@ module.exports = /** @type {const} */ {
         "strong": "#9f0712"
       },
       "stone": {
-        "default": "#faf8f6",
-        "medium": "#7f6e67",
-        "strong": "#251919",
+        "default": "#faf8f5",
+        "medium": "#88766f",
+        "strong": "#291c1b",
         "weak": "#4227001a"
       },
       "pink": {
-        "default": "#ffeffa",
+        "default": "#fff4ff",
         "medium": "#fb9be4",
         "strong": "#b80064",
-        "weak": "#ffe4f7"
+        "weak": "#fee6fe"
       },
       "citron": {
-        "default": "#f7fac0",
-        "medium": "#8e9a02",
-        "strong": "#4d5401",
-        "weak": "#eff68c"
+        "default": "#f4f7b6",
+        "medium": "#8e9a00",
+        "strong": "#4d5400",
+        "weak": "#eaf08e"
       }
     },
     "scrim": "rgba(39, 39, 42, 0.5)",
-    "skeleton": "#dbd3c8",
-    "selection": "rgba(103, 84, 80, 0.1)",
+    "skeleton": "#dbd5cc",
+    "selection": "rgba(104, 84, 81, 0.1)",
     "overlay": {
-      "control": "rgba(37, 25, 25, 0.6)",
-      "controlHover": "rgba(37, 25, 25, 0.9)"
+      "control": "rgba(41, 28, 27, 0.6)",
+      "controlHover": "rgba(41, 28, 27, 0.9)"
     }
   },
   "border": {
     "neutral": {
-      "default": "#f2eee8",
-      "medium": "#e9e4dc",
-      "strong": "#dbd3c8",
-      "translucent": "rgba(21, 13, 13, 0.08)"
+      "default": "#efece6",
+      "medium": "#ebe7e0",
+      "strong": "#dbd5cc",
+      "translucent": "rgba(26, 18, 18, 0.08)"
     },
     "success": {
       "default": "#d5f1de"
@@ -210,8 +210,8 @@ module.exports = /** @type {const} */ {
       "default": "#d5ebf9"
     },
     "action": {
-      "medium": "#e9e4dc",
-      "mediumActive": "#dbd3c8",
+      "medium": "#ebe7e0",
+      "mediumActive": "#dbd5cc",
       "strong": "linear-gradient(180deg, rgba(0, 0, 0, 0.02) 2%, rgba(0, 0, 0, 0.1) 100%)"
     },
     "copilot": {
@@ -273,36 +273,36 @@ module.exports = /** @type {const} */ {
         "medium": "#9f0712"
       },
       "stone": {
-        "medium": "#342424"
+        "medium": "#392828"
       },
       "pink": {
-        "medium": "#f1408f"
+        "medium": "#f24190"
       },
       "citron": {
-        "medium": "#8e9a02"
+        "medium": "#8e9a00"
       }
     }
   },
   "outline": {
     "focus": {
-      "default": "rgba(241, 64, 143, 0.5)",
-      "neutral": "rgba(127, 110, 103, 0.5)"
+      "default": "rgba(242, 65, 144, 0.5)",
+      "neutral": "rgba(136, 118, 111, 0.5)"
     }
   },
   "text": {
     "neutral": {
-      "default": "#432f2f",
-      "weak": "#bcb2a7",
-      "medium": "#7f6e67"
+      "default": "#483434",
+      "weak": "#beb4a9",
+      "medium": "#88766f"
     },
     "action": {
-      "default": "#f1408f",
+      "default": "#f24190",
       "hover": "#d62079",
       "active": "#d62079",
-      "weak": "#432f2f",
+      "weak": "#483434",
       "weakActive": "#d62079",
-      "medium": "#432f2f",
-      "mediumActive": "#432f2f",
+      "medium": "#483434",
+      "mediumActive": "#483434",
       "strong": "#fff"
     },
     "success": {
@@ -433,32 +433,32 @@ module.exports = /** @type {const} */ {
         "strong": "#fff"
       },
       "stone": {
-        "default": "#675450",
-        "weak": "#342424",
+        "default": "#685451",
+        "weak": "#392828",
         "medium": "#fff",
         "strong": "#fff"
       },
       "pink": {
         "default": "#b80064",
-        "weak": "#251919",
-        "medium": "#432f2f",
+        "weak": "#291c1b",
+        "medium": "#483434",
         "strong": "#fff"
       },
       "citron": {
-        "default": "#4d5401",
+        "default": "#4d5400",
         "weak": "#373d00",
         "medium": "#fff",
         "strong": "#fff"
       }
     },
     "navigation": {
-      "inactive": "#675450"
+      "inactive": "#685451"
     }
   },
   "icon": {
     "neutral": {
-      "default": "#432f2f",
-      "weak": "#bcb2a7"
+      "default": "#483434",
+      "weak": "#beb4a9"
     },
     "success": {
       "default": "#17a31c",
@@ -592,19 +592,19 @@ module.exports = /** @type {const} */ {
         "strong": "#fff"
       },
       "stone": {
-        "default": "#675450",
-        "weak": "#342424",
+        "default": "#685451",
+        "weak": "#392828",
         "medium": "#fff",
         "strong": "#fff"
       },
       "pink": {
         "default": "#b80064",
-        "weak": "#251919",
+        "weak": "#291c1b",
         "medium": "#fff",
         "strong": "#fff"
       },
       "citron": {
-        "default": "#4d5401",
+        "default": "#4d5400",
         "weak": "#373d00",
         "medium": "#fff",
         "strong": "#fff"
