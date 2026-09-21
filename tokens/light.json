@@ -13,6 +13,12 @@
         "description": "{color.white}",
         "failedToResolve": true
       },
+      "canvas-weak": {
+        "value": "{color.stone.100}",
+        "type": "color",
+        "description": "{color.stone.100}",
+        "failedToResolve": true
+      },
       "neutral": {
         "DEFAULT": {
           "value": "{color.white}",

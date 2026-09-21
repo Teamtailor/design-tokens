@@ -2,6 +2,7 @@ export var themeColors: {
     background: {
         mono: string;
         canvas: string;
+        "canvas-weak": string;
         neutral: {
             DEFAULT: string;
             hover: string;
@@ -900,6 +901,7 @@ export var reactLightThemeColors: {
     background: {
         mono: string;
         canvas: string;
+        canvasWeak: string;
         neutral: {
             default: string;
             hover: string;
@@ -1508,6 +1510,7 @@ export var reactDarkThemeColors: {
     background: {
         mono: string;
         canvas: string;
+        canvasWeak: string;
         neutral: {
             default: string;
             hover: string;

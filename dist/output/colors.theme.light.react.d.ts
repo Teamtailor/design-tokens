@@ -1,6 +1,7 @@
 export namespace background {
     const mono: string;
     const canvas: string;
+    const canvasWeak: string;
     namespace neutral {
         const _default: string;
         export { _default as default };

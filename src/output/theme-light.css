@@ -1,6 +1,7 @@
 .theme-light {
   --color-background-mono: #000;
   --color-background-canvas: #fff;
+  --color-background-canvas-weak: oklch(96.8% 0.006 75.407);
   --color-background-neutral-default: #fff;
   --color-background-neutral-hover: oklch(98% 0.003 67.784);
   --color-background-neutral-weak: oklch(98% 0.003 67.784);

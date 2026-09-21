@@ -1,12 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Fri, 18 Sep 2026 19:07:22 GMT
+ * Generated on Mon, 21 Sep 2026 06:35:35 GMT
  */
 
 module.exports = /** @type {const} */ {
   "background": {
     "mono": "#fff",
     "canvas": "#251919",
+    "canvasWeak": "#251919",
     "neutral": {
       "default": "#342424",
       "hover": "rgba(255, 255, 255, 0.03)",

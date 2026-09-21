@@ -1,6 +1,7 @@
 .theme-dark {
   --color-background-mono: #fff;
   --color-background-canvas: oklch(22.9% 0.019 18.671);
+  --color-background-canvas-weak: oklch(22.9% 0.019 18.671);
   --color-background-neutral-default: oklch(28% 0.025 18.733);
   --color-background-neutral-hover: oklch(from #fff l c h / 0.03);
   --color-background-neutral-weak: oklch(28% 0.025 18.733);

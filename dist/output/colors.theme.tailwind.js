@@ -1,12 +1,13 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Fri, 18 Sep 2026 19:07:22 GMT
+ * Generated on Mon, 21 Sep 2026 06:35:35 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
         "mono": "var(--color-background-mono)",
         "canvas": "var(--color-background-canvas)",
+        "canvas-weak": "var(--color-background-canvas-weak)",
         "neutral": {
             "DEFAULT": "var(--color-background-neutral-default)",
             "hover": "var(--color-background-neutral-hover)",
