@@ -112,7 +112,7 @@
   --color-background-decorative-stone-weak: oklch(34.8% 0.029 18.6);
   --color-background-decorative-pink-default: oklch(24.3% 0.0989 359);
   --color-background-decorative-pink-weak: oklch(24.3% 0.0989 359);
-  --color-background-decorative-pink-medium: oklch(81% 0.1451 336.2);
+  --color-background-decorative-pink-medium: oklch(86.6% 0.1068 332.2);
   --color-background-decorative-pink-strong: oklch(58% 0.2199 358.3);
   --color-background-decorative-citron-default: oklch(24% 0.0548 116);
   --color-background-decorative-citron-weak: oklch(24% 0.0548 116);
@@ -354,7 +354,7 @@
   --color-icon-decorative-stone-strong: #fff;
   --color-icon-decorative-pink-default: oklch(86.6% 0.1068 332.2);
   --color-icon-decorative-pink-weak: oklch(86.6% 0.1068 332.2);
-  --color-icon-decorative-pink-medium: #fff;
+  --color-icon-decorative-pink-medium: oklch(34.8% 0.029 18.6);
   --color-icon-decorative-pink-strong: #fff;
   --color-icon-decorative-citron-default: oklch(88.4% 0.138 113.8);
   --color-icon-decorative-citron-weak: oklch(88.4% 0.138 113.8);

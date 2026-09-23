@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 21 Sep 2026 11:53:38 GMT
+ * Generated on Wed, 23 Sep 2026 06:52:01 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -171,7 +171,7 @@ module.exports = /** @type {const} */ {
       },
       "pink": {
         "default": "#fff4ff",
-        "medium": "#fb9be4",
+        "medium": "#fdb9f2",
         "strong": "#b80064",
         "weak": "#fee6fe"
       },
@@ -600,7 +600,7 @@ module.exports = /** @type {const} */ {
       "pink": {
         "default": "#b80064",
         "weak": "#291c1b",
-        "medium": "#fff",
+        "medium": "#483434",
         "strong": "#fff"
       },
       "citron": {

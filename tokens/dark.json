@@ -733,7 +733,7 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "{color.pink.300}",
+            "value": "{color.pink.200}",
             "type": "color",
             "description": "{color.pink.300}",
             "failedToResolve": true
@@ -2360,9 +2360,10 @@
             "failedToResolve": true
           },
           "medium": {
-            "value": "#fff",
+            "value": "{color.stone.900}",
             "type": "color",
-            "description": "#fff"
+            "description": "#fff",
+            "failedToResolve": true
           },
           "strong": {
             "value": "#fff",
