@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 23 Sep 2026 06:52:01 GMT
+ * Generated on Wed, 30 Sep 2026 06:01:44 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -46,7 +46,10 @@ module.exports = /** @type {const} */ {
       "medium-active": "var(--color-background-action-medium-active)",
       "weak-hover": "var(--color-background-action-weak-hover)",
       "weak-active": "var(--color-background-action-weak-active)",
-      "medium-active-hover": "var(--color-background-action-medium-active-hover)"
+      "medium-active-hover": "var(--color-background-action-medium-active-hover)",
+      "soft": "var(--color-background-action-soft)",
+      "soft-hover": "var(--color-background-action-soft-hover)",
+      "soft-active": "var(--color-background-action-soft-active)"
     },
     "copilot": {
       "DEFAULT": "var(--color-background-copilot-default)",

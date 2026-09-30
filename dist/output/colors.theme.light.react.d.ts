@@ -55,6 +55,9 @@ export namespace background {
         export { weakHover_1 as weakHover };
         export const weakActive: string;
         export const mediumActiveHover: string;
+        export const soft: string;
+        export const softHover: string;
+        export const softActive: string;
     }
     namespace copilot {
         const _default_5: string;

@@ -197,6 +197,24 @@
           "type": "color",
           "description": "{color.stone.200}",
           "failedToResolve": true
+        },
+        "soft": {
+          "value": "{color.stone.50}",
+          "type": "color",
+          "description": "{color.stone.50}",
+          "failedToResolve": true
+        },
+        "soft-hover": {
+          "value": "{color.stone.100}",
+          "type": "color",
+          "description": "{color.stone.100}",
+          "failedToResolve": true
+        },
+        "soft-active": {
+          "value": "{color.stone.200}",
+          "type": "color",
+          "description": "{color.stone.200}",
+          "failedToResolve": true
         }
       },
       "copilot": {

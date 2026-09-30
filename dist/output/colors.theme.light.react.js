@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Wed, 23 Sep 2026 06:52:01 GMT
+ * Generated on Wed, 30 Sep 2026 06:01:44 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -46,7 +46,10 @@ module.exports = /** @type {const} */ {
             "mediumActive": "#ebe7e0",
             "weakHover": "#efece6",
             "weakActive": "#efece6",
-            "mediumActiveHover": "#dbd5cc"
+            "mediumActiveHover": "#dbd5cc",
+            "soft": "#f4f1ec",
+            "softHover": "#ebe7e0",
+            "softActive": "#dbd5cc"
         },
         "copilot": {
             "default": "#faf5ff",

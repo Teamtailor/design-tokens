@@ -30,6 +30,9 @@
   --color-background-action-weak-hover: oklch(34.8% 0.029 18.6);
   --color-background-action-weak-active: oklch(34.8% 0.029 18.6);
   --color-background-action-medium-active-hover: oklch(46.6% 0.0268 30);
+  --color-background-action-soft: oklch(34.8% 0.029 18.6);
+  --color-background-action-soft-hover: oklch(38.7% 0.0283 21.75);
+  --color-background-action-soft-active: oklch(42.6% 0.0276 24.9);
   --color-background-copilot-default: oklch(28.0% 0.114 305.782);
   --color-background-copilot-weak: oklch(38.1% 0.176 304.987);
   --color-background-copilot-medium: oklch(43.8% 0.218 303.724);

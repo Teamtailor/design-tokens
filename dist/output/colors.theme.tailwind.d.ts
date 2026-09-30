@@ -41,6 +41,9 @@ export const background: {
         "weak-hover": string;
         "weak-active": string;
         "medium-active-hover": string;
+        soft: string;
+        "soft-hover": string;
+        "soft-active": string;
     };
     copilot: {
         DEFAULT: string;
