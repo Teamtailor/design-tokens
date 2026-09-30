@@ -19,6 +19,12 @@
         "description": "{color.stone.50}",
         "failedToResolve": true
       },
+      "canvas-hover": {
+        "value": "{color.white}",
+        "type": "color",
+        "description": "{color.white}",
+        "failedToResolve": true
+      },
       "neutral": {
         "DEFAULT": {
           "value": "{color.white}",

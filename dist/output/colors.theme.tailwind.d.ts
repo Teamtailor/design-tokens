@@ -2,6 +2,7 @@ export const background: {
     mono: string;
     canvas: string;
     "canvas-weak": string;
+    "canvas-hover": string;
     neutral: {
         DEFAULT: string;
         hover: string;
