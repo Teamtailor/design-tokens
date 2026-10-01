@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Wed, 30 Sep 2026 07:01:24 GMT
+ * Generated on Thu, 01 Oct 2026 09:36:35 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -50,7 +50,10 @@ module.exports = /** @type {const} */ {
             "medium-active-hover": "var(--color-background-action-medium-active-hover)",
             "soft": "var(--color-background-action-soft)",
             "soft-hover": "var(--color-background-action-soft-hover)",
-            "soft-active": "var(--color-background-action-soft-active)"
+            "soft-active": "var(--color-background-action-soft-active)",
+            "soft-solid": "var(--color-background-action-soft-solid)",
+            "soft-hover-solid": "var(--color-background-action-soft-hover-solid)",
+            "soft-active-solid": "var(--color-background-action-soft-active-solid)"
         },
         "copilot": {
             "DEFAULT": "var(--color-background-copilot-default)",

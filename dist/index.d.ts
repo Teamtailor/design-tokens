@@ -46,6 +46,9 @@ export var themeColors: {
             soft: string;
             "soft-hover": string;
             "soft-active": string;
+            "soft-solid": string;
+            "soft-hover-solid": string;
+            "soft-active-solid": string;
         };
         copilot: {
             DEFAULT: string;
@@ -955,6 +958,9 @@ export var reactLightThemeColors: {
             soft: string;
             softHover: string;
             softActive: string;
+            softSolid: string;
+            softHoverSolid: string;
+            softActiveSolid: string;
         };
         copilot: {
             default: string;
@@ -1568,6 +1574,9 @@ export var reactDarkThemeColors: {
             soft: string;
             softHover: string;
             softActive: string;
+            softSolid: string;
+            softHoverSolid: string;
+            softActiveSolid: string;
         };
         copilot: {
             default: string;

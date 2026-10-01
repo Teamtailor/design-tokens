@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 30 Sep 2026 07:01:24 GMT
+ * Generated on Thu, 01 Oct 2026 09:36:35 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -48,9 +48,12 @@ module.exports = /** @type {const} */ {
       "weakHover": "#efece6",
       "weakActive": "#efece6",
       "mediumActiveHover": "#dbd5cc",
-      "soft": "#f4f1ec",
-      "softHover": "#ebe7e0",
-      "softActive": "#dbd5cc"
+      "soft": "#76633c19",
+      "softHover": "#76633c29",
+      "softActive": "#76633c43",
+      "softSolid": "#f4f1ec",
+      "softHoverSolid": "#ebe7e0",
+      "softActiveSolid": "#dbd5cc"
     },
     "copilot": {
       "default": "#faf5ff",

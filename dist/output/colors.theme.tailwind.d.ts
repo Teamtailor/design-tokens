@@ -45,6 +45,9 @@ export const background: {
         soft: string;
         "soft-hover": string;
         "soft-active": string;
+        "soft-solid": string;
+        "soft-hover-solid": string;
+        "soft-active-solid": string;
     };
     copilot: {
         DEFAULT: string;

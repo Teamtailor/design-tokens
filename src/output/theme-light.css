@@ -31,9 +31,12 @@
   --color-background-action-weak-hover: oklch(94.4% 0.0089 81.25);
   --color-background-action-weak-active: oklch(94.4% 0.0089 81.25);
   --color-background-action-medium-active-hover: oklch(87.5% 0.0139 78.3);
-  --color-background-action-soft: oklch(95.9% 0.0074 80.7);
-  --color-background-action-soft-hover: oklch(92.9% 0.0103 81.8);
-  --color-background-action-soft-active: oklch(87.5% 0.0139 78.3);
+  --color-background-action-soft: #76633c19;
+  --color-background-action-soft-hover: #76633c29;
+  --color-background-action-soft-active: #76633c43;
+  --color-background-action-soft-solid: oklch(95.9% 0.0074 80.7);
+  --color-background-action-soft-hover-solid: oklch(92.9% 0.0103 81.8);
+  --color-background-action-soft-active-solid: oklch(87.5% 0.0139 78.3);
   --color-background-copilot-default: oklch(97.7% 0.014 308.299);
   --color-background-copilot-weak: oklch(94.6% 0.033 307.174);
   --color-background-copilot-medium: oklch(62.7% 0.265 303.9);

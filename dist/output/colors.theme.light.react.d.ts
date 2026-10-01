@@ -59,6 +59,9 @@ export namespace background {
         export const soft: string;
         export const softHover: string;
         export const softActive: string;
+        export const softSolid: string;
+        export const softHoverSolid: string;
+        export const softActiveSolid: string;
     }
     namespace copilot {
         const _default_5: string;

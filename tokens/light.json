@@ -205,18 +205,33 @@
           "failedToResolve": true
         },
         "soft": {
+          "value": "#76633c19",
+          "type": "color",
+          "description": "rgba(118, 99, 60, 0.097)"
+        },
+        "soft-hover": {
+          "value": "#76633c29",
+          "type": "color",
+          "description": "rgba(118, 99, 60, 0.159)"
+        },
+        "soft-active": {
+          "value": "#76633c43",
+          "type": "color",
+          "description": "rgba(118, 99, 60, 0.262)"
+        },
+        "soft-solid": {
           "value": "{color.stone.50}",
           "type": "color",
           "description": "{color.stone.50}",
           "failedToResolve": true
         },
-        "soft-hover": {
+        "soft-hover-solid": {
           "value": "{color.stone.100}",
           "type": "color",
           "description": "{color.stone.100}",
           "failedToResolve": true
         },
-        "soft-active": {
+        "soft-active-solid": {
           "value": "{color.stone.200}",
           "type": "color",
           "description": "{color.stone.200}",
