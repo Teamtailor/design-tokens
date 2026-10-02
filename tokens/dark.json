@@ -752,10 +752,9 @@
             "failedToResolve": true
           },
           "weak": {
-            "value": "{color.stone.900}",
+            "value": "#ffc8c825",
             "type": "color",
-            "description": "{color.stone.900}",
-            "failedToResolve": true
+            "description": "rgba(255, 200, 200, 0.145)"
           }
         },
         "pink": {

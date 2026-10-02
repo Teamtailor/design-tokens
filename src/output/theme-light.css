@@ -116,7 +116,7 @@
   --color-background-decorative-stone-default: oklch(98% 0.0045 78.3);
   --color-background-decorative-stone-medium: oklch(58% 0.0249 42.4);
   --color-background-decorative-stone-strong: oklch(24.2% 0.0208 23.7);
-  --color-background-decorative-stone-weak: oklch(92.9% 0.0103 81.8);
+  --color-background-decorative-stone-weak: #76633c19;
   --color-background-decorative-pink-default: oklch(97.9% 0.0186 325.7);
   --color-background-decorative-pink-medium: oklch(86.6% 0.1068 332.2);
   --color-background-decorative-pink-strong: oklch(50.8% 0.2067 358.5);

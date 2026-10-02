@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 01 Oct 2026 09:36:35 GMT
+ * Generated on Fri, 02 Oct 2026 06:57:11 GMT
  */
 
 module.exports = /** @type {const} */ {
@@ -174,7 +174,7 @@ module.exports = /** @type {const} */ {
         "default": "#392828",
         "medium": "#685451",
         "strong": "#685451",
-        "weak": "#483434"
+        "weak": "#ffc8c825"
       },
       "pink": {
         "default": "#41001f",
