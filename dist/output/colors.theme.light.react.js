@@ -1,7 +1,7 @@
 "use strict";
 /**
  * Do not edit directly
- * Generated on Fri, 02 Oct 2026 06:57:11 GMT
+ * Generated on Fri, 09 Oct 2026 13:56:47 GMT
  */
 module.exports = /** @type {const} */ {
     "background": {
@@ -174,7 +174,7 @@ module.exports = /** @type {const} */ {
                 "default": "#faf8f5",
                 "medium": "#88766f",
                 "strong": "#291c1b",
-                "weak": "#76633c19"
+                "weak": "#8d6e3b19"
             },
             "pink": {
                 "default": "#fff4ff",

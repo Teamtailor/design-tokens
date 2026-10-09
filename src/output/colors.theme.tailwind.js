@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 02 Oct 2026 06:57:11 GMT
+ * Generated on Fri, 09 Oct 2026 13:56:47 GMT
  */
 
 module.exports = /** @type {const} */ {
