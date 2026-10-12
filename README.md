@@ -10,6 +10,19 @@ yarn add -D @teamtailor/design-tokens
 
 ## Usage
 
+### Tailwind v4
+
+Import the generated `@theme` block after Tailwind's own theme. It adds the spectrum (`bg-zinc-100`) and the functional colours (`bg-neutral`, `text-icon-success`, `border-neutral-medium`, `outline-focus`, `shadow-canvas`).
+
+```css
+@import 'tailwindcss/theme.css' layer(theme);
+@import '@teamtailor/design-tokens/src/output/tailwind-theme.css';
+```
+
+The functional colours point at variables, so the theme files below are still needed at runtime, and `colors-spectrum.css` if your own CSS uses `var(--color-zinc-100)` and similar.
+
+### Tailwind v3
+
 To use this inside your Tailwind config you should import the relevant config into `tailwind.config.js` inside your project and override the theme conf for that setting.
 
 #### Example
