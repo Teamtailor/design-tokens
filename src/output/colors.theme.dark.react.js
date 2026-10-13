@@ -5,15 +5,15 @@
 module.exports = /** @type {const} */ {
   "background": {
     "mono": "#fff",
-    "canvas": "#291c1b",
-    "canvasWeak": "#291c1b",
+    "canvas": "#1a1212",
+    "canvasWeak": "#1a1212",
     "canvasHover": "#1a1212",
     "neutral": {
-      "default": "#392828",
+      "default": "#291c1b",
       "hover": "rgba(255, 255, 255, 0.03)",
-      "weak": "#392828",
+      "weak": "#291c1b",
       "weakHover": "#483434",
-      "medium": "#533e3d",
+      "medium": "#483434",
       "mediumHover": "#685451",
       "strong": "#1a1212",
       "strongHover": "#291c1b",
@@ -198,9 +198,9 @@ module.exports = /** @type {const} */ {
   },
   "border": {
     "neutral": {
-      "default": "#483434",
-      "medium": "#533e3d",
-      "strong": "#685451",
+      "default": "#533e3d",
+      "medium": "#5d4947",
+      "strong": "#88766f",
       "translucent": "rgba(250, 248, 245, 0.18)"
     },
     "success": {
@@ -298,8 +298,8 @@ module.exports = /** @type {const} */ {
   "text": {
     "neutral": {
       "default": "rgba(255, 255, 255, 0.93)",
-      "weak": "#9c8d84",
-      "medium": "#beb4a9"
+      "weak": "#beb4a9",
+      "medium": "#c9c1b6"
     },
     "action": {
       "default": "#fb9be4",
@@ -464,7 +464,7 @@ module.exports = /** @type {const} */ {
   "icon": {
     "neutral": {
       "default": "rgba(255, 255, 255, 0.93)",
-      "weak": "#88766f"
+      "weak": "#9c8d84"
     },
     "success": {
       "default": "#17a31c",
