@@ -2,6 +2,7 @@
 const StyleDictionaryPackage = require('style-dictionary');
 const tailwindThemeColorFormat = require('./formats/tailwindColorFormat');
 const reactThemeColorFormat = require('./formats/reactColorFormat');
+const tailwindThemeCssFormat = require('./formats/tailwindThemeCssFormat');
 
 StyleDictionaryPackage.registerFormat({
   name: 'css/variables',
@@ -187,6 +188,26 @@ const colorsSpectrumCssVarsConfig = {
     },
   };
 
+const twThemeCssConfig = {
+  format: {
+    // Tailwind v4 @theme block with the spectrum and the functional colours
+    tailwindThemeCssFormat,
+  },
+  source: ['tokens/spectrum.json', 'tokens/light.json'],
+  platforms: {
+    tailwind: {
+      buildPath: 'src/output/',
+      transforms: ['attribute/cti', 'name/cti/kebab'],
+      files: [
+        {
+          destination: 'tailwind-theme.css',
+          format: 'tailwindThemeCssFormat',
+        },
+      ],
+    },
+  },
+};
+
 console.log('\n==============================================');
 console.log(`\nProcessing: Spectrum`);
 const dictionaryTailwindColors =
@@ -196,6 +217,9 @@ dictionaryTailwindColors.buildPlatform('tailwind');
 console.log(`\nProcessing: Theme`);
 const dictionaryTailwindTheme = StyleDictionaryPackage.extend(twThemeConfig);
 dictionaryTailwindTheme.buildPlatform('tailwind');
+
+const dictionaryTailwindThemeCss = StyleDictionaryPackage.extend(twThemeCssConfig);
+dictionaryTailwindThemeCss.buildPlatform('tailwind');
 
 const dictionaryReactLightTheme = StyleDictionaryPackage.extend(reactThemeConfig('light'));
 dictionaryReactLightTheme.buildPlatform('react');
