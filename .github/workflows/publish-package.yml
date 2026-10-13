@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: phips28/gh-action-bump-version@fdad52b3b3bbe8fad96b8ca18c56127a96f603db # v11.0.7
@@ -21,7 +22,5 @@ jobs:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
       - run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: |
           curl -X POST -u "${{ secrets.DISPATCH_USER }}:${{ secrets.DISPATCH_TOKEN }}" -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/${{ secrets.DISPATCH_REPO }}/dispatches -d '{"event_type":"design_changes"}'
