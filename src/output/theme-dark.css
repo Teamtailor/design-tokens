@@ -130,9 +130,9 @@
   --color-background-selection: oklch(from oklch(95.9% 0.0074 80.7) l c h / 0.1);
   --color-background-overlay-control: oklch(from oklch(29.7% 0.0257 18.7) l c h / 0.9);
   --color-background-overlay-control-hover: oklch(from oklch(34.8% 0.029 18.6) l c h / 0.9);
-  --color-border-neutral-default: oklch(38.7% 0.0283 21.75);
-  --color-border-neutral-medium: oklch(42.6% 0.0276 24.9);
-  --color-border-neutral-strong: oklch(58% 0.0249 42.4);
+  --color-border-neutral-default: oklch(34.8% 0.029 18.6);
+  --color-border-neutral-medium: oklch(38.7% 0.0283 21.75);
+  --color-border-neutral-strong: oklch(50.6% 0.026 35.1);
   --color-border-neutral-translucent: oklch(from oklch(98% 0.0045 78.3) l c h / 0.18);
   --color-border-success-default: oklch(37.6% 0.085 144.128);
   --color-border-danger-default: oklch(38.8% 0.105 24.918);

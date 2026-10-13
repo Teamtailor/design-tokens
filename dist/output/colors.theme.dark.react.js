@@ -198,9 +198,9 @@ module.exports = /** @type {const} */ {
     },
     "border": {
         "neutral": {
-            "default": "#533e3d",
-            "medium": "#5d4947",
-            "strong": "#88766f",
+            "default": "#483434",
+            "medium": "#533e3d",
+            "strong": "#73605b",
             "translucent": "rgba(250, 248, 245, 0.18)"
         },
         "success": {
