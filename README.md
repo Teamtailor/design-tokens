@@ -68,9 +68,7 @@ Css files are located here and are apply by using `.theme-light` or `.theme-dark
 
 ## Change colors
 
-Do those steps in order to change colors:
-
-1. Create a branch with the name `chore/figma-changes` (we will generate files depending on this branch name)
-2. Make changes in `tokens.json`
-3. Create a PR. Now will Github actions generate lots of necessary files (and bump version)
+1. Create a branch and make changes in `tokens.json`
+2. Push it. GitHub Actions regenerates `src/output` and `dist/output` and commits them to your branch (or run `npm install && npm run build` yourself)
+3. Create a PR. Merging bumps the version and publishes the package
 4. Update package.json in your repo with the new version

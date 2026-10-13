@@ -6,22 +6,10 @@
   "author": "Dev <dev@teamtailor.com>",
   "license": "MIT",
   "scripts": {
-    "build-transform-light": "npx token-transformer tokens.json tokens/light.json Light,color spectrum",
-    "build-transform-dark": "npx token-transformer tokens.json tokens/dark.json Dark,color spectrum",
-    "build-transform-spectrum": "npx token-transformer tokens.json tokens/spectrum.json Spectrum,color",
-    "build-transform": "yarn build-transform-spectrum && yarn build-transform-light && yarn build-transform-dark",
-    "build-styledictionary": "node style-dictionary.build.js && tsc",
-    "build": "yarn build-transform && yarn build-styledictionary"
+    "build": "node build.mjs"
   },
   "devDependencies": {
-    "colorjs.io": "^0.5.2",
-    "lodash": "^4.17.21",
-    "style-dictionary": "^3.7.0",
-    "typescript": "^4.6.3"
-  },
-  "volta": {
-    "node": "16.14.0",
-    "yarn": "1.22.17"
+    "colorjs.io": "^0.5.2"
   },
   "repository": "github:Teamtailor/design-tokens"
 }

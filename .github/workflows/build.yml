@@ -1,18 +1,23 @@
 name: Build config files
 on:
   push:
-    branches:
-      - chore/figma-changes
+    branches-ignore:
+      - main
+    paths:
+      - tokens.json
+      - build.mjs
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v2
-      - name: Build config
-        run: |
-          yarn
-          yarn build
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+      - run: npm ci
+      - run: npm run build
+      - uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
         with:
           commit_message: Update output configs
