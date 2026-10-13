@@ -2,6 +2,8 @@ declare const _exports: {
     background: {
         mono: string;
         canvas: string;
+        canvasWeak: string;
+        canvasHover: string;
         neutral: {
             default: string;
             hover: string;
@@ -11,6 +13,8 @@ declare const _exports: {
             mediumHover: string;
             strong: string;
             strongHover: string;
+            track: string;
+            translucent: string;
         };
         success: {
             default: string;
@@ -38,6 +42,13 @@ declare const _exports: {
             mediumActive: string;
             weakHover: string;
             weakActive: string;
+            mediumActiveHover: string;
+            soft: string;
+            softHover: string;
+            softActive: string;
+            softSolid: string;
+            softHoverSolid: string;
+            softActiveSolid: string;
         };
         copilot: {
             default: string;
@@ -154,6 +165,31 @@ declare const _exports: {
                 medium: string;
                 strong: string;
             };
+            stone: {
+                default: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+            pink: {
+                default: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+            citron: {
+                default: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+        };
+        scrim: string;
+        skeleton: string;
+        selection: string;
+        overlay: {
+            control: string;
+            controlHover: string;
         };
     };
     border: {
@@ -161,6 +197,7 @@ declare const _exports: {
             default: string;
             medium: string;
             strong: string;
+            translucent: string;
         };
         success: {
             default: string;
@@ -237,11 +274,21 @@ declare const _exports: {
             red: {
                 medium: string;
             };
+            stone: {
+                medium: string;
+            };
+            pink: {
+                medium: string;
+            };
+            citron: {
+                medium: string;
+            };
         };
     };
     outline: {
         focus: {
             default: string;
+            neutral: string;
         };
     };
     text: {
@@ -387,6 +434,27 @@ declare const _exports: {
                 medium: string;
                 strong: string;
             };
+            stone: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            pink: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            citron: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+        };
+        navigation: {
+            inactive: string;
         };
     };
     icon: {
@@ -520,6 +588,24 @@ declare const _exports: {
                 strong: string;
             };
             red: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            stone: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            pink: {
+                default: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            citron: {
                 default: string;
                 weak: string;
                 medium: string;

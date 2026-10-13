@@ -2,6 +2,8 @@ declare const _exports: {
     background: {
         mono: string;
         canvas: string;
+        "canvas-weak": string;
+        "canvas-hover": string;
         neutral: {
             DEFAULT: string;
             hover: string;
@@ -11,6 +13,8 @@ declare const _exports: {
             "medium-hover": string;
             strong: string;
             "strong-hover": string;
+            track: string;
+            translucent: string;
         };
         success: {
             DEFAULT: string;
@@ -38,6 +42,13 @@ declare const _exports: {
             "medium-active": string;
             "weak-hover": string;
             "weak-active": string;
+            "medium-active-hover": string;
+            soft: string;
+            "soft-hover": string;
+            "soft-active": string;
+            "soft-solid": string;
+            "soft-hover-solid": string;
+            "soft-active-solid": string;
         };
         copilot: {
             DEFAULT: string;
@@ -154,6 +165,31 @@ declare const _exports: {
                 medium: string;
                 strong: string;
             };
+            stone: {
+                DEFAULT: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+            pink: {
+                DEFAULT: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+            citron: {
+                DEFAULT: string;
+                medium: string;
+                strong: string;
+                weak: string;
+            };
+        };
+        scrim: string;
+        skeleton: string;
+        selection: string;
+        overlay: {
+            control: string;
+            "control-hover": string;
         };
     };
     border: {
@@ -161,6 +197,7 @@ declare const _exports: {
             DEFAULT: string;
             medium: string;
             strong: string;
+            translucent: string;
         };
         success: {
             DEFAULT: string;
@@ -237,11 +274,21 @@ declare const _exports: {
             red: {
                 medium: string;
             };
+            stone: {
+                medium: string;
+            };
+            pink: {
+                medium: string;
+            };
+            citron: {
+                medium: string;
+            };
         };
     };
     outline: {
         focus: {
             DEFAULT: string;
+            neutral: string;
         };
     };
     text: {
@@ -387,6 +434,27 @@ declare const _exports: {
                 medium: string;
                 strong: string;
             };
+            stone: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            pink: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            citron: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+        };
+        navigation: {
+            inactive: string;
         };
     };
     icon: {
@@ -520,6 +588,24 @@ declare const _exports: {
                 strong: string;
             };
             red: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            stone: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            pink: {
+                DEFAULT: string;
+                weak: string;
+                medium: string;
+                strong: string;
+            };
+            citron: {
                 DEFAULT: string;
                 weak: string;
                 medium: string;
