@@ -296,6 +296,7 @@ declare const _exports: {
             DEFAULT: string;
             weak: string;
             medium: string;
+            disabled: string;
         };
         action: {
             DEFAULT: string;

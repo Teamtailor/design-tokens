@@ -299,7 +299,8 @@ module.exports = /** @type {const} */ {
     "neutral": {
       "default": "rgba(255, 255, 255, 0.93)",
       "weak": "#beb4a9",
-      "medium": "#c9c1b6"
+      "medium": "#c9c1b6",
+      "disabled": "#88766f"
     },
     "action": {
       "default": "#fb9be4",

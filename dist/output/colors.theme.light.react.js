@@ -22,19 +22,19 @@ module.exports = /** @type {const} */ {
         },
         "success": {
             "default": "#f0fdf4",
-            "strong": "#26c12b"
+            "strong": "#148019"
         },
         "danger": {
             "default": "#fef2f2",
-            "strong": "#fb2c36"
+            "strong": "#e7000b"
         },
         "warning": {
             "default": "#fffbeb",
-            "strong": "#fd9a00"
+            "strong": "#bb4d00"
         },
         "info": {
             "default": "#f0f9ff",
-            "strong": "#00a6f4"
+            "strong": "#0069a8"
         },
         "action": {
             "strong": "#f24190",
@@ -298,13 +298,14 @@ module.exports = /** @type {const} */ {
     "text": {
         "neutral": {
             "default": "#483434",
-            "weak": "#beb4a9",
-            "medium": "#73605b"
+            "weak": "#73605b",
+            "medium": "#5d4947",
+            "disabled": "#beb4a9"
         },
         "action": {
-            "default": "#f24190",
-            "hover": "#d62079",
-            "active": "#d62079",
+            "default": "#d62079",
+            "hover": "#b80064",
+            "active": "#b80064",
             "weak": "#483434",
             "weakActive": "#d62079",
             "medium": "#483434",
