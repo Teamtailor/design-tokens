@@ -12,9 +12,9 @@ module.exports = /** @type {const} */ {
       "default": "#291c1b",
       "hover": "rgba(255, 255, 255, 0.03)",
       "weak": "#291c1b",
-      "weakHover": "#483434",
+      "weakHover": "#392828",
       "medium": "#483434",
-      "mediumHover": "#685451",
+      "mediumHover": "#5d4947",
       "strong": "#1a1212",
       "strongHover": "#291c1b",
       "track": "#685451",
@@ -41,18 +41,18 @@ module.exports = /** @type {const} */ {
       "strongHover": "#d62079",
       "strongActive": "#b80064",
       "strongDisabled": "rgba(242, 65, 144, 0.5)",
-      "medium": "#291c1b",
-      "mediumHover": "#392828",
-      "mediumActive": "#533e3d",
-      "weakHover": "#483434",
-      "weakActive": "#483434",
-      "mediumActiveHover": "#685451",
+      "medium": "#1a1212",
+      "mediumHover": "#291c1b",
+      "mediumActive": "#483434",
+      "weakHover": "#392828",
+      "weakActive": "#392828",
+      "mediumActiveHover": "#5d4947",
       "soft": "rgba(255, 200, 200, 0.145)",
       "softHover": "rgba(255, 200, 200, 0.197)",
       "softActive": "rgba(255, 200, 200, 0.25)",
-      "softSolid": "#483434",
-      "softHoverSolid": "#533e3d",
-      "softActiveSolid": "#5d4947"
+      "softSolid": "#392828",
+      "softHoverSolid": "#483434",
+      "softActiveSolid": "#533e3d"
     },
     "copilot": {
       "default": "#371254",
@@ -170,7 +170,7 @@ module.exports = /** @type {const} */ {
         "strong": "#e7000b"
       },
       "stone": {
-        "default": "#392828",
+        "default": "#291c1b",
         "medium": "#685451",
         "strong": "#685451",
         "weak": "rgba(255, 200, 200, 0.145)"
@@ -192,15 +192,15 @@ module.exports = /** @type {const} */ {
     "skeleton": "#685451",
     "selection": "rgba(244, 241, 236, 0.1)",
     "overlay": {
-      "control": "rgba(57, 40, 40, 0.9)",
-      "controlHover": "rgba(72, 52, 52, 0.9)"
+      "control": "rgba(41, 28, 27, 0.9)",
+      "controlHover": "rgba(57, 40, 40, 0.9)"
     }
   },
   "border": {
     "neutral": {
-      "default": "#483434",
-      "medium": "#533e3d",
-      "strong": "#73605b",
+      "default": "#392828",
+      "medium": "#483434",
+      "strong": "#685451",
       "translucent": "rgba(250, 248, 245, 0.18)"
     },
     "success": {
