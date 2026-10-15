@@ -299,7 +299,8 @@ module.exports = /** @type {const} */ {
         "neutral": {
             "DEFAULT": "var(--color-text-neutral-default)",
             "weak": "var(--color-text-neutral-weak)",
-            "medium": "var(--color-text-neutral-medium)"
+            "medium": "var(--color-text-neutral-medium)",
+            "disabled": "var(--color-text-neutral-disabled)"
         },
         "action": {
             "DEFAULT": "var(--color-text-action-default)",
