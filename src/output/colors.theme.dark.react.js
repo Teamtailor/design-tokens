@@ -37,10 +37,10 @@ module.exports = /** @type {const} */ {
       "strong": "#00598a"
     },
     "action": {
-      "strong": "#f24190",
-      "strongHover": "#d62079",
-      "strongActive": "#b80064",
-      "strongDisabled": "rgba(242, 65, 144, 0.5)",
+      "strong": "#b80064",
+      "strongHover": "#91004e",
+      "strongActive": "#7e0043",
+      "strongDisabled": "rgba(184, 0, 100, 0.5)",
       "medium": "#1a1212",
       "mediumHover": "#291c1b",
       "mediumActive": "#483434",
@@ -291,8 +291,8 @@ module.exports = /** @type {const} */ {
   },
   "outline": {
     "focus": {
-      "default": "rgba(242, 65, 144, 0.5)",
-      "neutral": "rgba(136, 118, 111, 0.5)"
+      "default": "#fb83cf",
+      "neutral": "#9c8d84"
     }
   },
   "text": {
