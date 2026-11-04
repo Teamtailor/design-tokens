@@ -291,8 +291,8 @@ module.exports = /** @type {const} */ {
     },
     "outline": {
         "focus": {
-            "default": "#fb83cf",
-            "neutral": "#9c8d84"
+            "default": "rgba(251, 155, 228, 0.8)",
+            "neutral": "rgba(250, 248, 245, 0.5)"
         }
     },
     "text": {

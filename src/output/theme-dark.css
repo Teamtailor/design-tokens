@@ -163,8 +163,8 @@
   --color-border-decorative-stone-medium: oklch(29.7% 0.0257 18.7);
   --color-border-decorative-pink-medium: oklch(42.7% 0.1736 358.2);
   --color-border-decorative-citron-medium: oklch(42.5% 0.0964 115.2);
-  --color-outline-focus-default: oklch(76.6% 0.1696 343.1);
-  --color-outline-focus-neutral: oklch(65.4% 0.0224 53.1);
+  --color-outline-focus-default: oklch(from oklch(81% 0.1451 336.2) l c h / 0.8);
+  --color-outline-focus-neutral: oklch(from oklch(98% 0.0045 78.3) l c h / 0.5);
   --color-text-neutral-default: oklch(from #fff l c h / 0.93);
   --color-text-neutral-weak: oklch(77.45% 0.0193 70.55);
   --color-text-neutral-medium: oklch(81.4% 0.0177 76.1);
