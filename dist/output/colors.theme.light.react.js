@@ -37,10 +37,10 @@ module.exports = /** @type {const} */ {
             "strong": "#0069a8"
         },
         "action": {
-            "strong": "#f24190",
-            "strongHover": "#d62079",
-            "strongActive": "#b80064",
-            "strongDisabled": "rgba(242, 65, 144, 0.5)",
+            "strong": "#d62079",
+            "strongHover": "#b80064",
+            "strongActive": "#91004e",
+            "strongDisabled": "rgba(214, 32, 121, 0.5)",
             "medium": "#fff",
             "mediumHover": "#faf8f5",
             "mediumActive": "#ebe7e0",
@@ -291,8 +291,8 @@ module.exports = /** @type {const} */ {
     },
     "outline": {
         "focus": {
-            "default": "rgba(242, 65, 144, 0.5)",
-            "neutral": "rgba(136, 118, 111, 0.5)"
+            "default": "rgba(184, 0, 100, 0.7)",
+            "neutral": "rgba(72, 52, 52, 0.7)"
         }
     },
     "text": {
@@ -303,11 +303,11 @@ module.exports = /** @type {const} */ {
             "disabled": "#beb4a9"
         },
         "action": {
-            "default": "#d62079",
-            "hover": "#b80064",
-            "active": "#b80064",
+            "default": "#b80064",
+            "hover": "#91004e",
+            "active": "#91004e",
             "weak": "#483434",
-            "weakActive": "#d62079",
+            "weakActive": "#b80064",
             "medium": "#483434",
             "mediumActive": "#483434",
             "strong": "#fff"
