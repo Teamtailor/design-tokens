@@ -22,19 +22,19 @@ module.exports = /** @type {const} */ {
     },
     "success": {
       "default": "#f0fdf4",
-      "strong": "#148019"
+      "strong": "#26c12b"
     },
     "danger": {
       "default": "#fef2f2",
-      "strong": "#e7000b"
+      "strong": "#fb2c36"
     },
     "warning": {
       "default": "#fffbeb",
-      "strong": "#bb4d00"
+      "strong": "#fd9a00"
     },
     "info": {
       "default": "#f0f9ff",
-      "strong": "#0069a8"
+      "strong": "#00a6f4"
     },
     "action": {
       "strong": "#d62079",
