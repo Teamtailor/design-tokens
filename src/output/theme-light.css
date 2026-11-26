@@ -14,13 +14,13 @@
   --color-background-neutral-track: oklch(92.9% 0.0103 81.8);
   --color-background-neutral-translucent: oklch(from oklch(33.0% 0.009 276.875) l c h / 0.1);
   --color-background-success-default: oklch(98.2% 0.018 155.826);
-  --color-background-success-strong: oklch(52.3% 0.165 143.108);
+  --color-background-success-strong: oklch(70.7% 0.222 143.068);
   --color-background-danger-default: oklch(97.1% 0.013 17.38);
-  --color-background-danger-strong: oklch(57.7% 0.245 27.325);
+  --color-background-danger-strong: oklch(63.7% 0.237 25.331);
   --color-background-warning-default: oklch(98.7% 0.022 95.277);
-  --color-background-warning-strong: oklch(55.5% 0.163 48.998);
+  --color-background-warning-strong: oklch(76.9% 0.188 70.08);
   --color-background-info-default: oklch(97.7% 0.013 236.62);
-  --color-background-info-strong: oklch(50% 0.134 242.749);
+  --color-background-info-strong: oklch(68.5% 0.169 237.323);
   --color-background-action-strong: oklch(58% 0.2199 358.3);
   --color-background-action-strong-hover: oklch(50.8% 0.2067 358.5);
   --color-background-action-strong-active: oklch(42.7% 0.1736 358.2);
